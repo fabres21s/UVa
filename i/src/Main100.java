@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 
  * @author fabio
- * The 3n+1 Problem
+ * 100 - The 3n+1 Problem
  * 
  *  - Proceso matemático
  * 	Si n es par, dividirlo entre dos, si no multiplicarlo por 3 y sumarle uno
