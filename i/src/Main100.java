@@ -11,9 +11,9 @@ import java.util.Scanner;
  * 	Si n es par, dividirlo entre dos, si no multiplicarlo por 3 y sumarle uno
  *	Hallar el número al cual hay que hacerle más veces ese proceso en un rango dado
  *	
- * Fecha de envío : 2011-04-02 08:16
- * Runtime   		: 1.036s
- * Puesto:		: 46212
+ * Submit:	 2011-04-02 13:17:00
+ * Runtime:	 1.036
+ * Rannking: 46212
  *
  */
 public class Main100 {

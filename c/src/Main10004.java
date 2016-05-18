@@ -19,9 +19,9 @@ import java.util.Queue;
  *         (diágrama sagital) pero a pesar que coincidía con la salida del
  *         uDebug al enviarlo a UVa la respuesta era incorrecta
  *         
- *         Fecha de Envío:	2016-04-06 22:05
- *         Runtime:			0.050s
- *         Puesto:			11583
+ *         Submit:	2016-04-07 03:06:00
+ *         Runtime:	0.050
+ *         Ranking:	11583
  */
 public class Main10004 {
 
