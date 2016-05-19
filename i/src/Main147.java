@@ -1,7 +1,15 @@
 import java.util.Scanner;
 
-/*
- * 147
+/**
+ * 
+ * @author fabio
+ * 147 - Dollars
+ * 
+ *	
+ * Submit:	 2011-12-21 15:04
+ * Runtime:	 1.828
+ * Ranking:  6625
+ *
  */
 
 public class Main147 

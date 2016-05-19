@@ -1,9 +1,15 @@
 import java.util.Scanner;
 
-/*
- * Fabio Andr�s Sierra
- * Factors and Factorials
- * UVa: 160
+/**
+ * 
+ * @author fabio
+ * 160 - Factors and Factorials
+ * 
+ *	
+ * Submit:	 2012-02-04 21:09:27
+ * Runtime:	 0.136
+ * Rannking: 8695
+ *
  */
 
 public class Main160 

@@ -13,7 +13,7 @@ import java.util.Scanner;
  *	
  * Submit:	 2011-04-02 13:17:00
  * Runtime:	 1.036
- * Rannking: 46212
+ * Ranking:  46212
  *
  */
 public class Main100 {

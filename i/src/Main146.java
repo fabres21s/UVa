@@ -6,6 +6,17 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 
+/**
+ * 
+ * @author fabio
+ * 146 - Dollars
+ * 
+ *	
+ * Submit:	 2011-10-21 16:46:11
+ * Runtime:	 0.164
+ * Ranking:  6625
+ *
+ */
 public class Main146 {
 
 	/**

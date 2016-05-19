@@ -1,10 +1,15 @@
 import java.util.Scanner;
 
-/*
- *   Fabio Andr�s Sierra Jaraba
- *   Power Crisis
- *   UVa:  156
- *    
+/**
+ * 
+ * @author fabio
+ * 151 - Power Crisis
+ * 
+ *	
+ * Submit:	 2011-10-21 12:01
+ * Runtime:	 0.176
+ * Ranking: 8591
+ *
  */
 
 public class Main151 

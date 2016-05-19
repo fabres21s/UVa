@@ -3,11 +3,16 @@ import java.util.Collections;
 import java.util.Scanner;
 import java.util.Vector;
 
-/*
- *   Fabio Andr�s Sierra Jaraba
- *   Ananagrams    
- *   UVa:  156
- *    
+/**
+ * 
+ * @author fabio
+ * 156 - Ananagrams
+ * 
+ *	
+ * Submit:	 2011-11-02 14:05
+ * Runtime:	 0.300
+ * Rannking: 6370
+ *
  */
 
 public class Main156 {
