@@ -1,6 +1,11 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author fabio
+ *
+ */
 public class Main10006 
 {
 	/**
