@@ -1,7 +1,6 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-
 /**
  * 
  * @author fabio
@@ -16,6 +15,16 @@ import java.util.Scanner;
  * Ranking:  46212
  *
  */
+
+/**
+*	101 - The Blocks Problem
+*
+*
+*	Submision:	9281686
+*	Date:		2011-09-20 16:46:08
+*	Runtime:	0.304
+*	Ranking:	11723
+*/
 public class Main100 {
 
 	/**

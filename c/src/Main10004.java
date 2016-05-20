@@ -23,6 +23,16 @@ import java.util.Queue;
  *         Runtime:	0.050
  *         Ranking:	11583
  */
+
+/**
+*	10004 - Bicoloring
+*
+*
+*	Submision:	17158341
+*	Date:		2016-04-07 03:06:00
+*	Runtime:	0.050
+*	Ranking:	11585
+*/
 public class Main10004 {
 
 

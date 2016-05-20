@@ -5,48 +5,41 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-
 /**
- * 
- * @author fabio
- * 146 - Dollars
- * 
- *	
- * Submit:	 2011-10-21 16:46:11
- * Runtime:	 0.164
- * Ranking:  6625
- *
- */
+*	146 - ID Codes
+*
+*
+*	Submision:	9395176
+*	Date:		2011-10-21 16:46:11
+*	Runtime:	0.164
+*	Ranking:	10184
+*/
 public class Main146 {
 
 	/**
 	 * @param args
-	 * @throws IOException 
+	 * @throws IOException
 	 */
-	public static void main(String[] args) throws IOException
-	{
-		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		String st=reader.readLine();
-		while(!st.equals("#"))
-		{
-			LinkedList<Character>ll=new LinkedList<Character>();
-			boolean found=false;
-			char c[]=st.toCharArray();
-			int i=0;
-			for( i=c.length-1;i>=0&&!found;i--)
-			{
-				char ch=c[i];
+	public static void main(String[] args) throws IOException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(
+				System.in));
+		String st = reader.readLine();
+		while (!st.equals("#")) {
+			LinkedList<Character> ll = new LinkedList<Character>();
+			boolean found = false;
+			char c[] = st.toCharArray();
+			int i = 0;
+			for (i = c.length - 1; i >= 0 && !found; i--) {
+				char ch = c[i];
 
-				Iterator<Character>it=ll.iterator();
-				while(it.hasNext()&&!found)
-				{
+				Iterator<Character> it = ll.iterator();
+				while (it.hasNext() && !found) {
 
-					char x=it.next();
-					if(x>ch)
-					{
-						found=true;
+					char x = it.next();
+					if (x > ch) {
+						found = true;
 
-						c[i]=x;
+						c[i] = x;
 
 						it.remove();
 
@@ -55,33 +48,25 @@ public class Main146 {
 
 				ll.add(ch);
 			}
-			if(found)
-			{
-				i=i+2;
+			if (found) {
+				i = i + 2;
 				Collections.sort(ll);
-				Iterator<Character>it=ll.iterator();
+				Iterator<Character> it = ll.iterator();
 
-				while(it.hasNext())
-				{
-					c[i++]=it.next();
+				while (it.hasNext()) {
+					c[i++] = it.next();
 				}
-				String s="";
-				for(int j=0;j<c.length;j++)
-					s+=c[j];
+				String s = "";
+				for (int j = 0; j < c.length; j++)
+					s += c[j];
 				System.out.println(s);
 
-			}
-			else
+			} else
 				System.out.println("No Successor");
-			st=reader.readLine();
+			st = reader.readLine();
 		}
 
-
-		
 		// TODO Auto-generated method stub
 	}
-	
-	
-	
 
 }
