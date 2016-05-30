@@ -1,6 +1,15 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+*	10104 - Euclid Problem
+*
+*
+*	Submision:	9317604
+*	Date:		2011-09-30 16:22:45
+*	Runtime:	2.764
+*	Ranking:	4319
+*/
+public class Main10104 {
 	static int lastx = 1, lasty = 1;
 
 	/**

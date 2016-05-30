@@ -1,6 +1,15 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+*	10469 - To Carry or not to Carry
+*
+*
+*	Submision:	9900800
+*	Date:		2012-03-23 17:06:47
+*	Runtime:	0.200
+*	Ranking:	9605
+*/
+public class Main10469 {
 
 	/**
 	 * @param args

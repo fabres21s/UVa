@@ -1,24 +1,30 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+*	10499 - The Land of Justice
+*
+*
+*	Submision:	9615864
+*	Date:		2012-01-03 23:09:19
+*	Runtime:	1.116
+*	Ranking:	5534
+*/
+public class Main10499 {
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		long n;
-		Scanner input=new Scanner(System.in);
-		while((n=input.nextLong())>-1)
-		{
-			if(n==1)
-			{
+		Scanner input = new Scanner(System.in);
+		while ((n = input.nextLong()) > -1) {
+			if (n == 1) {
 				System.out.println("0%");
 				continue;
 			}
-			System.out.println(n*25+"%");
+			System.out.println(n * 25 + "%");
 		}
 		input.close();
-		// TODO Auto-generated method stub		
+		// TODO Auto-generated method stub
 	}
 }

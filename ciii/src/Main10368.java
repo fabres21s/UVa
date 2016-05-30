@@ -1,28 +1,31 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+*	10368 - Euclid's Game
+*
+*
+*	Submision:	9673639
+*	Date:		2012-01-25 01:58:20
+*	Runtime:	0.164
+*	Ranking:	1024
+*/
+public class Main10368 {
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) 
-	{
-		Scanner input=new Scanner(System.in);
-		long a,b;
-		while(input.hasNext())
-		{
-			a=input.nextLong();
-			b=input.nextLong();
-			if(a==0 && b==0)
-			{
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		long a, b;
+		while (input.hasNext()) {
+			a = input.nextLong();
+			b = input.nextLong();
+			if (a == 0 && b == 0) {
 				break;
 			}
-			if(gcd(a,b))
-			{
+			if (gcd(a, b)) {
 				System.out.println("Stan wins");
-			}
-			else
-			{
+			} else {
 				System.out.println("Ollie wins");
 			}
 		}
@@ -30,19 +33,15 @@ public class Main {
 		// TODO Auto-generated method stub
 	}
 
-	private static boolean gcd(long a, long b) 
-	{
-		if(b>a)
-		{
-			return gcd(b,a);
+	private static boolean gcd(long a, long b) {
+		if (b > a) {
+			return gcd(b, a);
 		}
-		if(b==0)
-		{
+		if (b == 0) {
 			return false;
 		}
-		if(a/b==1)
-		{
-			return !gcd(b,a%b);
+		if (a / b == 1) {
+			return !gcd(b, a % b);
 		}
 		// TODO Auto-generated method stub
 		return true;

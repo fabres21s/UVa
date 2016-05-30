@@ -1,21 +1,28 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+/**
+*	10970 - Big Chocolate
+*
+*
+*	Submision:	9513276
+*	Date:		2011-11-28 01:52:47
+*	Runtime:	2.716
+*	Ranking:	10679
+*/
+public class Main10970 {
 
 	/**
 	 * @param args
-	 * @throws IOException 
+	 * @throws IOException
 	 */
-	public static void main(String[] args) throws IOException 
-	{	
-		Scanner input=new Scanner(System.in);
-		int m,n;
-		while(input.hasNext())
-		{
-			m=input.nextInt();
-			n=input.nextInt();
-			System.out.printf("%d\n",m*n-1);
+	public static void main(String[] args) throws IOException {
+		Scanner input = new Scanner(System.in);
+		int m, n;
+		while (input.hasNext()) {
+			m = input.nextInt();
+			n = input.nextInt();
+			System.out.printf("%d\n", m * n - 1);
 		}
 		input.close();
 		// TODO Auto-generated method stub

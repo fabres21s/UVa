@@ -1,6 +1,15 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+*	10509 - R U Kidding Mr. Feynman?
+*
+*
+*	Submision:	9673680
+*	Date:		2012-01-25 02:28:16
+*	Runtime:	2.808
+*	Ranking:	1730
+*/
+public class Main10509 {
 
 	/**
 	 * @param args

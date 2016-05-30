@@ -1,5 +1,13 @@
-
-public class Main {
+/**
+*	10128 - Queue
+*
+*
+*	Submision:	9306832
+*	Date:		2011-09-27 20:45:43
+*	Runtime:	0.588
+*	Ranking:	1417
+*/
+public class Main10128 {
 
 	/**
 	 * @param args

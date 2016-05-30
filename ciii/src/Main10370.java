@@ -1,38 +1,42 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+*	10370 - Above Average
+*
+*
+*	Submision:	9663042
+*	Date:		2012-01-20 15:25:10
+*	Runtime:	1.616
+*	Ranking:	14770
+*/
+public class Main10370 {
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) 
-	{
-		Scanner input=new Scanner(System.in);
-		int casos=input.nextInt(),i,datos;
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int casos = input.nextInt(), i, datos;
 		double media, mayores;
-		while(casos>0)
-		{
+		while (casos > 0) {
 			casos--;
-			media=0;
-			datos=input.nextInt();
-			i=datos;
-			double arreglo[]=new double[datos];
-			while(i>0)
-			{
+			media = 0;
+			datos = input.nextInt();
+			i = datos;
+			double arreglo[] = new double[datos];
+			while (i > 0) {
 				i--;
-				arreglo[i]=input.nextDouble();
-				media+=arreglo[i];
-			}		
-			media/=datos;
-			mayores=0;
-			for(i=0;i<datos;i++)
-			{
-				if(arreglo[i]>media)
-				{
+				arreglo[i] = input.nextDouble();
+				media += arreglo[i];
+			}
+			media /= datos;
+			mayores = 0;
+			for (i = 0; i < datos; i++) {
+				if (arreglo[i] > media) {
 					mayores++;
 				}
 			}
-			System.out.printf("%.3f%%\n",mayores*100/datos);
+			System.out.printf("%.3f%%\n", mayores * 100 / datos);
 		}
 		input.close();
 		// TODO Auto-generated method stub

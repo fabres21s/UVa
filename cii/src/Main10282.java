@@ -2,7 +2,16 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Main {
+/**
+*	10282 - Babelfish
+*
+*
+*	Submision:	16423775
+*	Date:		2015-11-11 14:33:47
+*	Runtime:	1.429
+*	Ranking:	3656
+*/
+public class Main10282 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

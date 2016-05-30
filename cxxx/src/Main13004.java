@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Dado n, encontrar un número <= n
  * que no tenga los digitos más de dos veces
  */
-public class Main {
+public class Main13004 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
