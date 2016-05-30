@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+
+
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		int k=input.nextInt(),c;
+		Map  <String, Integer> map= new HashMap<String, Integer>();
+		ArrayList<String> list=new ArrayList<String>();
+		String pais;
+		for(int i=0;i<k;i++){
+			pais=input.next();
+			if(map.get(pais)==null){
+				map.put(pais, 1);
+				list.add(pais);
+			}else{
+	
+				map.put(pais, map.get(pais)+1);
+			}
+			input.nextLine();
+			
+		}
+		Collections.sort(list);
+		for(int i=0;i<list.size();i++){
+			System.out.println(list.get(i)+" "+map.get(list.get(i)));
+		}
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

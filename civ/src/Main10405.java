@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main 
+{
+	static int LCS[][] = new int[1005][1005];
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)	
+	{
+		Scanner input=new Scanner(System.in);		
+	    char s1[], s2[];
+	    while(input.hasNext() )
+	    {
+	    	s1=input.next().toCharArray();
+	        s2=input.next().toCharArray();
+	        int s1_length = s1.length;
+	        int s2_length = s2.length;
+	        int i, j;	        
+	        for( i = 1 ; i <= s1_length ; i++ )
+	            for( j = 1 ; j <= s2_length ; j++ )
+	                if( s1[i-1] == s2[j-1] )
+	                    LCS[i][j] = LCS[i-1][j-1]+1;
+	                else
+	                    LCS[i][j] = ( LCS[i-1][j] > LCS[i][j-1] )? LCS[i-1][j] : LCS[i][j-1];
+	        System.out.printf( "%d\n", LCS[s1_length][s2_length] );
+	    }
+	    input.close();
+		// TODO Auto-generated method stub
+	 }	
+}
+
+
+

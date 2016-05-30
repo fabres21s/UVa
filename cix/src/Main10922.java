@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		char p[];
+		int s,i,c;
+		Scanner input=new Scanner(System.in);
+		while(true)
+		{
+			String k=input.next();
+			p=k.toCharArray();
+			if(p[0]=='0')
+				break;
+			c=0;
+			do
+			{
+				s=0;
+				c++;
+				for(i=0;i<p.length;i++)
+					s+=p[i]-48;			
+				p=(s+"").toCharArray();
+			}while(p.length>1);	
+			if(s==9)
+				System.out.printf("%s is a multiple of 9 and has 9-degree %d.\n",k,c);
+			else
+				System.out.printf("%s is not a multiple of 9.\n", k);
+		}
+		input.close();
+		// TODO Auto-generated method stub
+
+	}
+
+}

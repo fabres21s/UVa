@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		long arreglo []=new long[65];
+		arreglo[0]=1;
+		arreglo[1]=1;		
+		for(int i=2;i<60;i++){
+			arreglo[i]=arreglo[i-1]+arreglo[i-2];
+		}
+		Scanner input=new Scanner(System.in);
+		int k;
+		while((k=input.nextInt())!=-1)
+			System.out.println((arreglo[k+1]-1)+" "+(arreglo[k+2]-1));
+		input.close();
+		//
+		// TODO Auto-generated method stub
+
+	}
+
+}
