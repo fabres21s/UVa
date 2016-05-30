@@ -1,12 +1,15 @@
 import java.util.Scanner;
 
-/*
- *   Fabio Andr�s Sierra Jaraba
- *	 The Coco-Cola Store
- *   UVa:  11877   
- */
-
-public class Main {
+/**
+*	11878 - Homework Checker
+*
+*
+*	Submision:	9645670
+*	Date:		2012-01-14 21:25:05
+*	Runtime:	0.004
+*	Ranking:	311
+*/
+public class Main11878 {
 
 	/**
 	 * @param args
@@ -16,5 +19,4 @@ public class Main {
 		buscarlo
 
 	}
-
 }

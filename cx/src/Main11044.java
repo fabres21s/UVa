@@ -1,7 +1,16 @@
 import java.util.Scanner;
 
 
-public class Main {
+/**
+*	11044 - Searching for Nessy
+*
+*
+*	Submision:	9560240
+*	Date:		2011-12-14 13:27:37
+*	Runtime:	0.176
+*	Ranking:	8570
+*/
+public class Main11044 {
 
 	/**
 	 * @param args

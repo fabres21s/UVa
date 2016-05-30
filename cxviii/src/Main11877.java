@@ -1,24 +1,25 @@
 import java.util.Scanner;
 
-/*
- *   Fabio Andrés Sierra Jaraba
- *	 The Coco-Cola Store
- *   UVa:  11877   
- */
-
-public class Main {
+/**
+*	11877 - The Coco-Cola Store
+*
+*
+*	Submision:	9505171
+*	Date:		2011-11-25 16:05:24
+*	Runtime:	0.140
+*	Ranking:	4481
+*/
+public class Main11877 {
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) 
-	{
-		Scanner input=new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
 		int n;
-		while((n=input.nextInt())!=0)
-		{
-						
-			System.out.println(n/2);
+		while ((n = input.nextInt()) != 0) {
+
+			System.out.println(n / 2);
 		}
 		// TODO Auto-generated method stub
 

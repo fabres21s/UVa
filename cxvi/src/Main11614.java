@@ -1,23 +1,31 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+*	11614 - Etruscan Warriors Never Play Chess
+*
+*
+*	Submision:	9728988
+*	Date:		2012-02-10 16:59:33
+*	Runtime:	0.340
+*	Ranking:	2813
+*/
+public class Main11614 {
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) 
-	{
-		
-		Scanner input=new Scanner(System.in);
-		//long filas[]=new long[200];
-		//BigInteger p;
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		// long filas[]=new long[200];
+		// BigInteger p;
 		double p;
-		int k=input.nextInt();
-		while(k>0)
-		{
+		int k = input.nextInt();
+		while (k > 0) {
 			k--;
-			p=input.nextDouble();
-			System.out.printf("%.0f\n",Math.floor((Math.sqrt(1+8*p)-1)/2));
+			p = input.nextDouble();
+			System.out.printf("%.0f\n",
+					Math.floor((Math.sqrt(1 + 8 * p) - 1) / 2));
 		}
 		input.close();
 		// TODO Auto-generated method stub

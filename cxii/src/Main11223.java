@@ -2,14 +2,22 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
-public class Main {
+/**
+*	11223 - O: dah dah dah!
+*
+*
+*	Submision:	12326278
+*	Date:		2013-09-10 17:32:38
+*	Runtime:	0.258
+*	Ranking:	1523
+*/
+public class Main11223 {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Map <String,String> map= new HashMap<String,String>();
+		Map<String, String> map = new HashMap<String, String>();
 		map.put(".-", "A");
 		map.put("-...", "B");
 		map.put("-.-.", "C");
@@ -63,47 +71,47 @@ public class Main {
 		map.put("..--.-", "_");
 		map.put(".--.-.", "@");
 		map.put(".-..-.", "\"");
-	//	map.put("  ", " ");
-		
-		Scanner texto=new Scanner(System.in);
-		Scanner input=new Scanner(texto.nextLine());
-		int k=input.nextInt();
-		//String message;
+		// map.put("  ", " ");
+
+		Scanner texto = new Scanner(System.in);
+		Scanner input = new Scanner(texto.nextLine());
+		int k = input.nextInt();
+		// String message;
 		String arreglo[];
-		boolean first=true;
+		boolean first = true;
 		StringBuffer buffer;
-		
-		for(int i=1;i<=k;i++){
-			String linea[]=texto.nextLine().split("  ");
-			//cicloInfinito();
-			if(!first){
-				
+
+		for (int i = 1; i <= k; i++) {
+			String linea[] = texto.nextLine().split("  ");
+			// cicloInfinito();
+			if (!first) {
+
 				System.out.println();
 			}
-			System.out.println("Message #"+i);
+			System.out.println("Message #" + i);
 			buffer = new StringBuffer();
-			for(String string:linea){
-				arreglo=string.split(" ");
-				for(String key:arreglo){
-					
+			for (String string : linea) {
+				arreglo = string.split(" ");
+				for (String key : arreglo) {
+
 					buffer.append(map.get(key));
 				}
 				buffer.append(" ");
-				
+
 			}
 			System.out.println(buffer.toString().trim());
-			first=false;
+			first = false;
 		}
 		input.close();
 		texto.close();
 		// TODO Auto-generated method stub
 
 	}
-	
-	static void cicloInfinito(){
-		int i=1,x=5;
-		while(i<x){
-			i/=1;
+
+	static void cicloInfinito() {
+		int i = 1, x = 5;
+		while (i < x) {
+			i /= 1;
 		}
 	}
 
