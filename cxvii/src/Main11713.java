@@ -44,7 +44,6 @@ public class Main11713 {
 			else
 				System.out.println("Yes");
 		}
-		// TODO Auto-generated method stub
 	}
 
 	public static boolean isVowel(char c) {

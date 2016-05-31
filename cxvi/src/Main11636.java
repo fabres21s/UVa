@@ -26,6 +26,5 @@ public class Main11636 {
 			i++;
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

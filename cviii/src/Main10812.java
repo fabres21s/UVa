@@ -29,7 +29,6 @@ public class Main10812 {
 				System.out.printf("%d %d\n", z / 2, (x - z / 2));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

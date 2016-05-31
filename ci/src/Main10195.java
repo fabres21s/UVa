@@ -32,6 +32,5 @@ public class Main10195 {
 			System.out.printf("The radius of the round table is: %.3f\n", r);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

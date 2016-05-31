@@ -30,7 +30,6 @@ public class Main11078 {
 			System.out.println(diff);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

@@ -27,7 +27,6 @@ public class Main11875 {
 			Arrays.sort(arreglo);
 			System.out.printf("Case %d: %d\n", i, arreglo[tam / 2]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

@@ -54,6 +54,5 @@ public class Main10260 {
 			// buffer=new StringBuffer();
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

@@ -53,6 +53,5 @@ public class Main10921 {
 			System.out.println(buffer);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

@@ -30,7 +30,6 @@ public class Main10368 {
 			}
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	private static boolean gcd(long a, long b) {
@@ -43,7 +42,6 @@ public class Main10368 {
 		if (a / b == 1) {
 			return !gcd(b, a % b);
 		}
-		// TODO Auto-generated method stub
 		return true;
 	}
 

@@ -37,7 +37,6 @@ public class Main10591 {
 			}
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static void hallarsumatoria(long n) {

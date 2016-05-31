@@ -26,7 +26,6 @@ public class Main12019 {
 			dia = input.nextInt();
 			System.out.println(days[(dia + nums[mes]) % 7]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

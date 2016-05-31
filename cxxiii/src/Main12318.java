@@ -55,7 +55,6 @@ public class Main12318 {
 		}
 		System.out.print(buffer);
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	private static long modular(long x, long y, long z) {

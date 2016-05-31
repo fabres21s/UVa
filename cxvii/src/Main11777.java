@@ -31,7 +31,6 @@ public class Main11777 {
 			System.out.printf("Case %d: %s\n", i, calificacion(sum));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

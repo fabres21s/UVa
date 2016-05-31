@@ -39,7 +39,6 @@ public class Main300 {
 			System.out.printf("%d %s %d\n", daytzolkin, Tzolkin[monthtzolkin],
 					yeartzolkin);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

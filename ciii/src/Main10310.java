@@ -50,7 +50,6 @@ public class Main10310 {
 			// input.next();
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static double distancia(double x1, double x2, double y1, double y2) {

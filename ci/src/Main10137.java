@@ -45,6 +45,5 @@ public class Main10137 {
 			System.out.printf("$%.2f\n", Math.min(dif1, dif2));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

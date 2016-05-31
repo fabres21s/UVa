@@ -35,7 +35,6 @@ public class Main880 {
 			// System.out.println((1+r)+"/"+(k-r));
 			// }
 		}
-		// TODO Auto-generated method stub
 
 	}
 

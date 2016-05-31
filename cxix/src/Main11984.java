@@ -27,6 +27,5 @@ public class Main11984 {
 			System.out.printf("Case %d: %.2f\n", i, c);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

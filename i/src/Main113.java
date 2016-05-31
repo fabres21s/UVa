@@ -25,7 +25,6 @@ public class Main113 {
 			k = (long) Math.round(Math.pow(p, 1 / n));
 			System.out.println(k);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

@@ -66,7 +66,6 @@ public class Main146 {
 			st = reader.readLine();
 		}
 
-		// TODO Auto-generated method stub
 	}
 
 }

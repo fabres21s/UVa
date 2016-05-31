@@ -32,6 +32,5 @@ public class Main355 {
 				System.out.printf("%s is an illegal base %d number%n", s, b);
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 }

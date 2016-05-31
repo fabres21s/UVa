@@ -63,6 +63,5 @@ public class Main10474 {
 		}
 		// System.out.println(buffer.toString());
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

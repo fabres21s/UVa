@@ -26,7 +26,6 @@ public class Main130 {
 			}
 			roman();
 		}
-		// TODO Auto-generated method stub
 	}
 
 	static void roman() {

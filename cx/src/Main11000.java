@@ -28,7 +28,6 @@ public class Main11000 {
 					+ (arreglo[k + 2] - 1));
 		input.close();
 		//
-		// TODO Auto-generated method stub
 
 	}
 

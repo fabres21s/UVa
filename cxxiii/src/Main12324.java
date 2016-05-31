@@ -64,6 +64,5 @@ public class Main12324 {
 			}
 			System.out.println(totalViaje);
 		}
-		// TODO Auto-generated method stub
 	}
 }

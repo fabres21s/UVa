@@ -34,7 +34,6 @@ public class Main679 {
 				System.out.println(p);
 			}
 		}
-		// TODO Auto-generated method stub
 
 	}
 

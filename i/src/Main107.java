@@ -45,7 +45,6 @@ public class Main107 {
 			System.out.println((int) vagos + " " + (int) totalaltura);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static public double redondear(double valor) {

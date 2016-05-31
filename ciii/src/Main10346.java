@@ -23,6 +23,5 @@ public class Main10346 {
 			System.out.println((n + (n - 1) / (k - 1)));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

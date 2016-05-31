@@ -49,6 +49,5 @@ public class Main490
 			System.out.println(sb.toString());
 			sb.delete(0, sb.length());
 		}
-		// TODO Auto-generated method stub
 	}
 }

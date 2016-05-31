@@ -34,6 +34,5 @@ public class Main11942 {
 			System.out.println((asc || desc) ? "Ordered" : "Unordered");
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

@@ -18,7 +18,6 @@ public class Main291 {
 	public static void main(String[] args) {
 		makelink();
 		cal(1, 0);
-		// TODO Auto-generated method stub
 	}
 
 	static void print() {

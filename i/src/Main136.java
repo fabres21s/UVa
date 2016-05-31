@@ -19,7 +19,6 @@ public class Main136 {
 		 * nf++; System.out.println(i); } }
 		 */
 		System.out.println("The 1500'th ugly number is 859963392");
-		// TODO Auto-generated method stub
 
 	}
 

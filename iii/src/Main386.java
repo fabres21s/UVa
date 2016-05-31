@@ -38,6 +38,5 @@ public class Main386 {
 			}
 			n++;
 		}
-		// TODO Auto-generated method stub
 	}
 }

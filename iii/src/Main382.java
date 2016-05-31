@@ -61,7 +61,6 @@ public class Main382 {
 		buf.append("END OF OUTPUT");
 		System.out.println(buf);
 		
-		// TODO Auto-generated method stub
 
 	}
 

@@ -109,7 +109,6 @@ public class Main10220 {
 		while (input.hasNext())
 			System.out.println(sumas[input.nextInt()]);
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

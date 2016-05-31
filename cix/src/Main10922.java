@@ -38,7 +38,6 @@ public class Main10922 {
 				System.out.printf("%s is not a multiple of 9.\n", k);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

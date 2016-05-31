@@ -84,6 +84,5 @@ public class Main10008
         }
         System.out.print(buffer);
         input.close();
-		// TODO Auto-generated method stub
 	}
 }

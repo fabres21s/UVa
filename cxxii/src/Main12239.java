@@ -43,7 +43,6 @@ public class Main12239 {
 			}
 			numeros.removeAll(numeros);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

@@ -35,7 +35,6 @@ public class Main369 {
 					+ " exactly.");
 			// System.out.printf("%d!\n%d\n", n,fact(n));
 		}
-		// TODO Auto-generated method stub
 
 	}
 

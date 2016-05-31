@@ -34,6 +34,5 @@ public class Main10405 {
 			System.out.printf("%d\n", LCS[s1_length][s2_length]);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

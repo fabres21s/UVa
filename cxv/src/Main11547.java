@@ -30,6 +30,5 @@ public class Main11547 {
 			System.out.println(Math.abs(n % 10));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

@@ -39,6 +39,5 @@ public class Main256 {
 				break;
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 }

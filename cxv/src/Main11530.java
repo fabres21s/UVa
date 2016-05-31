@@ -63,7 +63,6 @@ public class Main11530 {
 			System.out.printf("Case #%d: %d\n", i, typing);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

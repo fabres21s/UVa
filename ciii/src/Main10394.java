@@ -40,6 +40,5 @@ public class Main10394 {
 			System.out.printf("(%d, %d)\n", ans[n][0], ans[n][1]);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

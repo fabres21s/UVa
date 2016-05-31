@@ -61,6 +61,5 @@ public class Main12247 {
 			}
 			System.out.println(aux);
 		}
-		// TODO Auto-generated method stub
 	}
 }

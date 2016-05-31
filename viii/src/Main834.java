@@ -37,7 +37,6 @@ public class Main834 {
 			}
 			System.out.println("]");
 		}
-		// TODO Auto-generated method stub
 
 	}
 

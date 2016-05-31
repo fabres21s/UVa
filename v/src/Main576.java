@@ -36,7 +36,6 @@ public class Main576 {
 				System.out.println("1");
 
 		}
-		// TODO Auto-generated method stub
 
 	}
 

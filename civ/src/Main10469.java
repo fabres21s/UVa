@@ -62,7 +62,6 @@ public class Main10469 {
 			System.out.println(a.toString(10));*/
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

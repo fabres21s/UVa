@@ -25,6 +25,5 @@ public class Main10055 {
 			System.out.println(Math.abs(a - b));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

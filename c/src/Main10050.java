@@ -45,6 +45,5 @@ public class Main10050 {
 		 * if(solucion.contains(sabado-1)) { solucion.remove(0); } sabado+=7; }
 		 * System.out.println(solucion.size()); }
 		 */
-		// TODO Auto-generated method stub
 	}
 }

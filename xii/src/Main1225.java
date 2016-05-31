@@ -35,7 +35,6 @@ public class Main1225 {
 			}
 			System.out.println(Math.abs(digitb[i] - digita[i]));
 		}
-		// TODO Auto-generated method stub
 	}
 
 	static void recurse(int[] digit, int n, int count) {

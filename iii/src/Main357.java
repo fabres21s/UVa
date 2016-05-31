@@ -33,7 +33,6 @@ public class Main357 {
 						"There is only 1 way to produce %d cents change.\n", n);
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 
 	private static void calcular() {
@@ -47,6 +46,5 @@ public class Main357 {
 				nways[j] += nways[j - aux];
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 }

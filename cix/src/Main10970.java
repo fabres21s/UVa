@@ -25,6 +25,5 @@ public class Main10970 {
 			System.out.printf("%d\n", m * n - 1);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

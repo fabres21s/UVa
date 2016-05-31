@@ -20,7 +20,6 @@ public class Main583 {
 		while ((n = input.nextInt()) != 0) {
 			descomponer(n);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

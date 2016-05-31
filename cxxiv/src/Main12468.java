@@ -28,7 +28,6 @@ public class Main12468 {
 			// System.out.println((100-b+a)+"   "+Math.abs(a-b));
 
 		}
-		// TODO Auto-generated method stub
 
 	}
 

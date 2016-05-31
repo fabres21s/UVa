@@ -46,6 +46,5 @@ public class Main948 {
 			}
 			System.out.println(n + " = " + buf + " (fib)");
 		}
-		// TODO Auto-generated method stub
 	}
 }

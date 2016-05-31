@@ -54,7 +54,6 @@ public class Main11219 {
 			}
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

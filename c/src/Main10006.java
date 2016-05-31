@@ -23,6 +23,5 @@ public class Main10006 {
 			System.out.println((Arrays.binarySearch(ar, n) >= 0 ? "The number "
 					+ n + " is a Carmichael number." : n + " is normal."));
 		in.close();
-		// TODO Auto-generated method stub
 	}
 }

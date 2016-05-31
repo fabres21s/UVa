@@ -37,6 +37,5 @@ public class Main389 {
 				System.out.printf("%7s\n",cs);
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 }

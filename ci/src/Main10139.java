@@ -70,7 +70,6 @@ public class Main10139 {
 																		// endl;
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static void getprime() {

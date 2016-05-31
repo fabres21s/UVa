@@ -30,7 +30,6 @@ public class Main147 {
 			}
 			System.out.printf("%6.2f%17d\n", x, ss[d]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

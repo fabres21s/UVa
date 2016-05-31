@@ -65,6 +65,5 @@ public class Main10035 {
 					System.out.println(carry + " carry operations.");
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 }

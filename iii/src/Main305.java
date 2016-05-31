@@ -23,7 +23,6 @@ public class Main305 {
 		while ((n = input.nextInt()) != 0) {
 			System.out.println(val[n]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

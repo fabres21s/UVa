@@ -32,7 +32,6 @@ public class Main10018 {
 			}
 			System.out.println(cont + " " + valor);
 		}
-		// TODO Auto-generated method stub
 	}
 
 	public static long reverse(long num) {

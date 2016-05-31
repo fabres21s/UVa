@@ -30,7 +30,6 @@ public class Main11805 {
 				res -= n;
 			System.out.printf("Case %d: %d\n", i, res);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

@@ -36,6 +36,5 @@ public class Main12250 {
 			}
 			i++;
 		}
-		// TODO Auto-generated method stub
 	}
 }

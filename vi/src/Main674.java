@@ -27,7 +27,6 @@ public class Main674 {
 
 			System.out.printf("%d\n", ss[x]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

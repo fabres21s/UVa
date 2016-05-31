@@ -34,7 +34,6 @@ public class Main636 {
 				}
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 
 	private static int mayor(int n) {
@@ -46,6 +45,5 @@ public class Main636 {
 			n /= 10;
 		}
 		return max + 1;
-		// TODO Auto-generated method stub
 	}
 }

@@ -38,6 +38,5 @@ public class Main10392 {
 			System.out.println();
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

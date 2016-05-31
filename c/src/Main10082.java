@@ -35,6 +35,5 @@ public class Main10082 {
 			}
 			System.out.println(frase);
 		}
-		// TODO Auto-generated method stub
 	}
 }

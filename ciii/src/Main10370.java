@@ -39,6 +39,5 @@ public class Main10370 {
 			System.out.printf("%.3f%%\n", mayores * 100 / datos);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

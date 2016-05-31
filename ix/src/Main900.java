@@ -26,6 +26,5 @@ public class Main900 {
 		while ((i = input.nextInt()) != 0) {
 			System.out.println(fibos[i]);
 		}
-		// TODO Auto-generated method stub
 	}
 }

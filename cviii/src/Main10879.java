@@ -39,7 +39,6 @@ public class Main10879 {
 		}
 		System.out.println(buffer.toString());
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

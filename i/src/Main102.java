@@ -52,7 +52,6 @@ public class Main102 {
 			calcular(2, 1, 0);
 			System.out.printf("%s %d\n", res, menor);
 		}
-		// TODO Auto-generated method stub
 	}
 
 	static void calcular(int a, int b, int c) {

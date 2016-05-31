@@ -27,6 +27,5 @@ public class Main10784 {
 			C++;
 		}
 		in.close();
-		// TODO Auto-generated method stub
 	}
 }

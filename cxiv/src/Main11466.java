@@ -20,7 +20,6 @@ public class Main11466 {
 		while ((n = input.nextLong()) != 0)
 			factorizacion(n);
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static void factorizacion(long n) {

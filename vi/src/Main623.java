@@ -26,7 +26,6 @@ public class Main623 {
 			n = input.nextInt();
 			System.out.printf("%d!\n%d\n", n, fact(n));
 		}
-		// TODO Auto-generated method stub
 
 	}
 

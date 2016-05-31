@@ -105,7 +105,6 @@ public class Main706 {
 			// System.out.println();
 		}
 
-		// TODO Auto-generated method stub
 
 	}
 

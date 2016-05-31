@@ -44,7 +44,6 @@ public class Main12243 {
 			}
 		}
 
-		// TODO Auto-generated method stub
 
 	}
 

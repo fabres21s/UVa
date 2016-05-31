@@ -26,6 +26,5 @@ public class Main575 {
 			}
 			System.out.println(sum);
 		}
-		// TODO Auto-generated method stub
 	}
 }

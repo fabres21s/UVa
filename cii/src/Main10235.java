@@ -30,7 +30,6 @@ public class Main10235 {
 			}
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	private static boolean emirp(int n) {
@@ -48,7 +47,6 @@ public class Main10235 {
 		if (prime(p)) {
 			return true;
 		}
-		// TODO Auto-generated method stub
 		return false;
 	}
 
@@ -68,7 +66,6 @@ public class Main10235 {
 			}
 
 		}
-		// TODO Auto-generated method stub
 		return true;
 	}
 

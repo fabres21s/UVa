@@ -27,7 +27,6 @@ public class Main11727 {
 			System.out.printf("Case %d: %d\n", i, arreglo[1]);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 }

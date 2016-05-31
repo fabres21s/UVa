@@ -36,6 +36,5 @@ public class Main10327 {
 			System.out.println("Minimum exchange operations : " + s);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

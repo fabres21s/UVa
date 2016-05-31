@@ -41,7 +41,6 @@ public class Main12465 {
 			System.out.println(valores.size());
 		}
 
-		// TODO Auto-generated method stub
 
 	}
 

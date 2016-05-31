@@ -48,7 +48,6 @@ public class Main10533 {
 		input.close();
 	}
 
-	// TODO Auto-generated method stub
 
 	static boolean esprimo(int valor) {
 

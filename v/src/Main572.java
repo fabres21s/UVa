@@ -43,7 +43,6 @@ public class Main572 {
 			}
 			System.out.println(cont);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

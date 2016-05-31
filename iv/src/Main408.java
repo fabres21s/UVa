@@ -34,7 +34,6 @@ public class Main408 {
 			System.out.println();
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	private static int gcd(int a, int b) 
@@ -43,6 +42,5 @@ public class Main408 {
 			return a;
 		else
 			return gcd(b,a%b);
-		// TODO Auto-generated method stub
 	}
 }

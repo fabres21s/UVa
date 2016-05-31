@@ -26,6 +26,5 @@ public class Main10302 {
 			System.out.println(x);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

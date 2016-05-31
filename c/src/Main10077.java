@@ -48,6 +48,5 @@ public class Main10077 {
 			ls.close();
 		}
 		s.close();
-		// TODO Auto-generated method stub
 	}
 }

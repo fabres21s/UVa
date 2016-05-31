@@ -27,6 +27,5 @@ public class Main10678 {
 			System.out.printf("%.3f\n", a * b * pi);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

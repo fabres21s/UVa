@@ -34,7 +34,6 @@ public class Main10924 {
 			}
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static boolean esprimo(int n) {

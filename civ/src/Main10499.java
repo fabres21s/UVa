@@ -25,6 +25,5 @@ public class Main10499 {
 			System.out.println(n * 25 + "%");
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

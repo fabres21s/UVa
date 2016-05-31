@@ -24,7 +24,6 @@ public class Main10042 {
 			get(n);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	public static void get(int n) {

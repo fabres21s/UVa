@@ -47,7 +47,6 @@ public class Main488
 			}
 			System.out.print(buffer);
 		}
-		// TODO Auto-generated method stub
 
 	}
 	

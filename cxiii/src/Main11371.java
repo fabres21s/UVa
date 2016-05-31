@@ -33,7 +33,6 @@ public class Main11371 {
 			System.out.printf("%d - %d = %d = 9 * %d\n", n2, n1, n, n / 9);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	private static long getvalor(long[] arreglo, int i) {

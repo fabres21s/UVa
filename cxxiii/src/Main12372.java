@@ -28,7 +28,6 @@ public class Main12372{
 				System.out.printf("Case %d: good\n", i);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

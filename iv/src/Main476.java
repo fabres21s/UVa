@@ -54,7 +54,6 @@ public class Main476 {
 			x=new Double(input.next()).doubleValue();
 			y=new Double(input.next()).doubleValue();
 		}
-		// TODO Auto-generated method stub
 	}
 }
 

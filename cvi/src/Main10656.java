@@ -43,7 +43,6 @@ public class Main10656 {
 			System.out.printf("\n");
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

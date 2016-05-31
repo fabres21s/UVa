@@ -30,7 +30,6 @@ public class Main10026 {
 				System.out.println();
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static void ordenar(double[][] arreglo) {

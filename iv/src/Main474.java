@@ -24,6 +24,5 @@ public class Main474 {
 			digit=Math.floor(Math.log10(2)*n+1);
 			System.out.printf("2^-%.0f = %.3fe-%.0f\n", n,Math.pow(2,(digit/Math.log10(2) - n)),digit);
 		}
-		// TODO Auto-generated method stub
 	}
 }

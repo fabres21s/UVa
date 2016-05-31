@@ -33,7 +33,6 @@ public class Main12015 {
 				if (relevances[j] == max)
 					System.out.println(urls[j]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

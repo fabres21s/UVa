@@ -41,6 +41,5 @@ public class Main10183 {
 			System.out.println(fibos[i] + "   " + (i + 1));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

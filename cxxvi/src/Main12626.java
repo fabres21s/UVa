@@ -82,7 +82,6 @@ public class Main12626 {
 			System.out.println(menor);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

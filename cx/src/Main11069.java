@@ -22,7 +22,6 @@ public class Main11069 {
 			System.out.println(f[input.nextInt()]);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	private static void calcular() {
@@ -32,7 +31,6 @@ public class Main11069 {
 		for (i = 4; i < 80; i++) {
 			f[i] = f[i - 2] + f[i - 3];
 		}
-		// TODO Auto-generated method stub
 
 	}
 

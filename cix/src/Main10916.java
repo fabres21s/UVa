@@ -31,6 +31,5 @@ public class Main10916 {
 			System.out.println((i - 1));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

@@ -464,7 +464,6 @@ public class Main10196 {
 			input.nextLine();
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static String[][] llenar(String[][] tablero) {

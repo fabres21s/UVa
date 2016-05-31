@@ -22,6 +22,5 @@ public class Main11150 {
 			System.out.println((n + n / 2));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

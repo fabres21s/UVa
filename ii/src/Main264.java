@@ -29,7 +29,6 @@ public class Main264 {
 						+ (k - r));
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 
 }

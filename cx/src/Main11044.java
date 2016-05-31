@@ -28,6 +28,5 @@ public class Main11044 {
 			System.out.println(n*m);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

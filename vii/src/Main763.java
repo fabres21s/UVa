@@ -49,7 +49,6 @@ public class Main763 {
 		}
 		// pw.close();
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	private static String fibonaccimal(BigInteger n) {
@@ -98,7 +97,6 @@ public class Main763 {
 			fibos[i] = fibos[i - 1].add(fibos[i - 2]);
 			// System.out.println(i+" "+fibos[i]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 }

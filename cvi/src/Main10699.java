@@ -31,7 +31,6 @@ public class Main10699 {
 				System.out.printf("%d : %d\n", m, fact(n));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

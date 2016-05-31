@@ -41,7 +41,6 @@ public class Main10420 {
 			System.out.println(list.get(i) + " " + map.get(list.get(i)));
 		}
 
-		// TODO Auto-generated method stub
 
 	}
 

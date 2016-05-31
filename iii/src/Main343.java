@@ -55,7 +55,6 @@ public class Main343 {
 				System.out.printf("%s is not equal to %s in any base 2..36\n",
 						v1, v2);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

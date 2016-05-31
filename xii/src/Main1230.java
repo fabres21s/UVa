@@ -25,7 +25,6 @@ public class Main1230 {
 			z = input.nextLong();
 			modular(x, y, z);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

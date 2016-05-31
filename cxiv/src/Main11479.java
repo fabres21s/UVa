@@ -36,6 +36,5 @@ public class Main11479 {
 				System.out.printf("Scalene\n");
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

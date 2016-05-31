@@ -27,7 +27,6 @@ public class Main640 {
 		}
 		// t=System.currentTimeMillis()-t;
 		// System.out.println(t);
-		// TODO Auto-generated method stub
 
 	}
 

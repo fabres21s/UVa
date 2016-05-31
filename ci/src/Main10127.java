@@ -29,6 +29,5 @@ public class Main10127 {
 			System.out.println(cont);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

@@ -34,6 +34,5 @@ public class Main11743 {
 				System.out.println("Invalid");
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

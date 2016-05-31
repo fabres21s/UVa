@@ -31,7 +31,6 @@ public class Main12459 {
 			System.out.println(x[c] + y[c]);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

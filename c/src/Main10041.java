@@ -37,7 +37,6 @@ public class Main10041 {
 			System.out.println(sum);
 		}
 
-		// TODO Auto-generated method stub
 
 	}
 

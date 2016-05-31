@@ -24,6 +24,5 @@ public class Main10071 {
 			System.out.println(2 * a * b);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

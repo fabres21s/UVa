@@ -34,7 +34,6 @@ public class Main10931 {
 					+ " (mod 2).");
 		}
 		sc.close();
-		// TODO Auto-generated method stub
 	}
 
 	static int contarunos(String linea) {

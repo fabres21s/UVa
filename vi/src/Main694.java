@@ -28,7 +28,6 @@ public class Main694 {
 			System.out.println("Case " + casos + ": A = " + a + ", limit = "
 					+ l + ", number of terms = " + computeItems(a, l));
 		}
-		// TODO Auto-generated method stub
 
 	}
 

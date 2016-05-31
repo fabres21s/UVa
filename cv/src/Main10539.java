@@ -35,7 +35,6 @@ public class Main10539 {
 			System.out.println(highPs - lowPs + 1);
 		}
 		in.close();
-		// TODO Auto-generated method stub
 
 	}
 

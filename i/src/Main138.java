@@ -20,7 +20,6 @@ public class Main138 {
 		for (int i = 0; i < 20; i += 2) {
 			System.out.printf("%10d%10d\n", R[i], R[i + 1]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

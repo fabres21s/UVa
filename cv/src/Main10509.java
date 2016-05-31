@@ -32,7 +32,6 @@ public class Main10509 {
 			System.out.printf("%.4f\n",(a+dx));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

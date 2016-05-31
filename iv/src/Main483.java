@@ -36,7 +36,6 @@ public class Main483 {
 			buf2.append(buf.reverse());
 			System.out.println(buf2);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

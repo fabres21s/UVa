@@ -32,7 +32,6 @@ public class Main568 {
 			f = input.nextInt();
 			System.out.printf("%5d -> %d\n", f, facts[f]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

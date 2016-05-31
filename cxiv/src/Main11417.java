@@ -25,7 +25,6 @@ public class Main11417 {
 			System.out.println(sum);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

@@ -55,7 +55,6 @@ public class Main486
 			}
 			System.out.println(n);			
 		}
-		// TODO Auto-generated method stub
 	}
 	
 	static int cientos(String palabra)

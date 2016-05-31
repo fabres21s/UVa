@@ -27,7 +27,6 @@ public class Main12577 {
 			casos++;
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

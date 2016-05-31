@@ -25,7 +25,6 @@ public class Main12502 {
 			prom = (a + b) / 3;
 			System.out.println(Math.round((x * (a - prom)) / prom));
 		}
-		// TODO Auto-generated method stub
 
 	}
 

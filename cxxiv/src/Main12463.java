@@ -52,7 +52,6 @@ public class Main12463 {
 			System.out.println(res);
 		}
 
-		// TODO Auto-generated method stub
 
 	}
 

@@ -116,6 +116,5 @@ public class Main344 {
 			System.out.printf("%d: %d i, %d v, %d x, %d l, %d c\n", n, i, v, x,
 					l, c);
 		}
-		// TODO Auto-generated method stub
 	}
 }

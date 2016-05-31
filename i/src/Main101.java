@@ -27,7 +27,6 @@ public class Main101 {
 		Main101 p = new Main101();
 		p.go();
 		p.print();
-		// TODO Auto-generated method stub
 	}
 
 	private void print() {

@@ -51,7 +51,6 @@ public class Main12541 {
 		System.out.println(nombres.get(fechas.get(x)));
 		System.out.println(nombres.get(fechas.get(0)));
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

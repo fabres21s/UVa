@@ -31,7 +31,6 @@ public class Main12405 {
 			}
 			System.out.printf("Case %d: %d\n", i, res);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

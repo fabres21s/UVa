@@ -38,7 +38,6 @@ public class Main350 {
 			}
 			casos++;
 		}
-		// TODO Auto-generated method stub
 
 	}
 

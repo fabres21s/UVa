@@ -18,7 +18,6 @@ public class Main1124 {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext())
 			System.out.println(input.nextLine());
-		// TODO Auto-generated method stub
 
 	}
 

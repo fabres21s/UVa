@@ -27,6 +27,5 @@ public class Main11054 {
 			System.out.println(k);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

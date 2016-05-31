@@ -32,7 +32,6 @@ public class Main847 {
 				System.out.println("Stan wins.");
 			}
 		}
-		// TODO Auto-generated method stub
 
 	}
 

@@ -34,7 +34,6 @@ public class Main371
 			p=numCicloMax(Math.min(a, b), Math.max(a, b));
 			System.out.println("Between "+Math.min(a, b) +" and " + Math.max(a, b)  + ", " +mayor+" generates the longest sequence of "+ p+" values.");
 		} 
-		// TODO Auto-generated method stub
 	}
 	
 	static int numCicloMax(int a, int b) 

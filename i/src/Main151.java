@@ -58,7 +58,6 @@ public class Main151 {
 				}
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 
 	static void init(boolean k[]) {

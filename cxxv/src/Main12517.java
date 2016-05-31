@@ -51,7 +51,6 @@ public class Main12517 {
 			}
 			System.out.println(sum);
 		}
-		// TODO Auto-generated method stub
 	}
 
 	static void recurse(long[] digit, int n, long count) {

@@ -43,7 +43,6 @@ public class Main530 {
 				;
 			System.out.println(res);
 		}
-		// TODO Auto-generated method stub
 	}
 
 	private static long gcd(long a, long b) {
@@ -51,6 +50,5 @@ public class Main530 {
 			return gcd(b, a % b);
 		}
 		return a;
-		// TODO Auto-generated method stub
 	}
 }

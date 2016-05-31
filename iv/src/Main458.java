@@ -30,7 +30,6 @@ public static void main(String[] args) throws IOException
 			output.write((Character.isSpace((char)C) ? C : (C-7)));
 		}
 			//output.write((Character.isSpace((char)C) ? C : (C-7)));
-		// TODO Auto-generated method stub
 
 	}
 

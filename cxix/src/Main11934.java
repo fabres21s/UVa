@@ -36,6 +36,5 @@ public class Main11934 {
 			System.out.println(con);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

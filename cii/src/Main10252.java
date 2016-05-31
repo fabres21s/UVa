@@ -47,6 +47,5 @@ public class Main10252 {
 			}
 			System.out.println();
 		}
-		// TODO Auto-generated method stub
 	}
 }

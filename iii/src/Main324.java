@@ -381,7 +381,6 @@ public class Main324 {
 					facts[n][5], facts[n][6], facts[n][7], facts[n][8],
 					facts[n][9]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

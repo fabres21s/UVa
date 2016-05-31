@@ -40,7 +40,6 @@ public class Main494
 			}
 			System.out.println(cont++);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

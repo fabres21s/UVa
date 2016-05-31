@@ -35,7 +35,6 @@ public class Main11494 {
 			System.out.println(moves);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

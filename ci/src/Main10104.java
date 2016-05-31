@@ -25,7 +25,6 @@ public class Main10104 {
 			System.out.println(lastx + " " + lasty + " " + g);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	// algoritmo de Euclides

@@ -38,7 +38,6 @@ public class Main748 {
 			}
 			System.out.println(ans);
 		}
-		// TODO Auto-generated method stub
 
 	}
 }

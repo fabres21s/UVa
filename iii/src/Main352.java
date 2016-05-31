@@ -43,7 +43,6 @@ public class Main352 {
 					cont);
 			x++;
 		}
-		// TODO Auto-generated method stub
 
 	}
 

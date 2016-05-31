@@ -28,7 +28,6 @@ public class Main10683 {
 			System.out.println(completar(total / 108));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 
@@ -37,7 +36,6 @@ public class Main10683 {
 		int dif = 7 - cad.length();
 		for (int k = 0; k < dif; k++)
 			cad = "0" + cad;
-		// TODO Auto-generated method stub
 		return cad;
 	}
 

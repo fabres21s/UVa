@@ -36,6 +36,5 @@ public class Main591 {
 					moves);
 			cont++;
 		}
-		// TODO Auto-generated method stub
 	}
 }

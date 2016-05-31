@@ -25,8 +25,6 @@ public class Main913 {
 			n = 3 * n - 6;
 			System.out.println(n);
 		}
-		// TODO Auto-generated method stub
-
 	}
 
 }

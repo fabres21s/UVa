@@ -23,6 +23,5 @@ public class Main11780 {
 			System.out.printf("%.2f\n", Math.min(1.6 * n - a, b - 1.6 * n));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

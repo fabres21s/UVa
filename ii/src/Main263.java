@@ -63,7 +63,6 @@ public class Main263 {
 			ls = new Scanner(input);
 			number = ls.nextInt();
 		}
-		// TODO Auto-generated method stub
 	}
 
 	// return true if the last number does not appear before

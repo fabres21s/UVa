@@ -40,7 +40,6 @@ public class Main10783 {
 					+ (arreglo[b] - arreglo[a - 2]));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 }

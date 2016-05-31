@@ -39,6 +39,5 @@ public class Main10062 {
 			aux++;
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

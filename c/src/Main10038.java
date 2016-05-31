@@ -45,6 +45,5 @@ public class Main10038 {
 				System.out.println("Not jolly");
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

@@ -40,7 +40,6 @@ public class Main484 {
 			System.out.printf("%d %d\n", Ns[i] - MAX, c[Ns[i]]);
 			c[Ns[i]] = 0;
 		}
-		// TODO Auto-generated method stub
 
 	}
 

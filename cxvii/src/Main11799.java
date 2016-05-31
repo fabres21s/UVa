@@ -28,7 +28,6 @@ public class Main11799 {
 			System.out.printf("Case %d: %d\n", i, max);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

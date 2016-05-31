@@ -22,7 +22,6 @@ public class Main106 {
 			n = input.nextInt();
 			calcular();
 		}
-		// TODO Auto-generated method stub
 
 	}
 
@@ -57,7 +56,6 @@ public class Main106 {
 			ss[k] = 0;
 		}
 		System.out.printf("%d %d\n", tri, total);
-		// TODO Auto-generated method stub
 	}
 
 	private static int gcd(int a, int b) {

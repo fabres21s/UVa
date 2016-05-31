@@ -23,7 +23,6 @@ public class Main11332 {
 			System.out.println(sum);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static void descomponer(int n) {

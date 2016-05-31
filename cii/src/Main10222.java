@@ -33,6 +33,5 @@ public class Main10222 {
 			System.out.println(frase);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

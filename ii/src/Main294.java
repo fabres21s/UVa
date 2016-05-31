@@ -59,7 +59,6 @@ public class Main294 {
 			System.out.println("Between " + a + " and " + b + ", " + nmayor
 					+ " has a maximum of " + mayor + " divisors.");
 		}
-		// TODO Auto-generated method stub
 
 	}
 

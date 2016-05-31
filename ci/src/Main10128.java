@@ -22,7 +22,6 @@ public class Main10128 {
          int R = readUint();
          System.out.println(q(N,P,R));
         }
-		// TODO Auto-generated method stub
 	}
 	
 	static int factorial (int n)

@@ -24,6 +24,5 @@ public class Main10106 {
 			System.out.println(a.multiply(b));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

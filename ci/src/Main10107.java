@@ -43,6 +43,5 @@ public class Main10107{
 			System.out.printf("%d\n", R);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

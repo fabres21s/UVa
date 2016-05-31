@@ -185,7 +185,6 @@ public class Main489 {
 				System.out.println("You chickened out.");
 			}			
 		}*/
-		// TODO Auto-generated method stub
 
 	}
 	

@@ -28,7 +28,6 @@ public class Main11614 {
 					Math.floor((Math.sqrt(1 + 8 * p) - 1) / 2));
 		}
 		input.close();
-		// TODO Auto-generated method stub
 
 	}
 

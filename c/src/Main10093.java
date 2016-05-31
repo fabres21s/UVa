@@ -41,7 +41,6 @@ public class Main10093 {
 			}
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 
 	static int count(char ch) {

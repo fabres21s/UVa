@@ -32,7 +32,6 @@ public class Main12149 {
 		while ((n = input.nextInt()) != 0) {
 			System.out.println(cuadrados[n]);
 		}
-		// TODO Auto-generated method stub
 
 	}
 

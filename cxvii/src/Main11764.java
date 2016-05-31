@@ -36,6 +36,5 @@ public class Main11764 {
 			System.out.printf("Case %d: %d %d\n", i, high, low);
 		}
 		input.close();
-		// TODO Auto-generated method stub
 	}
 }

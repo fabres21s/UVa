@@ -33,7 +33,6 @@ public class Main701 {
 			}
 		}
 
-		// TODO Auto-generated method stub
 
 	}
 

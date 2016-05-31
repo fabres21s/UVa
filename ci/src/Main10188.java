@@ -46,7 +46,6 @@ public class Main10188 {
 				}
 			}
 		}
-		// TODO Auto-generated method stub
 	}
 
 	static boolean errorpresentacion(String correcto, String propuesto) {
