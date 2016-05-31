@@ -1,7 +1,16 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+/**
+*	12696 - Cabin Baggage
+*
+*
+*	Submision:	16490277
+*	Date:		2015-11-25 15:16:34
+*	Runtime:	0.179
+*	Ranking:	1134
+*/
+public class Main12696 {
 
 	/*
 	 * validar tamaño y peso de una maleta que no supere 125cm, excepto con 56,

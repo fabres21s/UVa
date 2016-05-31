@@ -2,16 +2,24 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
-public class Main {
+/**
+*	12543 - Longest Word
+*
+*
+*	Submision:	17131593
+*	Date:		2016-04-02 02:19:32
+*	Runtime:	0.049
+*	Ranking:	728
+*/
+public class Main12543 {
 
 	/**
-	 *12543 - Longest Word
+	 * 12543 - Longest Word
 	 *
-	 *Cadena de Caracteres
+	 * Cadena de Caracteres
 	 *
-	 *Encontrar la palabra más grande de la entrada
-	 *entiendase por palabra, caracteres de la a a la z seguidos, incluyendo -
+	 * Encontrar la palabra más grande de la entrada entiendase por palabra,
+	 * caracteres de la a a la z seguidos, incluyendo -
 	 * 
 	 */
 	public static void main(String[] args) throws IOException {
@@ -20,18 +28,18 @@ public class Main {
 		String line;
 		int maxSize = 0;
 		String maxWord = "", word = "";
-		char [] array;
+		char[] array;
 		while ((line = br.readLine()) != null) {
 			array = line.toLowerCase().toCharArray();
 			word = "";
 			for (int c : array) {
-				
-				if ( (c > 96 && c < 123) || c == 45 ) {
-					word = word + (char)c;
+
+				if ((c > 96 && c < 123) || c == 45) {
+					word = word + (char) c;
 				} else {
 					if (word.length() > maxSize) {
 						maxSize = word.length();
-						  maxWord = word;
+						maxWord = word;
 					}
 					word = "";
 				}

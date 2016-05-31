@@ -2,14 +2,23 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+/**
+*	12554 - A Special "Happy Birthday" Song!!!
+*
+*
+*	Submision:	16788511
+*	Date:		2016-02-01 17:13:53
+*	Runtime:	0.075
+*	Ranking:	1975
+*/
+public class Main12554 {
 
 	/*
 	 * Validaciones
 	 * 
 	 * Validar que todos cantaran y no dejar la canción a medias
 	 */
-	
+
 	public static void main(String[] args) {
 
 		List<String> song = new ArrayList<String>();
@@ -45,9 +54,11 @@ public class Main {
 		if (n > 0) {
 			while (!completedPersons || !completedSong) {
 				try {
-					System.out.printf("%s: %s\n", persons.get(index % n), song.get(index % 16));
-				} catch (Exception exc){
-					//sin este try catch da re - esto est� muy raro - tal vez por el package
+					System.out.printf("%s: %s\n", persons.get(index % n),
+							song.get(index % 16));
+				} catch (Exception exc) {
+					// sin este try catch da re - esto est� muy raro - tal vez
+					// por el package
 				}
 				index++;
 				if (index >= n) {

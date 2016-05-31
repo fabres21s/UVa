@@ -1,6 +1,15 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+*	12114 - Bachelor Arithmetic
+*
+*
+*	Submision:	16495201
+*	Date:		2015-11-26 14:18:28
+*	Runtime:	0.235
+*	Ranking:	903
+*/
+public class Main12114 {
 
 	/*
 	 * validaciones

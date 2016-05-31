@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Set;
 
-
 /*
  * 12207 - That is your queue
  * Dada una cantidad de personas y una serie de comandos
@@ -16,7 +15,17 @@ import java.util.Set;
  * 
  * - Listas
  */
-public class Main {
+
+/**
+*	12207 - That is Your Queue
+*
+*
+*	Submision:	17274103
+*	Date:		2016-04-27 18:59:32
+*	Runtime:	0.080
+*	Ranking:	373
+*/
+public class Main12207 {
 
 	public static void main(String[] args) throws IOException {
 
@@ -36,13 +45,13 @@ public class Main {
 				break;
 			}
 			int min = Math.min(comandos, personas);
-			for (long i = 1; i<= min; i++) {
+			for (long i = 1; i <= min; i++) {
 				list.add(i);
 			}
-			output.append("Case "+testCases+":\n");
+			output.append("Case " + testCases + ":\n");
 			for (int i = 0; i < comandos; i++) {
 				line = br.readLine();
-				
+
 				if (line.equals("N")) {
 					output.append(list.get(0) + "\n");
 					list.add(list.get(0));
@@ -50,16 +59,16 @@ public class Main {
 				} else {
 					args = line.split(" ");
 					e = Long.valueOf(args[1]);
-					
+
 					list.remove(e);
-					list.add(0,e);
+					list.add(0, e);
 				}
-				
+
 			}
-			
+
 			list.clear();
 		}
-		
+
 		System.out.print(output);
 	}
 

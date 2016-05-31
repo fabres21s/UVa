@@ -1,11 +1,19 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+*	12293 - Box Game	2698
+*
+*
+*	Submision:	16501218
+*	Date:		2015-11-27 16:35:37
+*	Runtime:	0.095
+*	Ranking:	826
+*/
+public class Main12293 {
 
 	/*
-	Logaritmos,  simulacion un poco complicado de entender
-	los casos de prueba no son de mucha ayuda
-	inicialmente daba tle, estando correcto 
+	 * Logaritmos, simulacion un poco complicado de entender los casos de prueba
+	 * no son de mucha ayuda inicialmente daba tle, estando correcto
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -17,33 +25,32 @@ public class Main {
 				break;
 			}
 
-			
-			double x = Math.log(n+1)/Math.log(2);
-			n = (int)x;
-			if (n ==x){
+			double x = Math.log(n + 1) / Math.log(2);
+			n = (int) x;
+			if (n == x) {
 				System.out.println("Bob");
 			} else {
 				System.out.println("Alice");
 			}
-//			while (n != 1) {
-//
-//				if (count % 2 == 0) {
-//
-//					if (n % 2 == 0) {
-//						n--;
-//					} else {
-//						n = n / 2 + 1;
-//					}
-//
-//				} else {
-//					// bob
-//					n--;
-//
-//				}
-//				count++;
-//
-//				// System.out.println(n);
-//			}
+			// while (n != 1) {
+			//
+			// if (count % 2 == 0) {
+			//
+			// if (n % 2 == 0) {
+			// n--;
+			// } else {
+			// n = n / 2 + 1;
+			// }
+			//
+			// } else {
+			// // bob
+			// n--;
+			//
+			// }
+			// count++;
+			//
+			// // System.out.println(n);
+			// }
 
 		}
 

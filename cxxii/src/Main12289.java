@@ -1,12 +1,15 @@
 import java.util.Scanner;
 
-/*
- *  Fabio Andrés Sierra	
- *  One-Two-Three
- *  UVa: 12289
- */
-
-public class Main {
+/**
+*	12289 - One-Two-Three
+*
+*
+*	Submision:	9573650
+*	Date:		2011-12-19 02:58:24
+*	Runtime:	0.120
+*	Ranking:	6312
+*/
+public class Main12289 {
 
 	/**
 	 * @param args

@@ -1,11 +1,21 @@
 import java.util.Scanner;
 
 /**
- * 13004 - At mos twice
+ * 13004 - At most twice
  * Arreglos, Recursividad
  * Dado n, encontrar un número <= n
  * que no tenga los digitos más de dos veces
  */
+
+/**
+*	13004 - At most twice
+*
+*
+*	Submision:	17017593
+*	Date:		2016-03-14 20:08:44	
+*	Runtime:	0.082
+*	Ranking:	112
+*/
 public class Main13004 {
 
 	public static void main(String[] args) {

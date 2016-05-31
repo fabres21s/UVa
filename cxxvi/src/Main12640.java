@@ -2,11 +2,20 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Main {
+/**
+*	12640 - Largest Sum Game
+*
+*
+*	Submision:	12353608
+*	Date:		2013-09-16 14:40:17
+*	Runtime:	0.686
+*	Ranking:	464
+*/
+class Main12640 {
 
 	/**
 	 * @param args
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader lect = new BufferedReader(new InputStreamReader(

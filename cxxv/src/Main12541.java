@@ -9,33 +9,41 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
-public class Main {
+/**
+*	12541 - Birthdates
+*
+*
+*	Submision:	12306643
+*	Date:		2013-09-06 17:16:15
+*	Runtime:	0.222
+*	Ranking:	1302
+*/
+public class Main12541 {
 
 	/**
 	 * @param args
-	 * @throws ParseException 
+	 * @throws ParseException
 	 */
 	public static void main(String[] args) throws ParseException {
-//		GregorianCalendar calendar = new GregorianCalendar();
-//
-//		if (calendar.isLeapYear(2007))
-//			System.out.println("El año es bisiesto");
-//		else
-//			System.out.println("El año no es bisiesto");
-		
-		ArrayList<Date> fechas= new ArrayList<Date>();
-		Map <Date, String> nombres=new HashMap<Date,String>();
-		Scanner input=new Scanner(System.in);
+		// GregorianCalendar calendar = new GregorianCalendar();
+		//
+		// if (calendar.isLeapYear(2007))
+		// System.out.println("El aï¿½o es bisiesto");
+		// else
+		// System.out.println("El aï¿½o no es bisiesto");
+
+		ArrayList<Date> fechas = new ArrayList<Date>();
+		Map<Date, String> nombres = new HashMap<Date, String>();
+		Scanner input = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyy");
-		int casos=input.nextInt();
-		int x=casos-1;
+		int casos = input.nextInt();
+		int x = casos - 1;
 		String fecha, nombre;
 		Date date;
-		while(casos-->0){
-			nombre=input.next();
-			fecha=input.next()+"-"+input.next()+"-"+input.next();
-			date=sdf.parse(fecha);
+		while (casos-- > 0) {
+			nombre = input.next();
+			fecha = input.next() + "-" + input.next() + "-" + input.next();
+			date = sdf.parse(fecha);
 			fechas.add(date);
 			nombres.put(date, nombre);
 		}
