@@ -1,5 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -14,10 +12,44 @@ import java.util.Scanner;
 public class Main11559 {
 
 	/**
-	 * @param args
+	 * Validaciones
 	 */
 	public static void main(String[] args) {
-		
-		//TODO Buscarlo en el computador de Essecorp
+		 Scanner input = new Scanner(System.in);
+         
+         int persons, budget, hotels, weeks;
+         int priceWeek;
+         
+         while (input.hasNext()) {
+                 persons = input.nextInt();
+                 budget = input.nextInt();
+                 hotels = input.nextInt();
+                 weeks = input.nextInt();
+                 
+                 
+                 int price = Integer.MAX_VALUE;
+                 for (int i = 0; i < hotels; i++) {
+                         priceWeek = input.nextInt();
+                         
+                         boolean availableHotel = priceWeek * persons <= budget;
+                         boolean availableBeds = false;
+                         for (int j = 0; j <weeks; j++) {
+                                 if ( input.nextInt() >= persons) {
+                                         availableBeds = true;
+                                         //no se puede usar este hotel, si las habitaciones no alcanzan
+                                 }
+                         }
+                         
+                         if (availableHotel && availableBeds) {
+                                 price = Math.min(price, priceWeek*persons);
+                         }
+                 }
+                 
+                 if (price == Integer.MAX_VALUE) {
+                         System.out.println("stay home");
+                 } else {
+                         System.out.println(price);
+                 }
+         }
 	}
 }

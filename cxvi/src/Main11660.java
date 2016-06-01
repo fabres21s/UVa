@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11660 {
 
 	public static void main(String[] args) throws IOException {
-		//TODO Resuelto en C++ - Intentar en Java
+		//TODO Resuelto en C++ - Intentar en Java - Look-and-Say sequences
 	}
 }
 
