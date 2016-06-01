@@ -1,6 +1,6 @@
 
 /**
-*	10678 - The Grazing Cow
+*	10696 - f91
 *
 *
 *	Submision:	9599518
@@ -11,7 +11,7 @@
 public class Main10696 {
 
 	public static void main(String[] args) {
-	//	TODO Resuelto en C++ - Intentar en Java
+	//	TODO Resuelto en C++ - Intentar en Java - f91
 	}
 }
 

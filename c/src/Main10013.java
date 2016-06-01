@@ -1,6 +1,6 @@
 
 /**
-*	10010 - Where's Waldorf?
+*	10013 - Super long sums
 *
 *
 *	Submision:	9615657
@@ -12,7 +12,7 @@
 public class Main10013 {
 
 	public static void main(String[] args) {
-		// TODO Resuelto en C++ - Intentar en Java
+		// TODO Resuelto en C++ - Intentar en Java - Super long sums
 	}
 
 }
