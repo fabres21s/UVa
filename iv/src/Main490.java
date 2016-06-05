@@ -16,7 +16,7 @@ public class Main490
 {
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) throws IOException
 	{

@@ -13,11 +13,13 @@ import java.io.InputStreamReader;
 */
 public class Main10945 {
 
-	/*
-	 * Determinar si una cadena es palindroma uso de expresiones regulares para
+	/**
+	 * - Expresiones Regulares
+	 * - Palíndromos
+	 * 
+	 * Determinar si una cadena es palindroma, uso de expresiones regulares para
 	 * reemplazar ,.?! por ""
 	 */
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

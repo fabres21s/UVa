@@ -14,7 +14,7 @@ public class Main572 {
 	static String oil[][];
 
 	/**
-	 * @param args
+	 * - Recursividad
 	 */
 	public static void main(String[] args) {
 		int m, n, i, j;

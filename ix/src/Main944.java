@@ -21,7 +21,7 @@ public class Main944 {
 	static boolean happy;
 
 	/**
-	 * @param args
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

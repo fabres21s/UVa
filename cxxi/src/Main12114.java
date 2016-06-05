@@ -11,8 +11,8 @@ import java.util.Scanner;
 */
 public class Main12114 {
 
-	/*
-	 * validaciones
+	/**
+	 * - Validaciones
 	 */
 	public static void main(String[] args) {
 		// b y s s/b

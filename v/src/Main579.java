@@ -51,6 +51,9 @@ public class Main579 {
 		return min;
 	}
 
+	/**
+	 * TODO Asignar Categoría!!!
+	 */
 	public static void main(String[] args) {
 		int mins;
 		float hhand;

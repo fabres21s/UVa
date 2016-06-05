@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10916 {
 
 	/**
-	 * @param args
+	 * - Logaritmos
 	 */
 	public static void main(String[] args) {
 		int y, i;

@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main12149 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		int[] cuadrados = { 0, 1, 5, 14, 30, 55, 91, 140, 204, 285, 385, 506,

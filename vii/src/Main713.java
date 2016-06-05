@@ -11,8 +11,11 @@ import java.util.Scanner;
 */
 public class Main713 {
 
-	/*
-	 * cojer dos números darles la vuelta, sumarlos y volverles a dar la vuelta
+	/**
+	 * - Big Numbers
+	 * - Proceso matemático
+	 * 
+	 * Cojer dos números darles la vuelta, sumarlos y volverles a dar la vuelta
 	 */
 	static BigInteger ONE = BigInteger.ONE;
 	static BigInteger TEN = BigInteger.TEN;

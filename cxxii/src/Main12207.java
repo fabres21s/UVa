@@ -8,14 +8,6 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Set;
 
-/*
- * 12207 - That is your queue
- * Dada una cantidad de personas y una serie de comandos
- * encontrar el orden de atención de cada una de ellas
- * 
- * - Listas
- */
-
 /**
 *	12207 - That is Your Queue
 *
@@ -27,6 +19,12 @@ import java.util.Set;
 */
 public class Main12207 {
 
+	/**
+	 * - List
+	 * 
+	 * Dada una cantidad de personas y una serie de comandos
+	 * encontrar el orden de atención de cada una de ellas
+	 */
 	public static void main(String[] args) throws IOException {
 
 		List<Long> list = new ArrayList<Long>();

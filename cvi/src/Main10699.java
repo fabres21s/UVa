@@ -16,7 +16,8 @@ public class Main10699 {
 	static int list[] = new int[MX];
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11559 {
 
 	/**
-	 * Validaciones
+	 * - Validaciones
 	 */
 	public static void main(String[] args) {
 		 Scanner input = new Scanner(System.in);

@@ -5,16 +5,6 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * 280 - Vertex
- * 
- * - Grafos, Búsqueda en profundidad - Grafos bidireccionales - Queue
- * 
- * Encontrar cuantos y cuáles nodos no están conectados a un nodo dado
- * 
- * @author fabio
- *
- */
-/**
 *	280 - Vertex
 *
 *
@@ -25,6 +15,13 @@ import java.util.Scanner;
 */
 public class Main280 {
 
+	/**
+	 * - Grafos bidireccionales
+	 * - Búsqueda en profundidad
+	 * - Queue
+	 * 
+	 * Encontrar cuantos y cuáles nodos no están conectados a un nodo dado
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

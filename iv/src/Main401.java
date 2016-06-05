@@ -16,7 +16,7 @@ public class Main401
 	static String reves=   "A3HILJMO2TUVWXY51SEZ8";
 
 	/**
-	 * @param args
+	 * - Palíndromos
 	 */
 	public static void main(String[] args) 
 	{

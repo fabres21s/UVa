@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Main1368 {
 
 	
-	/*
-	 * 1368 - DNA Consensus String
-	 * Arreglos
-	 * En una columna, ver la letra que m�s se repet�a, y contar las que eran diferentes a la que m�s se repite y cambiarlas
+	/**
+	 * - Arreglos
+	 * En una columna, ver la letra que más se repetía, y contar las que eran diferentes a la 
+	 * que más se repite y cambiarlas
 	 */
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);

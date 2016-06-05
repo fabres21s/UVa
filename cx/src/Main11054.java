@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11054 {
 
 	/**
-	 * @param args
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		long n, m, k, i, d;

@@ -13,7 +13,10 @@ import java.util.Scanner;
 public class Main10196 {
 
 	/**
-	 * @param args
+	 * - Ajedrez
+	 * 
+	 * Dado un tablero de ajedrez, y la disposición de las piezas
+	 * determinar si uno de los reyes se encuentra en jaque
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

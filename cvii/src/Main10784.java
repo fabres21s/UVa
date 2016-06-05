@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main10784 {
 
 	/**
-	 * @param args
+	 * Geometría, creo que sumatoria de números
+	 * - Fórmula
 	 */
 	public static void main(String[] args) {
 		long N, n;

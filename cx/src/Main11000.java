@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main11000 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Fibonacci
 	 */
 	public static void main(String[] args) {
 		long arreglo[] = new long[65];

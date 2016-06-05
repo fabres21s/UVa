@@ -14,8 +14,7 @@ import java.io.InputStreamReader;
 public class Main11713 {
 
 	/**
-	 * @param args
-	 * @throws IOException
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader input = new BufferedReader(new InputStreamReader(

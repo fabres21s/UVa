@@ -12,7 +12,9 @@ import java.util.Scanner;
 public class Main12279 {
 
 	/**
-	 * Muy fácil Si un número es positivo, aumentar un contador, sino,
+	 * - Muy fácil
+	 * 
+	 * Si un número es positivo, aumentar un contador, sino,
 	 * disminuirlo En el enuncuado no lo tuve muy claro que digamos
 	 */
 	public static void main(String[] args) {

@@ -13,6 +13,9 @@ import java.util.Scanner;
 public class Main12366 {
 	static int a, b, c;
 
+	/**
+	 * - Simulación
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		a = input.nextInt();

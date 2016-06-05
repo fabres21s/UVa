@@ -2,13 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/*
- * 12583 - Memory Overflow
- * Map
- * El rey sólo podía recordar a una persona si al presentarsela
- * se la volvían a presentar en un tiempo menor o igual a daysRemember
- */
-
 /**
 *	12583 - Memory Overflow
 *
@@ -20,6 +13,12 @@ import java.util.Scanner;
 */
 public class Main12583 {
 
+	/**
+	 * - Map
+	 * 
+	 * El rey sólo podía recordar a una persona si al presentarsela
+	 * se la volvían a presentar en un tiempo menor o igual a daysRemember
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

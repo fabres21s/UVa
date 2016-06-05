@@ -11,6 +11,9 @@ import java.util.Scanner;
 */
 public class Main12704 {
 
+	/**
+	 * - Distancias
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

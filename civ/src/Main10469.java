@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main10469 {
 
 	/**
-	 * @param args
+	 * - Fórmula
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) 
 	{

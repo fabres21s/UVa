@@ -18,9 +18,7 @@ public class Main101 {
 	static int[] pos;
 
 	/**
-	 * @param args
-	 * @throws IOException
-	 * @throws NumberFormatException
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {

@@ -14,6 +14,9 @@ import java.io.InputStreamReader;
 public class Main10018 {
 
 	/**
+	 * - Cadena de caracteres
+	 * - Proceso matemático
+	 * 
 	 * Tomar un número, preguntar si el inverso es igual, si no lo es sumarlo
 	 */
 	public static void main(String[] args) throws IOException {

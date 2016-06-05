@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12364 {
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) {
 		String nums[] = { ".*\n**\n..\n", "*.\n..\n..\n", "*.\n*.\n..\n",

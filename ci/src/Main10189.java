@@ -12,7 +12,7 @@ import java.util.Scanner;
 */
 public class Main10189 {
 	/**
-	 * @param args
+	 * - Arreglos
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

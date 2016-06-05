@@ -15,7 +15,7 @@ import java.util.Vector;
 public class Main156 {
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

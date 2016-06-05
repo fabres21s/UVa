@@ -14,7 +14,7 @@ public class Main12239 {
 	static Vector<Integer> numeros = new Vector<Integer>();
 
 	/**
-	 * @param args
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		Scanner lectura = new Scanner(System.in);

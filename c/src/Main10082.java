@@ -14,8 +14,7 @@ import java.io.InputStreamReader;
 public class Main10082 {
 
 	/**
-	 * @param args
-	 * @throws IOException
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) throws IOException {
 		String abc = "`1234567890-=QWERTYUIOP[]\\ASDFGHJKL;'ZXCVBNM,./";

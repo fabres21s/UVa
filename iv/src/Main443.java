@@ -10,6 +10,10 @@ import java.util.Scanner;
 *	Ranking:	4470
 */
 public class Main443 {
+	/**
+	 * - Pregenerados
+	 * - Proceso matemático
+	 */
 public static void main(String[] args)
 	{
 	int c=0,x;

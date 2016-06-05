@@ -15,8 +15,11 @@ import java.math.BigInteger;
 public class Main10338 {
 
 	/**
-	 * 10338 - Mischievos Children - Permutaciones, Estadística, Arreglos, Big
-	 * Numbers Encontrar, en una palabra, la cantidad de posibles permutaciones
+	 * - Arreglos
+	 * - Estadística
+	 * - Big Numbers
+	 * 
+	 * Encontrar, en una palabra, la cantidad de posibles permutaciones
 	 * que salen a partir de las letras de ella
 	 */
 	public static void main(String[] args) throws NumberFormatException,

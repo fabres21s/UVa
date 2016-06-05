@@ -13,7 +13,8 @@ import java.util.Scanner;
 public class Main748 {
 
 	/**
-	 * @param args
+	 * - Potencias
+	 * - Big Numbers
 	 */
 	public static void main(String[] args) {
 

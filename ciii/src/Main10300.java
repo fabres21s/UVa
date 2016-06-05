@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10300 {
 
 	/**
-	 * @param args
+	 * - Muy fácil
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

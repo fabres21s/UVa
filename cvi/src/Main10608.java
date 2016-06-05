@@ -5,18 +5,6 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * 10608 - Friends
- * 
- * - Grafos, Búsqueda en profundidad - Grafos bidireccionales - Queue
- * 
- * Encontrar la cadena más larga de amigos en un grupo de personas con sus
- * respectivas amistades dadas
- * 
- * @author fabio
- *
- */
-
-/**
 *	10608 - Friends
 *
 *
@@ -27,6 +15,14 @@ import java.util.Scanner;
 */
 public class Main10608 {
 
+	/**
+	 * - Grafos bidireccionales
+	 * - Búsqueda en profundidad
+	 * - Queue
+	 * 
+	 * Encontrar la cadena más larga de amigos en un grupo de personas con sus
+	 * respectivas amistades dadas
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

@@ -2,12 +2,6 @@ import java.util.*;
 import java.io.*;
 
 /**
- * 11463 - Commandos Grafos, Floyd Warshall - no lo hice yo El algoritmo
- * consiste en hallar las distancias mínimas entre dos nodos siendo así, una
- * generalización del Dijkstra
- *
- */
-/**
 *	11463 - Commandos
 *
 *
@@ -18,8 +12,16 @@ import java.io.*;
 */
 public class Main11463 {
 
+	
 	static final int INF = (int) 1e9;
 
+	/**
+	 * - Floyd Warshall
+	 * 
+	 * El algoritmo
+	 * consiste en hallar las distancias mínimas entre dos nodos siendo así, una
+	 * generalización del Dijkstra
+	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 

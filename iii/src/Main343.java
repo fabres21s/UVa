@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main343 {
 
 	/**
-	 * @param args
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

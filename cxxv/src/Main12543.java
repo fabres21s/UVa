@@ -14,13 +14,10 @@ import java.io.InputStreamReader;
 public class Main12543 {
 
 	/**
-	 * 12543 - Longest Word
-	 *
-	 * Cadena de Caracteres
-	 *
+	 * - Cadena de caracteres
+	 * 
 	 * Encontrar la palabra más grande de la entrada entiendase por palabra,
 	 * caracteres de la a a la z seguidos, incluyendo -
-	 * 
 	 */
 	public static void main(String[] args) throws IOException {
 

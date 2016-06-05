@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10107{
 
 	/**
-	 * @param args
+	 * - Estadística
 	 */
 	public static void main(String[] args) {
 		/*

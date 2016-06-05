@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11614 {
 
 	/**
-	 * @param args
+	 * - Sumatoria de números
 	 */
 	public static void main(String[] args) {
 

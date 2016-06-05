@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10509 {
 
 	/**
-	 * @param args
+	 * - Fórmula
 	 */
 	public static void main(String[] args) 
 	{

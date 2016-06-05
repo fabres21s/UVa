@@ -12,7 +12,9 @@ import java.util.Scanner;
 public class Main10550 {
 
 	/**
-	 * 10550 - Combination Lock -Simulación Dado un candado de combinación (3
+	 * - Simulación
+	 * 
+	 * Dado un candado de combinación (3
 	 * valores) y una posición inicial encontrar cuantos grados hay que girarlo
 	 * para abrir el candado
 	 */

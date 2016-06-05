@@ -11,9 +11,11 @@ import java.util.Scanner;
 */
 public class Main12959 {
 
-	/*
-	 * Simulación, j jugadores, r rondas ver que jugador obtiene más puntos en
-	 * todas las rondas
+	/**
+	 * - Simulación
+	 * 
+	 * j jugadores, r rondas ver que jugador obtiene más puntos en
+	 * todas las rondas.
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

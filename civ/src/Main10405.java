@@ -13,7 +13,7 @@ public class Main10405 {
 	static int LCS[][] = new int[1005][1005];
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

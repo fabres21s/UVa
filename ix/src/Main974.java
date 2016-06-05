@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main974 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		int kaprekars[] = { 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879,

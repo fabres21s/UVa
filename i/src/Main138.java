@@ -11,7 +11,7 @@
 public class Main138 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
 	 */
 	public static void main(String[] args) {
 		int R[] = { 6, 8, 35, 49, 204, 288, 1189, 1681, 6930, 9800, 40391,

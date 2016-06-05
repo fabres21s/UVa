@@ -14,11 +14,12 @@ import java.util.Scanner;
 */
 public class Main12461 {
 
-	/*
-	 * Fácil, la probabilidad que la encuentre vacía siempre será 1/2 vacía u
+	/**
+	 * - Muy fácil
+	 * 
+	 * La probabilidad que la encuentre vacía siempre será 1/2 vacía u
 	 * ocupada son las dos opciones
 	 */
-
 	public static void main(String[] args) throws IOException {
 
 		Scanner input = new Scanner(System.in);

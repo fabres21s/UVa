@@ -14,7 +14,10 @@ import java.io.InputStreamReader;
 public class Main10530 {
 
 	/**
-	 * 10530 - Guessing Game Arreglo - Validaciones El juego de adivinar un
+	 * - Validaciones
+	 * - Arreglos
+	 * 
+	 * El juego de adivinar un
 	 * número del 1 al 10 y verificar si la persona cambia el número, hace
 	 * trampa, o está siendo honesto
 	 */

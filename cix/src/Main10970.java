@@ -13,8 +13,7 @@ import java.util.Scanner;
 public class Main10970 {
 
 	/**
-	 * @param args
-	 * @throws IOException
+	 * - Simulación
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

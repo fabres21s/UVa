@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main113 {
 
 	/**
-	 * @param args
+	 * - Potencias
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

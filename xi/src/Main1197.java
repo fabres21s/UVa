@@ -5,17 +5,6 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * 1197 - The Suspects
- * 
- * - Grafos, Búsqueda en profundidad - Grafos bidireccionales - Queue
- * 
- * Encontrar cuantos nodos están conectados al nodo 0
- * 
- * @author fabio
- *
- */
-
-/**
 *	1197 - The Suspects
 *
 *
@@ -26,6 +15,13 @@ import java.util.Scanner;
 */
 public class Main1197 {
 
+	/**
+	 * - Grafos bidireccionales
+	 * - Búsqueda en profundidad
+	 * - Queue
+	 * 
+	 * Encontrar cuantos nodos están conectados al nodo 0
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

@@ -14,9 +14,7 @@ public class Main371
 	static int mayor=0;
 
 	/**
-	 * @param args
-	 * @throws IOException 
-	 * @throws NumberFormatException 
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) 
 	{

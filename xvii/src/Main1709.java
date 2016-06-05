@@ -20,6 +20,9 @@ Dada una fórmula, encontrar su pico y la máxima diferencia con el punto más b
 */
 public class Main1709 {
 
+	/**
+	 * - Proceso matemático
+	 */
 	public static void main(String[] args) {
 		// 42 1 23 4 8 10
 		// 100 432 406 867 60 1000

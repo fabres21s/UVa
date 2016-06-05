@@ -12,10 +12,11 @@ import java.util.Scanner;
 public class Main1585 {
 	
 	/**
-	 * Validaciones
-		se tiene ej, OOOOOOXOXOXOX
-		por la primera O se suma 1, por la segunda 2 y así
-		al encontrar una x, se vuelve a empezar de 0
+	 * - Validaciones
+	 * 
+	 *	Se tiene ej, OOOOOOXOXOXOX
+	 *	por la primera O se suma 1, por la segunda 2 y así
+	 *	al encontrar una x, se vuelve a empezar de 0
 	 */
 	
 	public static void main(String [] args) {

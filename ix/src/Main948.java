@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main948 {
 
 	/**
-	 * @param args
+	 * - Fibonacci
 	 */
 	public static void main(String[] args) {
 		int fibos[] = new int[40];

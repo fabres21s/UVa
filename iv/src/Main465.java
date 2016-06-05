@@ -13,7 +13,6 @@ import java.util.Scanner;
 public class Main465 {
 
 	/**
-	 *465 - Overflow
 	 * - Grandes números
 	 * Dados dos números y una operación, determinar si cada uno es mayor que 2^32 y si el resultado también lo es 
 	 */

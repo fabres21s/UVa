@@ -15,7 +15,9 @@ public class Main369 {
 	static BigInteger facts[] = new BigInteger[105];
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Factorial
+	 * - Big Numbers
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

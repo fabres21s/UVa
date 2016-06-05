@@ -5,14 +5,6 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * 10034 - Freckless
- * 
- * - Grafos, bidireccionales, Kruskal, Recursividad, Set Hallar el �rbol de
- * expansi�n m�nimo en un plano cartesiano en el que todos sus puntos se
- * interconectan
- *
- */
-/**
 *	10034 - Freckles
 *
 *
@@ -23,6 +15,17 @@ import java.util.Set;
 */
 public class Main10034 {
 
+	/**
+	 * - Grafos bidireccionales
+	 * - Kruskal
+	 * - Set
+	 * - Recursividad
+	 * 
+	 * Hallar el árbol de
+	 * expansión mínimo en un plano cartesiano en el que todos sus puntos se
+	 * interconectan
+	 * 
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int testCaases = input.nextInt();

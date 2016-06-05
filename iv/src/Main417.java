@@ -13,6 +13,10 @@ import java.util.Scanner;
 */
 public class Main417 {
 
+	/**
+	 * - Pregenerados
+	 * - Map
+	 */
 	public static void main(String[] args) {
 		long t=System.currentTimeMillis();
 		Map<String, Integer> map = new HashMap<String, Integer>();

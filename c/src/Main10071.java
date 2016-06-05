@@ -11,11 +11,12 @@ import java.util.Scanner;
 */
 public class Main10071 {
 
-	/*
-	 * 10071 - Back to High School Physics -Muy Fácil Dadas la velocidad y el
+	/**
+	 * - Muy fácil
+	 * 
+	 * Dadas la velocidad y el
 	 * tiempo, hallar el espacio recorrido en el doble de ese tiempo
 	 */
-
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext()) {

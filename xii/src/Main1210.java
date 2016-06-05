@@ -1,12 +1,5 @@
 import java.util.Scanner;
 
-/*
- * 1210 - Sum of Consecutive Prime Numbers
- * -Números Primos - Pregenerados
- * Hallar la cantidad de maneras que un número puede ser generado a partir de 
- * la suma de 2 o más números primos consecutivos
- */
-
 /**
 *	1210 - Sum of Consecutive Prime Numbers
 *
@@ -18,6 +11,13 @@ import java.util.Scanner;
 */
 public class Main1210 {
 
+	/**
+	 * - Pregenerados
+	 * - Números Primos
+	 * 
+	 * Hallar la cantidad de maneras que un número puede ser generado a partir de 
+	 * la suma de 2 o más números primos consecutivos
+	 */
 	public static int[] arregloSol = new int[10005];
 
 	public static void main(String[] args) {

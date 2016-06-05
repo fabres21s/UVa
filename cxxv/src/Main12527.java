@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12527 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
 	 */
 	public static void main(String[] args) {
 		boolean arreglo[] = new boolean[5005];

@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11466 {
 
 	/**
-	 * @param args
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

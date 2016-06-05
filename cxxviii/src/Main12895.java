@@ -1,12 +1,6 @@
 import java.util.Scanner;
 
 /**
- * 12895 - Armstrong Number Dado un número, encontrar si la sumatoria de cada
- * dígito, elevado a la potencia cantidad de digitos, es igual alnúmero original
- * ej 153 1^3 +5^3 +3^3 = 152 Arreglos, potencias
- *
- */
-/**
 *	12895 - Armstrong Number
 *
 *
@@ -17,6 +11,14 @@ import java.util.Scanner;
 */
 public class Main12895 {
 
+	/**
+	 * - Arreglos
+	 * - Potencias
+	 * 
+	 * Dado un número, encontrar si la sumatoria de cada
+	 * dígito, elevado a la potencia cantidad de digitos, es igual alnúmero original
+	 * ej 153 1^3 +5^3 +3^3 = 153
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int testCases = input.nextInt();

@@ -13,6 +13,9 @@ import java.util.Scanner;
 */
 public class Main10935 {
 
+	/**
+	 * - Simulación
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		StringBuffer output = new StringBuffer();

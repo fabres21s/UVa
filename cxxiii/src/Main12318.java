@@ -12,10 +12,12 @@ import java.util.Scanner;
 public class Main12318 {
 
 	/**
-	 * Time Limit en Java Exactamente el mismo algoritmo en C++ es Aceptado
-	 * -Modular -Proceso matemático
+	 * - Modular
+	 * - Proceso matemático
 	 * 
 	 * Encontrar la cantidad de residuos generados tras ejecutar un polinomio
+	 * 
+	 * Time Limit en Java Exactamente el mismo algoritmo en C++ es Aceptado
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

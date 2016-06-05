@@ -18,14 +18,14 @@ import java.util.Scanner;
 */
 public class Main1056 {
 
-	/*
-	 * 1056 - Degrees of Separation
+	/**
+	 * - Grafos bidireccionales
+	 * - Búsqueda en profundidad
+	 * - Queue
 	 * 
-	 * Grafos, Búsqueda en profundidad, grafos bidireccionales, Queue
 	 * Hallar el máximo grado de separación entre un grupo de personas
 	 * con unas relaciones preestablecidas
 	 */
-	
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);

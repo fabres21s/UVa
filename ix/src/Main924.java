@@ -6,18 +6,6 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * 924 - Spreading The News
- * 
- * - Grafos, Búsqueda en profundidad - Grafos dirigidos - Queue - Dado un grafo
- * dirigido, tomar un nodo como principal, hacer una búsqueda en profundidad
- * hallar en qué nivel se encuentran la mayor cantidad de nodos y cuantos nodos
- * hay
- * 
- * @author fabio
- *
- */
-
-/**
 *	924 - Spreading The News
 *
 *
@@ -28,6 +16,16 @@ import java.util.Scanner;
 */
 public class Main924 {
 
+	/**
+	 * - Búsqueda en profundidad
+	 * - Grafos dirigidos
+	 * - Queue
+	 * 
+	 * Dado un grafo
+	 * dirigido, tomar un nodo como principal, hacer una búsqueda en profundidad
+	 * hallar en qué nivel se encuentran la mayor cantidad de nodos y cuantos nodos
+	 * hay
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int employees = input.nextInt();

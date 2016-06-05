@@ -16,7 +16,7 @@ public class Main357 {
 	static long coin[] = { 50, 25, 10, 5, 1 };
 
 	/**
-	 * @param args
+	 * - Pregenerados
 	 */
 	public static void main(String[] args) {
 		int n;

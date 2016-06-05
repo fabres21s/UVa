@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10424 {
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) {
 		String abc = " abcdefghijklmnopqrstuvwxyz";

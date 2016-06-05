@@ -9,6 +9,9 @@
 */
 public class Main12478 {
 
+	/**
+	 * - Muy fácil
+	 */
 	public static void main(String[] args) {
 		System.out.println("KABIR");
 		// QUE PENDEJADA

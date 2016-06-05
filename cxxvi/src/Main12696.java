@@ -12,11 +12,12 @@ import java.util.Scanner;
 */
 public class Main12696 {
 
-	/*
-	 * validar tamaño y peso de una maleta que no supere 125cm, excepto con 56,
+	/**
+	 * - Validaciones
+	 * 
+	 * Validar tamaño y peso de una maleta que no supere 125cm, excepto con 56,
 	 * 45 y 25 - ni 7kg
 	 */
-
 	public static void main(String[] args) throws IOException {
 
 		Scanner input = new Scanner(System.in);

@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main11970 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

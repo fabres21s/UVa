@@ -11,8 +11,10 @@ import java.util.Scanner;
 */
 public class Main541 {
 
-	/*
-	 * verificar si la suma de los valores en un arreglo por filas y columnas es
+	/**
+	 * - Arreglos
+	 * 
+	 * Verificar si la suma de los valores en un arreglo por filas y columnas es
 	 * par, o si se puede arreglar cambiando un valor
 	 */
 	public static void main(String[] args) {

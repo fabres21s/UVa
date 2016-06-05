@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main706 {
 
 	/**
-	 * @param args
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

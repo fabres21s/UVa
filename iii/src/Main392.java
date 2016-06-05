@@ -15,6 +15,9 @@ import java.util.Scanner;
 */
 public class Main392 {
 
+	/**
+	 * - Proceso matemático
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int n;

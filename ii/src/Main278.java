@@ -11,9 +11,8 @@ import java.util.Scanner;
 *	Ranking:	3343
 */
 public class Main278 {
-
 	/**
-	 * @param args
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

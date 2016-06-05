@@ -12,10 +12,11 @@ import java.util.Scanner;
 public class Main12517 {
 
 	/**
-	 * 12517 - Digit Sum Recursividad, Proceso matemático Encontrar la sumatoria
-	 * de los digitos hasta n,
+	 * - Recursividad
+	 * - Proceso matemático
 	 * 
-	 * @param args
+	 * Encontrar la sumatoria
+	 * de los digitos hasta n
 	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

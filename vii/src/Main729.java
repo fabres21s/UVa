@@ -17,11 +17,13 @@ import java.util.Scanner;
 public class Main729 {
 
 	/**
-	 * 729 - The Hamming Distance Problem Pregnerados, Sistemas de numeración,
-	 * Map, list Dado un número n y una catidad de unos, encontrar, en binario
-	 * hasta 2^n los números que cantidad dicha cantidad de unos
+	 * - Pregenerados
+	 * - Map
+	 * - List
+	 * - Sistemas de numeración
 	 * 
-	 * @param args
+	 * Dado un número n y una catidad de unos, encontrar, en binario
+	 * hasta 2^n los números que cantidad dicha cantidad de unos
 	 */
 	public static void main(String[] args) {
 

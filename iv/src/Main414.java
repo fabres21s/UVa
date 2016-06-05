@@ -1,14 +1,6 @@
 import java.util.Scanner;
 
 /**
- * 414 - Machined Surfaces
- * Arreglos - Simulación
- * Determinar cuantos espacios en blanco hay, y cuantos pueden ser eliminados
- * teniendo en cuenta que solo se pueden eliminar la menor cantidad de espacios blancos en todas las filas
- * @author fabio
- *
- */
-/**
 *	414 - Machined Surfaces
 *
 *
@@ -19,6 +11,13 @@ import java.util.Scanner;
 */
 public class Main414 {
 
+	/**
+	 * - Simulación
+	 * - Arreglos
+	 * 
+	 * Determinar cuantos espacios en blanco hay, y cuantos pueden ser eliminados
+	 * teniendo en cuenta que solo se pueden eliminar la menor cantidad de espacios blancos en todas las filas
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int rows ;

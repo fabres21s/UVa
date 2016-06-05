@@ -14,7 +14,8 @@ public class Main10924 {
 			43, 47, 53 };
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		String letras = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";

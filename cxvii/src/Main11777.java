@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11777 {
 
 	/**
-	 * @param args
+	 * - Sort
 	 */
 	public static void main(String[] args) {
 

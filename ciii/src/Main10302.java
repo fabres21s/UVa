@@ -13,7 +13,8 @@ import java.util.Scanner;
 public class Main10302 {
 
 	/**
-	 * @param args
+	 * - Sumatoria de números
+	 * - Big Numbers
 	 */
 	public static void main(String[] args) {
 		BigInteger x;

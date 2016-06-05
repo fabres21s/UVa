@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main530 {
 
 	/**
-	 * @param args
+	 * - GCD
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

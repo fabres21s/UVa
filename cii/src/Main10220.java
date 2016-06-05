@@ -102,7 +102,7 @@ public class Main10220 {
 			10539, 10539 };
 
 	/**
-	 * @param args
+	 * - Pregenerados
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

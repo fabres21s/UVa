@@ -28,9 +28,7 @@ import java.util.Scanner;
 public class Main100 {
 
 	/**
-	 * @param args
-	 * @throws IOException
-	 * @throws NumberFormatException
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		int a, b;

@@ -11,7 +11,7 @@
 public class Main386 {
 
 	/**
-	 * @param args
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) 
 	{

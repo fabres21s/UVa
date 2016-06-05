@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main474 {
 
 	/**
-	 * @param args
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) 
 	{

@@ -17,8 +17,7 @@ import java.util.LinkedList;
 public class Main146 {
 
 	/**
-	 * @param args
-	 * @throws IOException
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(

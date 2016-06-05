@@ -13,8 +13,9 @@ import java.util.Vector;
 public class Main10110 {
 	static Vector<Integer> v = new Vector<Integer>();
 
+
 	/**
-	 * @param args
+	 * - Potencias
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

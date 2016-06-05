@@ -11,6 +11,9 @@ import java.util.Scanner;
 */
 public class Main12908 {
 
+	/**
+	 * - Sumatoria de números
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int sumInicial, r, sumReal;

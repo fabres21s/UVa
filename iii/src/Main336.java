@@ -8,17 +8,6 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * 336 - A Node Too Far
- * 
- * - Grafos, Búsqueda en profundidad - Grafos dirigidos - Queue - En una red de
- * computadores, y dado un TTL, mostrar cuantos equipos no son alcanzables,
- * desde un origen dado
- * 
- * @author fabio
- *
- */
-
-/**
 *	336 - A Node Too Far
 *
 *
@@ -29,6 +18,15 @@ import java.util.Scanner;
 */
 public class Main336 {
 
+	/**
+	 * - Búsqueda en profundidad
+	 * - Grafos dirigidos
+	 * - Queue
+	 * 
+	 * En una red de
+	 * computadores, y dado un TTL, mostrar cuantos equipos no son alcanzables,
+	 * desde un origen dado
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

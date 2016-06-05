@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11847 {
 
 	/**
-	 * @param args
+	 * - Logaritmos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

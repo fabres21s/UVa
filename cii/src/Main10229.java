@@ -34,6 +34,9 @@ public class Main10229 {
 		return res;
 	}
 
+	/**
+	 * - Fibonacci
+	 */
 	public static void main(String[] args) {
 		int[][] init = { { 1, 1 }, { 1, 0 } };
 		Scanner in = new Scanner(System.in);

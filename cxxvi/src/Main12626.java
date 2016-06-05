@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Main12626 {
 
 	/**
-	 * @param args
+	 * - Map
 	 */
 	public static void main(String[] args) {
 

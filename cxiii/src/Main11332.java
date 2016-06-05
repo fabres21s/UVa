@@ -13,7 +13,7 @@ public class Main11332 {
 	static int sum;
 
 	/**
-	 * @param args
+	 * - Recursividad
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

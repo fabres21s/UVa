@@ -13,7 +13,8 @@ public class Main686 {
 	static int[] primos = new int[3513];
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		generar();

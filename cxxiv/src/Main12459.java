@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12459 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
 	 */
 	public static void main(String[] args) {
 		long x[] = new long[85];

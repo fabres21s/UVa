@@ -21,6 +21,14 @@ import java.io.InputStreamReader;
 */
 public class Main10679 {
 
+	/**
+	 * - Cadena de caracteres
+	 * - Búsqueda
+	 * - Arreglos
+	 * 
+	 * En una
+	 * cadena de caracteres, ver si un string es substring de la cadena original
+	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

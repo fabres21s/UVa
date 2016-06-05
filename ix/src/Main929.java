@@ -5,14 +5,6 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
- * 929 - Number Maze Dado un arreglo (grafo) siendo los pesos el valor que hay
- * en cada posición del areglo, encontrar la ruta más corta para ir de la
- * posición 0,0 a la m-1,n-1
- * 
- * Arreglos. grafos, dijkstra, cola prioridad
- */
-
-/**
 *	929 - Number Maze
 *
 *
@@ -23,6 +15,15 @@ import java.util.PriorityQueue;
 */
 public class Main929 {
 
+	/**
+	 * - Dijkstra con arreglos
+	 * - Arreglos
+	 * - Priority Queue
+	 * 
+	 * Dado un arreglo (grafo) siendo los pesos el valor que hay
+	 * en cada posición del areglo, encontrar la ruta más corta para ir de la
+	 * posición 0,0 a la m-1,n-1
+	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
 

@@ -1,13 +1,6 @@
 import java.util.Scanner;
 
 /**
- * 13004 - At most twice
- * Arreglos, Recursividad
- * Dado n, encontrar un número <= n
- * que no tenga los digitos más de dos veces
- */
-
-/**
 *	13004 - At most twice
 *
 *
@@ -18,6 +11,13 @@ import java.util.Scanner;
 */
 public class Main13004 {
 
+	/**
+	 * - Arreglos
+	 * - Recursividad
+	 * 
+	 *  Dado n, encontrar un número <= n
+	 * que no tenga los digitos más de dos veces
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext()) {

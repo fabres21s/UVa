@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10499 {
 
 	/**
-	 * @param args
+	 * - Muy fácil
 	 */
 	public static void main(String[] args) {
 		long n;

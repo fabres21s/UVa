@@ -13,7 +13,8 @@ import java.util.Scanner;
 public class Main10931 {
 
 	/**
-	 * @param args
+	 * - Big Numbers
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) {
 		String s, cs;

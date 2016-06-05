@@ -38,6 +38,9 @@ class Main406
 		return (buffer.toString().trim());
 	}
 	
+	/**
+	 * TODO Asignar Categoría!!!
+	 */
 	public static void main(String[] args) 
 	{
 		(new Main406()).begin();

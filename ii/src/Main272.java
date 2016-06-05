@@ -1,12 +1,5 @@
 import java.util.Scanner;
 
-/*
- 272 - Tex Quotes
- - Cadena de caracteres, reemplazar
- Reemplazar la primer comilla por `` y la segunda por ''
-
- */
-
 /**
 *	272 - TEX Quotes
 *
@@ -19,7 +12,9 @@ import java.util.Scanner;
 public class Main272 {
 
 	/**
-	 * @param args
+	 * - Reemplazo de caracteres
+	 * 
+	 * Reemplazar la primer comilla por `` y la segunda por ''
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

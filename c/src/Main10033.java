@@ -30,6 +30,9 @@ class Main10033 implements Runnable {
 		}
 	}
 
+	/**
+	 * TODO Asignar Categoría!!!
+	 */
 	public static void main(String args[]) {
 		Main10033 myWork = new Main10033();
 		myWork.run();

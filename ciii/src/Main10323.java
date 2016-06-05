@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main10323 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Factorial
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

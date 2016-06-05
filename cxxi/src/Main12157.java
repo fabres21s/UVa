@@ -11,6 +11,9 @@ import java.util.Scanner;
 */
 public class Main12157 {
 
+	/**
+	 * - Simulación
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int cases = input.nextInt() + 1;

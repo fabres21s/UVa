@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12324 {
 
 	/**
-	 * @param args
+	 * - Simulación
 	 */
 
 	public static void main(String[] args) {

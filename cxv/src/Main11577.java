@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Main11577 {
 
 	/**
-	 * @param args
+	 * Cadena de caracteres
 	 */
 	public static void main(String[] args) throws IOException {
 

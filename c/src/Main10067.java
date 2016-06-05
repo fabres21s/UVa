@@ -7,7 +7,7 @@ public class Main10067 {
 	static int[][] invalido;
 
 	/**
-	 * time limit no sé en realidad, pero está muy bravo +1, +10, +100, +1000
+	 * time limit no sé en realidad, pero está muy bravo +-1, +-10, +-100, +-1000
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

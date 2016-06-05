@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main389 {
 
 	/**
-	 * @param args
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) 
 	{

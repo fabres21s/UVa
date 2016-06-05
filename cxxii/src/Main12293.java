@@ -11,8 +11,11 @@ import java.util.Scanner;
 */
 public class Main12293 {
 
-	/*
-	 * Logaritmos, simulacion un poco complicado de entender los casos de prueba
+	/**
+	 * - Simulación
+	 * - Logaritmos
+	 * 
+	 * Un poco complicado de entender los casos de prueba
 	 * no son de mucha ayuda inicialmente daba tle, estando correcto
 	 */
 	public static void main(String[] args) {

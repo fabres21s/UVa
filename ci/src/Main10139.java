@@ -14,9 +14,9 @@ public class Main10139 {
 	static int Len;
 
 	/**
-	 * @param args
-	 * @throws IOException
-	 * @throws NumberFormatException
+	 * - Pregenerados
+	 * - Factorial
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

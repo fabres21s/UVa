@@ -20,7 +20,7 @@ public class Main10591 {
 	static boolean happy;
 
 	/**
-	 * @param args
+	 * - Pregenerados
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

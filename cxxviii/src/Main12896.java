@@ -1,15 +1,6 @@
 import java.util.Scanner;
 
 /**
- * 12896 - Mobile SMS Dado un teclado de celular, de los antiguos, el número que
- * se presionó y la cantidad de veces que hizo, encontrar el mensaje que fue
- * escrito
- * 
- * -Arreglos
- *
- */
-
-/**
 *	12896 - Mobile SMS
 *
 *
@@ -21,6 +12,13 @@ import java.util.Scanner;
 
 public class Main12896 {
 
+	/**
+	 * - Arreglos
+	 * 
+	 * Dado un teclado de celular, de los antiguos, el número que
+	 * se presionó y la cantidad de veces que hizo, encontrar el mensaje que fue
+	 * escrito
+	 */
 	public static void main(String[] args) {
 		String arrayLetras[][] = { { "", " " }, { "", ".", ",", "?", "\"" },
 				{ "", "a", "b", "c", "\"" }, { "", "d", "e", "f", "\"" },

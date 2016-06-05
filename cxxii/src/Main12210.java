@@ -2,15 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * 12210 - A Match Making Problem Fácil - Validaciones Encontrar los
- * emparejamientos entre hombres y mujeres
- * 
- * y ver si hombres quedan sin pareja, de ser así imprimer la edad del menor
- * 
- * @author fabio
- *
- */
+
 /**
 *	12210 - A Match Making Problem
 *
@@ -22,6 +14,14 @@ import java.io.InputStreamReader;
 */
 public class Main12210 {
 
+	/**
+	 * - Muy fácil
+	 * - Validaciones
+	 * 
+	 * Encontrar los
+	 * emparejamientos entre hombres y mujeres
+	 * y ver si hombres quedan sin pareja, de ser así imprimer la edad del menor
+	 */
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

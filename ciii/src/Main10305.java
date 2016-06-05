@@ -6,17 +6,6 @@ import java.util.Scanner;
 import java.util.Stack;
 
 /**
- * 10305 - Ordering Tasks
- * 
- * - Grafos, Topological Sort - Grafos dirigidos - Stack
- * 
- * Encontrar el orden de ejecución de unas tareas, unas dependen den otras
- * 
- * @author fabio
- *
- */
-
-/**
 *	10305 - Ordering Tasks
 *
 *
@@ -27,6 +16,13 @@ import java.util.Stack;
 */
 public class Main10305 {
 
+	/**
+	 * - Ordenación topológica
+	 * - Grafos dirigidos
+	 * - Stack
+	 * 
+	 * Encontrar el orden de ejecución de unas tareas, unas dependen den otras
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

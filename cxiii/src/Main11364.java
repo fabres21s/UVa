@@ -24,7 +24,6 @@ public class Main11364 {
 	 * el objetivo es minimizar la distancia de recorrido, saliendo del parqueadero, pasando por todas las tiendas
 	 * y volver al parqueadero.
 	 */
-	//TODO Llevarlo al otro Workspace
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

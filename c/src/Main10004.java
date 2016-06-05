@@ -6,23 +6,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-/**
- * 
- * @author fabio
- *  
- * 		   10004 - Bicoloring
- * 
- *         Grafos, Bipartitos 
- *         Para que un grafo sea bipartito, bicoloreable, se
- *         debe cumplir que 2 nodos adyacentes le puedan ser asignados colores
- *         diferentes Se intentó hacerlo mediante conjuntos, llegada y salida
- *         (diágrama sagital) pero a pesar que coincidía con la salida del
- *         uDebug al enviarlo a UVa la respuesta era incorrecta
- *         
- *         Submit:	2016-04-07 03:06:00
- *         Runtime:	0.050
- *         Ranking:	11583
- */
 
 /**
 *	10004 - Bicoloring
@@ -37,6 +20,15 @@ public class Main10004 {
 
 
 
+	/**
+	 * - Grafos Bipartitos
+	 * 
+	 *  Para que un grafo sea bipartito, bicoloreable, se
+	 *  debe cumplir que 2 nodos adyacentes le puedan ser asignados colores
+	 *  diferentes Se intentó hacerlo mediante conjuntos, llegada y salida
+	 *  (diágrama sagital) pero a pesar que coincidía con la salida del
+	 *  uDebug al enviarlo a UVa la respuesta era incorrecta
+	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
 

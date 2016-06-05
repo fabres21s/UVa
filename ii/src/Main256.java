@@ -13,7 +13,8 @@ import java.util.Scanner;
 public class Main256 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Potencias
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -14,8 +14,8 @@ import java.util.Scanner;
 public class Main962 {
 
 	/**
-	 * @param args
-	 * @throws FileNotFoundException
+	 * - Pregenerados
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) throws IOException {
 		int[] taxicab = { 1729, 4104, 13832, 20683, 32832, 39312, 40033, 46683,

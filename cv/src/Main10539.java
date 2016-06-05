@@ -14,7 +14,7 @@ public class Main10539 {
 	static long[] A = new long[80070];
 
 	/**
-	 * @param args
+	 * - Pregenerados
 	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main11428 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		int cubos[] = new int[1000];

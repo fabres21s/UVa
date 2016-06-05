@@ -14,7 +14,7 @@ public class Main543 {
 	static Vector<Integer> primos = new Vector<Integer>();
 
 	/**
-	 * @param args
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

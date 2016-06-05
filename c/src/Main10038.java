@@ -13,9 +13,10 @@ import java.util.Vector;
 */
 public class Main10038 {
 
-	/*
-	 * 10038 - Jolly Jumpers - Estructuras de Datos, - Lo hice con vectores
-	 * cuando eso, lo mismo que lista - La diferencia absoluta entre valores
+	/**
+	 * - Vector
+	 * 
+	 * La diferencia absoluta entre valores
 	 * sucesivos de un conjunto de n números tenga los valores desde 1 hasta (n
 	 * -1) Si hay un solo valor, la secuencia se marca como saltarina
 	 */

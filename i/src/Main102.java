@@ -1,14 +1,5 @@
 import java.util.Scanner;
 
-/*
- * 102 - Ecological Bin Packing
- * -Simulaci�n
- * M�nimos movimientos necesarios para
- * intercambiar botellas de tres colores Brown, Clear y Gray
- * en tres cajas diferentes.
- * Inicialmente en desordem
- * */
-
 /**
 *	102 - Ecological Bin Packing
 *
@@ -26,7 +17,13 @@ public class Main102 {
 	static String res;
 
 	/**
-	 * @param args
+	 * - Simulación
+	 * - Proceso matemático
+	 * 
+	 * Mínimos movimientos necesarios para
+	 * intercambiar botellas de tres colores Brown, Clear y Gray
+	 * en tres cajas diferentes.
+	 * Inicialmente en desorden
 	 */
 	public static void main(String[] args) {
 		gla[0] = "B";

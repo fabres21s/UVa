@@ -11,11 +11,12 @@ import java.util.Scanner;
 */
 public class Main10055 {
 
-	/*
-	 * 10055 - Hashmat the Brave Warrior - Muy fácil Hallar el valor absoluto de
+	/**
+	 * - Muy fácil
+	 * 
+	 * Hallar el valor absoluto de
 	 * la resta de dos números
 	 */
-
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		long a, b;

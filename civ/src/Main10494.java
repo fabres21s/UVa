@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main10494 {
 
 	/**
-	 * @param args
+	 * - Big Numbers
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

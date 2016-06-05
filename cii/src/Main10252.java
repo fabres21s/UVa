@@ -16,7 +16,7 @@ import java.util.Vector;
 public class Main10252 {
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) throws IOException {
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(

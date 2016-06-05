@@ -12,7 +12,11 @@ import java.util.Scanner;
 public class Main12019 {
 
 	/**
-	 * @param args
+	 * - Calendario
+	 * - Proceso matemático
+	 * - Fórmula
+	 * 
+	 * Determinar el día de la semana de una fecha del 2011
 	 */
 	public static void main(String[] args) {
 		String days[] = { "Sunday", "Monday", "Tuesday", "Wednesday",

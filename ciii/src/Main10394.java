@@ -13,8 +13,8 @@ import java.util.Scanner;
 public class Main10394 {
 
 	/**
-	 * @param args
-	 * @throws IOException
+	 * - Pregenerados
+	 * - Números Primos
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

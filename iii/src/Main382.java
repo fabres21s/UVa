@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main382 {
 
 	/**
-	 * @param args
+	 * - Números Perfectos
 	 */
 	public static void main(String[] args) 
 	{

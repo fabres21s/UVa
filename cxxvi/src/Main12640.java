@@ -14,8 +14,7 @@ import java.io.InputStreamReader;
 class Main12640 {
 
 	/**
-	 * @param args
-	 * @throws IOException
+	 * - Validaciones
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader lect = new BufferedReader(new InputStreamReader(

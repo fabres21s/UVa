@@ -14,8 +14,9 @@ import java.util.Stack;
 */
 public class Main514 {
 
-	/*
-	 * Simulacion, stack
+	/**
+	 * - Simulación
+	 * - Stack
 	 * 
 	 * El ejercicio consiste en analizar si es posible poner y sacar de una pila
 	 * números en un determinado orden ej, si estaba 4,2,5,1,3

@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
 */
 public class Main10010 {
 	/**
-	 * @param args
+	 * - Arreglos
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

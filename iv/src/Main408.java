@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main408 {
 
 	/**
-	 * @param args
+	 * - GCD
 	 */
 	public static void main(String[] args) 
 	{

@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Main12798 {
 
 	/**
-	 * Muy fácil En un arreglo bidimensional, encontrar en cuantas filas todos
-	 * los números son mayores que 0
+	 * - Muy fácil
 	 * 
-	 * @param args
+	 * En un arreglo bidimensional, encontrar en cuantas filas todos
+	 * los números son mayores que 0
 	 */
 	public static void main(String[] args) {
 

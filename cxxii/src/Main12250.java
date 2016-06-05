@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main12250 {
 
 	/**
-	 * @param args
+	 * - Arreglos
 	 */
 	public static void main(String[] args) {
 		final String[] languages = { "FRENCH", "ITALIAN", "GERMAN", "ENGLISH",

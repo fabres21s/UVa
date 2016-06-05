@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main10678 {
 
 	/**
-	 * @param args
+	 * - Círculo
+	 * - Fórmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

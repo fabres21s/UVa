@@ -14,7 +14,7 @@ public class Main106 {
 	static int[] ss = new int[1000002];
 
 	/**
-	 * @param args
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

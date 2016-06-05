@@ -12,13 +12,13 @@ import java.util.Scanner;
 public class Main11152 {
 
 	/**
-	 * Matemáticas - Fórmula - Triángulos -Círculos
+	 * - Círculos
+	 * - Triángulos
+	 * - Fórmula
 	 * 
 	 * Dadas las medidas de un triángulo, hallar el área del círculo externo,
 	 * menos la del tríangulo, y hallar el área del círculo interno al
 	 * triángulo, y cuánto le queda al triángulo
-	 * 
-	 * @param args
 	 */
 	public static void main(String[] args) {
 

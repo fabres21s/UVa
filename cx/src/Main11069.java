@@ -13,7 +13,8 @@ public class Main11069 {
 	static long[] f = new long[80];
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Fibonacci
 	 */
 	public static void main(String[] args) {
 		calcular();

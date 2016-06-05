@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11827 {
 
 	/**
-	 * runtime error
+	 * - GCD
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

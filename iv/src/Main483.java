@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main483 {
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) throws IOException
 	{

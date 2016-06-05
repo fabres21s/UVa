@@ -14,9 +14,8 @@ import java.io.InputStreamReader;
 public class Main11831 {
 
 	/**
-	 * 11831 -Sticker Collector Robots
-	 * 
-	 * Simulación - Arreglos
+	 * - Simulación
+	 * - Arreglos
 	 * 
 	 * Dado un grid y un robot en una posición y con una orientación inicial
 	 * determinar cuantos stickers (*) recoge, teniendo en cuenta unas

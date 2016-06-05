@@ -12,10 +12,11 @@ import java.util.Scanner;
 */
 public class Main1225 {
 	/**
-	 * 1225 - Digit Counting Recursividad, Proceso matemático Encontrar cuantos
-	 * 0, 1, 2 , 3,4,5,6,7,8,9 hay hasta n
+	 * - Recursividad
+	 * - Proceso matemático
 	 * 
-	 * @param args
+	 * Encontrar cuantos
+	 * 0, 1, 2 , 3,4,5,6,7,8,9 hay hasta n
 	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -12,8 +12,9 @@ import java.util.Scanner;
 */
 public class Main11057 {
 
-	/*
-	 * Ordenar - Simulación
+	/**
+	 * - Simulación
+	 * - Sort
 	 * 
 	 * De una lista de números y un target, encontrar la menor diferencia oara
 	 * llegar al target

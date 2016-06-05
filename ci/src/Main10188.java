@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 */
 public class Main10188 {
 	/**
-	 * @param args
+	 * - Simulación
 	 */
 	public static void main(String[] args) throws IOException {
 		int casos = 0;

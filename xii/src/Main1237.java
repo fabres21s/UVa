@@ -1,15 +1,6 @@
 import java.util.Scanner;
 
 /**
- * 1237 - Expert Enough? simulacion de un conjunto de registros (marca, menor y
- * mayor) y un número dado, determinar la marca de ese rango, si no hay o hay
- * varias, indeterminado
- * 
- * @author fabio
- *
- */
-
-/**
 *	1237 - Expert Enough?
 *
 *
@@ -20,6 +11,13 @@ import java.util.Scanner;
 */
 public class Main1237 {
 
+	/**
+	 * - Simulación
+	 * 
+	 * De un conjunto de registros (marca, menor y
+	 * mayor) y un número dado, determinar la marca de ese rango, si no hay o hay
+	 * varias, indeterminado
+	 */
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);

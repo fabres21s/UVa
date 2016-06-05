@@ -13,7 +13,8 @@ import java.util.Scanner;
 public class Main299 {
 
 	/**
-	 * @param args
+	 * - Arreglos
+	 * - Sort
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

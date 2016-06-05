@@ -16,10 +16,9 @@ public class Main763 {
 	static BigInteger[] fibos = new BigInteger[120];
 
 	/**
-	 * Runtime Error
-	 * 
-	 * @throws IOException
-	 * 
+	 * - Pregenerados
+	 * - Fibonacci
+	 * - Big Numbers
 	 */
 	public static void main(String[] args) throws IOException {
 		generar();

@@ -15,7 +15,7 @@ public class Main674 {
 	static int D[] = { 50, 25, 10, 5, 1 };
 
 	/**
-	 * @param args
+	 * - Pregenerados
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

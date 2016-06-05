@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10783 {
 
 	/**
-	 * @param args
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		int[] arreglo = new int[100];

@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10222 {
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) {
 		String abc = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";

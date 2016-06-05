@@ -14,7 +14,7 @@ public class Main352 {
 	static String war[][];
 
 	/**
-	 * @param args
+	 * - Recursividad
 	 */
 	public static void main(String[] args) {
 		int m, n, i, j, x = 1;

@@ -13,12 +13,11 @@ import java.util.Scanner;
 */
 public class Main12554 {
 
-	/*
-	 * Validaciones
+	/**
+	 * - Validaciones
 	 * 
 	 * Validar que todos cantaran y no dejar la canción a medias
 	 */
-
 	public static void main(String[] args) {
 
 		List<String> song = new ArrayList<String>();

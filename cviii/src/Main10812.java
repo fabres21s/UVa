@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10812 {
 
 	/**
-	 * @param args
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		int x, y, k, z;

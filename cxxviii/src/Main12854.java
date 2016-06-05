@@ -11,6 +11,9 @@ import java.util.Scanner;
 */
 public class Main12854 {
 
+	/**
+	 * - Simulación
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int[] arregloX = new int[5];

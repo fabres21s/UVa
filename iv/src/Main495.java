@@ -15,7 +15,9 @@ import java.util.Scanner;
 public class Main495 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Fibonacci
+	 * - Big Numbers
 	 */
 	public static void main(String[] args) throws IOException
 	{

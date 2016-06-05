@@ -36,6 +36,9 @@ public class Main10205 {
 		return (new String(lin, 0, lg));
 	}
 
+	/**
+	 * - Simulación
+	 */
 	public static void main(String args[]) // entry point from OS
 	{
 		new MyClass(new Main10205()); // create a dinamic instance

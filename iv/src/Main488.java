@@ -14,7 +14,7 @@ public class Main488
 	static StringBuffer buffer;
 
 	/**
-	 * @param args
+	 * - Simulación
 	 */
 	public static void main(String[] args) 
 	{

@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Main11223 {
 
 	/**
-	 * @param args
+	 * - Map
 	 */
 	public static void main(String[] args) {
 		Map<String, String> map = new HashMap<String, String>();

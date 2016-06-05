@@ -14,12 +14,11 @@ import java.io.IOException;
 */
 public class Main458 {
 	
-	/*
- 	* 458 - The Decoder
- 	* - Cadena de caracteres
- 	* - Reemplazar un caracter por su ASCII - 7
- 	*
- 	* */
+	/**
+	 * - Reemplazo de caracteres
+	 * 
+	 * Reemplazar un caracter por su ASCII - 7
+	 */
 public static void main(String[] args) throws IOException 
 	{
 		DataInputStream in = new DataInputStream(System.in);

@@ -13,6 +13,11 @@ import java.util.Scanner;
 */
 public class Main11947 {
 
+	/**
+	 * - Calendario
+	 * 
+	 * Dada una fecha, sumarle 40 semanas, determinar en qué signo zodiacal cae
+	 */
 	public static void main(String[] args) {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");

@@ -11,6 +11,10 @@ import java.util.Scanner;
 */
 public class Main12646 {
 
+	/**
+	 * - Muy fácil
+	 * - Simulación
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int a, b, c;

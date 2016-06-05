@@ -10,7 +10,7 @@
 public class Main10128 {
 
 	/**
-	 * @param args
+	 * - Estadística
 	 */
 	public static void main(String[] args) 
 	{

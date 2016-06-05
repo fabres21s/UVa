@@ -16,6 +16,9 @@ public class Main12455 {
 	static boolean solucionado;
 	static int target;
 
+	/**
+	 * - Recursividad
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int cases = input.nextInt(), sum;

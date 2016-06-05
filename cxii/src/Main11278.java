@@ -18,6 +18,9 @@ public class Main11278 {
 			.toCharArray();
 	private static Scanner input;
 
+	/**
+	 * - Cadena de caracteres
+	 */
 	public static void main(String[] args) throws IOException {
 		try {
 

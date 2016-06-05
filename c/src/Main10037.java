@@ -21,6 +21,7 @@ public class Main10037 {
 	int totalSpeedOfCrossTheBridge;
 	int countOfPeople;
 
+	
 	public Main10037(InputStream inputStream, PrintStream printStream) {
 		in = new Scanner(inputStream);
 		out = printStream;
@@ -114,6 +115,9 @@ public class Main10037 {
 		return speedOfPeople;
 	}
 
+	/**
+	 * TODO Asignar Categoría!!!
+	 */
 	public static void main(String[] args) {
 		new Main10037(System.in, System.out);
 	}

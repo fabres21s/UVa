@@ -364,7 +364,8 @@ public class Main324 {
 			{ 160, 93, 58, 60, 74, 81, 58, 64, 59, 74 } };
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Factorial
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

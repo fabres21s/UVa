@@ -16,7 +16,7 @@ public class Main12247 {
 	static Vector<Integer> princesa = new Vector<Integer>();
 
 	/**
-	 * @param args
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

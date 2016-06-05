@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main11936 {
 
 	/**
-	 * @param args
+	 * - Triángulos
+	 * - Fórmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -20,7 +20,6 @@ public class Main11244 {
 	 * encontrar cuantas estrellas hay, teniendo en cuenta que si dos o más '*' se encuentran juntos,
 	 * no son estrellas.
 	 */
-	//TODO Llevarlo al otro Workspace
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String line;

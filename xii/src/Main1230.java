@@ -13,7 +13,7 @@ public class Main1230 {
 	static long x, y, z;
 
 	/**
-	 * @param args
+	 * - Modular
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

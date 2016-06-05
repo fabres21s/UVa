@@ -14,7 +14,7 @@ public class Main576 {
 	static String vocales = "aeiouy";
 
 	/**
-	 * @param args
+	 * - Cadena de caracteres
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

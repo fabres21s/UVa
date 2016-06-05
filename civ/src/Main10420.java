@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class Main10420 {
 
 	/**
-	 * @param args
+	 * - Map
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

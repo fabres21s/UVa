@@ -13,7 +13,7 @@ public class Main10104 {
 	static int lastx = 1, lasty = 1;
 
 	/**
-	 * @param args
+	 * - GCD
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

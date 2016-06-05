@@ -13,8 +13,10 @@ import java.io.InputStreamReader;
 */
 public class Main11734 {
 
-	/*
-	 * Cadenas de caracteres Comparar una respuesta correcta, con una propuesta
+	/**
+	 * - Reemplazo de caracteres
+	 * 
+	 * Comparar una respuesta correcta, con una propuesta
 	 * si son iguales, YES si difieren en espacios OFE si no WA
 	 */
 	public static void main(String[] args) throws NumberFormatException,

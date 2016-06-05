@@ -10,7 +10,8 @@
 public class Main136 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		/*

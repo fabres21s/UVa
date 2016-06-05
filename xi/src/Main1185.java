@@ -1,24 +1,6 @@
 import java.util.Scanner;
 
 /**
- * 1185 - Big Number Pregenerados - Factorial - Logaritmos Encontrar la cantidad
- * de digitos de n! siendo n hasta 10^7 Se hizo uso de los conceptos que, para
- * saber los digitos de un número es
- * 
- * log(n) + 1
- * 
- * así, para n! sería
- * 
- * log(n!) +1
- * 
- * pero como no podemos calcular n! y n! = 1*2*3*4*...*n nos valemos de la
- * propiedad de los logaritmos log (a*b) = log(a) + log(b)
- * 
- * @author fabio
- *
- */
-
-/**
 *	1185 - Big Number
 *
 *
@@ -29,6 +11,24 @@ import java.util.Scanner;
 */
 public class Main1185 {
 
+	/**
+	 * - Pregenerados
+	 * - Factorial
+	 * - Logaritmos
+	 * 
+	 * Encontrar la cantidad
+	 * de digitos de n! siendo n hasta 10^7 Se hizo uso de los conceptos que, para
+	 * saber los digitos de un número es
+	 * 
+	 * log(n) + 1
+	 * 
+	 * así, para n! sería
+	 * 
+	 * log(n!) +1
+	 * 
+	 * pero como no podemos calcular n! y n! = 1*2*3*4*...*n nos valemos de la
+	 * propiedad de los logaritmos log (a*b) = log(a) + log(b)
+	 */
 	public static void main(String[] args) {
 
 		double digits = 0;

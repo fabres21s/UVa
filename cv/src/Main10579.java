@@ -14,7 +14,8 @@ import java.util.Scanner;
 public class Main10579 {
 
 	/**
-	 * @param args
+	 * - Pregenerados
+	 * - Fibonacci
 	 */
 	public static void main(String[] args) throws IOException {
 		BigInteger[] fibos = new BigInteger[5005];

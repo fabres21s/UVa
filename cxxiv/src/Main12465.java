@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main12465 {
 
 	/**
-	 * @param args
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		int a, b, i, r, d, max, min;

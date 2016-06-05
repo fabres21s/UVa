@@ -5,21 +5,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 /**
- * 10801 - Lift Hopping
- * 
- * - Grafos, Dijkstra - Grafos bidireccionales - Map, List, Recursividad
- * 
- * Dados n ascensores, un piso objetivo y la velocidad de ascenso/descenso por
- * piso de cada uno de los ascensores por piso y los pisos en los que para cada
- * ascensor Encontrar el menor tiempo para ir desde el piso 0 hasta el objetivo
- * 
- * Uno de los más completos que he hecho
- * 
- * @author fabio
- *
- */
-
-/**
 *	10801 - Lift Hopping
 *
 *
@@ -32,6 +17,19 @@ public class Main10801 {
 
 	public static int MAX = Integer.MAX_VALUE;
 
+	/**
+	 * - Grafos bidireccionales
+	 * - Dijkstra
+	 * - Map
+	 * - List
+	 * - Recursividad
+	 * 
+	 * Dados n ascensores, un piso objetivo y la velocidad de ascenso/descenso por
+	 * piso de cada uno de los ascensores por piso y los pisos en los que para cada
+	 * ascensor Encontrar el menor tiempo para ir desde el piso 0 hasta el objetivo
+	 * 
+	 * Uno de los más completos que he hecho
+	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
