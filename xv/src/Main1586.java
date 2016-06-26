@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-//TODO - Respuesta incorrecta, creo que es por el redonde de cifras ta vezsd+yutewrñio
+//TODO - Respuesta incorrecta, creo que es por el redondeo de cifras
 public class Main1586 {
 
 
