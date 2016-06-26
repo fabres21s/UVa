@@ -4,11 +4,24 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
+/**
+*	111 - History Grading
+*
+*
+*	Submision:	17559377
+*	Date:		2016-06-22 15:41:25
+*	Runtime:	0.090
+*	Ranking:	7647
+*/
 public class Main111 {
 
 	/*
 	 * TODO - Ponerle categoria y llevarlo al workspace
-	 * No lo entiendo!!!jgjh
+	 * No lo entiendo!!!
+	 */
+	/*
+	 * - Arreglos
+	 * 
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

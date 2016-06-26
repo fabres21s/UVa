@@ -5,9 +5,23 @@ import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-//TODO - Respuesta incorrecta, creo que es por el redondeo de cifras
+/**
+*	1586 - Molar mass
+*
+*
+*	Submision:	17579729
+*	Date:		2016-06-26 22:22:47
+*	Runtime:	0.070
+*	Ranking:	2126
+*/
 public class Main1586 {
 
+	/*
+	 * - Map
+	 * - Expresiones Regulares
+	 * 
+	 * Dada una fórmula química, encontrar la masa molar de ella
+	 */
 
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
@@ -18,15 +32,15 @@ public class Main1586 {
 		String line;
 		
 		
-		Map<Character, Double> values = new HashMap<Character, Double>();
-		values.put('C', 12.01);
-		values.put('H', 1.008);
-		values.put('O', 16.0);
-		values.put('N', 14.01);
-		DecimalFormat decimalFormat = new DecimalFormat("#.000");
+		Map<Character, Long> values = new HashMap<Character, Long>();
+		values.put('C', 12010L);
+		values.put('H', 1008L);
+		values.put('O', 16000L);
+		values.put('N', 14010L);
 		for (int i = 1; i <= testCases; i++) {
 			StringBuffer output = new StringBuffer();
-			line =  br.readLine();
+			//la diferencia entre AC y WA era el .trim(), por qué, ni idea
+			line =  br.readLine().trim();
 			letras = line.replaceAll("[^A-Z]", "").split("");
 			numeros = line.replaceAll("[A-Z]", " ").split(" ");
 			
@@ -43,11 +57,11 @@ public class Main1586 {
 			}
 			
 			char array []= output.toString().toCharArray();
-			double sum  = 0;
+			long sum  = 0;
 			for (char c : array) {
 				sum += values.get(c);
 			}
-			System.out.println(decimalFormat.format(sum).replaceAll(",", "."));
+			System.out.printf("%.3f\n", ((double)sum)/1000);
 			
 		}
 
