@@ -51,7 +51,7 @@ public class Main111 {
 		return LCS[s1_length][s2_length];
 	}
 	
-	//probar este método de sfmunera con enteros, proque no tengo ni idea
+	//probar este mÃ©todo de sfmunera con enteros, proque no tengo ni idea
 	static int lis(int[] s, int[] rank) {
 		int N = s.length;
 		int[] dp = new int[N];
