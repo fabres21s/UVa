@@ -15,10 +15,10 @@ public class Main12442 {
 	static boolean visited[];
 	static int distances[];
 
-	//TODO - Ponerle categoría y llevarlo al workspace
+	
 	/*
 	 * - Grafos
-	 * - Búsqueda en Profundidad
+	 * - Bï¿½squeda en Profundidad
 	 * 
 	 * Encontrar el grafo origen con mayor cantidad de conexiones posibles
 	 */
