@@ -13,13 +13,12 @@ import java.io.InputStreamReader;
 */
 public class Main13059 {
 
-	//TODO - Ponerle categoría y llevarlo al workspace
 	/*
-	 * - Muy fácil
-	 * - Simulación
+	 * - Muy fÃ¡cil
+	 * - SimulaciÃ³n
 	 * 
-	 * En un torneo de tenis, con n jugadores y con eliminación directa, determinar cuántos partidos
-	 * son necesarios para determinar un campeón
+	 * En un torneo de tenis, con n jugadores y con eliminaciÃ³n directa, determinar cuï¿½ntos partidos
+	 * son necesarios para determinar un campeÃ³n
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 

@@ -6,9 +6,23 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+*	119 - Greedy Gift Givers
+*
+*
+*	Submision:	17591578
+*	Date:		2016-06-29 02:30:02
+*	Runtime:	0.030
+*	Ranking:	6030
+*/
 public class Main119 {
 
-	//TODO - Poner Categoria
+	/*
+	 * - Map
+	 * - List
+	 * 
+	 * Dado un grupo de amigos que dan y reciben regalos, determinar la diferencia entre lo que ganan y lo que gastan
+	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

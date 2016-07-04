@@ -11,7 +11,7 @@ import java.util.PriorityQueue;
 *	Submision:	17428548
 *	Date:		2016-05-27 21:51:48
 *	Runtime:	2.420
-*	Ranking:	1652:::
+*	Ranking:	1652
 */
 public class Main929 {
 

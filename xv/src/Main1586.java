@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,7 +19,7 @@ public class Main1586 {
 	 * - Map
 	 * - Expresiones Regulares
 	 * 
-	 * Dada una fórmula química, encontrar la masa molar de ella
+	 * Dada una fÃ³rmula quÃ­mica, encontrar la masa molar de ella
 	 */
 
 	public static void main(String[] args) throws NumberFormatException,
@@ -39,7 +38,7 @@ public class Main1586 {
 		values.put('N', 14010L);
 		for (int i = 1; i <= testCases; i++) {
 			StringBuffer output = new StringBuffer();
-			//la diferencia entre AC y WA era el .trim(), por qué, ni idea
+			//la diferencia entre AC y WA era el .trim(), por quÃ©, ni idea
 			line =  br.readLine().trim();
 			letras = line.replaceAll("[^A-Z]", "").split("");
 			numeros = line.replaceAll("[A-Z]", " ").split(" ");

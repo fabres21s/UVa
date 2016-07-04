@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 /**
@@ -16,12 +15,11 @@ import java.util.StringTokenizer;
 public class Main111 {
 
 	/*
-	 * TODO - Ponerle categoria y llevarlo al workspace
-	 * No lo entiendo!!!
-	 */
-	/*
 	 * - Arreglos
 	 * 
+	 * Encontrar la calificación de un estudiante dado un orden cronológico de sucesos
+	 * y la respuesta que da el estudiante.
+	 * Un poco enredado
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
