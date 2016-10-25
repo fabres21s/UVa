@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 public class Main12952 {
 
 	/*
-	 * - Muy fácil
+	 * - Muy fÃ¡cil
 	 * 
 	 * Ver si en un juego de cartas, un jugador puede hacer trio o par
 	 */

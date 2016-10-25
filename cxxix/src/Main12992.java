@@ -14,9 +14,9 @@ import java.io.InputStreamReader;
 public class Main12992 {
 
 	/*
-	 * - Muy f·cil
+	 * - Muy f√°cil
 	 * 
-	 * No entiendo muy bien el porque resulta ser asÌ
+	 * No entiendo muy bien el porque resulta ser as√≠
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

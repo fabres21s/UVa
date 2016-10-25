@@ -11,13 +11,13 @@ import java.io.InputStreamReader;
 *	Runtime:	0.030
 *	Ranking:	124
 */
-public class Main13046 {
+public class Main13049 {
 
 	/*
-	 * - Simulacón
+	 * - SimulaciÃ³n
 	 * 
-	 * Encontrar la mínima cantidad de movimientos para ir de una configuración inicial de un candado 
-	 * de números a la configuración que abre el candado
+	 * Encontrar la mÃ­nima cantidad de movimientos para ir de una configuraciÃ³n inicial de un candado 
+	 * de nÃºmeros a la configuraciÃ³n que abre el candado
 	 * 
 	 * Similar al 12468
 	 */

@@ -2,9 +2,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	621 - Secret Research
+*
+*
+*	Submision:	17590764
+*	Date:		2016-06-28 21:07:04
+*	Runtime:	0.030
+*	Ranking:	6650
+*/
 public class Main621 {
 
-	//TODO Poner categoria
+	/**
+	 * - Validaciones
+	 *  
+	 *  Validar esas condiciones
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

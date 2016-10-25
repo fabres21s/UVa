@@ -21,7 +21,7 @@ public class Main13115 {
 	 * - Arreglos
 	 * - Set
 	 * 
-	 * Validar si un sudoku est· llenado correctamente
+	 * Validar si un sudoku est√° llenado correctamente
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		int sudoku[] [] = {{1,2,3,4},

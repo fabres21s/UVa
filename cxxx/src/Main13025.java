@@ -1,5 +1,5 @@
 /**
-*	13025 - Identifyng tea
+*	13025 - Back to the Past
 *
 *
 *	Submision:	17601537
@@ -9,7 +9,7 @@
 */
 public class Main13025 {
 
-	/* - Fácil
+	/* - FÃ¡cil
 	 * Imprimir eso, solamente
 	 */
 	public static void main(String[] args) {

@@ -9,6 +9,7 @@ import java.util.Scanner;
 *	Runtime:	0.910
 *	Ranking:	996
 */
+
 public class Main12442 {
 
 	static int graph[];

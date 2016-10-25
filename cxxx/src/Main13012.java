@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 public class Main13012 {
 
 	/**
-	 * - Muy f·cil
+	 * - Muy f√°cil
 	 * 
 	 * No hay mucho que explicar
 	 */

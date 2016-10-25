@@ -21,7 +21,6 @@ public class Main1586 {
 	 * 
 	 * Dada una fórmula química, encontrar la masa molar de ella
 	 */
-
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -17,7 +17,7 @@ public class Main13059 {
 	 * - Muy fácil
 	 * - Simulación
 	 * 
-	 * En un torneo de tenis, con n jugadores y con eliminación directa, determinar cu�ntos partidos
+	 * En un torneo de tenis, con n jugadores y con eliminación directa, determinar cuántos partidos
 	 * son necesarios para determinar un campeón
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
