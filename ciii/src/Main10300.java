@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10300 {
 
 	/**
-	 * - Muy fÃ¡cil
+	 * - Muy fácil
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

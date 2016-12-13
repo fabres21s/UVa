@@ -16,9 +16,9 @@ public class Main13109 {
 
 	/*
 	 * - Arreglos
-	 * - Fácil
+	 * - F�cil
 	 * 
-	 * Encontrar cuántos elefantes se pueden balancear en la tela de una araña
+	 * Encontrar cu�ntos elefantes se pueden balancear en la tela de una araña
 	 * dados los pesos de los elefantes y el peso que resiste la telaraña
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {

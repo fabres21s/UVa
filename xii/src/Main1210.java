@@ -13,10 +13,10 @@ public class Main1210 {
 
 	/**
 	 * - Pregenerados
-	 * - NÃºmeros Primos
+	 * - Números Primos
 	 * 
-	 * Hallar la cantidad de maneras que un nÃºmero puede ser generado a partir de 
-	 * la suma de 2 o mÃ¡s nÃºmeros primos consecutivos
+	 * Hallar la cantidad de maneras que un número puede ser generado a partir de 
+	 * la suma de 2 o más números primos consecutivos
 	 */
 	public static int[] arregloSol = new int[10005];
 
@@ -684,6 +684,7 @@ public class Main1210 {
 		while ((n = input.nextInt()) != 0) {
 			System.out.println(solPregenerada[n]);
 		}
+		input.close();
 	}
 
 	static boolean esprimo(int n) {
@@ -701,7 +702,7 @@ public class Main1210 {
 		return true;
 	}
 
-	private static void solve(int i, int j, int[] arreglo) {
+	public static void solve(int i, int j, int[] arreglo) {
 
 		if ((i + j) < arreglo.length) {
 			int sum = arreglo[i];

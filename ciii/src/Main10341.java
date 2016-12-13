@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10341 {
 
 	/**
-	 * - MÃ©todos NumÃ©ricos
+	 * - Métodos Numéricos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

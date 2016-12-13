@@ -9,7 +9,7 @@ public class Main12338 {
 
 	
 	/**
-	 * Plantearlo con una bÃºsqueda binaria, y si persiste el TLE, en C++
+	 * Plantearlo con una búsqueda binaria, y si persiste el TLE, en C++
 	 * @param args
 	 * @throws IOException
 	 */

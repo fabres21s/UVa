@@ -14,7 +14,7 @@ public class Main10931 {
 
 	/**
 	 * - Big Numbers
-	 * - Sistemas de numeraciÃ³n
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) {
 		String s, cs;

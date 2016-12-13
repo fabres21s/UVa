@@ -17,10 +17,10 @@ public class Main102 {
 	static String res;
 
 	/**
-	 * - Simulaci√≥n
-	 * - Proceso matem√°tico
+	 * - SimulaciÛn
+	 * - Proceso matem·tico
 	 * 
-	 * M√≠nimos movimientos necesarios para
+	 * MÌnimos movimientos necesarios para
 	 * intercambiar botellas de tres colores Brown, Clear y Gray
 	 * en tres cajas diferentes.
 	 * Inicialmente en desorden
@@ -49,6 +49,7 @@ public class Main102 {
 			calcular(2, 1, 0);
 			System.out.printf("%s %d\n", res, menor);
 		}
+		input.close();
 	}
 
 	static void calcular(int a, int b, int c) {

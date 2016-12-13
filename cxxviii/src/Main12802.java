@@ -15,11 +15,11 @@ import java.io.InputStreamReader;
 public class Main12802 {
 
 	/**
-	 * - NÃºmeros primos
-	 * - PalÃ­ndromos
+	 * - Números primos
+	 * - Palíndromos
 	 * 
-	 *  Imprimir el doble del nÃºmero ingresado hasta que el nÃºmero ingresado sea
-	 *  primo y palÃ­ndromo
+	 *  Imprimir el doble del número ingresado hasta que el número ingresado sea
+	 *  primo y palíndromo
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

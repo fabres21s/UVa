@@ -15,24 +15,24 @@ public class Main11401 {
 
 	/**
 	 * - Pregenerados
-	 * - Tri√°ngulos
-	 * - F√≥rmula
+	 * - Tri·ngulos
+	 * - FÛrmula
 	 * 
 	 * 
 	 * Dado n, representando n varas de tama√±o desde 1
-	 * hasta n, encontrar la cantidad de tri√°ngulos diferentes que se pueden armar,
-	 * teniendo en cuenta, que un tri√°ngulo v√°lido es aquel en las que sus medidas
+	 * hasta n, encontrar la cantidad de tri·ngulos diferentes que se pueden armar,
+	 * teniendo en cuenta, que un tri·ngulo v·lido es aquel en las que sus medidas
 	 * a, b y c cumplen que (a+b)>c, (a+c)>b y (b+c) >a
 	 * 
 	 * 
-	 * Haciendo la prueba por fuerza bruta, de la condici√≥n de las medidas de los
-	 * tri√°ngulos, se not√≥ que la cantidad de tri√°ngulos v√°lidos para n varas,
-	 * cumple la siguiente sucesi√≥n
+	 * Haciendo la prueba por fuerza bruta, de la condiciÛn de las medidas de los
+	 * tri·ngulos, se notÛ que la cantidad de tri·ngulos v·lidos para n varas,
+	 * cumple la siguiente sucesiÛn
 	 * 
 	 * 1^2 + 1*2 + 2^2 + 2*3 + 3^2 +3*4 + ...n^2 + (n)*(n+1)
 	 * 
 	 * La sumatoria de los cuadrados es (n)(n+1)(2n+1)/6, no hay problema Para la
-	 * sumatoria del 1*2 + 2*3 + 3*4 + 4*5 +... toc√≥ ayudarse de la sumatoria de
+	 * sumatoria del 1*2 + 2*3 + 3*4 + 4*5 +... tocÛ ayudarse de la sumatoria de
 	 * pares e ir almacenando
 	 */
 	public static void main(String[] args) {

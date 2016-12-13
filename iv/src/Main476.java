@@ -13,16 +13,15 @@ import java.util.Vector;
 public class Main476 {
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) 
 	{
 		double x,y,p1,p2,p3,p4;
 		Vector <Object>v = new Vector<Object>();
-		String r;
 		boolean contains;
 		Scanner input=new Scanner(System.in);
-		while(!(r=input.next()).equals("*"))
+		while(!(input.next()).equals("*"))
 		{
 			p1 = new Double(input.next()).doubleValue();
 			p2 = new Double(input.next()).doubleValue();
@@ -54,6 +53,7 @@ public class Main476 {
 			x=new Double(input.next()).doubleValue();
 			y=new Double(input.next()).doubleValue();
 		}
+		input.close();
 	}
 }
 

@@ -28,7 +28,7 @@ public class Main299 {
 			}
 			bubblesort(arreglo);
 		}
-
+		input.close();
 	}
 
 	static void bubblesort(int[] arreglo) {

@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 /**
 *	11462 - Age Sort

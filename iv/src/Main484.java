@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main484 {
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args)
 	{
@@ -40,7 +40,7 @@ public class Main484 {
 			System.out.printf("%d %d\n", Ns[i] - MAX, c[Ns[i]]);
 			c[Ns[i]] = 0;
 		}
-
+		input.close();
 	}
 
 }

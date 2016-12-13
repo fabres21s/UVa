@@ -14,7 +14,7 @@ public class Main686 {
 
 	/**
 	 * - Pregenerados
-	 * - NÃºmeros Primos
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		generar();
@@ -29,7 +29,7 @@ public class Main686 {
 			}
 			System.out.println(cont);
 		}
-
+		input.close();
 	}
 
 	static boolean esta(int valor) {

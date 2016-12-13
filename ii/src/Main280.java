@@ -17,10 +17,10 @@ public class Main280 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - BÃºsqueda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Queue
 	 * 
-	 * Encontrar cuantos y cuÃ¡les nodos no estÃ¡n conectados a un nodo dado
+	 * Encontrar cuantos y cuáles nodos no están conectados a un nodo dado
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -47,7 +47,7 @@ public class Main280 {
 				grafo.clear();
 			}
 		}
-
+		input.close();
 	}
 }
 
@@ -108,12 +108,6 @@ class Grafo {
 			}
 		}
 		System.out.println(output.toString().trim());
-	}
-
-	private void print() {
-		for (Nodo nodo : nodos) {
-			System.out.println(nodo);
-		}
 	}
 
 	public void clear() {

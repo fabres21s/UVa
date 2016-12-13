@@ -16,7 +16,7 @@ public class Main12554 {
 	/**
 	 * - Validaciones
 	 * 
-	 * Validar que todos cantaran y no dejar la canciÃ³n a medias
+	 * Validar que todos cantaran y no dejar la canción a medias
 	 */
 	public static void main(String[] args) {
 

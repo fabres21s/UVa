@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -15,9 +14,9 @@ import java.util.Set;
 public class Main562 {
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 * 
-	 * Hallar la m√≠nima diferencia posible entre un grupo de monedas a ser
+	 * Hallar la mÌnima diferencia posible entre un grupo de monedas a ser
 	 * repartidas entre dos personas
 	 */
 

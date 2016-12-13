@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11877 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class Main11877 {
 
 			System.out.println(n / 2);
 		}
-
+		input.close();
 	}
 
 }

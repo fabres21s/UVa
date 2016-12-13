@@ -15,7 +15,7 @@ public class Main147 {
 	static int D[] = { 10000, 5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5 };
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -30,6 +30,7 @@ public class Main147 {
 			}
 			System.out.printf("%6.2f%17d\n", x, ss[d]);
 		}
+		input.close();
 
 	}
 

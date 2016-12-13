@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 /**
  * 105 - The Skyline Problem
- * Simulaci√≥n - Arreglos
- * Analizar las alturas m√°ximas de cada edificio
- * Recib√≠ un poco de ayuda
+ * SimulaciÛn - Arreglos
+ * Analizar las alturas m·ximas de cada edificio
+ * RecibÌ un poco de ayuda
  * @author fabio
  *
  */
@@ -21,14 +21,13 @@ import java.util.Scanner;
 public class Main105 {
 
 	/**
-	 * - Simulaci√≥n
+	 * - SimulaciÛn
 	 * - Arreglos
 	 */
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
 		int buildings[] = new int[10005];
-		int triples = 0;
 		int maxRight = 0;
 		while (input.hasNext()) {
 			int left = input.nextInt();
@@ -42,6 +41,7 @@ public class Main105 {
 			}
 		}
 		analize(buildings, maxRight);
+		input.close();
 	}
 
 	private static void analize(int[] buildings, int right) {

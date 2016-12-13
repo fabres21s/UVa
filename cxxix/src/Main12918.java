@@ -14,9 +14,9 @@ import java.io.InputStreamReader;
 public class Main12918 {
 
 	/*
-	 * - Sumatoria de nÃºmeros
+	 * - Sumatoria de números
 	 * 
-	 * Dadas n llaves, que abren m casas, encontrar la mÃ¡xima cantidad de veces que es posible 
+	 * Dadas n llaves, que abren m casas, encontrar la máxima cantidad de veces que es posible 
 	 * insertar la llave en una puerta incorrecta
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {

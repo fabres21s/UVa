@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main913 {
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -25,6 +25,7 @@ public class Main913 {
 			n = 3 * n - 6;
 			System.out.println(n);
 		}
+		input.close();
 	}
 
 }

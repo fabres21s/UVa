@@ -46,5 +46,6 @@ public class Main948 {
 			}
 			System.out.println(n + " = " + buf + " (fib)");
 		}
+		input.close();
 	}
 }

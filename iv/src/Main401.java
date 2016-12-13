@@ -16,7 +16,7 @@ public class Main401
 	static String reves=   "A3HILJMO2TUVWXY51SEZ8";
 
 	/**
-	 * - PalÃ­ndromos
+	 * - Palíndromos
 	 */
 	public static void main(String[] args) 
 	{
@@ -47,7 +47,7 @@ public class Main401
 			}
 			System.out.println();
 		}
-
+		input.close();
 	}
 	
 	static boolean palindromo (String palabra)

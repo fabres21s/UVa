@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main489 {
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) 
 	{
@@ -185,6 +185,7 @@ public class Main489 {
 				System.out.println("You chickened out.");
 			}			
 		}*/
+		   input.close();
 
 	}
 	

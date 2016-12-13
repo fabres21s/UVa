@@ -12,7 +12,7 @@ import java.util.*;
 */
 public class Main120 {
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -29,7 +29,9 @@ public class Main120 {
 				System.out.print((e + 1) + " ");
 			}
 			System.out.println("0");
+			stream.close();
 		}
+		
 	}
 
 	private static List<Integer> flips(int[] a) {

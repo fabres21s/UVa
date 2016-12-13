@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 902 - Password Search Cadena de caracteres Dado n y una cadena, encontrar el
- * substring de tamaño n que más veces se repite
+ * substring de tamaño n que m�s veces se repite
  * 
  * @author fabio
  *
@@ -58,6 +58,7 @@ public class Main902 {
 			map.clear();
 
 		}
+		input.close();
 	}
 
 }

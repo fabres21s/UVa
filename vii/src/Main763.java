@@ -23,7 +23,6 @@ public class Main763 {
 	public static void main(String[] args) throws IOException {
 		generar();
 		Scanner input = new Scanner(System.in);
-		StringBuffer buffer = new StringBuffer();
 		int i = 0;
 		String m, n;
 		//

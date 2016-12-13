@@ -43,7 +43,7 @@ public class Main352 {
 					cont);
 			x++;
 		}
-
+		input.close();
 	}
 
 	private static void recursividad(int i, int j) {

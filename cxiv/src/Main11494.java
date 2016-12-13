@@ -12,12 +12,12 @@ import java.util.Scanner;
 public class Main11494 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * - Ajedrez
 	 * 
-	 * Dadas una posiciÃ³n inicial y otra final, determinar
+	 * Dadas una posición inicial y otra final, determinar
 	 * cuantos movimientos necesita una reina en el ajedrez
-	 * para ir hasta la posiciÃ³n final, suponiendo que el tablero se encuentra vacÃ­o
+	 * para ir hasta la posición final, suponiendo que el tablero se encuentra vacío
 	 */
 	public static void main(String[] args) {
 		int x1, y1, x2, y2, moves;

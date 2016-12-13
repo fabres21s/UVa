@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -17,11 +15,11 @@ import java.util.Stack;
 public class Main10305 {
 
 	/**
-	 * - OrdenaciÃ³n topolÃ³gica
+	 * - Ordenación topológica
 	 * - Grafos dirigidos
 	 * - Stack
 	 * 
-	 * Encontrar el orden de ejecuciÃ³n de unas tareas, unas dependen den otras
+	 * Encontrar el orden de ejecución de unas tareas, unas dependen den otras
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

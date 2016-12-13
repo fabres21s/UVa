@@ -8,21 +8,22 @@ import java.util.Scanner;
 *	10608 - Friends
 *
 *
-*	Submision:	16835930
-*	Date:		2016-02-12 01:44:40
-*	Runtime:	0.529
-*	Ranking:	5190
+*	Submision:	18495789
+*	Date:		2016-12-13 18:18:20
+*	Runtime:	0.470
+*	Ranking:	4339
 */
 public class Main10608 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - BÃºsqueda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Queue
 	 * 
-	 * Encontrar la cadena mÃ¡s larga de amigos en un grupo de personas con sus
+	 * Encontrar la cadena más larga de amigos en un grupo de personas con sus
 	 * respectivas amistades dadas
 	 */
+	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
@@ -32,6 +33,7 @@ public class Main10608 {
 			int persons = input.nextInt();
 			Grafo grafo = new Grafo();
 			grafo.createNodes(persons + 2);
+			
 
 			int friendship = input.nextInt();
 			int arreglo[] = new int[friendship];
@@ -42,6 +44,8 @@ public class Main10608 {
 				arreglo[x] = origen;
 			}
 
+			
+			
 			for (int x = 0; x < friendship; x++) {
 				grafo.solve(arreglo[x]);
 			}
@@ -69,7 +73,7 @@ class Grafo {
 			nodo.setAdyacentes(new ArrayList<Nodo>());
 			nodos.add(nodo);
 		}
-		max = 0;
+		max = 1;
 	}
 
 	public void addAdyacente(int origen, int destino) {
@@ -82,7 +86,7 @@ class Grafo {
 
 	public void solve(int source) {
 
-		if (max <= friendship / 2) {
+		if (max <= (friendship / 2 + 1)) {
 
 			Nodo nodoOrigen = nodos.get(source);
 
@@ -114,11 +118,6 @@ class Grafo {
 		}
 	}
 
-	private void print() {
-		for (Nodo nodo : nodos) {
-			System.out.println(nodo);
-		}
-	}
 
 	public void clear() {
 		for (Nodo nodo : nodos) {

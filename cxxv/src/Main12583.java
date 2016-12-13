@@ -16,8 +16,8 @@ public class Main12583 {
 	/**
 	 * - Map
 	 * 
-	 * El rey sÃ³lo podÃ­a recordar a una persona si al presentarsela
-	 * se la volvÃ­an a presentar en un tiempo menor o igual a daysRemember
+	 * El rey sólo podía recordar a una persona si al presentarsela
+	 * se la volvían a presentar en un tiempo menor o igual a daysRemember
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Main12583 {
 		int cases = input.nextInt() + 1;
 
 		for (int i = 1; i < cases; i++) {
-			int size = input.nextInt();
+			input.nextInt();
 			int daysRemember = input.nextInt();
 			char[] array = input.next().toCharArray();
 
@@ -46,6 +46,7 @@ public class Main12583 {
 			}
 			System.out.printf("Case %d: %d\n", i, remember);
 		}
+		input.close();
 	}
 
 }

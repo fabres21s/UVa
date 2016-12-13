@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12293 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * - Logaritmos
 	 * 
 	 * Un poco complicado de entender los casos de prueba

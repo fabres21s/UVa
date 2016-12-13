@@ -18,11 +18,11 @@ public class Main1185 {
 	 * 
 	 * Encontrar la cantidad
 	 * de digitos de n! siendo n hasta 10^7 Se hizo uso de los conceptos que, para
-	 * saber los digitos de un nÃºmero es
+	 * saber los digitos de un número es
 	 * 
 	 * log(n) + 1
 	 * 
-	 * asÃ­, para n! serÃ­a
+	 * así, para n! sería
 	 * 
 	 * log(n!) +1
 	 * 
@@ -46,6 +46,7 @@ public class Main1185 {
 		while (testCases-- > 0) {
 			System.out.printf("%d\n", (arreglo[input.nextInt()]));
 		}
+		input.close();
 	}
 
 }

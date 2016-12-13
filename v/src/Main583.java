@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main583 {
 
 	/**
-	 * - NÃºmeros Primos
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class Main583 {
 		while ((n = input.nextInt()) != 0) {
 			descomponer(n);
 		}
-
+		input.close();
 	}
 
 	static void descomponer(int n) {

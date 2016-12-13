@@ -14,11 +14,11 @@ import java.io.InputStreamReader;
 public class Main13059 {
 
 	/*
-	 * - Muy fÃ¡cil
-	 * - SimulaciÃ³n
+	 * - Muy fácil
+	 * - Simulación
 	 * 
-	 * En un torneo de tenis, con n jugadores y con eliminaciÃ³n directa, determinar cuÃ¡ntos partidos
-	 * son necesarios para determinar un campeÃ³n
+	 * En un torneo de tenis, con n jugadores y con eliminación directa, determinar cuántos partidos
+	 * son necesarios para determinar un campeón
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 

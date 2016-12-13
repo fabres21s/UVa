@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main10302 {
 
 	/**
-	 * - Sumatoria de nÃºmeros
+	 * - Sumatoria de números
 	 * - Big Numbers
 	 */
 	public static void main(String[] args) {

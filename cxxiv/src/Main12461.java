@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 /**
@@ -15,19 +13,19 @@ import java.util.Scanner;
 public class Main12461 {
 
 	/**
-	 * - Muy f√°cil
+	 * - Muy f·cil
 	 * 
-	 * La probabilidad que la encuentre vac√≠a siempre ser√° 1/2 vac√≠a u
+	 * La probabilidad que la encuentre vacÌa siempre ser· 1/2 vacÌa u
 	 * ocupada son las dos opciones
 	 */
 	public static void main(String[] args) throws IOException {
 
 		Scanner input = new Scanner(System.in);
-		int n;
 
-		while ((n = input.nextInt()) != 0) {
+		while (( input.nextInt()) != 0) {
 			System.out.println("1/2");
 		}
+		input.close();
 	}
 
 }

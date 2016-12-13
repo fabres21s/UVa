@@ -14,7 +14,7 @@ public class Main12366 {
 	static int a, b, c;
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -83,6 +83,7 @@ public class Main12366 {
 				c = temp;
 			}
 		}
+		input.close();
 	}
 
 	static void ordenar() {

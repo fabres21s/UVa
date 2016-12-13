@@ -14,7 +14,7 @@ public class Main350 {
 	static int[] arreglo;
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -38,7 +38,7 @@ public class Main350 {
 			}
 			casos++;
 		}
-
+		input.close();
 	}
 
 	private static boolean yaesta(int l) {

@@ -16,7 +16,7 @@ public class Main11947 {
 	/**
 	 * - Calendario
 	 * 
-	 * Dada una fecha, sumarle 40 semanas, determinar en quÃ© signo zodiacal cae
+	 * Dada una fecha, sumarle 40 semanas, determinar en qué signo zodiacal cae
 	 */
 	public static void main(String[] args) {
 		Calendar calendar = Calendar.getInstance();

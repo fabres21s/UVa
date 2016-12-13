@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Main12959 {
 
 	/**
-	 * - Simulaci√≥n
+	 * - SimulaciÛn
 	 * 
-	 * j jugadores, r rondas ver que jugador obtiene m√°s puntos en
+	 * j jugadores, r rondas ver que jugador obtiene m·s puntos en
 	 * todas las rondas.
 	 */
 	public static void main(String[] args) {

@@ -16,7 +16,7 @@ public class Main12543 {
 	/**
 	 * - Cadena de caracteres
 	 * 
-	 * Encontrar la palabra m√°s grande de la entrada entiendase por palabra,
+	 * Encontrar la palabra m·s grande de la entrada entiendase por palabra,
 	 * caracteres de la a a la z seguidos, incluyendo -
 	 */
 	public static void main(String[] args) throws IOException {

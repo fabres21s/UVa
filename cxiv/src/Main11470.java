@@ -48,7 +48,7 @@ public class Main11470 {
 					}
 					// System.out.println();
 
-					for (j = i + 1; j < (n - i); j++) {// sumamos la Ãºltima
+					for (j = i + 1; j < (n - i); j++) {// sumamos la última
 														// columna
 						sum += arreglo[n - i - 1][j];
 						// System.out.print(arreglo[n-1-i][j]+" & ");

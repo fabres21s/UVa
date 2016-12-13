@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Vector;
 
 /**
 *	12455 - Bars
@@ -50,6 +49,7 @@ public class Main12455 {
 
 		}
 		System.out.print(buffer);
+		input.close();
 	}
 
 	static void encontrar(int sum, int pos) {

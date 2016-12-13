@@ -14,7 +14,7 @@ public class Main10533 {
 
 	/**
 	 * - Pregenerados
-	 * - NÃºmeros Primos
+	 * - Números Primos
 	 */
 	public static void main(String[] args) throws IOException {
 		int c, i, sum, x;

@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 
  * @author fabio
  * 108 - Maximum Sum
- * Lo entender√° su puta madre
+ * Lo entender· su puta madre
  * 
  * Submit:	2016-05-18 21:40:24
  * Runtime:	0.150
@@ -23,7 +23,7 @@ import java.util.Scanner;
 public class Main108 {
 
 	/**
-	 * TODO Asignar Categor√≠a!!!
+	 * TODO Asignar CategorÌa!!!
 	 */
 	public static void main(String args[]) {
 		Scanner input = new Scanner(System.in);
@@ -60,5 +60,6 @@ public class Main108 {
 			}
 			System.out.printf("%d\n", MAX);
 		}
+		input.close();
 	}
 }

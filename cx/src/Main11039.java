@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.Scanner;
 
 //TODO TLE - Building designing
@@ -60,6 +59,7 @@ public class Main11039 {
 			}
 			System.out.println(max);
 		}
+		input.close();
 	}
 
 }

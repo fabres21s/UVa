@@ -13,7 +13,7 @@ public class Main12318 {
 
 	/**
 	 * - Modular
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 * 
 	 * Encontrar la cantidad de residuos generados tras ejecutar un polinomio
 	 * 

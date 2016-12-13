@@ -36,7 +36,7 @@ public class Main576 {
 				System.out.println("1");
 
 		}
-
+		input.close();
 	}
 
 	static int contarvocales(String haiku) {

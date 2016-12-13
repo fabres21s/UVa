@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Main1237 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * 
 	 * De un conjunto de registros (marca, menor y
-	 * mayor) y un nÃºmero dado, determinar la marca de ese rango, si no hay o hay
+	 * mayor) y un número dado, determinar la marca de ese rango, si no hay o hay
 	 * varias, indeterminado
 	 */
 	public static void main(String[] args) {
@@ -55,6 +55,7 @@ public class Main1237 {
 				System.out.println();
 			}
 		}
+		input.close();
 	}
 
 }

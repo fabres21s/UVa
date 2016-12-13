@@ -64,5 +64,6 @@ public class Main374 {
 			}
 			System.out.println(cary);
 		}
+		input.close();
 	}
 }

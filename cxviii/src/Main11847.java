@@ -20,6 +20,7 @@ public class Main11847 {
 		while ((n = input.nextInt()) != 0) {
 			System.out.println((int) (Math.log10(n) / Math.log10(2)));
 		}
+		input.close();
 
 	}
 

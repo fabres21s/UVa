@@ -43,6 +43,7 @@ public class Main530 {
 				;
 			System.out.println(res);
 		}
+		input.close();
 	}
 
 	private static long gcd(long a, long b) {

@@ -26,5 +26,6 @@ public class Main575 {
 			}
 			System.out.println(sum);
 		}
+		input.close();
 	}
 }

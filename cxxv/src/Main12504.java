@@ -21,13 +21,13 @@ import java.util.Map;
 public class Main12504 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * - Expresiones Regulares
 	 * - Map
 	 * - List
 	 * 
 	 *  Dado un diccionario origninal y un segundo diccionario, 
-	 *  determinar quÃ© cambios tiene el primero con respecto al segundo
+	 *  determinar qué cambios tiene el primero con respecto al segundo
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -59,7 +59,7 @@ public class Main12504 {
 			}
 			
 			List<String> news = new ArrayList<String>();
-			//analizar si se agregÃ³ un nuevo registro
+			//analizar si se agregó un nuevo registro
 			
 			for (String record : secondKeys) {
 				if (!originalKeys.contains(record)) {
@@ -68,7 +68,7 @@ public class Main12504 {
 			}
 			
 			List<String> deleteds = new ArrayList<String>();
-			//analizar si se agregÃ³ un nuevo registro
+			//analizar si se agregó un nuevo registro
 			
 			for (String record : originalKeys) {
 				if (!secondKeys.contains(record)) {
@@ -77,7 +77,7 @@ public class Main12504 {
 			}
 			
 			List<String> updateds = new ArrayList<String>();
-			//analizar si se agregÃ³ un nuevo registro
+			//analizar si se agregó un nuevo registro
 			
 			for (String record : originalKeys) {
 				if (secondDictionary.get(record) != null) {

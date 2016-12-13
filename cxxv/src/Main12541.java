@@ -1,10 +1,8 @@
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -28,9 +26,9 @@ public class Main12541 {
 		// GregorianCalendar calendar = new GregorianCalendar();
 		//
 		// if (calendar.isLeapYear(2007))
-		// System.out.println("El aï¿½o es bisiesto");
+		// System.out.println("El año es bisiesto");
 		// else
-		// System.out.println("El aï¿½o no es bisiesto");
+		// System.out.println("El año no es bisiesto");
 
 		ArrayList<Date> fechas = new ArrayList<Date>();
 		Map<Date, String> nombres = new HashMap<Date, String>();

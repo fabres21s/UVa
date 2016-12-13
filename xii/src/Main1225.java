@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main1225 {
 	/**
 	 * - Recursividad
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 * 
 	 * Encontrar cuantos
 	 * 0, 1, 2 , 3,4,5,6,7,8,9 hay hasta n
@@ -36,6 +36,7 @@ public class Main1225 {
 			}
 			System.out.println(Math.abs(digitb[i] - digita[i]));
 		}
+		sc.close();
 	}
 
 	static void recurse(int[] digit, int n, int count) {

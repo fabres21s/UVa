@@ -13,7 +13,7 @@ public class Main12517 {
 
 	/**
 	 * - Recursividad
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 * 
 	 * Encontrar la sumatoria
 	 * de los digitos hasta n
@@ -52,6 +52,7 @@ public class Main12517 {
 			}
 			System.out.println(sum);
 		}
+		sc.close();
 	}
 
 	static void recurse(long[] digit, int n, long count) {

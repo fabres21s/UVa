@@ -20,7 +20,7 @@ public class Main10420 {
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int k = input.nextInt(), c;
+		int k = input.nextInt();
 		Map<String, Integer> map = new HashMap<String, Integer>();
 		ArrayList<String> list = new ArrayList<String>();
 		String pais;
@@ -40,7 +40,7 @@ public class Main10420 {
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i) + " " + map.get(list.get(i)));
 		}
-
+		input.close();
 
 	}
 

@@ -11,7 +11,7 @@ import java.util.Scanner;
 */
 public class Main10127 {
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

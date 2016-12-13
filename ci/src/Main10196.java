@@ -15,7 +15,7 @@ public class Main10196 {
 	/**
 	 * - Ajedrez
 	 * 
-	 * Dado un tablero de ajedrez, y la disposiciÃ³n de las piezas
+	 * Dado un tablero de ajedrez, y la disposición de las piezas
 	 * determinar si uno de los reyes se encuentra en jaque
 	 */
 	public static void main(String[] args) throws IOException {
@@ -84,7 +84,7 @@ public class Main10196 {
 						} else if (tablero[i][j].equals("R")) // torre blanca
 						{
 							aux = i + 1;
-							while (tablero[aux][j].equals(".") && aux < 10) // hacï¿½a
+							while (tablero[aux][j].equals(".") && aux < 10) // hacía
 																			// arriba
 							{
 								aux++;
@@ -104,7 +104,7 @@ public class Main10196 {
 								break;
 							}
 							aux = j + 1;
-							while (tablero[i][aux].equals(".") && aux < 10) // hacï¿½a
+							while (tablero[i][aux].equals(".") && aux < 10) // hacía
 																			// la
 																			// derecha
 							{
@@ -115,7 +115,7 @@ public class Main10196 {
 								break;
 							}
 							aux = j - 1;
-							while (tablero[i][aux].equals(".") && aux > 1) // hacï¿½a
+							while (tablero[i][aux].equals(".") && aux > 1) // hacía
 																			// la
 																			// izquierda
 							{
@@ -267,7 +267,7 @@ public class Main10196 {
 						} else if (tablero[i][j].equals("Q")) // dama blanca
 						{
 							aux = i + 1;
-							while (tablero[aux][j].equals(".") && aux < 10)// hacï¿½a
+							while (tablero[aux][j].equals(".") && aux < 10)// hacía
 																			// arriba
 							{
 								aux++;

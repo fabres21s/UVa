@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10509 {
 
 	/**
-	 * - FÃ³rmula
+	 * - Fórmula
 	 */
 	public static void main(String[] args) 
 	{

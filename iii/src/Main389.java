@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main389 {
 
 	/**
-	 * - Sistemas de numeraciÃ³n
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) 
 	{
@@ -37,5 +37,6 @@ public class Main389 {
 				System.out.printf("%7s\n",cs);
 			}
 		}
+		sc.close();
 	}
 }

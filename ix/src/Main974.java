@@ -13,7 +13,7 @@ public class Main974 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		int kaprekars[] = { 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879,

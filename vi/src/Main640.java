@@ -12,7 +12,7 @@ public class Main640 {
 	static int n;
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		int i;

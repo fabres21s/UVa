@@ -39,6 +39,7 @@ public class Main748 {
 			}
 			System.out.println(ans);
 		}
+		input.close();
 
 	}
 }

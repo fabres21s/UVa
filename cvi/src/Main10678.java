@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main10678 {
 
 	/**
-	 * - CÃ­rculo
-	 * - FÃ³rmula
+	 * - Círculo
+	 * - Fórmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

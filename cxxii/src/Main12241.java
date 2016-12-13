@@ -38,6 +38,7 @@ public class Main12241 {
 			}
 			System.out.println(Math.abs(digitb[i] - digita[i]));
 		}
+		sc.close();
 	}
 
 	static void recurse(int[] digit, int n, int count) {

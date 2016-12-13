@@ -33,6 +33,7 @@ public class Main357 {
 						"There is only 1 way to produce %d cents change.\n", n);
 			}
 		}
+		input.close();
 	}
 
 	private static void calcular() {

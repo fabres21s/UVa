@@ -22,7 +22,7 @@ public class Main1449 {
 	/**
 	 * - Patrones
 	 * 
-	 * Encontrar el nÃºmero de veces que se repite un patrÃ³n en una cadena de texto
+	 * Encontrar el número de veces que se repite un patrón en una cadena de texto
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException{
 		

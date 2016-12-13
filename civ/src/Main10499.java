@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10499 {
 
 	/**
-	 * - Muy f√°cil
+	 * - Muy f·cil
 	 */
 	public static void main(String[] args) {
 		long n;

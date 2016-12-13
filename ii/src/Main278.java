@@ -12,7 +12,7 @@ import java.util.Scanner;
 */
 public class Main278 {
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -44,5 +44,6 @@ public class Main278 {
 				System.out.println(x);
 			}
 		}
+		input.close();
 	}
 }

@@ -13,9 +13,9 @@ public class Main713 {
 
 	/**
 	 * - Big Numbers
-	 * - Proceso matemÃ¡tico
+	 * - Proceso matemático
 	 * 
-	 * Cojer dos nÃºmeros darles la vuelta, sumarlos y volverles a dar la vuelta
+	 * Cojer dos números darles la vuelta, sumarlos y volverles a dar la vuelta
 	 */
 	static BigInteger ONE = BigInteger.ONE;
 	static BigInteger TEN = BigInteger.TEN;

@@ -21,13 +21,13 @@ public class Main10986 {
 	 * - Dijkstra
 	 * -  Priority Queue
 	 * 
-	 * Implementaci√≥n del algoritmo Dijkstra, no se pueden usar arreglos ya que la entrada
+	 * ImplementaciÛn del algoritmo Dijkstra, no se pueden usar arreglos ya que la entrada
 	 * es de 20000 registros, lo cual provoca un Java heap space y tampoco es posible
-	 * usar el m√©todo solve de la clase Grafo, porque arroja un TLE, as√≠ que toc√≥ hacer 
-	 * un h√≠brido entre ellos.
+	 * usar el mÈtodo solve de la clase Grafo, porque arroja un TLE, asÌ que tocÛ hacer 
+	 * un hÌbrido entre ellos.
 	 * 
 	 * El ejercicio consiste en que dada una red de computadores, unas conexiones, un origen y un destino,
-	 * encontrar la ruta m√°s corta.
+	 * encontrar la ruta m·s corta.
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -98,9 +98,9 @@ public class Main10986 {
 			} else {
 				System.out.printf("Case #%d: unreachable\n", i);
 			}
-
+			
 		}
-
+		input.close();
 	}
 }
 
@@ -144,7 +144,6 @@ class Item implements Comparable<Item> {
 
 class Grafo {
 
-	private List<Nodo> nodos;
 	int max = Integer.MAX_VALUE;
 	int friendship;
 	private List<Nodo> nodosEtiquetados;
@@ -152,7 +151,6 @@ class Grafo {
 	Map<Integer, List<Nodo>> nodosExistentes;
 
 	public void createNodes(int qty) {
-		nodos = new ArrayList<Nodo>();
 
 		nodosEtiquetados = new ArrayList<Nodo>();
 		nodosExistentes = new HashMap<Integer, List<Nodo>>();

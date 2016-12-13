@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 /*
 1709 - Amalgamated Artichokes
--Proceso matemático
-Dada una fórmula, encontrar su pico y la máxima diferencia con el punto más bajo
+-Proceso matem�tico
+Dada una f�rmula, encontrar su pico y la m�xima diferencia con el punto m�s bajo
 
 */
 
@@ -21,7 +21,7 @@ Dada una fórmula, encontrar su pico y la máxima diferencia con el punto más b
 public class Main1709 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matem�tico
 	 */
 	public static void main(String[] args) {
 		// 42 1 23 4 8 10

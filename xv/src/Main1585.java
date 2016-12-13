@@ -15,7 +15,7 @@ public class Main1585 {
 	 * - Validaciones
 	 * 
 	 *	Se tiene ej, OOOOOOXOXOXOX
-	 *	por la primera O se suma 1, por la segunda 2 y asÃ­
+	 *	por la primera O se suma 1, por la segunda 2 y así
 	 *	al encontrar una x, se vuelve a empezar de 0
 	 */
 	
@@ -23,7 +23,7 @@ public class Main1585 {
 		Scanner input = new Scanner(System.in);
 		int test = Integer.valueOf(input.nextLine());
 		
-		//No entiendo por quï¿½ el input.nextInt() e input.next() generaban RE - Tocï¿½ pasarlo a input.nextLine() - debe ser por el package
+		//No entiendo por qué el input.nextInt() e input.next() generaban RE - Tocó pasarlo a input.nextLine() - debe ser por el package
 		char [] array;
 		int sum, acum;
 		while (test -- > 0){
@@ -40,6 +40,7 @@ public class Main1585 {
 			}
 			System.out.println(sum);
 		}
+		input.close();
 	}
  
 }

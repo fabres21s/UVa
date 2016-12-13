@@ -15,12 +15,12 @@ import java.io.InputStreamReader;
 public class Main12210 {
 
 	/**
-	 * - Muy f√°cil
+	 * - Muy f·cil
 	 * - Validaciones
 	 * 
 	 * Encontrar los
 	 * emparejamientos entre hombres y mujeres
-	 * y ver si hombres quedan sin pareja, de ser as√≠ imprimer la edad del menor
+	 * y ver si hombres quedan sin pareja, de ser asÌ imprimer la edad del menor
 	 */
 	public static void main(String[] args) throws IOException {
 

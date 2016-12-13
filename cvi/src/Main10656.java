@@ -13,7 +13,7 @@ public class Main10656 {
 	static int v[] = new int[1024];
 
 	/**
-	 *  - Proceso matem√°tico
+	 *  - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

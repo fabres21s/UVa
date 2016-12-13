@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * 11988 - Broken KeyBoard (a.k.a Beiju Text)
  * @author fabio
- * No lo entiendo bien, no era esto lo que habÃ­a que hacer
+ * No lo entiendo bien, no era esto lo que había que hacer
  *
  */
 //TODO No enviado - Broken KeyBoard (a.k.a Beiju Text)

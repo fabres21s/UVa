@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main344 {
 
 	/**
-	 * - NÃºmeros Romanos
+	 * - Números Romanos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -116,5 +116,6 @@ public class Main344 {
 			System.out.printf("%d: %d i, %d v, %d x, %d l, %d c\n", n, i, v, x,
 					l, c);
 		}
+		input.close();
 	}
 }

@@ -17,7 +17,7 @@ public class Main11244 {
 	 * - Arreglos
 	 * 
 	 * Dado un arreglo que representa el cielo, siendo los '*' estrellas y los '.' espacios en blanco
-	 * encontrar cuantas estrellas hay, teniendo en cuenta que si dos o m√°s '*' se encuentran juntos,
+	 * encontrar cuantas estrellas hay, teniendo en cuenta que si dos o m·s '*' se encuentran juntos,
 	 * no son estrellas.
 	 */
 	public static void main(String[] args) throws IOException {

@@ -47,7 +47,7 @@ public class Main495 {
      
 
         
-
+        input.close();
 	}
 
 }

@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main636 {
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -34,6 +34,7 @@ public class Main636 {
 				}
 			}
 		}
+		input.close();
 	}
 
 	private static int mayor(int n) {

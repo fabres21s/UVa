@@ -15,12 +15,12 @@ import java.io.InputStreamReader;
 public class Main10929 {
 
 	/**
-	 * - Proceso matemÃ¡tico
+	 * - Proceso matemático
 	 * 
-	 * Determinar si un nÃºmero es multiplo de 11
-	 * El proceso consiste en sumar todos los nÃºmeros en las posiciones pares
+	 * Determinar si un número es multiplo de 11
+	 * El proceso consiste en sumar todos los números en las posiciones pares
 	 * y en las posiciones impares, por separado, y si la resta entre ellos 
-	 * es multiplo de 11, el nÃºmero original tambiÃ©n lo es.
+	 * es multiplo de 11, el número original también lo es.
 	 * Ej 142857
 	 * Suma de posiciones impares = 1 + 2 + 5 = 8
 	 * Suma de posiciones pares   = 4 + 8 + 7 = 19

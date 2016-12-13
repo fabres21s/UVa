@@ -15,8 +15,8 @@ public class Main12896 {
 	/**
 	 * - Arreglos
 	 * 
-	 * Dado un teclado de celular, de los antiguos, el nÃºmero que
-	 * se presionÃ³ y la cantidad de veces que hizo, encontrar el mensaje que fue
+	 * Dado un teclado de celular, de los antiguos, el número que
+	 * se presionó y la cantidad de veces que hizo, encontrar el mensaje que fue
 	 * escrito
 	 */
 	public static void main(String[] args) {

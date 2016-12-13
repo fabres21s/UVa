@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.math.BigInteger;
 import java.util.Scanner;
 
@@ -14,7 +13,7 @@ import java.util.Scanner;
 public class Main10473 {
 
 	/**
-	 * - Sistemas de numeraciÃ³n
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

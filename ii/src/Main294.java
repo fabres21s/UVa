@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main294 {
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -59,7 +59,7 @@ public class Main294 {
 			System.out.println("Between " + a + " and " + b + ", " + nmayor
 					+ " has a maximum of " + mayor + " divisors.");
 		}
-
+		input.close();
 	}
 
 }

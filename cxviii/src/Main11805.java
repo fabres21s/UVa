@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11805 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		int c, res, p, k, n, i;
@@ -30,7 +30,7 @@ public class Main11805 {
 				res -= n;
 			System.out.printf("Case %d: %d\n", i, res);
 		}
-
+		input.close();
 	}
 
 }

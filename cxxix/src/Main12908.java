@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12908 {
 
 	/**
-	 * - Sumatoria de nÃºmeros
+	 * - Sumatoria de números
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -25,12 +25,12 @@ public class Main12908 {
 			}
 
 			r = (int) ((-1 + Math.sqrt(1 + 8 * sumInicial)) / 2 + 1);// de la
-																		// fÃ³rmula
+																		// fórmula
 																		// de la
 																		// sumatoria
 																		// de
 																		// los
-																		// nÃºmeros
+																		// números
 
 			sumReal = r * (r + 1) / 2;
 			buffer.append((sumReal - sumInicial) + " " + r + "\n");

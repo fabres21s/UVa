@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main694 {
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class Main694 {
 			System.out.println("Case " + casos + ": A = " + a + ", limit = "
 					+ l + ", number of terms = " + computeItems(a, l));
 		}
-
+		input.close();
 	}
 
 	static int computeItems(long a, long limit) {

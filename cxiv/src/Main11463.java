@@ -19,8 +19,8 @@ public class Main11463 {
 	 * - Floyd Warshall
 	 * 
 	 * El algoritmo
-	 * consiste en hallar las distancias mÃ­nimas entre dos nodos siendo asÃ­, una
-	 * generalizaciÃ³n del Dijkstra
+	 * consiste en hallar las distancias mínimas entre dos nodos siendo así, una
+	 * generalización del Dijkstra
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

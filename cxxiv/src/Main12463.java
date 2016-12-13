@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12463 {
 
 	/**
-	 * - EstadÃ­stica
+	 * - Estadística
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -52,7 +52,7 @@ public class Main12463 {
 			System.out.println(res);
 		}
 
-
+		input.close();
 	}
 
 }

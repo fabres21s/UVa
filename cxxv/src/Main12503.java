@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -13,7 +12,7 @@ import java.util.Scanner;
 public class Main12503 {
 
 	/**
-	 * SimulaciÃ³n
+	 * Simulación
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -44,6 +43,7 @@ public class Main12503 {
 			}
 			System.out.println(actual);
 		}
+		input.close();
 
 	}
 

@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -17,13 +16,13 @@ import java.util.Scanner;
 public class Main924 {
 
 	/**
-	 * - BÃºsqueda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Grafos dirigidos
 	 * - Queue
 	 * 
 	 * Dado un grafo
-	 * dirigido, tomar un nodo como principal, hacer una bÃºsqueda en profundidad
-	 * hallar en quÃ© nivel se encuentran la mayor cantidad de nodos y cuantos nodos
+	 * dirigido, tomar un nodo como principal, hacer una búsqueda en profundidad
+	 * hallar en qué nivel se encuentran la mayor cantidad de nodos y cuantos nodos
 	 * hay
 	 */
 	public static void main(String[] args) {
@@ -109,13 +108,6 @@ class Grafo {
 			System.out.println(0);
 		// print();
 
-	}
-
-	private void print() {
-		for (Nodo nodo : nodos) {
-			System.out.println(nodo);
-		}
-		System.out.println(Arrays.toString(arreglo));
 	}
 
 	public void clear() {

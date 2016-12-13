@@ -14,8 +14,8 @@ public class Main1368 {
 	
 	/**
 	 * - Arreglos
-	 * En una columna, ver la letra que mÃ¡s se repetÃ­a, y contar las que eran diferentes a la 
-	 * que mÃ¡s se repite y cambiarlas
+	 * En una columna, ver la letra que más se repetía, y contar las que eran diferentes a la 
+	 * que más se repite y cambiarlas
 	 */
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
@@ -96,5 +96,6 @@ public class Main1368 {
 			
 			
 		}
+		input.close();
 	}
 }

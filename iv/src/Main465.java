@@ -13,8 +13,8 @@ import java.util.Scanner;
 public class Main465 {
 
 	/**
-	 * - Grandes nÃºmeros
-	 * Dados dos nÃºmeros y una operaciÃ³n, determinar si cada uno es mayor que 2^32 y si el resultado tambiÃ©n lo es 
+	 * - Grandes números
+	 * Dados dos números y una operación, determinar si cada uno es mayor que 2^32 y si el resultado también lo es 
 	 */
 	public static void main(String[] args) {
 
@@ -51,6 +51,7 @@ public class Main465 {
 				System.out.println("result too big");
 			}
 		}
+		input.close();
 	}
 
 }

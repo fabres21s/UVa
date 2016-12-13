@@ -13,10 +13,10 @@ public class Main12019 {
 
 	/**
 	 * - Calendario
-	 * - Proceso matem√°tico
-	 * - F√≥rmula
+	 * - Proceso matem·tico
+	 * - FÛrmula
 	 * 
-	 * Determinar el d√≠a de la semana de una fecha del 2011
+	 * Determinar el dÌa de la semana de una fecha del 2011
 	 */
 	public static void main(String[] args) {
 		String days[] = { "Sunday", "Monday", "Tuesday", "Wednesday",
@@ -30,7 +30,7 @@ public class Main12019 {
 			dia = input.nextInt();
 			System.out.println(days[(dia + nums[mes]) % 7]);
 		}
-
+		input.close();
 	}
 
 }

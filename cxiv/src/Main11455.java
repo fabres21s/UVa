@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main11455 {
 
 	/**
-	 * - Cuadril√°tero
-	 * - F√≥rmula
+	 * - Cuadril·tero
+	 * - FÛrmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

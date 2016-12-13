@@ -14,13 +14,13 @@ public class Main11364 {
 
 	/**
 	 * - Arreglos
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * 
-	 * Dado un arreglo, ordenarlo, sacar el promedio y encontrar el nÃºmero que mÃ¡s se acerque a dicho promedio
-	 * para posteriormente encontrar las diferencias absolutas con el primer y Ãºltimo elemento del arreglo
+	 * Dado un arreglo, ordenarlo, sacar el promedio y encontrar el número que más se acerque a dicho promedio
+	 * para posteriormente encontrar las diferencias absolutas con el primer y último elemento del arreglo
 	 * y multiplicarlas por 2.
 	 * 
-	 * Los arreglos son distancias en un centro comercial, desde los parqueaderos, hacÃ­a las tiendas,
+	 * Los arreglos son distancias en un centro comercial, desde los parqueaderos, hacía las tiendas,
 	 * el objetivo es minimizar la distancia de recorrido, saliendo del parqueadero, pasando por todas las tiendas
 	 * y volver al parqueadero.
 	 */

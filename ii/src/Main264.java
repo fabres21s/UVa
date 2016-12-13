@@ -12,7 +12,7 @@ import java.util.Scanner;
 */
 public class Main264 {
 	/**
-	 * - Sumatoria de nÃºmeros
+	 * - Sumatoria de números
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -28,7 +28,9 @@ public class Main264 {
 				System.out.println("TERM " + n + " IS " + (1 + r) + "/"
 						+ (k - r));
 			}
+			input.close();
 		}
+		
 	}
 
 }

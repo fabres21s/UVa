@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11715 {
 
 	/**
-	 * - FÃ³rmula
+	 * - Fórmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -54,6 +54,7 @@ public class Main11715 {
 			System.out.printf("Case %d: %.3f %.3f\n", casos, r1, r2);
 			casos++;
 		}
+		input.close();
 
 	}
 

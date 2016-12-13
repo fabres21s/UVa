@@ -12,12 +12,13 @@ import java.util.Scanner;
 public class Main1124 {
 
 	/**
-	 * - Muy f√°cil
+	 * - Muy f·cil
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext())
 			System.out.println(input.nextLine());
+		input.close();
 
 	}
 

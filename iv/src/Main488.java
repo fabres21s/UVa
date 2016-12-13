@@ -14,7 +14,7 @@ public class Main488
 	static StringBuffer buffer;
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String[] args) 
 	{
@@ -47,7 +47,7 @@ public class Main488
 			}
 			System.out.print(buffer);
 		}
-
+		input.close();
 	}
 	
 	

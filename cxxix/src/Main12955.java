@@ -18,7 +18,7 @@ public class Main12955 {
 	/*
 	 * - Factorial
 	 * 
-	 * Encontrar la mÃ­nima cantidad de factoriales que, sumados de el valor n
+	 * Encontrar la mínima cantidad de factoriales que, sumados de el valor n
 	 */
 	public static void main(String[] args) throws IOException {
 

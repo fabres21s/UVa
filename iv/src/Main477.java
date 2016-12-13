@@ -13,7 +13,7 @@ import java.util.Vector;
 public class Main477 
 {
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) 
 	{

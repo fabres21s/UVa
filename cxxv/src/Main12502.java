@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12502 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Main12502 {
 			prom = (a + b) / 3;
 			System.out.println(Math.round((x * (a - prom)) / prom));
 		}
-
+		input.close();
 	}
 
 }

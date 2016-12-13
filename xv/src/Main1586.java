@@ -19,7 +19,7 @@ public class Main1586 {
 	 * - Map
 	 * - Expresiones Regulares
 	 * 
-	 * Dada una fÃ³rmula quÃ­mica, encontrar la masa molar de ella
+	 * Dada una fórmula química, encontrar la masa molar de ella
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
@@ -37,7 +37,7 @@ public class Main1586 {
 		values.put('N', 14010L);
 		for (int i = 1; i <= testCases; i++) {
 			StringBuffer output = new StringBuffer();
-			//la diferencia entre AC y WA era el .trim(), por quÃ©, ni idea
+			//la diferencia entre AC y WA era el .trim(), por qué, ni idea
 			line =  br.readLine().trim();
 			letras = line.replaceAll("[^A-Z]", "").split("");
 			numeros = line.replaceAll("[A-Z]", " ").split(" ");

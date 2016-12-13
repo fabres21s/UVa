@@ -15,11 +15,11 @@ import java.util.Stack;
 public class Main514 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * - Stack
 	 * 
 	 * El ejercicio consiste en analizar si es posible poner y sacar de una pila
-	 * nÃºmeros en un determinado orden ej, si estaba 4,2,5,1,3
+	 * números en un determinado orden ej, si estaba 4,2,5,1,3
 	 */
 	public static void main(String[] args) {
 
@@ -89,7 +89,7 @@ public class Main514 {
 			}
 			System.out.println();
 		}
-
+		input.close();
 	}
 
 }

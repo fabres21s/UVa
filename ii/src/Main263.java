@@ -1,8 +1,6 @@
-import java.io.*;
+import java.io.IOException;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
-import java.util.Vector;
 
 /**
 *	263 - Number Chains
@@ -16,7 +14,7 @@ import java.util.Vector;
 public class Main263 {
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner s = new Scanner(System.in);
@@ -63,6 +61,8 @@ public class Main263 {
 			ls = new Scanner(input);
 			number = ls.nextInt();
 		}
+		ls.close();
+		s.close();
 	}
 
 	// return true if the last number does not appear before

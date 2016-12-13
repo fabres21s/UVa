@@ -52,7 +52,7 @@ public class Main272 {
 			}
 
 		}
-
+		input.close();
 	}
 
 }

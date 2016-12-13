@@ -13,7 +13,7 @@ public class Main11428 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		int cubos[] = new int[1000];

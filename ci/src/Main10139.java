@@ -16,7 +16,7 @@ public class Main10139 {
 	/**
 	 * - Pregenerados
 	 * - Factorial
-	 * - NÃºmeros Primos
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

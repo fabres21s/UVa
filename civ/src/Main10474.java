@@ -20,7 +20,6 @@ public class Main10474 {
 		Scanner input = new Scanner(System.in);
 		int n, q, busq, i, casos = 1;
 		int marbles[];
-		StringBuffer buffer = new StringBuffer();
 
 		while (true) {
 			n = input.nextInt();

@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main10195 {
 
 	/**
-	 * - CÃ­rculo
+	 * - Círculo
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

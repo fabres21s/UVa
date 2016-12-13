@@ -50,6 +50,7 @@ public class Main12644 {
 			
 			input=new Scanner(System.in);
 		}
+		input.close();
 
 	}
 

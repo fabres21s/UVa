@@ -14,7 +14,7 @@ public class Main130 {
 	static int n, k;
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -26,6 +26,7 @@ public class Main130 {
 			}
 			roman();
 		}
+		input.close();
 	}
 
 	static void roman() {

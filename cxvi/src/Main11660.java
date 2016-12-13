@@ -1,5 +1,4 @@
 import java.io.IOException;
-import java.util.Scanner;
 
 /**
 *	11660 - Look-and-Say sequences

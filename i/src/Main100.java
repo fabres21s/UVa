@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -6,9 +5,9 @@ import java.util.Scanner;
  * @author fabio
  * 100 - The 3n+1 Problem
  * 
- *  - Proceso matem√°tico
+ *  - Proceso matem·tico
  * 	Si n es par, dividirlo entre dos, si no multiplicarlo por 3 y sumarle uno
- *	Hallar el n√∫mero al cual hay que hacerle m√°s veces ese proceso en un rango dado
+ *	Hallar el n˙mero al cual hay que hacerle m·s veces ese proceso en un rango dado
  *	
  * Submit:	 2011-04-02 13:17:00
  * Runtime:	 1.036
@@ -28,7 +27,7 @@ import java.util.Scanner;
 public class Main100 {
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		int a, b;

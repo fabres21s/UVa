@@ -13,10 +13,10 @@ import java.util.Scanner;
 public class Main11057 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * - Sort
 	 * 
-	 * De una lista de nÃºmeros y un target, encontrar la menor diferencia oara
+	 * De una lista de números y un target, encontrar la menor diferencia oara
 	 * llegar al target
 	 */
 	public static void main(String[] args) {

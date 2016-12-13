@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main11936 {
 
 	/**
-	 * - Tri√°ngulos
-	 * - F√≥rmula
+	 * - Tri·ngulos
+	 * - FÛrmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -27,6 +27,7 @@ public class Main11936 {
 			else
 				System.out.println("OK");
 		}
+		input.close();
 	}
 
 }

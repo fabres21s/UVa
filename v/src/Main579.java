@@ -52,7 +52,7 @@ public class Main579 {
 	}
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		int mins;

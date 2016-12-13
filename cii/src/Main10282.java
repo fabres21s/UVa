@@ -43,6 +43,7 @@ public class Main10282 {
 			}
 
 		}
+		input.close();
 	}
 
 }

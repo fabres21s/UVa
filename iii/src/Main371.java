@@ -14,7 +14,7 @@ public class Main371
 	static int mayor=0;
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) 
 	{
@@ -32,6 +32,7 @@ public class Main371
 			p=numCicloMax(Math.min(a, b), Math.max(a, b));
 			System.out.println("Between "+Math.min(a, b) +" and " + Math.max(a, b)  + ", " +mayor+" generates the longest sequence of "+ p+" values.");
 		} 
+		input.close();
 	}
 	
 	static int numCicloMax(int a, int b) 

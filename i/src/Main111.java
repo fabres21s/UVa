@@ -17,7 +17,7 @@ public class Main111 {
 	/*
 	 * - Arreglos
 	 * 
-	 * Encontrar la calificaciÃ³n de un estudiante dado un orden cronolÃ³gico de sucesos
+	 * Encontrar la calificación de un estudiante dado un orden cronológico de sucesos
 	 * y la respuesta que da el estudiante.
 	 * Un poco enredado
 	 */
@@ -48,22 +48,7 @@ public class Main111 {
 
 	}
 
-	private static int lcs(char[] s1, char[] s2) {
-
-		int LCS[][] = new int[250][250];
-		int s1_length = s1.length;
-		int s2_length = s2.length;
-		int i, j;
-		for (i = 1; i <= s1_length; i++)
-			for (j = 1; j <= s2_length; j++)
-				if (s1[i - 1] == s2[j - 1])
-					LCS[i][j] = LCS[i - 1][j - 1] + 1;
-				else
-					LCS[i][j] = (LCS[i - 1][j] > LCS[i][j - 1]) ? LCS[i - 1][j] : LCS[i][j - 1];
-		return LCS[s1_length][s2_length];
-	}
-	
-	//probar este mÃ©todo de sfmunera con enteros, proque no tengo ni idea
+	//probar este método de sfmunera con enteros, proque no tengo ni idea
 	static int lis(int[] s, int[] rank) {
 		int N = s.length;
 		int[] dp = new int[N];

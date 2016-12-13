@@ -27,6 +27,7 @@ public class Main11879 {
 				System.out.println(0);
 			}
 		}
+		input.close();
 
 	}
 

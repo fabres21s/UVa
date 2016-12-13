@@ -34,7 +34,7 @@ public class Main10315 {
 	}
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String args[]) // entry point from OS
 	{

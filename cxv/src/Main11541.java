@@ -17,10 +17,10 @@ public class Main11541 {
 	 * - Arreglos
 	 * - Expresiones Regulares
 	 * 
-	 * Dada una cadena con la secuencia letra nÃºmero, imprimir la letra
-	 * tantas veces segÃºn el nÃºmero.
+	 * Dada una cadena con la secuencia letra número, imprimir la letra
+	 * tantas veces según el número.
 	 * Ej: A1B2C3 -> ABBCCC
-	 * Se utilizan las expresiones regulares para separar los nÃºmeros y las letras
+	 * Se utilizan las expresiones regulares para separar los números y las letras
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {

@@ -15,9 +15,9 @@ public class Main13113 {
 
 	/**
 	 * - Arreglos
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * 
-	 * Encontrar el ganador o los que pasan a segunda ronda en una elecciÃ³n presidencial
+	 * Encontrar el ganador o los que pasan a segunda ronda en una elección presidencial
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

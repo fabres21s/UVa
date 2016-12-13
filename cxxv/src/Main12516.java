@@ -71,6 +71,7 @@ public class Main12516 {
 
 		}
 		System.out.print(output);
+		input.close();
 	}
 
 }

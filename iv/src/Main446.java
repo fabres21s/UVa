@@ -39,7 +39,7 @@ class Main446
 	}
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) 
 	{

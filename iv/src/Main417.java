@@ -18,7 +18,6 @@ public class Main417 {
 	 * - Map
 	 */
 	public static void main(String[] args) {
-		long t=System.currentTimeMillis();
 		Map<String, Integer> map = new HashMap<String, Integer>();
 		int sum=0;
 		for (int i=97; i<123; i++){
@@ -78,6 +77,7 @@ public class Main417 {
 			result = map.get(word);
 			System.out.println((result == null)?"0":result);
 		}
+		input.close();
 	}
 
 }

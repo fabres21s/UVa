@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12324 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 
 	public static void main(String[] args) {
@@ -64,5 +64,6 @@ public class Main12324 {
 			}
 			System.out.println(totalViaje);
 		}
+		input.close();
 	}
 }

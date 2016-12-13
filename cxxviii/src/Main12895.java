@@ -15,8 +15,8 @@ public class Main12895 {
 	 * - Arreglos
 	 * - Potencias
 	 * 
-	 * Dado un nÃºmero, encontrar si la sumatoria de cada
-	 * dÃ­gito, elevado a la potencia cantidad de digitos, es igual alnÃºmero original
+	 * Dado un número, encontrar si la sumatoria de cada
+	 * dígito, elevado a la potencia cantidad de digitos, es igual alnúmero original
 	 * ej 153 1^3 +5^3 +3^3 = 153
 	 */
 	public static void main(String[] args) {
@@ -54,6 +54,7 @@ public class Main12895 {
 			}
 
 		}
+		input.close();
 	}
 
 }

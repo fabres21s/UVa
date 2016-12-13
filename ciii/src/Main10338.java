@@ -16,7 +16,7 @@ public class Main10338 {
 
 	/**
 	 * - Arreglos
-	 * - EstadÃ­stica
+	 * - Estadística
 	 * - Big Numbers
 	 * 
 	 * Encontrar, en una palabra, la cantidad de posibles permutaciones

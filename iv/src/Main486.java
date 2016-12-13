@@ -55,6 +55,7 @@ public class Main486
 			}
 			System.out.println(n);			
 		}
+		input.close();
 	}
 	
 	static int cientos(String palabra)

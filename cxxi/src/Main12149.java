@@ -13,7 +13,7 @@ public class Main12149 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		int[] cuadrados = { 0, 1, 5, 14, 30, 55, 91, 140, 204, 285, 385, 506,
@@ -33,6 +33,7 @@ public class Main12149 {
 		while ((n = input.nextInt()) != 0) {
 			System.out.println(cuadrados[n]);
 		}
+		input.close();
 
 	}
 

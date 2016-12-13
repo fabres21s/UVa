@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main414 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * - Arreglos
 	 * 
 	 * Determinar cuantos espacios en blanco hay, y cuantos pueden ser eliminados

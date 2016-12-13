@@ -94,7 +94,7 @@ public class Main12364 {
 			}
 			System.out.print(buf);
 		}
-
+		input.close();
 	}
 
 }

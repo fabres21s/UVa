@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main10784 {
 
 	/**
-	 * GeometrÃ­a, creo que sumatoria de nÃºmeros
-	 * - FÃ³rmula
+	 * Geometría, creo que sumatoria de números
+	 * - Fórmula
 	 */
 	public static void main(String[] args) {
 		long N, n;

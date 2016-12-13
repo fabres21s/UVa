@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main355 {
 
 	/**
-	 * - Sistemas de numeraciÃ³n
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) {
 		String s, cs;
@@ -32,5 +32,6 @@ public class Main355 {
 				System.out.printf("%s is an illegal base %d number%n", s, b);
 			}
 		}
+		sc.close();
 	}
 }

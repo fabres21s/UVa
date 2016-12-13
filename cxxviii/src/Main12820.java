@@ -19,8 +19,8 @@ public class Main12820 {
 	/**
 	 * - Validaciones
 	 * 
-	 *  Validar si una palabra es cool,lo es cuando tiene mÃ¡s de 2 letras
-	 *  y cada letra aparece un nÃºmero diferente de veces.
+	 *  Validar si una palabra es cool,lo es cuando tiene más de 2 letras
+	 *  y cada letra aparece un número diferente de veces.
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

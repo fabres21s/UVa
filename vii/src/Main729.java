@@ -20,10 +20,10 @@ public class Main729 {
 	 * - Pregenerados
 	 * - Map
 	 * - List
-	 * - Sistemas de numeraciÃ³n
+	 * - Sistemas de numeración
 	 * 
-	 * Dado un nÃºmero n y una catidad de unos, encontrar, en binario
-	 * hasta 2^n los nÃºmeros que cantidad dicha cantidad de unos
+	 * Dado un número n y una catidad de unos, encontrar, en binario
+	 * hasta 2^n los números que cantidad dicha cantidad de unos
 	 */
 	public static void main(String[] args) {
 
@@ -62,7 +62,7 @@ public class Main729 {
 
 		}
 		System.out.print(output);
-
+		input.close();
 	}
 
 	private static String complete(String binary, int n) {

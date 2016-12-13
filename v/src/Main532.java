@@ -23,8 +23,8 @@ public class Main532 {
 	 * - Priority Queue
 	 * - Arreglos 
 	 * 
-	 * El ejercicio consiste en que dado un arreglo tridimensional, con una posici√≥n inicial
-	 * y una posici√≥n final, encontrar la ruta m√°s corta para llegar desde S hasta E
+	 * El ejercicio consiste en que dado un arreglo tridimensional, con una posiciÛn inicial
+	 * y una posiciÛn final, encontrar la ruta m·s corta para llegar desde S hasta E
 	 * con ciertas condiciones
 	 */
 	public static void main(String[] args) throws IOException {

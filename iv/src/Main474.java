@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main474 {
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) 
 	{
@@ -24,5 +24,6 @@ public class Main474 {
 			digit=Math.floor(Math.log10(2)*n+1);
 			System.out.printf("2^-%.0f = %.3fe-%.0f\n", n,Math.pow(2,(digit/Math.log10(2) - n)),digit);
 		}
+		input.close();
 	}
 }

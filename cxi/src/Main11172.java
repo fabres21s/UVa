@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Main11172 {
 
 	/**
-	 * - Muy fÃ¡cil
+	 * - Muy fácil
 	 * 
-	 * Muy fÃ¡cil Validar si un nÃºmero es mayor,
+	 * Muy fácil Validar si un número es mayor,
 	 * menor o igual a otro
 	 */
 	public static void main(String[] args) {

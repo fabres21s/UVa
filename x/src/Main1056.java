@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -20,10 +19,10 @@ public class Main1056 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - BÃºsqueda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Queue
 	 * 
-	 * Hallar el mÃ¡ximo grado de separaciÃ³n entre un grupo de personas
+	 * Hallar el máximo grado de separación entre un grupo de personas
 	 * con unas relaciones preestablecidas
 	 */
 	public static void main(String[] args) {
@@ -49,7 +48,7 @@ public class Main1056 {
 			
 			if (!firstLine) {
 				/*
-				 * No es el primer caso de prueba, tampoco el Ãºltimo
+				 * No es el primer caso de prueba, tampoco el último
 				 */
 				output.append("\n");
 			}
@@ -172,13 +171,6 @@ class Grafo {
 		return max;
 	//	print();
 
-	}
-
-	private void print() {
-		for (Nodo nodo : nodos) {
-			System.out.println(nodo);
-		}
-		System.out.println(Arrays.toString(arreglo));
 	}
 
 	public void clear() {

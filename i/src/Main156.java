@@ -56,7 +56,7 @@ public class Main156 {
 			}
 		}
 		// System.out.println(diccionario.size());
-
+		input.close();
 
 	}
 

@@ -17,10 +17,10 @@ public class Main1197 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - BÃºsqueda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Queue
 	 * 
-	 * Encontrar cuantos nodos estÃ¡n conectados al nodo 0
+	 * Encontrar cuantos nodos están conectados al nodo 0
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -111,12 +111,6 @@ class Grafo {
 		}
 
 		System.out.println(friends);
-	}
-
-	private void print() {
-		for (Nodo nodo : nodos) {
-			System.out.println(nodo);
-		}
 	}
 
 	public void clear() {

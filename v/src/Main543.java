@@ -14,7 +14,7 @@ public class Main543 {
 	static Vector<Integer> primos = new Vector<Integer>();
 
 	/**
-	 * - NÃºmeros Primos
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -40,7 +40,7 @@ public class Main543 {
 			}
 
 		}
-
+		input.close();
 	}
 
 	static boolean esprimo(int valor) {

@@ -14,10 +14,10 @@ import java.io.InputStreamReader;
 public class Main11831 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * - Arreglos
 	 * 
-	 * Dado un grid y un robot en una posiciÃ³n y con una orientaciÃ³n inicial
+	 * Dado un grid y un robot en una posición y con una orientación inicial
 	 * determinar cuantos stickers (*) recoge, teniendo en cuenta unas
 	 * instrucciones y condiciones
 	 */

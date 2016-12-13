@@ -1,4 +1,3 @@
-import java.nio.Buffer;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -14,11 +13,11 @@ import java.util.Scanner;
 public class Main11850 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int estaciones, milla;
+		int estaciones;
 		int arreglo[];
 		StringBuffer output = new StringBuffer();
 		while (input.hasNext()) {
@@ -44,6 +43,7 @@ public class Main11850 {
 
 		}
 		System.out.print(output);
+		input.close();
 	}
 
 }

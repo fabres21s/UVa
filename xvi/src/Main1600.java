@@ -61,7 +61,7 @@ public class Main1600 {
 				boolean puedoseguir = false;
 				int r = 0;
 				if (grid3d[i][j][0]) {
-					// validamos que no estÃ© visitado
+					// validamos que no esté visitado
 					if (!grid3d[i][j][1]) {
 						System.out.println("no es necesario romper");
 						puedoseguir = true;

@@ -1,4 +1,3 @@
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -15,7 +14,7 @@ public class Main962 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) throws IOException {
 		int[] taxicab = { 1729, 4104, 13832, 20683, 32832, 39312, 40033, 46683,

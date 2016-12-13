@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main305 {
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		int[] val = { 0, 2, 7, 5, 30, 169, 441, 1872, 7632, 1740, 93313,
@@ -23,7 +23,7 @@ public class Main305 {
 		while ((n = input.nextInt()) != 0) {
 			System.out.println(val[n]);
 		}
-
+		input.close();
 	}
 
 }

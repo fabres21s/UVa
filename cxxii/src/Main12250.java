@@ -36,5 +36,6 @@ public class Main12250 {
 			}
 			i++;
 		}
+		input.close();
 	}
 }

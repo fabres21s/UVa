@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main343 {
 
 	/**
-	 * - Sistemas de numeraciÃ³n
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -55,7 +55,7 @@ public class Main343 {
 				System.out.printf("%s is not equal to %s in any base 2..36\n",
 						v1, v2);
 		}
-
+		input.close();
 	}
 
 	static int findminbase(String s) {

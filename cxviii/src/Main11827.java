@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -17,7 +16,6 @@ public class Main11827 {
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		String linea;
 		int casos = Integer.valueOf(input.nextLine());
 		int i, j, x, gcd, max;
 		while (casos-- > 0) {
@@ -42,6 +40,7 @@ public class Main11827 {
 			}
 			System.out.println(max);
 		}
+		input.close();
 	}
 
 	private static int gcd(int a, int b) {

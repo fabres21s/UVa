@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 /**
- * 12751 - An Interesting Game Sumatoria de nÃºmeros Dados nÃºmeros del 1 al n,
- * quitar k nÃºmeros, desde la posiciÃ³n x, encontrar la sumatoria de los
+ * 12751 - An Interesting Game Sumatoria de números Dados números del 1 al n,
+ * quitar k números, desde la posición x, encontrar la sumatoria de los
  * restantes
  * 
  * @author fabio
@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class Main12751 {
 
 	/**
-	 * - Sumatoria de nÃºmeros
+	 * - Sumatoria de números
 	 */
 	public static void main(String[] args) {
 
@@ -34,6 +34,7 @@ public class Main12751 {
 			System.out.println("Case " + i + ": "
 					+ (sumatoria(n) + sumatoria(x - 1) - sumatoria(x + k - 1)));
 		}
+		input.close();
 	}
 
 	private static int sumatoria(int n) {

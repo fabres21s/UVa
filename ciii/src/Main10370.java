@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10370 {
 
 	/**
-	 * - EstadÃ­stica
+	 * - Estadística
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

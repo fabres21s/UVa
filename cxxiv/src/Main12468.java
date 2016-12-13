@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12468 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -28,6 +28,7 @@ public class Main12468 {
 			// System.out.println((100-b+a)+"   "+Math.abs(a-b));
 
 		}
+		input.close();
 
 	}
 

@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-//TODO TLE - Jupiter Atacks! - En C++ tambiÃ©n
+//TODO TLE - Jupiter Atacks! - En C++ también
 public class Main12365 
 {
 
@@ -96,53 +96,6 @@ public class Main12365
 		if (P % 2 == 0) return fastPow(((B % M) * (B % M)) % M, P / 2, M);
 		else return ((B % M) * fastPow(((B % M) * (B % M)) % M, (P - 1) / 2, M) % M) % M;
 	}
-/*
- * (x^y)%z
- */
-	private static long modular(long x, long y, long z) 
-    {       
-
-		long residuos[][]=new long[2][100];
-            int i=-1,j;
-
-            if (y == 0) {
-            	return 1;
-            }
-            do
-            {
-                    i++;
-                    residuos[0][i]=(int)Math.pow(2, i);     
-            
-            }while(residuos[0][i]<=y);
-            residuos[1][0]=x%z;
-            i=1;
-            while(residuos[0][i]<=y)
-            {
-                    residuos[1][i]=(residuos[1][i-1]*residuos[1][i-1])%z;
-                    i++;
-                 //   System.out.println(residuos[0][i] +"   "+y);
-            }
-            i--;
-            if(residuos[0][1]==y)
-            {
-                    return (residuos[1][i]);
-            }
-            y-=residuos[0][i];
-            while(y>0)
-            {
-                    j=0;
-                    while(residuos[0][j]<=y)
-                    {
-                            j++;
-                    }
-                    j--;
-                    i++;
-                    residuos[0][i]=residuos[0][j]+residuos[0][i-1];
-                    residuos[1][i]=(residuos[1][j]*residuos[1][i-1])%z;
-                    y-=residuos[0][j];
-            }
-            return( residuos[1][i]);
-    }
 }
 
 

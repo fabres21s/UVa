@@ -27,7 +27,7 @@ public class Main674 {
 
 			System.out.printf("%d\n", ss[x]);
 		}
-
+		input.close();
 	}
 
 	static void dynamic() {

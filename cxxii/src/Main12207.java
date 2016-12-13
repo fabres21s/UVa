@@ -2,11 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
-import java.util.Set;
 
 /**
 *	12207 - That is Your Queue
@@ -23,7 +19,7 @@ public class Main12207 {
 	 * - List
 	 * 
 	 * Dada una cantidad de personas y una serie de comandos
-	 * encontrar el orden de atenciÃ³n de cada una de ellas
+	 * encontrar el orden de atención de cada una de ellas
 	 */
 	public static void main(String[] args) throws IOException {
 

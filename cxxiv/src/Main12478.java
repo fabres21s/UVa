@@ -10,7 +10,7 @@
 public class Main12478 {
 
 	/**
-	 * - Muy f√°cil
+	 * - Muy f·cil
 	 */
 	public static void main(String[] args) {
 		System.out.println("KABIR");

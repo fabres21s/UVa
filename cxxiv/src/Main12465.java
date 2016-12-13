@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main12465 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		int a, b, i, r, d, max, min;
@@ -40,7 +40,7 @@ public class Main12465 {
 			// /System.out.println(valores.toString());
 			System.out.println(valores.size());
 		}
-
+		input.close();
 
 	}
 

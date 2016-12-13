@@ -23,7 +23,7 @@ public class Main10679 {
 
 	/**
 	 * - Cadena de caracteres
-	 * - BÃºsqueda
+	 * - Búsqueda
 	 * - Arreglos
 	 * 
 	 * En una

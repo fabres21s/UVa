@@ -13,7 +13,7 @@ public class Main151 {
 	static boolean k[] = new boolean[100];
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		int N, count;
@@ -58,6 +58,7 @@ public class Main151 {
 				}
 			}
 		}
+		input.close();
 	}
 
 	static void init(boolean k[]) {

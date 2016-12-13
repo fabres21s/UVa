@@ -9,7 +9,7 @@
 */
 public class Main13025 {
 
-	/* - FÃ¡cil
+	/* - Fácil
 	 * Imprimir eso, solamente
 	 */
 	public static void main(String[] args) {

@@ -12,13 +12,13 @@ import java.util.Scanner;
 public class Main11152 {
 
 	/**
-	 * - CÃ­rculos
-	 * - TriÃ¡ngulos
-	 * - FÃ³rmula
+	 * - Círculos
+	 * - Triángulos
+	 * - Fórmula
 	 * 
-	 * Dadas las medidas de un triÃ¡ngulo, hallar el Ã¡rea del cÃ­rculo externo,
-	 * menos la del trÃ­angulo, y hallar el Ã¡rea del cÃ­rculo interno al
-	 * triÃ¡ngulo, y cuÃ¡nto le queda al triÃ¡ngulo
+	 * Dadas las medidas de un triángulo, hallar el área del círculo externo,
+	 * menos la del tríangulo, y hallar el área del círculo interno al
+	 * triángulo, y cuánto le queda al triángulo
 	 */
 	public static void main(String[] args) {
 
@@ -34,10 +34,10 @@ public class Main11152 {
 
 			s = (a + b + c) / 2;
 
-			// hallamos el Ã¡rea del triÃ¡ngulo
+			// hallamos el área del triángulo
 			triangle = Math.sqrt(s * (s - a) * (s - b) * (s - c));
 
-			// hallamos el radio de la circunferencia externa al triÃ¡ngulo
+			// hallamos el radio de la circunferencia externa al triángulo
 			r1 = ((a * b * c) / Math.sqrt((a + b + c) * (b + c - a)
 					* (c + a - b) * (a + b - c)));
 

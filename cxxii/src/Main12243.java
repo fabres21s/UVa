@@ -44,7 +44,7 @@ public class Main12243 {
 			}
 		}
 
-
+		input.close();
 	}
 
 	static char ops(char ch) {

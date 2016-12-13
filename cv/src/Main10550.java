@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Main10550 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * 
-	 * Dado un candado de combinaciÃ³n (3
-	 * valores) y una posiciÃ³n inicial encontrar cuantos grados hay que girarlo
+	 * Dado un candado de combinación (3
+	 * valores) y una posición inicial encontrar cuantos grados hay que girarlo
 	 * para abrir el candado
 	 */
 	public static void main(String[] args) {

@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11371 {
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		long n1, n2, n, arreglo[];

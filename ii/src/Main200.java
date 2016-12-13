@@ -42,7 +42,7 @@ public class Main200 {
 			System.out.print(answer.get(i));
 		}
 		System.out.println();
-		
+		input.close();
 	}
 
 }

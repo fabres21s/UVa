@@ -19,6 +19,7 @@ public class Main458 {
 	 * 
 	 * Reemplazar un caracter por su ASCII - 7
 	 */
+@SuppressWarnings("deprecation")
 public static void main(String[] args) throws IOException 
 	{
 		DataInputStream in = new DataInputStream(System.in);

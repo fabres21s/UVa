@@ -18,8 +18,8 @@ public class Main10530 {
 	 * - Arreglos
 	 * 
 	 * El juego de adivinar un
-	 * nÃºmero del 1 al 10 y verificar si la persona cambia el nÃºmero, hace
-	 * trampa, o estÃ¡ siendo honesto
+	 * número del 1 al 10 y verificar si la persona cambia el número, hace
+	 * trampa, o está siendo honesto
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {

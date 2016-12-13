@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -7,14 +6,13 @@ import java.util.Scanner;
 public class Main11385 {
 
 	/**
-	 * Wrong Answer - No tengo idea acerca de qu√© est√° mal
-	 * pruebo los ejercicios propuestos y est√°n todos bien
+	 * Wrong Answer - No tengo idea acerca de quÈ est· mal
+	 * pruebo los ejercicios propuestos y est·n todos bien
 	 */
 	public static void main(String[] args) {
 		long fibos[]=new long [50];
 		fibos[0]=1;
 		fibos[1]=2;
-		String r = "     A";
 		for(int i=2;i<50;i++){
 			fibos[i]=fibos[i-1]+fibos[i-2];
 			//System.out.println(fibos[i]);
@@ -24,7 +22,7 @@ public class Main11385 {
 
 		//System.out.println(fibos[45]);
 		Scanner input=new Scanner(System.in);
-		int k=Integer.valueOf(input.nextLine()),n,i,x,y;
+		int k=Integer.valueOf(input.nextLine()),n,i,x;
 		Map <Long,Character> map;
 		StringBuffer buffer;
 		while(k-->0){
@@ -70,6 +68,7 @@ public class Main11385 {
 			
 
 		}
+		input.close();
 
 	}
 

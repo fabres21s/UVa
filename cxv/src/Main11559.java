@@ -51,5 +51,6 @@ public class Main11559 {
                          System.out.println(price);
                  }
          }
+         input.close();
 	}
 }

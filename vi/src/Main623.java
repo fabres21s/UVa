@@ -27,7 +27,7 @@ public class Main623 {
 			n = input.nextInt();
 			System.out.printf("%d!\n%d\n", n, fact(n));
 		}
-
+		input.close();
 	}
 
 	public static BigInteger fact(int n) {

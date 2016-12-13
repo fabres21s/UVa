@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Main12279 {
 
 	/**
-	 * - Muy fÃ¡cil
+	 * - Muy fácil
 	 * 
-	 * Si un nÃºmero es positivo, aumentar un contador, sino,
+	 * Si un número es positivo, aumentar un contador, sino,
 	 * disminuirlo En el enuncuado no lo tuve muy claro que digamos
 	 */
 	public static void main(String[] args) {
@@ -37,7 +37,7 @@ public class Main12279 {
 			cases++;
 			System.out.printf("Case %d: %d\n", cases, count);
 		}
-
+		input.close();
 	}
 
 }

@@ -18,7 +18,7 @@ public class Main300 {
 			"ix", "mem", "cib", "caban", "eznab", "canac", "ahau" };
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -39,7 +39,7 @@ public class Main300 {
 			System.out.printf("%d %s %d\n", daytzolkin, Tzolkin[monthtzolkin],
 					yeartzolkin);
 		}
-
+		input.close();
 	}
 
 	static int posicion(String valor) {

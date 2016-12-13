@@ -68,6 +68,7 @@ public class Main541 {
 
 			n = input.nextInt();
 		} while (n != 0);
+		input.close();
 	}
 
 }

@@ -50,6 +50,7 @@ public class Main12442 {
 			System.out.printf("Case %d: %d\n",i,maxPos);
 			
 		}
+		input.close();
 	}
 
 	private static int dfs(int u) {

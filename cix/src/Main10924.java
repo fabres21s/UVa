@@ -15,7 +15,7 @@ public class Main10924 {
 
 	/**
 	 * - Cadena de caracteres
-	 * - NÃºmeros Primos
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		String letras = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";

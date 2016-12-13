@@ -11,7 +11,7 @@ import java.util.Scanner;
 */
 public class Main10948 {
 	/**
-	 * - NÃºmeros Primos
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -15,7 +15,7 @@ public class Main10945 {
 
 	/**
 	 * - Expresiones Regulares
-	 * - PalÃ­ndromos
+	 * - Palíndromos
 	 * 
 	 * Determinar si una cadena es palindroma, uso de expresiones regulares para
 	 * reemplazar ,.?! por ""

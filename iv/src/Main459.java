@@ -19,7 +19,7 @@ public class Main459 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - BÃºsqueda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Queue
 	 */
 	public static void main(String[] args) throws IOException {
@@ -123,11 +123,6 @@ class Grafo {
 		}
 	}
 
-	private void print() {
-		for (Nodo nodo : nodos) {
-			System.out.println(nodo);
-		}
-	}
 
 	public void clear() {
 		for (Nodo nodo : nodos) {

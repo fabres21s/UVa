@@ -33,7 +33,7 @@ class Main implements Runnable {
 	}
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String args[]) {
 		Main myWork = new Main();

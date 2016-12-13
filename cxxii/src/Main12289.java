@@ -45,5 +45,6 @@ public class Main12289 {
 			}
 			System.out.println(1);			
 		}
+		input.close();
 	}
 }

@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11677 {
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 * 
 	 * Ver cuantos minutos faltan desde una hora inicial a una hora final
 	 */
@@ -21,7 +21,7 @@ public class Main11677 {
 
 		Scanner input = new Scanner(System.in);
 		int hi, mi, hf, mf;
-		int t1, t2, t;
+		int  t;
 		while (input.hasNext()) {
 			hi = input.nextInt() * 60;
 			mi = input.nextInt();

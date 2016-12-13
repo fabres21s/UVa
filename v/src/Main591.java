@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main591 {
 
 	/**
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -36,5 +36,6 @@ public class Main591 {
 					moves);
 			cont++;
 		}
+		input.close();
 	}
 }

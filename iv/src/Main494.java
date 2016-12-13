@@ -40,7 +40,7 @@ public class Main494
 			}
 			System.out.println(cont++);
 		}
-
+		input.close();
 	}
 
 }

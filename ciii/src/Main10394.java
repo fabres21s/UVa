@@ -14,7 +14,7 @@ public class Main10394 {
 
 	/**
 	 * - Pregenerados
-	 * - NÃºmeros Primos
+	 * - Números Primos
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

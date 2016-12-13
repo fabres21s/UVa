@@ -25,7 +25,7 @@ public class Main1230 {
 			z = input.nextLong();
 			modular(x, y, z);
 		}
-
+		input.close();
 	}
 
 	private static void modular(long x, long y, long z) {

@@ -15,8 +15,8 @@ public class Main13004 {
 	 * - Arreglos
 	 * - Recursividad
 	 * 
-	 *  Dado n, encontrar un n√∫mero <= n
-	 * que no tenga los digitos m√°s de dos veces
+	 *  Dado n, encontrar un n˙mero <= n
+	 * que no tenga los digitos m·s de dos veces
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -36,6 +36,7 @@ public class Main13004 {
 
 			evaluate(arreglo, size);
 		}
+		input.close();
 	}
 
 	private static void evaluate(int[] arreglo, int size) {

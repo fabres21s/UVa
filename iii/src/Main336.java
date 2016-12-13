@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -19,7 +18,7 @@ import java.util.Scanner;
 public class Main336 {
 
 	/**
-	 * - BÃºsqueda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Grafos dirigidos
 	 * - Queue
 	 * 
@@ -135,11 +134,6 @@ class Grafo {
 	 * 55 35 40 55 60 40 60 60 65 14 1 2 2 7 1 3 3 4 3 5 5 10 5 11 4 6 7 6 7 8 7
 	 * 9 8 9 8 6 6 11
 	 */
-	private void print() {
-		for (Nodo nodo : nodos) {
-			System.out.println(nodo);
-		}
-	}
 
 	public void clear() {
 		for (Nodo nodo : nodos) {

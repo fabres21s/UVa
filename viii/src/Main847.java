@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main847 {
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -32,6 +32,7 @@ public class Main847 {
 				System.out.println("Stan wins.");
 			}
 		}
+		input.close();
 
 	}
 

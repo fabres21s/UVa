@@ -1,11 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.DecimalFormat;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
 
 /**
 *	11340 - Newspaper
@@ -22,7 +18,7 @@ public class Main11340 {
 	 * - Cadena de caracteres
 	 * - Map
 	 * 
-	 * Leer lÃ­neas de caracteres y hacer una sumatoria
+	 * Leer líneas de caracteres y hacer una sumatoria
 	 * de acuerdo al valor establecido para cada caracter
 	 */
 	public static void main(String[] args) throws NumberFormatException,

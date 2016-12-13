@@ -15,9 +15,9 @@ import java.io.InputStreamReader;
 public class Main13034 {
 
 	/**
-	 * - Muy fÃ¡cil
+	 * - Muy fácil
 	 * 
-	 * Si hay un 0 en la secuencia de nÃºmeros
+	 * Si hay un 0 en la secuencia de números
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 

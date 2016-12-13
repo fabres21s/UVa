@@ -40,5 +40,6 @@ public class Main256 {
 				break;
 			}
 		}
+		input.close();
 	}
 }

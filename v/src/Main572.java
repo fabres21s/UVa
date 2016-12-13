@@ -43,6 +43,7 @@ public class Main572 {
 			}
 			System.out.println(cont);
 		}
+		input.close();
 
 	}
 
