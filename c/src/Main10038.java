@@ -17,7 +17,7 @@ public class Main10038 {
 	 * - Vector
 	 * 
 	 * La diferencia absoluta entre valores
-	 * sucesivos de un conjunto de n nÃºmeros tenga los valores desde 1 hasta (n
+	 * sucesivos de un conjunto de n números tenga los valores desde 1 hasta (n
 	 * -1) Si hay un solo valor, la secuencia se marca como saltarina
 	 */
 	public static void main(String[] args) throws IOException {

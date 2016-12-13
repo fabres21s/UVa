@@ -16,7 +16,7 @@ import java.util.StringTokenizer;
 public class Main10041 {
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

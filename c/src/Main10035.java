@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 public class Main10035 {
 
 	/**
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 */
 	public static void main(String[] args) throws IOException {
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(

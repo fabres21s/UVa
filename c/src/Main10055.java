@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Main10055 {
 
 	/**
-	 * - Muy fÃ¡cil
+	 * - Muy fácil
 	 * 
 	 * Hallar el valor absoluto de
-	 * la resta de dos nÃºmeros
+	 * la resta de dos números
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

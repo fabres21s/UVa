@@ -12,7 +12,7 @@ import java.util.Scanner;
 */
 public class Main10019 {
 	/**
-	 * - Sistemas de numeraciÃ³n
+	 * - Sistemas de numeración
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

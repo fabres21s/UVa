@@ -13,8 +13,8 @@ public class Main10042 {
 	static int sum = 0;
 
 	/**
-	 * - NÃºmeros Primos
-	 * - Proceso matemÃ¡tico
+	 * - Números Primos
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

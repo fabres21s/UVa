@@ -20,11 +20,11 @@ public class Main10067 {
 	/**
 	 * - Dijkstra
 	 * - Priority Queue
-	 * - SimulaciÃ³n
+	 * - Simulación
 	 * 
-	 * Dadas 4 ruedas con nÃºmeros del 0 al 9, una configuraciÃ³n inicial, un target y
+	 * Dadas 4 ruedas con números del 0 al 9, una configuración inicial, un target y
 	 * unas posiciones prohibidas
-	 * establecer la mÃ­nima cantidad de movimientos necesarios para llegar al target
+	 * establecer la mínima cantidad de movimientos necesarios para llegar al target
 	 */
 	public static void main(String[] args) {
 		
@@ -122,6 +122,7 @@ public class Main10067 {
 			}
 			grafo.clean(forbiddens);
 		}
+		input.close();
 	}
 
 	private static int getValue(char[] c) {

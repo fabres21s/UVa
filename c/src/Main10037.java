@@ -116,7 +116,7 @@ public class Main10037 {
 	}
 
 	/**
-	 * TODO Asignar CategorÃ­a!!!
+	 * TODO Asignar Categoría!!!
 	 */
 	public static void main(String[] args) {
 		new Main10037(System.in, System.out);

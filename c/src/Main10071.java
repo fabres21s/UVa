@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10071 {
 
 	/**
-	 * - Muy f√°cil
+	 * - Muy f·cil
 	 * 
 	 * Dadas la velocidad y el
 	 * tiempo, hallar el espacio recorrido en el doble de ese tiempo

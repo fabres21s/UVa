@@ -25,8 +25,8 @@ public class Main10004 {
 	 * 
 	 *  Para que un grafo sea bipartito, bicoloreable, se
 	 *  debe cumplir que 2 nodos adyacentes le puedan ser asignados colores
-	 *  diferentes Se intent√≥ hacerlo mediante conjuntos, llegada y salida
-	 *  (di√°grama sagital) pero a pesar que coincid√≠a con la salida del
+	 *  diferentes Se intentÛ hacerlo mediante conjuntos, llegada y salida
+	 *  (di·grama sagital) pero a pesar que coincidÌa con la salida del
 	 *  uDebug al enviarlo a UVa la respuesta era incorrecta
 	 */
 	public static void main(String[] args) throws NumberFormatException,
@@ -148,12 +148,6 @@ class Grafo {
 
 	}
 
-	private void print() {
-		for (Nodo nodo : nodos) {
-			System.out.println(nodo);
-		}
-	}
-
 	public void clear() {
 		for (Nodo nodo : nodos) {
 			nodo.setVisitado(false);
@@ -167,7 +161,6 @@ class Nodo {
 	private int value;
 	private List<Nodo> adyacentes;
 	private boolean visitado;
-	private int dia;
 	private int color = 0;
 
 	public int getValue() {

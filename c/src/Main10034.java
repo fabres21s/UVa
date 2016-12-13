@@ -21,8 +21,8 @@ public class Main10034 {
 	 * - Set
 	 * - Recursividad
 	 * 
-	 * Hallar el Ã¡rbol de
-	 * expansiÃ³n mÃ­nimo en un plano cartesiano en el que todos sus puntos se
+	 * Hallar el árbol de
+	 * expansión mínimo en un plano cartesiano en el que todos sus puntos se
 	 * interconectan
 	 * 
 	 */
@@ -43,6 +43,7 @@ public class Main10034 {
 				System.out.println();
 			}
 		}
+		input.close();
 	}
 }
 
@@ -98,7 +99,7 @@ class Grafo_ {
 
 			// System.out.println("escogido = "+aristaMenor.getNodoOrigen()+"  :::: "+aristaMenor.getNodoDestino()
 			// + "::: "+min);
-			// System.out.println("tamaï¿½o del arbol "+arbolExpansion.size());
+			// System.out.println("tamaño del arbol "+arbolExpansion.size());
 			aristaMenor.getNodoDestino().setVisitado(true);
 			aristaMenor.getNodoOrigen().setVisitado(true);
 			aristas.remove(aristaMenor);
