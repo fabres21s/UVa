@@ -3,9 +3,23 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 
-public class Main {
+/**
+*	10954 - Add All
+*
+*
+*	Submision:	18525590
+*	Date:		2016-12-20 16:23:47
+*	Runtime:	0.140
+*	Ranking:	4871
+*/
+public class Main10954 {
 
-	//10954
+	/**
+	 * - Priority Queue
+	 * - Proceso Matemático
+	 * 
+	 * Ir haciendo unas sumas sucesivas
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

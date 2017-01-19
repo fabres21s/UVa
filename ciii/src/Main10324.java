@@ -2,9 +2,23 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	10324 - Zeros and Ones
+*
+*
+*	Submision:	18499659
+*	Date:		2016-12-14 15:49:52
+*	Runtime:	2.410
+*	Ranking:	5440
+*/
 public class Main10324 {
 
-	// 10324 TODO asignar categoria, poner todos los datos
+	/**
+	 * - Cadena de caracteres
+	 * 
+	 *  En una cadena de caracteres y dados un inicio y un fin
+	 *  determinar si en ese rango, los caracteres son los mismos
+	 */
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

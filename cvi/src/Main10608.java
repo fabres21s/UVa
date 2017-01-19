@@ -17,10 +17,10 @@ public class Main10608 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - Búsqueda en profundidad
+	 * - BÃºsqueda en profundidad
 	 * - Queue
 	 * 
-	 * Encontrar la cadena más larga de amigos en un grupo de personas con sus
+	 * Encontrar la cadena mÃ¡s larga de amigos en un grupo de personas con sus
 	 * respectivas amistades dadas
 	 */
 	

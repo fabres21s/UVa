@@ -5,11 +5,26 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+/**
+*	1062 - Containers
+*
+*
+*	Submision:	18248590
+*	Date:		2016-10-24 15:57:30
+*	Runtime:	0.050
+*	Ranking:	966
+*/
 public class Main1062 {
 
 	
-	
-	//TODO poner categoria e id
+	/**
+	 * - Stack
+	 * - List
+	 * 
+	 * Hay que hacer una pila con las letras de la entrada
+	 * teniendo en cuenta que se deben poner alfabéticamente
+	 * imprimir cuántas pilas es necesario hacer
+	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

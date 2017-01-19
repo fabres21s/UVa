@@ -5,15 +5,29 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Scanner;
 
 public class Main544 {
 
+	/**
+	*	544 - Heavy Cargo
+	*
+	*
+	*	Submision:	18643608
+	*	Date:		2017-01-18 19:56:32
+	*	Runtime:	0.140
+	*	Ranking:	2137
+	*/
 	public static int MAX = Integer.MAX_VALUE;
 
-	// 544
-	/*
-	 * Dijkstra, pero buscando la ruta más larga :)
+
+	/**
+	 * - Dijkstra, pero lo contrario
+	 * - SimulaciÃ³n
+	 * 
+	 * Dada una serie de ciudades interconectadas en ambos sentidos, cada uno de los tramos
+	 * soporta un peso en toneladas, la tarea consiste en encontrar el camino para ir 
+	 * desde A hasta B con la mayor cantidad de peso posible
+	 * 
 	 */
 	public static void main(String[] args) throws IOException {
 
@@ -92,7 +106,7 @@ class Grafo544 {
 			nodos = new ArrayList<Nodo544>();
 			nodos.add(nodoOrigen);
 		} else {
-			nodoOrigen = nodos.get(nodos.size() - 1); // traemos el último nodo
+			nodoOrigen = nodos.get(nodos.size() - 1); // traemos el ï¿½ltimo nodo
 														// de las lista
 
 		}
@@ -107,7 +121,7 @@ class Grafo544 {
 			nodoDestino = crearNodo(destino);
 			nodos.add(nodoDestino);
 		} else {
-			nodoDestino = nodos.get(nodos.size() - 1); // traemos el último nodo
+			nodoDestino = nodos.get(nodos.size() - 1); // traemos el ï¿½ltimo nodo
 														// de las lista
 
 		}

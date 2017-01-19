@@ -2,10 +2,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//TODO Asignar categoría y poner información
+/**
+*	13130 - Cacho
+*
+*
+*	Submision:	18495595
+*	Date:		2016-12-13 17:29:21
+*	Runtime:	0.040
+*	Ranking:	140
+*/
 public class Main13130 {
 
-	//13130
+	/**
+	 * - Validaciones
+	 * 
+	 * Verificar que todos los nÃºmeros sean consecutivos
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
