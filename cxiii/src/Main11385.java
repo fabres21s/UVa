@@ -58,13 +58,13 @@ public class Main11385 {
 			 while ( fibos[x] <=max){
 				 s = map.get(fibos[x]);
 				 if (s == null)
-					buffer.append("*");
+					buffer.append(" ");
 				 else {
 					 buffer.append(s);
 				 }
 				 x++;
 			 }
-			 System.out.println(buffer.toString().trim());
+			 System.out.println(buffer.toString());
 			
 
 		}

@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
 
@@ -10,7 +8,7 @@ public class Main {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int soldiers, loss;
-		Integer left, right;
+		int left, right, j,l,r, i;
 		
 		StringBuffer output = new StringBuffer();
 		while (true) {
@@ -22,23 +20,39 @@ public class Main {
 				break;
 			}
 
-			List<Integer> list = new ArrayList<Integer>();
+			int [][] list = new int[soldiers +2][2];
 
 			
-			for (int i = 0; i <= soldiers +1 ; i++) {
-				list.add(i);
+			for ( i = 0; i <= soldiers +1 ; i++) {
+				list[i][0] = i;
 			}
-			for (int i = 0; i < loss; i++) {
+			for ( i = 0; i < loss; i++) {
 				args = br.readLine().split(" ");
 				left = Integer.parseInt(args[0]);
 				right = Integer.parseInt(args[1]);
 				
-				int l = list.indexOf(left) - 1 , r = list.indexOf(right);
-				for (Integer j = left; j <= right; j++) {
-					list.remove(j);
-				}
+				//int l = list.indexOf(left) - 1 , r = list.indexOf(right);
+//				for ( j = left; j <= right; j++) {
+//					list[j][0] = 0;
+//				}
+				list
 				
-				r -=  right - left;
+				 l = 0; r = soldiers + 1;
+//				for ( j = left -1; j > -1; j--) {
+//					if (list[j] > 0) {
+//						l = j;
+//						break;
+//					}
+//				}
+//				
+//				for ( j = right ; j <= soldiers; j++) {
+//					if (list[j] > 0) {
+//						r = j;
+//						break;
+//					}
+//				}
+				
+				//r -=  right - left;
 				
 				
 				
@@ -46,14 +60,14 @@ public class Main {
 				if (l == 0) {
 					output.append("*");
 				} else {
-					output.append(list.get(l));
+					output.append(l);
 				}
 				
 				
-				if (list.get(r) > soldiers) {
+				if (r > soldiers) {
 					output.append(" *\n");
 				} else {
-					output.append(" "+list.get(r)+"\n");
+					output.append(" "+r+"\n");
 				}
 					
 				
