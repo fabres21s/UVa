@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
+//TODO poner informacion
 // Cutting Sticks.
-class Main {
+class Main10003 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         //no le encuentro la lógica al ejercicio
