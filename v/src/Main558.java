@@ -5,8 +5,24 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+*	558 - Wormholes
+*
+*
+*	Submision:	18649196
+*	Date:		2017-01-19 17:54:55
+*	Runtime:	0.270
+*	Ranking:	609
+*/
 public class Main558 {
 
+	/**
+	 * - Grafos dirigidos
+	 * - Recursividad
+	 * 
+	 * Dados unos agujeros de gusano que conectan a otros tiempos,
+	 * determinar si se puede llegar al origen de los tiempos
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		Scanner input = new Scanner(System.in);
 
@@ -138,7 +154,7 @@ class Grafo558 {
 
 			}
 		} catch (Exception exc) {
-			//las cosas que no se entienden, sin el try catch, me daba Runtime Error, pero al menos lo aceptó :|
+			//las cosas que no se entienden, sin el try catch, me daba Runtime Error, pero al menos lo aceptï¿½ :|
 		}
 	}
 

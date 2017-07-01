@@ -3,8 +3,23 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Main {
+/**
+*	13148 - A Giveaway
+*
+*
+*	Submision:	19441604
+*	Date:		2017-05-30 16:41:18
+*	Runtime:	0.070
+*	Ranking:	357
+*/
+public class Main13148 {
 
+	/**
+	 * - Pregenerados
+	 * - Potencias
+	 * 
+	 * Números que sean cuadrados y cubos 
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		int n = 1;

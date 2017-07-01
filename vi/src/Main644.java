@@ -4,8 +4,18 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+*	644 - 	Immediate Decodability
+*	Submision:	18685137
+*	Date:		2017-01-27 15:11:42
+*	Runtime:	0.370
+*	Ranking:	2859
+*/
 public class Main644 {
 
+	/**
+	 * - Cadena de caracteres
+	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

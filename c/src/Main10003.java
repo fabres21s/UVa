@@ -1,11 +1,22 @@
 import java.util.Scanner;
 
-//TODO poner informacion
-// Cutting Sticks.
+/**
+*	10003 - Cutting Sticks
+*
+*	Submision:	19558533
+*	Date:		2017-06-23 04:24:03
+*	Runtime:	0.560
+*/
 class Main10003 {
+	
+	/**
+	 * - Arreglos
+	 * 
+	 *  El corte de una vara es cobrado de acuerdo al tamaño,
+	 *  hallar el mínimo coste a pagarss
+	 */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        //no le encuentro la l�gica al ejercicio
         while (true) {
             int stickSize = scan.nextInt();
             if (stickSize == 0)

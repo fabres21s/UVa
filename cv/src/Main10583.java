@@ -4,9 +4,23 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Scanner;
 
+/**
+*	10583 - 	Ubiquitous Religions
+*	Submision:	18649446
+*	Date:		2017-01-19 19:03:06
+*	Runtime:	1.040
+*	Ranking:	3543
+*/
 public class Main10583 {
 
-	//similar al 1197
+	/**
+	 * - Grafos bidireccionales
+	 * - Búsqueda en profundidad
+	 * - Queue
+	 * 
+	 * Encontrar cuántos subgrafos hay en un grafo
+	 */
+
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

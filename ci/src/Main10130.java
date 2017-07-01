@@ -2,18 +2,32 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	10130 - SupersSale
+*	Submision:	19580317
+*	Date:		2017-06-28 19:00:44
+*	Runtime:	0.250
+*	Ranking:	4823
+*/
 public class Main10130 {
 
 	
 	static int [][] array = {
 			{64,85,52,99,39,54},
 			{26,22,4,18,13,9}
-			
 	};
 	
 	static int [][] memory;
-	
 	static int columns;
+	
+	/**
+	 * - Arreglos
+	 * - Recursividad
+	 *
+	 * Dados unos pesos y valores de ciertos productos y el peso que puede cargar un grupo de personas
+	 * determinar el valor máximo de los productos que puede comprar, teniendo en cuenta que cada
+	 * persona solo puede comprar un producto por cada tipo
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -45,8 +59,6 @@ public class Main10130 {
 	}
 
 	private static int calculate(int totalWeight, int j) {
-		
-		
 		
 		if (j == columns) {
 			return 0;
