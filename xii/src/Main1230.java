@@ -14,6 +14,9 @@ public class Main1230 {
 
 	/**
 	 * - Modular
+	 * - Potencias
+	 * 
+	 * Hallar el valor de (x^y) mod n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

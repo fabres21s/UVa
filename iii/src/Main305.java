@@ -13,7 +13,11 @@ import java.util.Scanner;
 public class Main305 {
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Pregenerado
+	 * - Proceso matemático
+	 * - Simulación
+	 * 
+	 * Modificación del juego de la ruleta de Joseph
 	 */
 	public static void main(String[] args) {
 		int[] val = { 0, 2, 7, 5, 30, 169, 441, 1872, 7632, 1740, 93313,
