@@ -12,7 +12,10 @@ import java.util.Scanner;
 public class Main636 {
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Potencias
+	 * - Sistemas de numeración
+	 * 
+	 * Dado un número, encontrar el sistema de numeración en el que sea un cuadrado
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

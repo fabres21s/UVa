@@ -12,7 +12,9 @@ import java.util.Scanner;
 public class Main10050 {
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Arreglos
+	 * 
+	 * Dados unos días de huelga en el mes, determinar cuántos días se trabaja
 	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

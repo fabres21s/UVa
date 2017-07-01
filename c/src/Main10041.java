@@ -16,7 +16,10 @@ import java.util.StringTokenizer;
 public class Main10041 {
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Arreglos
+	 * - Proceso matemático
+	 * 
+	 * Encontrar la suma mínima de distancias
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

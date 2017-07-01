@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main679 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * - Proceso matemÃ¡tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

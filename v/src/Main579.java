@@ -52,7 +52,9 @@ public class Main579 {
 	}
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Proceso matemático
+	 * 
+	 * Hallar los ángulos que forman las agujas del reloj
 	 */
 	public static void main(String[] args) {
 		int mins;

@@ -116,7 +116,11 @@ public class Main10037 {
 	}
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Simulación
+	 * - Proceso matemático
+	 * 
+	 * Dadas unas personas, con sus velocidades y condiciones,
+	 * hacerlas cruzar un puente en el menor tiempo posible
 	 */
 	public static void main(String[] args) {
 		new Main10037(System.in, System.out);

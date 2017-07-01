@@ -12,7 +12,9 @@ import java.util.Scanner;
 */
 public class Main10093 {
 	/**
-	 * TODO Asignar Categoría!!!
+	 * - Sistemas de numeraciÃ³n
+	 * 
+	 * Base 62
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

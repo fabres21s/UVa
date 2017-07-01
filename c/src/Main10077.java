@@ -12,7 +12,9 @@ import java.util.Scanner;
 public class Main10077 {
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Sistemas de numeración
+	 * 
+	 * Llevas un número al sistema de numeración Stern-Brocot
 	 */
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
