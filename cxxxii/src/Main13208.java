@@ -3,9 +3,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main13208 {
-	
-	//TODO esperar UDebug :( o inventarse ejercicios
-	
+
+	// TODO poner información
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,10 +14,10 @@ public class Main13208 {
 		while (testCases-- > 0) {
 			args = br.readLine().split(" ");
 			bottom = Integer.parseInt(args[0]);
-			segments = Integer.parseInt(args[1]) + 2;
+			segments = Integer.parseInt(args[1]) + 1;
 
-			int distances[] = new int[segments];
-			int heights[] = new int[segments];
+			long distances[] = new long[segments];
+			long heights[] = new long[segments + 1];
 
 			args = br.readLine().split(" ");
 			int index = 0;
@@ -34,23 +33,30 @@ public class Main13208 {
 				index++;
 			}
 
-			int a = heights[0];
-			int b, d = distances[0];
-			int volume = 0;
+			long a = heights[0];
+			long b, d = distances[0];
+			long volume = 0;
 			for (index = 1; index < segments; index++) {
 				b = heights[index];
 
 				if (a < b || a == b) {
 					volume += a * d * bottom;
 					a = b;
+					d = distances[index];
 				} else {
 					// buscar mayor
-					int mayor = 0, posMayor = 0;
+					long mayor = 0;
+					int posMayor = 0;
 					d = 0;
 					for (int i = index; i < segments; i++) {
 						if (heights[i] > mayor) {
+
 							mayor = heights[i];
 							posMayor = i;
+
+							if (mayor > a) {
+								break;
+							}
 						}
 					}
 
@@ -72,3 +78,4 @@ public class Main13208 {
 	}
 
 }
+
