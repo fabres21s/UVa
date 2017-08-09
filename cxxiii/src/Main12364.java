@@ -14,6 +14,7 @@ public class Main12364 {
 	/**
 	 * - Cadena de caracteres
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) {
 		String nums[] = { ".*\n**\n..\n", "*.\n..\n..\n", "*.\n*.\n..\n",
 				"**\n..\n..\n", "**\n.*\n..\n", "*.\n.*\n..\n", "**\n*.\n..\n",

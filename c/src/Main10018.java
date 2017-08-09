@@ -15,10 +15,11 @@ public class Main10018 {
 
 	/**
 	 * - Cadena de caracteres
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 * 
-	 * Tomar un número, preguntar si el inverso es igual, si no lo es sumarlo
+	 * Tomar un nï¿½mero, preguntar si el inverso es igual, si no lo es sumarlo
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(
 				System.in));

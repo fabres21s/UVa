@@ -18,6 +18,7 @@ public class Main10252 {
 	/**
 	 * - Cadena de caracteres
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(
 				System.in));

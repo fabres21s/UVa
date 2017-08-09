@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 902 - Password Search Cadena de caracteres Dado n y una cadena, encontrar el
- * substring de tamaño n que m�s veces se repite
+ * substring de tamaño n que m�s veces se repite
  * 
  * @author fabio
  *
@@ -25,6 +25,7 @@ public class Main902 {
 	/**
 	 * - Cadena de caracteres
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);

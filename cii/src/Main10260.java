@@ -14,6 +14,7 @@ public class Main10260 {
 	/**
 	 * - Cadena de caracteres
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) {
 		char p[];
 		int i;

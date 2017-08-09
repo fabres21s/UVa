@@ -16,6 +16,7 @@ public class Main576 {
 	/**
 	 * - Cadena de caracteres
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		String fin[] = { "e", "o", "i" };

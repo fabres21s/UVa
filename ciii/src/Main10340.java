@@ -14,6 +14,7 @@ public class Main10340 {
 	/**
 	 * - Cadena de caracteres
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int i, j, k, ck = -1;

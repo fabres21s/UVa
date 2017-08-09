@@ -18,9 +18,10 @@ public class Main11340 {
 	 * - Cadena de caracteres
 	 * - Map
 	 * 
-	 * Leer líneas de caracteres y hacer una sumatoria
+	 * Leer lï¿½neas de caracteres y hacer una sumatoria
 	 * de acuerdo al valor establecido para cada caracter
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
 

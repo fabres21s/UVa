@@ -19,6 +19,7 @@ public class Main10324 {
 	 *  En una cadena de caracteres y dados un inicio y un fin
 	 *  determinar si en ese rango, los caracteres son los mismos
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

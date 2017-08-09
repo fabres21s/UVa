@@ -14,6 +14,7 @@ public class Main10222 {
 	/**
 	 * - Cadena de caracteres
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) {
 		String abc = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
 		abc = abc.toLowerCase();

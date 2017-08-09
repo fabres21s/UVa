@@ -16,6 +16,7 @@ public class Main10082 {
 	/**
 	 * - Cadena de caracteres
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 		String abc = "`1234567890-=QWERTYUIOP[]\\ASDFGHJKL;'ZXCVBNM,./";
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(

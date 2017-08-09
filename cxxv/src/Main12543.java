@@ -16,9 +16,10 @@ public class Main12543 {
 	/**
 	 * - Cadena de caracteres
 	 * 
-	 * Encontrar la palabra más grande de la entrada entiendase por palabra,
+	 * Encontrar la palabra mï¿½s grande de la entrada entiendase por palabra,
 	 * caracteres de la a a la z seguidos, incluyendo -
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

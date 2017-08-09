@@ -13,8 +13,11 @@ public class Main10405 {
 	static int LCS[][] = new int[1005][1005];
 
 	/**
-	 * - Cadena de caracteres
-	 */
+	 * - Secuencias
+	 * - Arreglos
+	 *
+	 * Dadas 2 cadenas, encontrar la máxima subsecuencia entre ellos
+	 */	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		char s1[], s2[];

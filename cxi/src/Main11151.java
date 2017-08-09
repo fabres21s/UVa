@@ -7,6 +7,7 @@ public class Main11151 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Next - No enviado - Longest Palindrome
+		//No coincide salida con el UDebug
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int testCases = Integer.parseInt(br.readLine());
@@ -45,7 +46,7 @@ public class Main11151 {
 			}
 			end--;
 		}
-		System.err.println(start + " "+end);
+		//System.err.println(start + " "+end);
 		return true;
 	}
 

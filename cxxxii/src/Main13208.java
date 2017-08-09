@@ -4,7 +4,8 @@ import java.io.InputStreamReader;
 
 public class Main13208 {
 	
-	//TODO esperar UDebug :( o inventarse ejercicios
+	//TODO WA - Drought In Nlogonia
+	//esperar UDebug :( o inventarse ejercicios
 	
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -17,8 +18,8 @@ public class Main13208 {
 			bottom = Integer.parseInt(args[0]);
 			segments = Integer.parseInt(args[1]) + 2;
 
-			int distances[] = new int[segments];
-			int heights[] = new int[segments];
+			long distances[] = new long[segments];
+			long heights[] = new long[segments];
 
 			args = br.readLine().split(" ");
 			int index = 0;
@@ -34,8 +35,8 @@ public class Main13208 {
 				index++;
 			}
 
-			int a = heights[0];
-			int b, d = distances[0];
+			long a = heights[0];
+			long b, d = distances[0];
 			int volume = 0;
 			for (index = 1; index < segments; index++) {
 				b = heights[index];
@@ -45,7 +46,7 @@ public class Main13208 {
 					a = b;
 				} else {
 					// buscar mayor
-					int mayor = 0, posMayor = 0;
+					long mayor = 0; int posMayor = 0;
 					d = 0;
 					for (int i = index; i < segments; i++) {
 						if (heights[i] > mayor) {

@@ -15,8 +15,9 @@ public class Main10924 {
 
 	/**
 	 * - Cadena de caracteres
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
+	//TODO String - Poner categoria
 	public static void main(String[] args) {
 		String letras = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		Scanner input = new Scanner(System.in);
