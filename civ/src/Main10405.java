@@ -28,6 +28,7 @@ public class Main10405 {
 			int s2_length = s2.length;
 			int i, j;
 			for (i = 1; i <= s1_length; i++)
+				
 				for (j = 1; j <= s2_length; j++)
 					if (s1[i - 1] == s2[j - 1])
 						LCS[i][j] = LCS[i - 1][j - 1] + 1;

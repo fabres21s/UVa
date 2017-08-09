@@ -2,9 +2,24 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	13208 - Drought in Nlogonia
+*
+*
+*	Submision:	19822174
+*	Date:		2017-08-08 17:09:13
+*	Runtime:	0.950
+*	Ranking:	27
+*/
 public class Main13208 {
 
-	// TODO poner informaci�n
+	/*
+	 * - Fórmulas matemáticas
+	 * 
+	 * Dadas las dimensiones de una serie de tanques que están unidos,
+	 * encontrar el máximo volumen de agua que pueden almacenar
+	 * 
+	 */
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -3,7 +3,6 @@ package cxxxii;
 import java.util.Random;
 
 public class Main13208 {
-
 	public static void main(String[] args) {
 
 		int testCases = getRandom(100);

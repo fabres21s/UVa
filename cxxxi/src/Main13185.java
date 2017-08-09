@@ -4,9 +4,22 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+*	13185 - DPA Numbers
+*
+*
+*	Submision:	19822495
+*	Date:		2017-08-08 18:44:40
+*	Runtime:	0.050
+*	Ranking:	168
+*/
 public class Main13185 {
 
-	//TODO poner informacion
+	/*
+	 * - Perfectos
+	 * 
+	 * Encontrar si un número es perfecto, abundate o deficiente
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

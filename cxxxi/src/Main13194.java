@@ -6,7 +6,8 @@ import java.util.Set;
 
 public class Main13194 {
 
-	// TODO no enviado, dar· TLE, optimizar
+	// TODO No enviado - DPA Numbers II
+	//Dar√° TLE, optimizar
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

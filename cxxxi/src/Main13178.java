@@ -2,9 +2,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//TODO poner toda la informaci�n
+/**
+*	13178 - Is it multiple of 3?
+*
+*
+*	Submision:	19664462
+*	Date:		2017-07-14 23:28:57
+*	Runtime:	0.070
+*	Ranking:	116
+*/
 public class Main13178 {
 
+	/*
+	 * - Sumatoria de números
+	 * 
+	 * Encontrar si el número 12345678910...n es múltiplo de 3
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testCases = Integer.parseInt(br.readLine());

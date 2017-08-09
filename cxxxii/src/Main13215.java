@@ -14,10 +14,11 @@ import java.io.InputStreamReader;
 public class Main13215 {
 
 	/**
-	 * TODO Poner informaci�n
-	 * @param args
-	 * @throws NumberFormatException
-	 * @throws IOException
+	 * 
+	 * - Fórmulas matemáticas
+	 * 
+	 * Sobre un área rectangular, se construyen edificaciones con formas triangulares y cuadradas
+	 * Encontrar el área restante
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
