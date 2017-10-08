@@ -39,7 +39,9 @@ class Main446
 	}
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Sistemas de numeración
+	 * 
+	 * Leer 2 números en hexadecimal, pasarlos a binario y mostrar el resultado de la suma o resta en decimal
 	 */
 	public static void main(String[] args) 
 	{
