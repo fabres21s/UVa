@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Main11385Test" project="cxiii" tests="5" started="5" failures="0" errors="0" ignored="0">
-  <testsuite name="Main11385Test" time="0.0">
-    <testcase name="oneChar" classname="Main11385Test" time="0.0"/>
-    <testcase name="simpleThreeChars" classname="Main11385Test" time="0.0"/>
-    <testcase name="reverted" classname="Main11385Test" time="0.0"/>
-    <testcase name="simpleSixCharsWithSpace" classname="Main11385Test" time="0.0"/>
-    <testcase name="threespaces" classname="Main11385Test" time="0.0"/>
-  </testsuite>
-</testrun>
