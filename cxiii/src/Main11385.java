@@ -2,10 +2,26 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+*	11385 - Da Vinci Code
+*
+*	Submision:	20140732
+*	Date:		2017-10-08 22:23:12
+*	Runtime:	0.090
+*	Ranking:	1637
+*/
+
 public class Main11385 {
 
 	static long fibos[] = new long[50];
 
+	/**
+	 * - Serie de Fibonacci
+	 * - Cadena de caracteres
+	 * 
+	 * Decodificar un mensaje usando la serie de Fibonacci
+	 * 
+	 */
 	public static void main(String[] args) {
 
 		fibos[0] = 1;

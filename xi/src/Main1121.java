@@ -2,8 +2,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+/**
+*	1121 - Subsequence
+*
+*	Submision:	19844660
+*	Date:		2017-08-12 20:10:52
+*	Runtime:	0.140
+*	Ranking:	1102
+*/
+public class Main1121 {
 
+	/**
+	 * - Arreglos
+	 * 
+	 *  Encontrar la mínima cantidad de números seguidos que la sumatoria sea igual o mayor a un úmero dado, parece como Programación Dinámica
+	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String line;

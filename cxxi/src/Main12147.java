@@ -2,8 +2,23 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
 
+/**
+*	12147 - DNA Sequences
+*
+*
+*	Submision:	19844559
+*	Date:		2017-08-12 19:33:24
+*	Runtime:	0.530
+*	Ranking:	67
+*/
+public class Main12147 {
+
+	/**
+	 * - Secuencias
+	 * 
+	 * Encontrar la máxima secuencia entre dos palabras
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -14,7 +14,6 @@ public class Main10405 {
 
 	/**
 	 * - Secuencias
-	 * - Arreglos
 	 *
 	 * Dadas 2 cadenas, encontrar la máxima subsecuencia entre ellos
 	 */	

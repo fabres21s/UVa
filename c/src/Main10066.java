@@ -15,7 +15,6 @@ public class Main10066 {
 
 	/**
 	 * - Secuencias
-	 * - Arreglos
 	 *
 	 * Dadas 2 estructuras (arreglos) encontrar la máxima subsecuencia entre ellos
 	 * similar al 10405

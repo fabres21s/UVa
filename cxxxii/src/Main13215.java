@@ -16,6 +16,7 @@ public class Main13215 {
 	/**
 	 * 
 	 * - Fórmulas matemáticas
+	 * - Geometría
 	 * 
 	 * Sobre un área rectangular, se construyen edificaciones con formas triangulares y cuadradas
 	 * Encontrar el área restante
