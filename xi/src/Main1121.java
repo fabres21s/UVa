@@ -15,7 +15,7 @@ public class Main1121 {
 	/**
 	 * - Arreglos
 	 * 
-	 *  Encontrar la mínima cantidad de números seguidos que la sumatoria sea igual o mayor a un úmero dado, parece como Programación Dinámica
+	 *  Encontrar la mínima cantidad de números seguidos que la sumatoria sea igual o mayor a un número dado, parece como Programación Dinámica
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
