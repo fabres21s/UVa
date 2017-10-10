@@ -6,81 +6,92 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Main {
+public class Main10099 {
 
 	/**
-	*	544 - Heavy Cargo
-	*
-	*
-	*	Submision:	18643608
-	*	Date:		2017-01-18 19:56:32
-	*	Runtime:	0.140
-	*	Ranking:	2137
-	*/
+	 * 10099 - The Tourist Guide
+	 *
+	 * Submision: 	20145686 
+	 * Date: 		2017-10-09 19:32:49 
+	 * Runtime: 	0.120 
+	 * Ranking: 	3917
+	 */
 	public static int MAX = Integer.MAX_VALUE;
 
-
 	/**
-	 * - Dijkstra, pero lo contrario
-	 * - Simulación
+	 * - Dijkstra
+	 * - Similar al 544 - Heavy Cargo
 	 * 
-	 * Dada una serie de ciudades interconectadas en ambos sentidos, cada uno de los tramos
-	 * soporta un peso en toneladas, la tarea consiste en encontrar el camino para ir 
-	 * desde A hasta B con la mayor cantidad de peso posible
+	 * Encontrar en un grafo, el mayor valor entre los menores pesos de cada arista en los caminos para ir de A hasta B 
 	 * 
 	 */
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String line;
-		String city1, city2;
-		int weight;
-		int cities, roads;
-		int cases = 0;
-		while (!(line = br.readLine()).equals("0 0")) {
-			cases++;
-			args = line.split(" ");
+		try {
+			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+			String line;
+			String city1, city2;
+			int maxPassengers;
+			int cities, roads;
+			int cases = 0;
+			int totalPassengers;
+			int trips;
+			while (!(line = br.readLine()).equals("0 0")) {
+				cases++;
+				args = line.split(" ");
 
-			cities = Integer.parseInt(args[0]);
-			roads = Integer.parseInt(args[1]);
+				cities = Integer.parseInt(args[0]);
+				roads = Integer.parseInt(args[1]);
 
-			Grafo10099 grafo544 = new Grafo10099();
-			grafo544.createNodes(cities);
-			for (int i = 0; i < roads; i++) {
+				Grafo10099 grafo = new Grafo10099();
+				grafo.createNodes(cities);
+				for (int i = 0; i < roads; i++) {
+					args = br.readLine().split(" ");
+					city1 = args[0];
+					city2 = args[1];
+					maxPassengers = Integer.parseInt(args[2]);
+
+					grafo.addAdyacente(city1, city2, maxPassengers);
+				}
+
 				args = br.readLine().split(" ");
 				city1 = args[0];
 				city2 = args[1];
-				weight = Integer.parseInt(args[2]);
+				totalPassengers = Integer.parseInt(args[2]);
 
-				grafo544.addAdyacente(city1, city2, weight);
+				grafo.setDestino(city2);
+				grafo.solve(grafo.getNodo(city1));
+				System.out.println("Scenario #" + cases);
+
+				int minWeight = grafo.getNodo(city2).getMinWeight();
+
+				trips = totalPassengers / (minWeight - 1);
+
+				if (totalPassengers % (minWeight - 1) != 0) {
+					trips++;
+				}
+
+				System.out.println("Minimum Number of Trips = " + trips + "\n");
+
 			}
-
-			args = br.readLine().split(" ");
-			city1 = args[0];
-			city2 = args[1];
-
-			grafo544.setDestino(city2);
-			grafo544.solve(grafo544.getNodo(city1));
-			System.out.println("Scenario #"+cases);
-			System.out.println(grafo544.getNodo(city2).getMinWeight()+" tons\n");
-
+		} catch (Exception exc) {
+			exc.printStackTrace();
 		}
-
 	}
 }
 
 class Grafo10099 {
 
 	int max = Integer.MAX_VALUE;
-	private List<Nodo544> nodosEtiquetados;
+	private List<Nodo10099> nodosEtiquetados;
 	public String nodoFinal;
-	Map<String, List<Nodo544>> nodosExistentes;
+	Map<String, List<Nodo10099>> nodosExistentes;
 	private String destino;
 
 	public void createNodes(int qty) {
 
-		nodosEtiquetados = new ArrayList<Nodo544>();
-		nodosExistentes = new HashMap<String, List<Nodo544>>();
+		nodosEtiquetados = new ArrayList<Nodo10099>();
+		nodosExistentes = new HashMap<String, List<Nodo10099>>();
 		max = Integer.MAX_VALUE;
 	}
 
@@ -89,7 +100,7 @@ class Grafo10099 {
 
 	}
 
-	public Nodo544 getNodo(String origen) {
+	public Nodo10099 getNodo(String origen) {
 
 		return nodosExistentes.get(origen).get(0);
 
@@ -97,13 +108,13 @@ class Grafo10099 {
 
 	public void addAdyacente(String origen, String destino, int peso) {
 
-		Nodo544 nodoOrigen = null;
+		Nodo10099 nodoOrigen = null;
 
-		List<Nodo544> nodos = nodosExistentes.get(origen);
+		List<Nodo10099> nodos = nodosExistentes.get(origen);
 
 		if (nodos == null) {
 			nodoOrigen = crearNodo(origen);
-			nodos = new ArrayList<Nodo544>();
+			nodos = new ArrayList<Nodo10099>();
 			nodos.add(nodoOrigen);
 		} else {
 			nodoOrigen = nodos.get(nodos.size() - 1); // traemos el �ltimo nodo
@@ -112,12 +123,12 @@ class Grafo10099 {
 		}
 		nodosExistentes.put(origen, nodos);
 
-		Nodo544 nodoDestino = null;
+		Nodo10099 nodoDestino = null;
 
 		nodos = nodosExistentes.get(destino);
 
 		if (nodos == null) {
-			nodos = new ArrayList<Nodo544>();
+			nodos = new ArrayList<Nodo10099>();
 			nodoDestino = crearNodo(destino);
 			nodos.add(nodoDestino);
 		} else {
@@ -127,41 +138,38 @@ class Grafo10099 {
 		}
 
 		nodosExistentes.put(destino, nodos);
-		Arista544 arista = crearArista(nodoOrigen, nodoDestino, peso);
+		Arista10099 arista = crearArista(nodoOrigen, nodoDestino, peso);
 		nodoOrigen.getAristas().add(arista);
 		nodoDestino.getAristas().add(arista);
-
 	}
 
-	private Arista544 crearArista(Nodo544 nodoOrigen, Nodo544 nodoDestino, int peso) {
-		Arista544 arista = new Arista544();
+	private Arista10099 crearArista(Nodo10099 nodoOrigen, Nodo10099 nodoDestino, int peso) {
+		Arista10099 arista = new Arista10099();
 		arista.setNodoDestino(nodoDestino);
 		arista.setNodoOrigen(nodoOrigen);
 		arista.setPeso(peso);
-		arista.setValida(true);
-
 		return arista;
 	}
 
-	private Nodo544 crearNodo(String value) {
-		Nodo544 nodo = new Nodo544();
+	private Nodo10099 crearNodo(String value) {
+		Nodo10099 nodo = new Nodo10099();
 		nodo.setValue(value);
 		nodo.setRecorrido(max);
 		nodo.setMinWeight(max);
-		nodo.setAristas(new ArrayList<Arista544>());
+		nodo.setAristas(new ArrayList<Arista10099>());
 		return nodo;
 	}
 
-	public void solve(Nodo544 nodo) {
+	public void solve(Nodo10099 nodo) {
 
 		nodosEtiquetados.remove(nodo);
 		nodo.setVisitado(true);
 
 		int max = 0;
-		Nodo544 siguiente = new Nodo544();
-		for (Arista544 arista : nodo.getAristas()) {
+		Nodo10099 siguiente = new Nodo10099();
+		for (Arista10099 arista : nodo.getAristas()) {
 
-			Nodo544 nodoDestino = arista.getNodoDestino();
+			Nodo10099 nodoDestino = arista.getNodoDestino();
 
 			if (!nodoDestino.isVisitado()) {
 
@@ -170,6 +178,7 @@ class Grafo10099 {
 
 				nodosEtiquetados.add(nodoDestino);
 			}
+
 			// por ser bidireccionales
 			nodoDestino = arista.getNodoOrigen();
 
@@ -182,7 +191,7 @@ class Grafo10099 {
 			}
 		}
 
-		for (Nodo544 nodoEtiquetado : nodosEtiquetados) {
+		for (Nodo10099 nodoEtiquetado : nodosEtiquetados) {
 			if (nodoEtiquetado.getMinWeight() > max) {
 
 				max = nodoEtiquetado.getMinWeight();
@@ -190,16 +199,9 @@ class Grafo10099 {
 			}
 		}
 
-		if (siguiente.equals(getNodo(destino))) {
-			//System.out.println("se encontro el max "+siguiente.getMinWeight());
-			//return;
-		}
-		
 		if (nodosEtiquetados.size() > 0) {
 
 			nodosEtiquetados.remove(siguiente);
-			
-			
 
 			solve(siguiente);
 
@@ -207,32 +209,24 @@ class Grafo10099 {
 	}
 }
 
-class Arista544 {
-	private Nodo544 nodoOrigen;
-	private Nodo544 nodoDestino;
+class Arista10099 {
+	private Nodo10099 nodoOrigen;
+	private Nodo10099 nodoDestino;
 	private int peso;
-	private boolean valida;
-	private int linea;
 
-	@Override
-	public String toString() {
-		return "origen = " + nodoOrigen.getValue() + " ; destino = " + nodoDestino.getValue() + " ; peso = " + peso
-				+ " ; linea = " + linea;
-	}
-
-	public Nodo544 getNodoOrigen() {
+	public Nodo10099 getNodoOrigen() {
 		return nodoOrigen;
 	}
 
-	public void setNodoOrigen(Nodo544 nodoOrigen) {
+	public void setNodoOrigen(Nodo10099 nodoOrigen) {
 		this.nodoOrigen = nodoOrigen;
 	}
 
-	public Nodo544 getNodoDestino() {
+	public Nodo10099 getNodoDestino() {
 		return nodoDestino;
 	}
 
-	public void setNodoDestino(Nodo544 nodoDestino) {
+	public void setNodoDestino(Nodo10099 nodoDestino) {
 		this.nodoDestino = nodoDestino;
 	}
 
@@ -244,27 +238,12 @@ class Arista544 {
 		this.peso = peso;
 	}
 
-	public boolean isValida() {
-		return valida;
-	}
-
-	public void setValida(boolean valida) {
-		this.valida = valida;
-	}
-
-	public int getLinea() {
-		return linea;
-	}
-
-	public void setLinea(int linea) {
-		this.linea = linea;
-	}
 }
 
-class Nodo544 {
+class Nodo10099 {
 
 	private String value;
-	private List<Arista544> aristas;
+	private List<Arista10099> aristas;
 	private int recorrido;
 	private int minWeight = 0;
 	private boolean visitado;
@@ -278,11 +257,11 @@ class Nodo544 {
 		this.value = value;
 	}
 
-	public List<Arista544> getAristas() {
+	public List<Arista10099> getAristas() {
 		return aristas;
 	}
 
-	public void setAristas(List<Arista544> aristas) {
+	public void setAristas(List<Arista10099> aristas) {
 		this.aristas = aristas;
 	}
 
@@ -312,7 +291,7 @@ class Nodo544 {
 	}
 
 	public void setMinWeight(int minWeight) {
-		
+
 		if (minWeight > this.minWeight || this.minWeight == Integer.MAX_VALUE) {
 			this.minWeight = minWeight;
 		}

@@ -21,7 +21,7 @@ public class Main544 {
 
 
 	/**
-	 * - Dijkstra, pero lo contrario
+	 * - Dijkstra
 	 * - Simulación
 	 * 
 	 * Dada una serie de ciudades interconectadas en ambos sentidos, cada uno de los tramos
@@ -138,8 +138,6 @@ class Grafo544 {
 		arista.setNodoDestino(nodoDestino);
 		arista.setNodoOrigen(nodoOrigen);
 		arista.setPeso(peso);
-		arista.setValida(true);
-
 		return arista;
 	}
 
@@ -211,14 +209,6 @@ class Arista544 {
 	private Nodo544 nodoOrigen;
 	private Nodo544 nodoDestino;
 	private int peso;
-	private boolean valida;
-	private int linea;
-
-	@Override
-	public String toString() {
-		return "origen = " + nodoOrigen.getValue() + " ; destino = " + nodoDestino.getValue() + " ; peso = " + peso
-				+ " ; linea = " + linea;
-	}
 
 	public Nodo544 getNodoOrigen() {
 		return nodoOrigen;
@@ -244,21 +234,6 @@ class Arista544 {
 		this.peso = peso;
 	}
 
-	public boolean isValida() {
-		return valida;
-	}
-
-	public void setValida(boolean valida) {
-		this.valida = valida;
-	}
-
-	public int getLinea() {
-		return linea;
-	}
-
-	public void setLinea(int linea) {
-		this.linea = linea;
-	}
 }
 
 class Nodo544 {
