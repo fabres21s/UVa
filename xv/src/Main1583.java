@@ -4,8 +4,23 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+*	1583 - Digit Generator
+*
+*	Submision:	20242666
+*	Date:		2017-10-26 02:00:52
+*	Runtime:	0.190
+*	Ranking:	1589
+*/
 public class Main1583 {
 
+	/**
+	 * - Pregenerados
+	 * - Fuerza bruta
+	 * 
+	 *  Dado un número n, encontrar su número generador (ng), siendo 
+	 *  n = ng + sumDigits(ng) 
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		Map<Integer, Integer> mapDigits = new HashMap<Integer, Integer>();
 		for (int i = 100000; i > 0; i--) {
