@@ -233,7 +233,6 @@ class Arista544 {
 	public void setPeso(int peso) {
 		this.peso = peso;
 	}
-
 }
 
 class Nodo544 {
