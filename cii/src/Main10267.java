@@ -11,7 +11,7 @@ import java.util.Stack;
 *	Runtime:	2.248
 *	Ranking:	2898
 */
-class Main implements Runnable {
+public class Main10267 implements Runnable {
 	static String ReadLn(int maxLength) {
 		byte line[] = new byte[maxLength];
 		int length = 0;
@@ -33,10 +33,10 @@ class Main implements Runnable {
 	}
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String args[]) {
-		Main myWork = new Main();
+		Main10267 myWork = new Main10267();
 		myWork.run();
 	}
 
@@ -54,14 +54,14 @@ class myStuff implements Runnable {
 
 	public void run() {
 		String line;
-		while ((line = Main.ReadLn(MAX_LENGTH)) != null) {
+		while ((line = Main10267.ReadLn(MAX_LENGTH)) != null) {
 			line = line.trim();
 			if (line.isEmpty()) {
 				continue;
 			}
 			char command = line.charAt(0);
 			if (command == 'X') {
-				while (Main.ReadLn(MAX_LENGTH) != null)
+				while (Main10267.ReadLn(MAX_LENGTH) != null)
 					; // Flush the remaining lines
 				break;
 			}
