@@ -7,10 +7,26 @@ import java.util.Queue;
 /**
  * Usar algoritmo Edmond's Karp
  * Fuente https://github.com/phishman3579/java-algorithms-implementation/blob/master/src/com/jwetherell/algorithms/graph/EdmondsKarp.java
- * 
- *
  */
+
+/**
+*	820 - 	Internet Bandwidth
+*
+*
+*	Submision:	20346821
+*	Date:		2017-11-16 02:10:14
+*	Runtime:	0.240
+*	Ranking:	1129
+*/
 public class Main820 {
+	
+	/**
+	 * - Grafos 
+	 * - Edmond's Karp
+	 * 
+	 * Hallar el flujo máximo en un grafo bidireccional, flujo entendido como la sumatoria del menor valor de los 
+	 * pesos de cada una de las aristas aristas en cada uno de los caminos del grafo 
+	 */
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
