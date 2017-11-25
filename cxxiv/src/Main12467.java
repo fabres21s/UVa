@@ -6,6 +6,10 @@ public class Main12467 {
 
 	/**
 	 * time limit - replantear o pasar a C
+	 * 
+	 * No dan los casos de prueba
+	 * 
+	 * KMP Algorithm
 	 */
 	public static void main(String[] args) {
 		Scanner dato = new Scanner(System.in);
