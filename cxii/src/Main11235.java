@@ -1,89 +1,112 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeSet;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
-//TODO TLE - Frequent Values - En C++ tambi�n
 public class Main11235 {
 
-	
-	/*
-	 * Pasarlo a C++ - Igual TLE
-	 */
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String line;
 
-		int n, xx, x, i, inf, sup, acum, max;
-		StringBuffer answer = new StringBuffer();
+		StringBuffer output = new StringBuffer();
+		int n, queryes, i, count, end, value, start, j, originalValue;
+		while (!(line = br.readLine()).equals("0")) {
+			args = line.split(" ");
+			n = Integer.parseInt(args[0]);
+			queryes = Integer.parseInt(args[1]);
 
-		Set<Integer> treeSet = new TreeSet<Integer>();
-		List<Integer> list = new ArrayList<Integer>();
-		while ((n = input.nextInt()) != 0) {
-			int querys = input.nextInt();
+			int array[] = new int[n + 1];
+			args = br.readLine().split(" ");
 
-			int arreglo[] = new int[100000 * 2 + 1];
-
-			treeSet.clear();
 			for (i = 0; i < n; i++) {
-				xx = input.nextInt() + 100000;
-				treeSet.add(xx);
-				arreglo[xx]++;
+				array[i] = Integer.parseInt(args[i]);
 			}
 
-			list.clear();
-			for (int y : treeSet) {
-				list.add(arreglo[y]);
+			
+			count = 1;
+			end = 0;
+			value = array[0];
+			start = 0;
+			int frequentValues[] = new int[n];
+			
+			
+			for (i = 1; i < n; i++) {
+				while (value == array[i] && i < n) {
+					count++;
+					i++;
+				}
+				end = start + count;
+				for (j = start; j < end; j++) {
+					frequentValues[j] = count;
+				}
+				start = end;
+				value = array[i];
+				count = 1;
+
 			}
 
-			long t = System.nanoTime();
-			for (i = 0; i < querys; i++) {
-				inf = input.nextInt() - 1;
-				sup = input.nextInt();
-//				if (inf == sup) {
-//					answer.append("1\n");
-//					continue;
-//				}
+			while (queryes-- > 0) {
+				args = br.readLine().split(" ");
+				start = Integer.parseInt(args[0]) - 1;
+				end = Integer.parseInt(args[1]) - 1;
 
-				max = 0;
-				acum = 0;
-				for (int xyz : list) {
-					x = xyz;
+				count = 0;
 
-					acum += x;
-					
-					
-					if (inf > 0) {
-						// list.remove(j);
-						// list.add(j, x -inf);
+				int frequentValuesAdjusted[] = frequentValues.clone();
 
-						xx = x - inf;
-						inf = inf - x;
-						x = xx;
-					}
-
-					if (acum > sup) {
-						// list.remove(j);
-						// list.add(j, x + sup -acum);
-						x = x + sup - acum;
-						if (x > max) {
-							max = x;
-						}
-
+				
+				
+				// ajuste a la derecha
+				
+				
+				count = 1;
+				value = frequentValues[start];
+				originalValue = array[start];
+				for (i = start + 1; i <= end; i++) {
+					if (frequentValues[i] != value || originalValue != array[i]) {
 						break;
 					}
-
-					if (x > max) {
-						max = x;
-					}
+					count++;
 
 				}
-				answer.append(max + ":::" +(System.nanoTime() - t)+"\n");
+
+				if (count < value) {
+					for (i = start; i < (start + count); i++) {
+						frequentValuesAdjusted[i] = count;
+					}
+				}
+
+				// ajuste a la izquierda
+				
+				count = 1;
+				value = frequentValuesAdjusted[end];
+				originalValue = array[end];
+				for (i = end - 1; i >= start; i--) {
+					if (frequentValuesAdjusted[i] != value || originalValue != array[i]) {
+						break;
+					}
+					count++;
+
+				}
+
+				if (count < value) {
+					for (i = end; i > (end - count); i--) {
+						frequentValuesAdjusted[i] = count;
+					}
+				}
+
+				count = 1;
+				for (i = start; i <= end; i++) {
+					count = Math.max(count, array[i]);
+				}
+
+				output.append(count+ "\n");
+
 			}
 
 		}
-		input.close();
-		System.out.print(answer);
+		System.out.print(output);
+
 	}
 
 }
