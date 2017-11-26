@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
-//TODO TLE - Frequent Values - En C++ también
+//TODO TLE - Frequent Values - En C++ tambiï¿½n
 public class Main11235 {
 
 	
@@ -36,6 +36,7 @@ public class Main11235 {
 				list.add(arreglo[y]);
 			}
 
+			long t = System.nanoTime();
 			for (i = 0; i < querys; i++) {
 				inf = input.nextInt() - 1;
 				sup = input.nextInt();
@@ -77,7 +78,7 @@ public class Main11235 {
 					}
 
 				}
-				answer.append(max + "\n");
+				answer.append(max + ":::" +(System.nanoTime() - t)+"\n");
 			}
 
 		}
