@@ -1,89 +1,61 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
-//TODO TLE - Secret Word
+/**
+*	12467 - Secret word
+*
+*
+*	Submision:	20402615
+*	Date:		2017-11-26 12:28:08
+*	Runtime:	1.180
+*	Ranking:	441
+*/
 public class Main12467 {
 
 	/**
-	 * time limit - replantear o pasar a C
+	 * - Cadena de caracteres
 	 * 
-	 * No dan los casos de prueba
-	 * 
-	 * KMP Algorithm
+	 * Buscar el substring más largo que sea el contrario de cómo empieza la palabra 
 	 */
-	public static void main(String[] args) {
-		Scanner dato = new Scanner(System.in);
-		int casos,pos,  aux,z=1,x,j,k;
-		String c,words;
-		casos = dato.nextInt();
-		String solucion="";
-		//int aux;
-		for(int i=0; i<casos; i++){
-			solucion="";
-			ArrayList <Integer>valores=new ArrayList<Integer>();
-			z=1;
-			words=dato.next();
-			if(palindromo(words))
-				System.out.println(words);
-			else
-			{		
-				
-				for( x=1;x<words.length();x++){
-					if(words.charAt(0)==words.charAt(x))
-						valores.add(x);
-				}		
-				if(valores.size()==0){
-					System.out.println(words.charAt(0));					
-				}
-				else{
-				for( x=0;x<valores.size();x++){		
-					c="";
-					pos=valores.get(x);
-					for ( j = 0; j <= valores.get(x)/2; j++) 
-					{
-						for ( k = pos; k >=pos/2 ; k--) 
-						{
-							aux=0;	
-							if(words.charAt(j)==words.charAt(k) )
-							{
-								pos=k-1;
-								c+=words.charAt(j);
-								aux=1;
-								break;
-							}
-							if(c.length()>0 && aux==0)
-							{
-								z=-1;
-								break;
-							}	
-						}
-						if(z==-1)
-							break;
-						if(c.length()==0)
-						{
-							c=String.valueOf(words.charAt(0));
-							break;						
-						}
+	public static void main(String[] args) throws NumberFormatException, IOException {
 		
-					}
-					StringBuffer buffer=new StringBuffer(c);	
-					buffer.reverse();
-					if(solucion.length()<buffer.length())
-						solucion=buffer.toString();
-				}
-				System.out.println(solucion);
-			}
-			}
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuffer output = new StringBuffer();
+		int testCases = Integer.parseInt(br.readLine());
+		int k;
+		char [] word;
+		while (testCases-- > 0) {
+			word = br.readLine().toCharArray();
 			
+			k = maxMatchedPrefix(word);
+			while (k-- >0) {
+				output.append(word[k]);
+			}
+			output.append("\n");
 		}
-		dato.close();
+		
+		System.out.print(output);
 	}
 	
-	static boolean palindromo(String palabra)
+	static int maxMatchedPrefix(char[] t)
 	{
-		for(int i=0;i<=palabra.length()/2;i++)
-			if(palabra.charAt(i)!=palabra.charAt(palabra.length()-i-1))
-				return false;
-		return true;
+		int n = t.length * 2 + 1, pi[] = new int[n];
+		char[] s = new char[n];
+		for(int i = 0; i < t.length; ++i)
+			s[i] = s[n - i - 1] = t[i];
+		for(int i = 1, j = 0; i < n; ++i)
+		{
+			while(j > 0 && s[i] != s[j])
+				j = pi[j-1];
+			if(s[i] == s[j])
+				++j;
+			pi[i] = j;
+		}
+		int ret = 0;
+		for(int i = t.length + 1; i < n; ++i)
+			ret = Math.max(ret, pi[i]);
+		return ret;
 	}
+	
 }
