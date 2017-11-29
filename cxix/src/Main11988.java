@@ -8,7 +8,7 @@ import java.util.LinkedList;
 *
 *
 *	Submision:	20418866
-*	Date:		2012-02-03 14:12:28
+*	Date:		2017-11-29 18:04:03
 *	Runtime:	0.400
 *	Ranking:	4077
 */
