@@ -1,85 +1,72 @@
-import java.util.Arrays;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
-//TODO No enviado - Ultra-QuickSort
+/**
+*	10810 - Ultra-QuickSort
+*
+*
+*	Submision:	20417474
+*	Date:		2017-11-29 13:24:46
+*	Runtime:	0.260
+*	Ranking:	1435
+*/
 public class Main10810 {
 
 	static int array[];
 	static int length;
-	static int tempMergArr[];
-	static int intercambios =0;
-	static int intercambios2 =0;
-	static int intercambios3 =0;
+	static int L[];
+	static int R[];
+	static long intercambios =0;
+	static int inf =Integer.MAX_VALUE;
 
-	public static void main(String[] args) {
-		int arreglo[] = {9,1,0,5,4};
-	rapido(arreglo, 0, 4);
-//	System.out.println(Arrays.toString(array));
-	System.out.println(intercambios);
+	/**
+	 * - Sort
+	 * 
+	 *  Utilizando el método de ordenamiento Merge Sort, contar los intercambios necesarios para ordenar un arreglo
+	 *  
+	 */
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		StringBuffer output = new StringBuffer();
+		int n;
+		int array[];
+		while ((n = Integer.parseInt(br.readLine())) != 0) {
+			array = new int[n];
+			for (int i = 0; i < n; i++) {
+				array[i] = Integer.parseInt(br.readLine());
+			}
+			intercambios = 0;
+			sort(array);
+			output.append(intercambios);
+			output.append("\n");
+		}
+		System.out.print(output);
 
 	}
 
 	
-   static  void rapido(int [] a, int primero, int ultimo)
-   {
-        
-      int  i=primero;
-       int j=ultimo;
-   int    der=a[(primero+ultimo)/2];//der es el mismo pivote
-       //System.out.println(der);
-
-       do
-       {           
-           while(a[i]<der)
-           {
-              // iteraciones++;
-               i++;
-           }
-           while(a[j]>der)
-           {
-               //iteraciones++;
-               j--;
-           }
-           if(i<=j)
-           {
-               a=intercambios(a, j, i);                
-               i++;
-               j--;
-           }
-       }while(i<=j);
-
-       
-       if(primero<j)
-       {
-           rapido(a, primero, j);
-
-       }
-       if(ultimo>i)
-       {
-           rapido(a, i, ultimo);
-       }
-   }
-    
-    static  int [] intercambios(int []a, int x, int y)
-    {
-       int  aux=a[x];
-        intercambios++;
-        a[x]=a[y];
-        a[y]=aux;
-        System.out.println(Arrays.toString(a));
-        return a;
-    }
-	
+  
 	static void sort(int inputArr[]) {
 		array = inputArr;
 		length = inputArr.length;
-		tempMergArr = new int[length];
+		L = new int[length + 1];
+		R = new int[length + 1];
 		doMergeSort(0, length - 1);
 	}
 
+	
+	/**
+	 * 
+	 * @param lowerIndex = p
+	 * @param higherIndex = r
+	 * middle = q
+	 */
 	static void doMergeSort(int lowerIndex, int higherIndex) {
 
 		if (lowerIndex < higherIndex) {
-			int middle = lowerIndex + (higherIndex - lowerIndex) / 2;
+			int middle = (higherIndex + lowerIndex) / 2;
 			// Below step sorts the left side of the array
 			doMergeSort(lowerIndex, middle);
 			// Below step sorts the right side of the array
@@ -89,32 +76,38 @@ public class Main10810 {
 		}
 	}
 
-	static void mergeParts(int lowerIndex, int middle, int higherIndex) {
+	
+	/**
+	 * 
+	 * @param lowerIndex = p
+	 * @param higherIndex = r
+	 * middle = q
+	 */
+	static void mergeParts(int p, int q, int r) {
 
-		for (int i = lowerIndex; i <= higherIndex; i++) {
-			tempMergArr[i] = array[i];
-		}
-		int i = lowerIndex;
-		int j = middle + 1;
-		int k = lowerIndex;
-		while (i <= middle && j <= higherIndex) {
-			if (tempMergArr[i] <= tempMergArr[j]) {
-				array[k] = tempMergArr[i];
-				intercambios++;
-				i++;
-			} else {
-				intercambios2++;
-				array[k] = tempMergArr[j];
-				j++;
-			}
-			k++;
-		}
-		while (i <= middle) {
-			array[k] = tempMergArr[i];
-			intercambios3++;
-			k++;
-			i++;
-		}
+		 int ind1,ind2,k,i,j;
+		    for(i=p,ind1=1; i<=q; i++)
+		        L[ind1++]=array[i];
+		    L[ind1]=inf;
+		    for(i=q+1,ind2=1; i<=r; i++)
+		        R[ind2++]=array[i];
+		    R[ind2]=inf;
+		    i=j=1;
+		    for(k=p; k<=r; k++)
+		    {
 
+		        if(L[i]>R[j])
+		        {
+		            intercambios+=ind1-i;
+		            array[k]=R[j];
+		            j++;
+		        }
+		        else
+		        {
+		            array[k]=L[i];
+		            i++;
+		        }
+
+		    }
 	}
 }
