@@ -10,7 +10,7 @@ import java.util.Queue;
  */
 
 /**
-*	820 - 	Internet Bandwidth
+*	820 - Internet Bandwidth
 *
 *
 *	Submision:	20346821

@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
-*	12467 - Secret word
+*	12467 - Secret Word
 *
 *
 *	Submision:	20402615
