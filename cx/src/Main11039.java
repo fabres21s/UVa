@@ -1,65 +1,95 @@
-import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.LinkedList;
+import java.util.Queue;
 
-//TODO TLE - Building designing
 public class Main11039 {
 
-	/*
-	 * TLE
-	 */
-	public static void main(String[] args) {
+	//TODO Poner información
+	public static void main(String[] args) throws NumberFormatException, IOException {
 
-		Scanner input = new Scanner(System.in);
-		int cases = input.nextInt();
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuffer output = new StringBuffer();
+		int testCases = Integer.parseInt(br.readLine());
+		int floors, index;
+		int sizeFloors[];
+		while (testCases-- > 0) {
 
-		int pisos, size;
-
-		int arreglo[];
-
-		List<Integer> pisosRojos;
-		while (cases-- > 0) {
-
-			pisosRojos = new ArrayList<Integer>();
-			pisos = input.nextInt();
-			arreglo = new int[pisos];
-
-			for (int i = 0; i < pisos; i++) {
-				size = input.nextInt();
-				arreglo[i] = Math.abs(size);
-
-				if (size < 0) {
-					pisosRojos.add(size * -1);
+			floors = Integer.parseInt(br.readLine());
+			sizeFloors = new int[floors];
+			int maxFloors = 0;
+			if (floors > 0) {
+				for (int i = 0; i < floors; i++) {
+					sizeFloors[i] = Integer.parseInt(br.readLine());
 				}
-			}
 
-			Arrays.sort(arreglo);
+				Arrays.sort(sizeFloors);
+				index = 0;
 
-			int max = 0;
-
-			if (arreglo.length > 0) {
-				boolean rojo = pisosRojos.contains(arreglo[0]);
-				max = 1;
-				for (int i = 1; i < pisos; i++) {
-
-					if (rojo) {
-						if (!pisosRojos.contains(arreglo[i])) {
-							// es porque es azul
-							max++;
-							rojo = false;
-						}
-					} else {
-						if (pisosRojos.contains(arreglo[i])) {
-							max++;
-							rojo = true;
-						}
+				Queue<Integer> queue = new LinkedList<Integer>();
+				while (sizeFloors[index] < 0) {
+					queue.add(sizeFloors[index]);
+					index++;
+					if (index == floors) {
+						break;
 					}
 				}
+
+				Queue<Integer> stack = new LinkedList<Integer>();
+				index = floors - 1;
+				while (sizeFloors[index] > 0) {
+					stack.add(sizeFloors[index]);
+					index--;
+					if (index < 0) {
+						break;
+					}
+				}
+
+				boolean continuar = true;
+				maxFloors = 1;
+				int maxAbs = Math.max(Math.abs(sizeFloors[0]), sizeFloors[floors - 1]), max = 0;
+
+				if (Math.abs(sizeFloors[0]) > sizeFloors[floors - 1]) {
+					max = sizeFloors[0];
+				} else {
+					max = maxAbs;
+				}
+				int next = 0;
+				while (continuar) {
+					continuar = false;
+					if (max > 0) {
+						while (!queue.isEmpty()) {
+							continuar = true;
+							next = queue.poll();
+							if (maxAbs > Math.abs(next)) {
+								maxFloors++;
+								max = next;
+								maxAbs = Math.abs(next);
+								break;
+							}
+						}
+					} else {
+						while (!stack.isEmpty()) {
+							continuar = true;
+							next = stack.poll();
+							if (maxAbs > next) {
+								maxFloors++;
+								maxAbs = max = next;
+								break;
+							}
+						}
+					}
+
+				}
 			}
-			System.out.println(max);
+
+			output.append(maxFloors);
+			output.append("\n");
 		}
-		input.close();
+		System.out.print(output);
+
 	}
 
 }
