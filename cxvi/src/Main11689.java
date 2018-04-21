@@ -2,9 +2,25 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	11689 - Soda Surpler
+*
+*	Submission:	21162641
+*	Date:		2018-04-18 19:30:42
+*	Runtime:	0.030
+*	Ranking:	5243
+*/
 public class Main11689 {
 
-	//TODO Poner información
+	/**
+	 * - Simulación
+	 * 
+	 *  Dadas unas botellas vacias iniciales, e y f, y la cantidad de botellas
+	 *  vacias necesarias para cambiarlas por una llena,
+	 *  determinar cuántas gaseosas se pueden tomar
+	 *  
+	 *  Generalización del 11877
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -32,10 +48,6 @@ public class Main11689 {
 			total = total / div + total % div;
 		}
 		return sum;
-		// if (total == 0) {
-		// return 0;
-		// } 10891 http://codealltheproblems.blogspot.com.co/2015/10/uva-10891-game-of-sum.html
-		// return (total / (div - 1) - ((total % (div - 1) == 0) ? 1 : 0));
 	}
 
 }

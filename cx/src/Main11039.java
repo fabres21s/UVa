@@ -5,9 +5,22 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+*	11039 - Building designing
+*
+*	Submission:	21168595
+*	Date:		2018-04-19 15:27:03
+*	Runtime:	0.200
+*	Ranking:	1613
+*/
 public class Main11039 {
 
-	//TODO Poner información
+	/**
+	 * - Queue
+	 * 
+	 * Poner alternadamente pisos rojos (tamaños positivos) y azules (tamaños negativos)
+	 * de forma descente, teniendo en cuenta el valor absoluto del piso
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

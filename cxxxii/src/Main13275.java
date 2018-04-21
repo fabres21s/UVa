@@ -2,9 +2,24 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	13275 - Leap Birthdays
+*
+*	Submission:	21155577
+*	Date:		2018-04-17 19:28:00
+*	Runtime:	0.040
+*	Ranking:	161
+*/
 public class Main13275 {
 
-	//TODO Poner información
+	/**
+	 * -  Calendario
+	 * 
+	 * Dada una fecha de nacimiento de una persona y el año actual, determinar cuántas
+	 * veces ha cumplido años esa persona, teniendo en cuenta
+	 * que si nace el 29 de febrero, cumplirá cada 4 años
+	 * 
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testCases = Integer.parseInt(br.readLine());

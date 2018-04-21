@@ -5,9 +5,22 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
-//TODO Poner información
+/**
+*	10194 - Football (aka Soccer)
+*
+*	Submission:	21161139
+*	Date:		2018-04-18 15:03:04
+*	Runtime:	0.160
+*	Ranking:	3099
+*/
 public class Main10194 {
 
+	/**
+	 * - Sort
+	 * 
+	 * Mostrar la tabla de posiciones en un torneo con sus respectivos partidos, 
+	 * teniendo en cuenta los ítems de desempate establecidos
+	 */
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		Scanner sc = new Scanner(System.in, "ISO-8859-1");
 		PrintWriter cout = new PrintWriter(new OutputStreamWriter(System.out, "ISO-8859-1"));

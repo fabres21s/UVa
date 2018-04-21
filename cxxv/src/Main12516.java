@@ -1,13 +1,24 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 
+/**
+*	12516 - Cinema-cola
+*
+*	Submission:	21174847
+*	Date:		2018-04-20 17:12:38
+*	Runtime:	0.170
+*	Ranking:	200
+*/
 public class Main12516 {
 
 	
-	/*
-	 * TODO - Poner información
+	/**
+	 * - Simulación
+	 * - Arreglos
+	 * 
+	 * Determinar entre un grupo de amigos que van al cine, y con un grupo de personas que llegaron previamente
+	 * si todos los amigos pueden poner sus vasos de gaseosa en sus asientos
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
