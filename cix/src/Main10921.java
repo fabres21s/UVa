@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10921 - Find the Telephone
 *
 *
-*	Submision:	9703994
+*	Submission:	9703994
 *	Date:		2012-02-03 02:38:04
 *	Runtime:	0.116
 *	Ranking:	8106
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10921 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

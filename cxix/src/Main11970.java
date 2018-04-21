@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11970 - Lucky Numbers
 *
 *
-*	Submision:	9838532
+*	Submission:	9838532
 *	Date:		2012-03-09 22:00:58
 *	Runtime:	0.612
 *	Ranking:	874
@@ -13,7 +13,7 @@ public class Main11970 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

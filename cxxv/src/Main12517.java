@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12517 - Digit Sum
 *
 *
-*	Submision:	16900903
+*	Submission:	16900903
 *	Date:		2016-02-25 00:57:49
 *	Runtime:	0.348
 *	Ranking:	278
@@ -13,7 +13,7 @@ public class Main12517 {
 
 	/**
 	 * - Recursividad
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 * 
 	 * Encontrar la sumatoria
 	 * de los digitos hasta n

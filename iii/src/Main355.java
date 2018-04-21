@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	355 - The Bases Are Loaded
 *
 *
-*	Submision:	9342785
+*	Submission:	9342785
 *	Date:		2011-10-07 02:14:40
 *	Runtime:	0.644
 *	Ranking:	2828
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main355 {
 
 	/**
-	 * - Sistemas de numeración
+	 * - Sistemas de numeraciï¿½n
 	 */
 	public static void main(String[] args) {
 		String s, cs;

@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 *	929 - Number Maze
 *
 *
-*	Submision:	17428548
+*	Submission:	17428548
 *	Date:		2016-05-27 21:51:48
 *	Runtime:	2.420
 *	Ranking:	1652
@@ -21,8 +21,8 @@ public class Main929 {
 	 * - Priority Queue
 	 * 
 	 * Dado un arreglo (grafo) siendo los pesos el valor que hay
-	 * en cada posición del areglo, encontrar la ruta más corta para ir de la
-	 * posición 0,0 a la m-1,n-1
+	 * en cada posiciï¿½n del areglo, encontrar la ruta mï¿½s corta para ir de la
+	 * posiciï¿½n 0,0 a la m-1,n-1
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10931 - Parity
 *
 *
-*	Submision:	9546915
+*	Submission:	9546915
 *	Date:		2011-12-09 22:27:58
 *	Runtime:	0.332
 *	Ranking:	6649
@@ -14,7 +14,7 @@ public class Main10931 {
 
 	/**
 	 * - Big Numbers
-	 * - Sistemas de numeración
+	 * - Sistemas de numeraciï¿½n
 	 */
 	public static void main(String[] args) {
 		String s, cs;

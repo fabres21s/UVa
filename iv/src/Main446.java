@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 *	446 - Kibbles "n" Bits "n" Bits "n" Bits
 *
 *
-*	Submision:	9366808
+*	Submission:	9366808
 *	Date:		2011-10-13 14:58:46
 *	Runtime:	0.104
 *	Ranking:	4802

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10405 - Longest Common Subsequence
 *
 *
-*	Submision:	9705740
+*	Submission:	9705740
 *	Date:		2012-02-03 15:58:17
 *	Runtime:	0.288
 *	Ranking:	8894

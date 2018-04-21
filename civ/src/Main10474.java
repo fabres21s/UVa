@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10474 - Where is the Marble?
 *
 *
-*	Submision:	16047028
+*	Submission:	16047028
 *	Date:		2015-09-05 00:28:53
 *	Runtime:	2.845
 *	Ranking:	6877

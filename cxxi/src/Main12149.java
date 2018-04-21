@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12149 - Feynman
 *
 *
-*	Submision:	9544674
+*	Submission:	9544674
 *	Date:		2011-12-08 21:41:32
 *	Runtime:	0.176
 *	Ranking:	4373
@@ -13,7 +13,7 @@ public class Main12149 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		int[] cuadrados = { 0, 1, 5, 14, 30, 55, 91, 140, 204, 285, 385, 506,

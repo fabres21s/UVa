@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	10082 - WERTYU
 *
 *
-*	Submision:	9178991
+*	Submission:	9178991
 *	Date:		2011-08-22 03:04:42
 *	Runtime:	0.244
 *	Ranking:	17443

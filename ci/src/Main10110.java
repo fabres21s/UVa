@@ -5,7 +5,7 @@ import java.util.Vector;
 *	10110 - Light, more light
 *
 *
-*	Submision:	9216370
+*	Submission:	9216370
 *	Date:		2011-09-02 22:07:24
 *	Runtime:	1.400
 *	Ranking:	11760

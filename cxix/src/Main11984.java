@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11984 - A Change in Thermal Unit
 *
 *
-*	Submision:	9705427
+*	Submission:	9705427
 *	Date:		2012-02-03 14:12:28
 *	Runtime:	0.372
 *	Ranking:	5932
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11984 {
 
 	/**
-	 * - Fórmula
+	 * - Fï¿½rmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

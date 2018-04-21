@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11000 - Bee
 *
 *
-*	Submision:	9975000
+*	Submission:	9975000
 *	Date:		2012-04-09 20:44:05
 *	Runtime:	0.128
 *	Ranking:	5334

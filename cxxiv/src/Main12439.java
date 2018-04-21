@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	12439 - February 29
 *
 *
-*	Submision:	12307424
+*	Submission:	12307424
 *	Date:		2013-09-06 20:30:06
 *	Runtime:	0.509
 *	Ranking:	799

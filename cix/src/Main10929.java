@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 *	10929 - You can say 11
 *
 *
-*	Submision:	17456904
+*	Submission:	17456904
 *	Date:		2016-06-02 15:05:26
 *	Runtime:	0.140
 *	Ranking:	6666
@@ -15,12 +15,12 @@ import java.io.InputStreamReader;
 public class Main10929 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 * 
-	 * Determinar si un número es multiplo de 11
-	 * El proceso consiste en sumar todos los números en las posiciones pares
+	 * Determinar si un nï¿½mero es multiplo de 11
+	 * El proceso consiste en sumar todos los nï¿½meros en las posiciones pares
 	 * y en las posiciones impares, por separado, y si la resta entre ellos 
-	 * es multiplo de 11, el número original también lo es.
+	 * es multiplo de 11, el nï¿½mero original tambiï¿½n lo es.
 	 * Ej 142857
 	 * Suma de posiciones impares = 1 + 2 + 5 = 8
 	 * Suma de posiciones pares   = 4 + 8 + 7 = 19

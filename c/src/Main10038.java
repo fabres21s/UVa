@@ -6,7 +6,7 @@ import java.util.Vector;
 *	10038 - Jolly Jumpers
 *
 *
-*	Submision:	9210845
+*	Submission:	9210845
 *	Date:		2011-09-01 02:57:41
 *	Runtime:	0.488
 *	Ranking:	20580
@@ -17,7 +17,7 @@ public class Main10038 {
 	 * - Vector
 	 * 
 	 * La diferencia absoluta entre valores
-	 * sucesivos de un conjunto de n números tenga los valores desde 1 hasta (n
+	 * sucesivos de un conjunto de n nï¿½meros tenga los valores desde 1 hasta (n
 	 * -1) Si hay un solo valor, la secuencia se marca como saltarina
 	 */
 	public static void main(String[] args) throws IOException {

@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
 *	10170 - The Hotel with Infinite Rooms
 *
-*	Submision:	20399798
+*	Submission:	20399798
 *	Date:	    2017-11-25 23:53:01
 *	Runtime:	0.150
 *	Ranking:	2140

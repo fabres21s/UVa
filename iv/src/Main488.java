@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	488 - Triangle Wave
 *
 *
-*	Submision:	9499739
+*	Submission:	9499739
 *	Date:		2011-11-23 17:53:28
 *	Runtime:	1.176
 *	Ranking:	8874
@@ -14,7 +14,7 @@ public class Main488
 	static StringBuffer buffer;
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) 
 	{

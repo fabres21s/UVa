@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	305 - Joseph
 *
 *
-*	Submision:	9596026
+*	Submission:	9596026
 *	Date:		2011-12-27 16:17:17
 *	Runtime:	0.248
 *	Ranking:	4110

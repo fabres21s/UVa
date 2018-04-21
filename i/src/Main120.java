@@ -5,14 +5,14 @@ import java.util.*;
 *	120 - Stacks of Flapjacks
 *
 *
-*	Submision:	9309229
+*	Submission:	9309229
 *	Date:		2011-09-28 15:23:45
 *	Runtime:	1.416
 *	Ranking:	8091
 */
 public class Main120 {
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

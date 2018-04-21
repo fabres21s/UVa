@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	575 - Skew Binary
 *
 *
-*	Submision:	9705781
+*	Submission:	9705781
 *	Date:		2012-02-03 16:10:09
 *	Runtime:	0.128
 *	Ranking:	11538

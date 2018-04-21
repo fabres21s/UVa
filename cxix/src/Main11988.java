@@ -7,7 +7,7 @@ import java.util.LinkedList;
 *	11988 - Broken Keyboard (a.k.a. Beiju Text)
 *
 *
-*	Submision:	20418866
+*	Submission:	20418866
 *	Date:		2017-11-29 18:04:03
 *	Runtime:	0.400
 *	Ranking:	4077

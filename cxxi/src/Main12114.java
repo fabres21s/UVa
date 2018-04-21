@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12114 - Bachelor Arithmetic
 *
 *
-*	Submision:	16495201
+*	Submission:	16495201
 *	Date:		2015-11-26 14:18:28
 *	Runtime:	0.235
 *	Ranking:	903

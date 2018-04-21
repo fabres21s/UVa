@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12531 - Hours and Minutes
 *
 *
-*	Submision:	10894940
+*	Submission:	10894940
 *	Date:		2012-11-16 15:53:58
 *	Runtime:	0.196
 *	Ranking:	1326
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12531 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

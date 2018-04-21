@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	880 - Cantor Fractions
 *
 *
-*	Submision:	9574953
+*	Submission:	9574953
 *	Date:		2011-12-19 13:50:10
 *	Runtime:	2.060
 *	Ranking:	1414
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main880 {
 
 	/**
-	 * - Sumatoria de números
+	 * - Sumatoria de nï¿½meros
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

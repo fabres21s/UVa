@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	441 - Lotto
 *
 *
-*	Submision:	16909882
+*	Submission:	16909882
 *	Date:		2016-02-26 15:27:51
 *	Runtime:	0.149
 *	Ranking:	5862
@@ -14,7 +14,7 @@ public class Main441 {
 	/**
 	 * - Arreglos
 	 * 
-	 * Encontrara forma de imprimir n números diferentes, en grupos de 6
+	 * Encontrara forma de imprimir n nï¿½meros diferentes, en grupos de 6
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

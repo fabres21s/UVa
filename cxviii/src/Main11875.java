@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11875 - Brick Game
 *
 *
-*	Submision:	9705521
+*	Submission:	9705521
 *	Date:		2012-02-03 14:53:21
 *	Runtime:	0.376
 *	Ranking:	5967

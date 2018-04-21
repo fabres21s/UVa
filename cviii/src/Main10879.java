@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10879 - Code Refactoring
 *
 *
-*	Submision:	10731113
+*	Submission:	10731113
 *	Date:		2012-10-13 19:29:13
 *	Runtime:	1.344
 *	Ranking:	2653
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10879 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

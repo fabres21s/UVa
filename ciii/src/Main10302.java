@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10302 - Summation of Polynomials
 *
 *
-*	Submision:	9565922
+*	Submission:	9565922
 *	Date:		2011-12-16 14:17:58
 *	Runtime:	0.400
 *	Ranking:	7110
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main10302 {
 
 	/**
-	 * - Sumatoria de números
+	 * - Sumatoria de nï¿½meros
 	 * - Big Numbers
 	 */
 	public static void main(String[] args) {

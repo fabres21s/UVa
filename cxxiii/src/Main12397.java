@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12397 - Roman Numerals
 *
 *
-*	Submision:	10679332
+*	Submission:	10679332
 *	Date:		2012-10-03 01:04:41
 *	Runtime:	0.180
 *	Ranking:	395
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main12397 {
 
 	/**
-	 * - Números Romanos
+	 * - Nï¿½meros Romanos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

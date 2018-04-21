@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
 *	10664 - Luggage
 *
-*	Submision:	20453465
+*	Submission:	20453465
 *	Date:		2017-12-06 23:57:23	
 *	Runtime:	0.040
 *	Ranking:	3198

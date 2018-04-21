@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11805 - Bafana Bafana
 *
 *
-*	Submision:	9891208
+*	Submission:	9891208
 *	Date:		2012-03-21 13:04:08
 *	Runtime:	0.592
 *	Ranking:	6335
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11805 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		int c, res, p, k, n, i;

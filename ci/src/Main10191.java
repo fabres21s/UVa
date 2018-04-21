@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	10191 - Longest Nap
 *
 *
-*	Submision:	9362476
+*	Submission:	9362476
 *	Date:		2011-10-12 12:30:42
 *	Runtime:	0.232
 *	Ranking:	2877

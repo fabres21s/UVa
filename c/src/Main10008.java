@@ -6,7 +6,7 @@ import java.util.Vector;
 *	10008 - What's Cryptanalysis?
 *
 *
-*	Submision:	9520737
+*	Submission:	9520737
 *	Date:		2011-11-30 12:20:52
 *	Runtime:	0.212
 *	Ranking:	12229

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	834 - Continued Fractions
 *
 *
-*	Submision:	9893009
+*	Submission:	9893009
 *	Date:		2012-03-21 19:28:48
 *	Runtime:	0.112
 *	Ranking:	5142
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main834 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

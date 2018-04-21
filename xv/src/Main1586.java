@@ -8,7 +8,7 @@ import java.util.Map;
 *	1586 - Molar mass
 *
 *
-*	Submision:	17579729
+*	Submission:	17579729
 *	Date:		2016-06-26 22:22:47
 *	Runtime:	0.070
 *	Ranking:	2126
@@ -19,7 +19,7 @@ public class Main1586 {
 	 * - Map
 	 * - Expresiones Regulares
 	 * 
-	 * Dada una fórmula química, encontrar la masa molar de ella
+	 * Dada una fï¿½rmula quï¿½mica, encontrar la masa molar de ella
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
@@ -37,7 +37,7 @@ public class Main1586 {
 		values.put('N', 14010L);
 		for (int i = 1; i <= testCases; i++) {
 			StringBuffer output = new StringBuffer();
-			//la diferencia entre AC y WA era el .trim(), por qué, ni idea
+			//la diferencia entre AC y WA era el .trim(), por quï¿½, ni idea
 			line =  br.readLine().trim();
 			letras = line.replaceAll("[^A-Z]", "").split("");
 			numeros = line.replaceAll("[A-Z]", " ").split(" ");

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	147 - Dollars
 *
 *
-*	Submision:	9581890
+*	Submission:	9581890
 *	Date:		2011-12-21 20:05:07
 *	Runtime:	1.828
 *	Ranking:	6625
@@ -15,7 +15,7 @@ public class Main147 {
 	static int D[] = { 10000, 5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5 };
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	160 - Factors and Factorials
 *
 *
-*	Submision:	9709690
+*	Submission:	9709690
 *	Date:		2012-02-04 21:09:27
 *	Runtime:	0.136
 *	Ranking:	8696
@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main160 {
 	/**
 	 * - Factorial
-	 * - Números Primos
-	 * - Proceso matemático
+	 * - Nï¿½meros Primos
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		int[][] numeros = new int[101][101];

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10633 - Rare Easy Problem
 *
 *
-*	Submision:	9618404
+*	Submission:	9618404
 *	Date:		2012-01-04 20:43:40
 *	Runtime:	0.248
 *	Ranking:	2619

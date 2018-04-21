@@ -15,7 +15,7 @@ import java.util.Scanner;
 *	902 - Password Search
 *
 *
-*	Submision:	17018481
+*	Submission:	17018481
 *	Date:		2016-03-15 01:44:40
 *	Runtime:	0.562
 *	Ranking:	160

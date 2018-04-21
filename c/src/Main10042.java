@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10042 - Smith Numbers
 *
 *
-*	Submision:	9242715
+*	Submission:	9242715
 *	Date:		2011-09-09 16:42:26
 *	Runtime:	0.236
 *	Ranking:	1775
@@ -13,8 +13,8 @@ public class Main10042 {
 	static int sum = 0;
 
 	/**
-	 * - Números Primos
-	 * - Proceso matemático
+	 * - Nï¿½meros Primos
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

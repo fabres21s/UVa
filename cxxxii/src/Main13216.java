@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	13216 - Problem with a ridiculously long name but with a ridiculously short description
 *
 *
-*	Submision:	19594911
+*	Submission:	19594911
 *	Date:		2017-07-01 18:01:31
 *	Runtime:	0.180
 *	Ranking:	19

@@ -5,7 +5,7 @@ import java.util.Vector;
 *	12239 - Bingo!
 *
 *
-*	Submision:	9323234
+*	Submission:	9323234
 *	Date:		2011-10-01 22:18:04
 *	Runtime:	2.232
 *	Ranking:	589
@@ -14,7 +14,7 @@ public class Main12239 {
 	static Vector<Integer> numeros = new Vector<Integer>();
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner lectura = new Scanner(System.in);

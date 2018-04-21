@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	12640 - Largest Sum Game
 *
 *
-*	Submision:	12353608
+*	Submission:	12353608
 *	Date:		2013-09-16 14:40:17
 *	Runtime:	0.686
 *	Ranking:	464

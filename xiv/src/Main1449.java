@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 *	1449 - Dominating Patterns
 *
 *
-*	Submision:	17462749
+*	Submission:	17462749
 *	Date:		2016-06-03 16:20:11
 *	Runtime:	0.460
 *	Ranking:	254
@@ -22,7 +22,7 @@ public class Main1449 {
 	/**
 	 * - Patrones
 	 * 
-	 * Encontrar el número de veces que se repite un patrón en una cadena de texto
+	 * Encontrar el nï¿½mero de veces que se repite un patrï¿½n en una cadena de texto
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException{
 		

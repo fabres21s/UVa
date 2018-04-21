@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
 *	10003 - Cutting Sticks
 *
-*	Submision:	19558533
+*	Submission:	19558533
 *	Date:		2017-06-23 04:24:03
 *	Runtime:	0.560
 */

@@ -6,7 +6,7 @@ import java.util.Vector;
 *	12247 - Jollo
 *
 *
-*	Submision:	9524302
+*	Submission:	9524302
 *	Date:		2011-12-01 18:25:58
 *	Runtime:	0.416
 *	Ranking:	799
@@ -16,7 +16,7 @@ public class Main12247 {
 	static Vector<Integer> princesa = new Vector<Integer>();
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

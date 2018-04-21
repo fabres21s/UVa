@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	483 - Word Scramble
 *
 *
-*	Submision:	9387778
+*	Submission:	9387778
 *	Date:		2011-10-19 14:58:28
 *	Runtime:	0.188
 *	Ranking:	12561

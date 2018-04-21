@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	674 - Coin Change
 *
 *
-*	Submision:	9714723
+*	Submission:	9714723
 *	Date:		2012-02-06 13:16:38
 *	Runtime:	2.472
 *	Ranking:	9308

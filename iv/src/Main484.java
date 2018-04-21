@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	484 - The Department of Redundancy Department
 *
 *
-*	Submision:	9392904
+*	Submission:	9392904
 *	Date:		2011-10-21 01:02:47
 *	Runtime:	2.784
 *	Ranking:	6805

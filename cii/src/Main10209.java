@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10209 - Is This Integration?
 *
 *
-*	Submision:	17579959
+*	Submission:	17579959
 *	Date:		2016-06-26 23:55:19
 *	Runtime:	1.130
 *	Ranking:	3931
@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Main10209 {
 //fuente http://lbv-pc.blogspot.com.co/2012/11/is-this-integration.html
 	/*
-	 * - Fórmula matemática
+	 * - Fï¿½rmula matemï¿½tica
 	 * 
-	 * Encontrar cada una de las áreas definidas en el ejercicio
+	 * Encontrar cada una de las ï¿½reas definidas en el ejercicio
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

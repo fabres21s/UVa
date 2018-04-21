@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	374 - Big Mod
 *
 *
-*	Submision:	9573613
+*	Submission:	9573613
 *	Date:		2011-12-19 01:56:54
 *	Runtime:	0.116
 *	Ranking:	10561

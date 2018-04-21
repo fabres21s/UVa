@@ -2,7 +2,7 @@
 *	136 - Ugly Numbers
 *
 *
-*	Submision:	9211897
+*	Submission:	9211897
 *	Date:		2011-09-01 12:17:16
 *	Runtime:	0.108
 *	Ranking:	15920
@@ -11,7 +11,7 @@ public class Main136 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		/*

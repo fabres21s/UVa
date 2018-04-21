@@ -13,7 +13,7 @@ import java.util.Queue;
 *	820 - Internet Bandwidth
 *
 *
-*	Submision:	20346821
+*	Submission:	20346821
 *	Date:		2017-11-16 02:10:14
 *	Runtime:	0.240
 *	Ranking:	1129

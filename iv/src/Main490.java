@@ -7,7 +7,7 @@ import java.util.ArrayList;
 *	490 - Rotating Sentences
 *
 *
-*	Submision:	9488671
+*	Submission:	9488671
 *	Date:		2011-11-19 21:30:14
 *	Runtime:	0.168
 *	Ranking:	8623

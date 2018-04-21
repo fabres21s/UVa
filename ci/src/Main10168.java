@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
 *	10168 - Summation of Four Primes
 *
-*	Submision:	20208587
+*	Submission:	20208587
 *	Date:		2017-10-20 01:58:06
 *	Runtime:	0.120
 *	Ranking:	1252

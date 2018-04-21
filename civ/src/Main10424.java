@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10424 - Love Calculator
 *
 *
-*	Submision:	9728606
+*	Submission:	9728606
 *	Date:		2012-02-10 14:49:56
 *	Runtime:	0.196
 *	Ranking:	7315

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10019 - Funny Encryption Method
 *
 *
-*	Submision:	9703965
+*	Submission:	9703965
 *	Date:		2012-02-03 02:16:16
 *	Runtime:	0.148
 *	Ranking:	8267

@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	492 - Pig-Latin
 *
 *
-*	Submision:	10732263
+*	Submission:	10732263
 *	Date:		2012-10-14 00:16:58
 *	Runtime:	0.428
 *	Ranking:	4589

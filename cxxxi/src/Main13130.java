@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	13130 - Cacho
 *
 *
-*	Submision:	18495595
+*	Submission:	18495595
 *	Date:		2016-12-13 17:29:21
 *	Runtime:	0.040
 *	Ranking:	140

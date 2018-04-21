@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	465 - Overflow
 *
 *
-*	Submision:	17186363
+*	Submission:	17186363
 *	Date:		2016-04-11 23:11:32
 *	Runtime:	0.060
 *	Ranking:	3511
@@ -13,8 +13,8 @@ import java.util.Scanner;
 public class Main465 {
 
 	/**
-	 * - Grandes números
-	 * Dados dos números y una operación, determinar si cada uno es mayor que 2^32 y si el resultado también lo es 
+	 * - Grandes nï¿½meros
+	 * Dados dos nï¿½meros y una operaciï¿½n, determinar si cada uno es mayor que 2^32 y si el resultado tambiï¿½n lo es 
 	 */
 	public static void main(String[] args) {
 

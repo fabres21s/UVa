@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	369 - Combinations
 *
 *
-*	Submision:	9709941
+*	Submission:	9709941
 *	Date:		2012-02-05 00:50:10
 *	Runtime:	0.652
 *	Ranking:	10071

@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 *	10010 - Where's Waldorf?
 *
 *
-*	Submision:	9267358
+*	Submission:	9267358
 *	Date:		2011-09-16 19:27:04
 *	Runtime:	1.508
 *	Ranking:	6524

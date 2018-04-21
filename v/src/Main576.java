@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	576 - Haiku Review
 *
 *
-*	Submision:	9901521
+*	Submission:	9901521
 *	Date:		2012-03-23 21:11:41
 *	Runtime:	0.132
 *	Ranking:	3224

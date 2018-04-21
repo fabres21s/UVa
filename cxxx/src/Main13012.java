@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	13012 - Identifyng tea
 *
 *
-*	Submision:	17601369
+*	Submission:	17601369
 *	Date:		2016-06-30 23:05:14	
 *	Runtime:	0.040
 *	Ranking:	583
@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 public class Main13012 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 * 
 	 * No hay mucho que explicar
 	 */

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12522 - The Imperial Problem
 *
 *
-*	Submision:	12331176
+*	Submission:	12331176
 *	Date:		2013-09-11 18:20:24
 *	Runtime:	0.998
 *	Ranking:	79
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12522 {
 
 	/**
-	 * - Números Romanos
+	 * - Nï¿½meros Romanos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

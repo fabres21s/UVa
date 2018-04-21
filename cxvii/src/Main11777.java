@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11777 - Automate the Grades
 *
 *
-*	Submision:	12312246
+*	Submission:	12312246
 *	Date:		2013-09-07 21:29:59
 *	Runtime:	0.282
 *	Ranking:	4512

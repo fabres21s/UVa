@@ -9,7 +9,7 @@ import java.util.Scanner;
 *	729 - The Hamming Distance Problem
 *
 *
-*	Submision:	16887818
+*	Submission:	16887818
 *	Date:		2016-02-22 17:56:52
 *	Runtime:	0.539
 *	Ranking:	2894
@@ -20,10 +20,10 @@ public class Main729 {
 	 * - Pregenerados
 	 * - Map
 	 * - List
-	 * - Sistemas de numeración
+	 * - Sistemas de numeraciï¿½n
 	 * 
-	 * Dado un número n y una catidad de unos, encontrar, en binario
-	 * hasta 2^n los números que cantidad dicha cantidad de unos
+	 * Dado un nï¿½mero n y una catidad de unos, encontrar, en binario
+	 * hasta 2^n los nï¿½meros que cantidad dicha cantidad de unos
 	 */
 	public static void main(String[] args) {
 

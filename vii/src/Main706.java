@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	706 - LC-Display
 *
 *
-*	Submision:	9296232
+*	Submission:	9296232
 *	Date:		2011-09-24 22:31:27
 *	Runtime:	0.520
 *	Ranking:	6701
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main706 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

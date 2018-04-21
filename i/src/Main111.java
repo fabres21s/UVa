@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 *	111 - History Grading
 *
 *
-*	Submision:	17559377
+*	Submission:	17559377
 *	Date:		2016-06-22 15:41:25
 *	Runtime:	0.090
 *	Ranking:	7647
@@ -17,7 +17,7 @@ public class Main111 {
 	/*
 	 * - Arreglos
 	 * 
-	 * Encontrar la calificación de un estudiante dado un orden cronológico de sucesos
+	 * Encontrar la calificaciï¿½n de un estudiante dado un orden cronolï¿½gico de sucesos
 	 * y la respuesta que da el estudiante.
 	 * Un poco enredado
 	 */
@@ -48,7 +48,7 @@ public class Main111 {
 
 	}
 
-	//probar este método de sfmunera con enteros, proque no tengo ni idea
+	//probar este mï¿½todo de sfmunera con enteros, proque no tengo ni idea
 	static int lis(int[] s, int[] rank) {
 		int N = s.length;
 		int[] dp = new int[N];

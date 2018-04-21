@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11942 - Lumberjack Sequencing
 *
 *
-*	Submision:	9719421
+*	Submission:	9719421
 *	Date:		2012-02-07 20:15:54
 *	Runtime:	0.168
 *	Ranking:	5702
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11942 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

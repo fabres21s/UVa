@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11069 - A Graph Problem
 *
 *
-*	Submision:	9618260
+*	Submission:	9618260
 *	Date:		2012-01-04 19:55:11
 *	Runtime:	0.160
 *	Ranking:	2137

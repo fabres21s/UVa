@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	13059 - Tennis Championship
 *
 *
-*	Submision:	17535486
+*	Submission:	17535486
 *	Date:		2016-06-17 19:27:52
 *	Runtime:	0.820
 *	Ranking:	147
@@ -14,11 +14,11 @@ import java.io.InputStreamReader;
 public class Main13059 {
 
 	/*
-	 * - Muy fácil
-	 * - Simulación
+	 * - Muy fï¿½cil
+	 * - Simulaciï¿½n
 	 * 
-	 * En un torneo de tenis, con n jugadores y con eliminación directa, determinar cuántos partidos
-	 * son necesarios para determinar un campeón
+	 * En un torneo de tenis, con n jugadores y con eliminaciï¿½n directa, determinar cuï¿½ntos partidos
+	 * son necesarios para determinar un campeï¿½n
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 

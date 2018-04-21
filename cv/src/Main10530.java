@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	10530 - Guessing Game
 *
 *
-*	Submision:	17208163
+*	Submission:	17208163
 *	Date:		2016-04-15 20:09:56
 *	Runtime:	0.060
 *	Ranking:	3956
@@ -18,8 +18,8 @@ public class Main10530 {
 	 * - Arreglos
 	 * 
 	 * El juego de adivinar un
-	 * número del 1 al 10 y verificar si la persona cambia el número, hace
-	 * trampa, o está siendo honesto
+	 * nï¿½mero del 1 al 10 y verificar si la persona cambia el nï¿½mero, hace
+	 * trampa, o estï¿½ siendo honesto
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {

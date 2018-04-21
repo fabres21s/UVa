@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	1237 - Expert Enough?
 *
 *
-*	Submision:	16894546
+*	Submission:	16894546
 *	Date:		2016-02-24 01:05:42
 *	Runtime:	0.612
 *	Ranking:	1336
@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Main1237 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * 
 	 * De un conjunto de registros (marca, menor y
-	 * mayor) y un número dado, determinar la marca de ese rango, si no hay o hay
+	 * mayor) y un nï¿½mero dado, determinar la marca de ese rango, si no hay o hay
 	 * varias, indeterminado
 	 */
 	public static void main(String[] args) {

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	414 - Machined Surfaces
 *
 *
-*	Submision:	16967881
+*	Submission:	16967881
 *	Date:		2016-03-07 17:17:31
 *	Runtime:	0.065
 *	Ranking:	6933
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main414 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * - Arreglos
 	 * 
 	 * Determinar cuantos espacios en blanco hay, y cuantos pueden ser eliminados

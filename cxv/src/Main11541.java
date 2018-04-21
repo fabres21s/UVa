@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
  * 11541 - Decoding
  *
  *
- * Submision: 17452194 
+ * Submission: 17452194 
  * Date: 2016-06-01 15:25:55 
  * Runtime: 0.060 
  * Ranking: 3234
@@ -17,10 +17,10 @@ public class Main11541 {
 	 * - Arreglos
 	 * - Expresiones Regulares
 	 * 
-	 * Dada una cadena con la secuencia letra número, imprimir la letra
-	 * tantas veces según el número.
+	 * Dada una cadena con la secuencia letra nï¿½mero, imprimir la letra
+	 * tantas veces segï¿½n el nï¿½mero.
 	 * Ej: A1B2C3 -> ABBCCC
-	 * Se utilizan las expresiones regulares para separar los números y las letras
+	 * Se utilizan las expresiones regulares para separar los nï¿½meros y las letras
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {

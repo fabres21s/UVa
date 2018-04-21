@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11192 - Group Reverse
 *
 *
-*	Submision:	16284853
+*	Submission:	16284853
 *	Date:		2015-10-17 20:40:06
 *	Runtime:	0.085
 *	Ranking:	4958

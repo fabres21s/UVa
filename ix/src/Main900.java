@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	900 - Brick Wall Patterns
 *
 *
-*	Submision:	9573800
+*	Submission:	9573800
 *	Date:		2011-12-19 05:03:14
 *	Runtime:	0.256
 *	Ranking:	6403

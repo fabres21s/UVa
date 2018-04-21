@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12015 - Google is Feeling Lucky
 *
 *
-*	Submision:	9961586
+*	Submission:	9961586
 *	Date:		2012-04-06 12:53:41
 *	Runtime:	0.120
 *	Ranking:	4684

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	962 - Taxicab Numbers
 *
 *
-*	Submision:	10311288
+*	Submission:	10311288
 *	Date:		2012-07-09 16:20:07
 *	Runtime:	0.640
 *	Ranking:	295
@@ -14,7 +14,7 @@ public class Main962 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) throws IOException {
 		int[] taxicab = { 1729, 4104, 13832, 20683, 32832, 39312, 40033, 46683,

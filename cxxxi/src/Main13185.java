@@ -8,7 +8,7 @@ import java.util.Set;
 *	13185 - DPA Numbers
 *
 *
-*	Submision:	19822495
+*	Submission:	19822495
 *	Date:		2017-08-08 18:44:40
 *	Runtime:	0.050
 *	Ranking:	168

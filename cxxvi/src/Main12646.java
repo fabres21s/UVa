@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12646 - Zero or One
 *
 *
-*	Submision:	16194711
+*	Submission:	16194711
 *	Date:		2015-10-01 22:22:27
 *	Runtime:	0.066
 *	Ranking:	2434
@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main12646 {
 
 	/**
-	 * - Muy fácil
-	 * - Simulación
+	 * - Muy fï¿½cil
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -7,7 +7,7 @@ import java.util.Stack;
 *	673 - Parentheses Balance
 *
 *
-*	Submision:	16455613
+*	Submission:	16455613
 *	Date:		2015-11-18 15:46:23
 *	Runtime:	0.439
 *	Ranking:	9656
@@ -17,7 +17,7 @@ public class Main673 {
 	/**
 	 * - Stack
 	 * 
-	 * Verificar si una cadena de ()[] está bien conformada, si abre 
+	 * Verificar si una cadena de ()[] estï¿½ bien conformada, si abre 
 	 * y cierran correctamente todos los caracteres
 	 */
 	public static void main(String[] args) throws NumberFormatException,

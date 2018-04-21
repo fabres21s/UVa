@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11371 - Number Theory for Newbies
 *
 *
-*	Submision:	10299565
+*	Submission:	10299565
 *	Date:		2012-07-06 23:58:03
 *	Runtime:	0.132
 *	Ranking:	1520
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11371 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		long n1, n2, n, arreglo[];

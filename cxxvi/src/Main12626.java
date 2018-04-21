@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	12626 - I ❤ Pizza
 *
 *
-*	Submision:	12306426
+*	Submission:	12306426
 *	Date:		2013-09-06 16:19:22
 *	Runtime:	0.915
 *	Ranking:	1711

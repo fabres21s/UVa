@@ -4,7 +4,7 @@
 *	424 - Integer Inquiry
 *
 *
-*	Submision:	9362627
+*	Submission:	9362627
 *	Date:		2011-10-12 13:16:13
 *	Runtime:	0.160
 *	Ranking:	9897
@@ -37,7 +37,7 @@ class Main424
 	}
 	
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String args[]) // entry point from OS
 	{

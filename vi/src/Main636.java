@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	636 - Squares (III)
 *
 *
-*	Submision:	9611902
+*	Submission:	9611902
 *	Date:		2012-01-02 16:51:01
 *	Runtime:	0.120
 *	Ranking:	1788

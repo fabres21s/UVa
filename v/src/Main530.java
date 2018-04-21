@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	530 - Binomial Showdown
 *
 *
-*	Submision:	9605076
+*	Submission:	9605076
 *	Date:		2011-12-31 00:01:11
 *	Runtime:	0.152
 *	Ranking:	6908

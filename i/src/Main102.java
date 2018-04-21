@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	102 - Ecological Bin Packing
 *
 *
-*	Submision:	9573517
+*	Submission:	9573517
 *	Date:		2011-12-19 00:48:08
 *	Runtime:	2.120
 *	Ranking:	22577
@@ -17,10 +17,10 @@ public class Main102 {
 	static String res;
 
 	/**
-	 * - Simulación
-	 * - Proceso matemático
+	 * - Simulaciï¿½n
+	 * - Proceso matemï¿½tico
 	 * 
-	 * Mínimos movimientos necesarios para
+	 * Mï¿½nimos movimientos necesarios para
 	 * intercambiar botellas de tres colores Brown, Clear y Gray
 	 * en tres cajas diferentes.
 	 * Inicialmente en desorden

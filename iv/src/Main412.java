@@ -8,7 +8,7 @@
 *	412 - Pi
 *
 *
-*	Submision:	9362608
+*	Submission:	9362608
 *	Date:		2011-10-12 13:10:56
 *	Runtime:	0.704
 *	Ranking:	3498
@@ -42,7 +42,7 @@ class Main412
 	}
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) 
 	{

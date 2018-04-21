@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10229 - Modular Fibonacci
 *
 *
-*	Submision:	9411223
+*	Submission:	9411223
 *	Date:		2011-10-26 15:17:25
 *	Runtime:	0.288
 *	Ranking:	2693

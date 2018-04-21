@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10235 - Simply Emirp
 *
 *
-*	Submision:	9722637
+*	Submission:	9722637
 *	Date:		2012-02-08 19:16:08
 *	Runtime:	1.236
 *	Ranking:	6434
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10235 {
 
 	/**
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

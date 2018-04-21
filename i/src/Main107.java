@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	107 - The Cat in the Hat
 *
 *
-*	Submision:	10297971
+*	Submission:	10297971
 *	Date:		2012-07-06 14:54:04
 *	Runtime:	2.536
 *	Ranking:	4873
@@ -14,7 +14,7 @@ public class Main107 {
 
 	/**
 	 * - Potencias
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

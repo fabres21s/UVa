@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	748 - Exponentiation
 *
 *
-*	Submision:	9498931
+*	Submission:	9498931
 *	Date:		2011-11-23 13:32:15
 *	Runtime:	0.132
 *	Ranking:	2693

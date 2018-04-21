@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10970 - Big Chocolate
 *
 *
-*	Submision:	9513276
+*	Submission:	9513276
 *	Date:		2011-11-28 01:52:47
 *	Runtime:	2.716
 *	Ranking:	10679
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main10970 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

@@ -6,7 +6,7 @@ import java.util.Set;
 *	562 - Dividing coins
 *
 *
-*	Submision:	16605869
+*	Submission:	16605869
 *	Date:		2015-12-19 13:31:25
 *	Runtime:	0.146
 *	Ranking:	3553
@@ -14,9 +14,9 @@ import java.util.Set;
 public class Main562 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 * 
-	 * Hallar la mínima diferencia posible entre un grupo de monedas a ser
+	 * Hallar la mï¿½nima diferencia posible entre un grupo de monedas a ser
 	 * repartidas entre dos personas
 	 */
 

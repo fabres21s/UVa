@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11827 - Maximum GCD
 *
 *
-*	Submision:	16084060
+*	Submission:	16084060
 *	Date:		2015-09-11 16:51:28
 *	Runtime:	0.062
 *	Ranking:	2282

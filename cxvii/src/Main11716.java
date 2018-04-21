@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11716 - Digital Fortress
 *
 *
-*	Submision:	16379117
+*	Submission:	16379117
 *	Date:		2015-11-03 14:19:07
 *	Runtime:	0.176
 *	Ranking:	3045

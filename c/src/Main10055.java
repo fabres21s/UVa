@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10055 - Hashmat the Brave Warrior
 *
 *
-*	Submision:	9483585
+*	Submission:	9483585
 *	Date:		2011-11-18 20:12:25
 *	Runtime:	2.848
 *	Ranking:	41518
@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Main10055 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 * 
 	 * Hallar el valor absoluto de
-	 * la resta de dos números
+	 * la resta de dos nï¿½meros
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

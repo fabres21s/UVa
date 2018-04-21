@@ -8,7 +8,7 @@ import java.util.Scanner;
 *	392 - Polynomial Showdown
 *
 *
-*	Submision:	16455798
+*	Submission:	16455798
 *	Date:		2015-11-18 16:32:30
 *	Runtime:	1.155
 *	Ranking:	3572
@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class Main392 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
 *	10583 - 	Ubiquitous Religions
-*	Submision:	18649446
+*	Submission:	18649446
 *	Date:		2017-01-19 19:03:06
 *	Runtime:	1.040
 *	Ranking:	3543

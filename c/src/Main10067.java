@@ -9,7 +9,7 @@ import java.util.Scanner;
 *	10801 - Playing with Wheels
 *
 *
-*	Submision:	17473915
+*	Submission:	17473915
 *	Date:		2016-06-06 03:18:38
 *	Runtime:	1.730
 *	Ranking:	2935
@@ -20,11 +20,11 @@ public class Main10067 {
 	/**
 	 * - Dijkstra
 	 * - Priority Queue
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * 
-	 * Dadas 4 ruedas con números del 0 al 9, una configuración inicial, un target y
+	 * Dadas 4 ruedas con nï¿½meros del 0 al 9, una configuraciï¿½n inicial, un target y
 	 * unas posiciones prohibidas
-	 * establecer la mínima cantidad de movimientos necesarios para llegar al target
+	 * establecer la mï¿½nima cantidad de movimientos necesarios para llegar al target
 	 */
 	public static void main(String[] args) {
 		

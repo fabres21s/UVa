@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 *	439 - Knight Moves
 *
 *
-*	Submision:	9366655
+*	Submission:	9366655
 *	Date:		2011-10-13 14:14:07
 *	Runtime:	0.404
 *	Ranking:	6382
@@ -31,7 +31,7 @@ class Main
     }
 	
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main( String args[] ) 
 	{

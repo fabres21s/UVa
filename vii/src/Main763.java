@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	763 - Fibinary Numbers
 *
 *
-*	Submision:	16040469
+*	Submission:	16040469
 *	Date:		2015-09-03 17:13:45
 *	Runtime:	0.646
 *	Ranking:	662

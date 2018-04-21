@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10137 - The Trip
 *
 *
-*	Submision:	9215650
+*	Submission:	9215650
 *	Date:		2011-09-02 17:36:29
 *	Runtime:	0.912
 *	Ranking:	7033
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10137 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	113 - Power of Cryptography
 *
 *
-*	Submision:	9337765
+*	Submission:	9337765
 *	Date:		2011-10-05 20:11:10
 *	Runtime:	0.608
 *	Ranking:	15383

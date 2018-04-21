@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	1585 - Score
 *
 *
-*	Submision:	16788203
+*	Submission:	16788203
 *	Date:		2016-02-01 15:49:18
 *	Runtime:	0.063
 *	Ranking:	3783
@@ -15,7 +15,7 @@ public class Main1585 {
 	 * - Validaciones
 	 * 
 	 *	Se tiene ej, OOOOOOXOXOXOX
-	 *	por la primera O se suma 1, por la segunda 2 y así
+	 *	por la primera O se suma 1, por la segunda 2 y asï¿½
 	 *	al encontrar una x, se vuelve a empezar de 0
 	 */
 	
@@ -23,7 +23,7 @@ public class Main1585 {
 		Scanner input = new Scanner(System.in);
 		int test = Integer.valueOf(input.nextLine());
 		
-		//No entiendo por qué el input.nextInt() e input.next() generaban RE - Tocó pasarlo a input.nextLine() - debe ser por el package
+		//No entiendo por quï¿½ el input.nextInt() e input.next() generaban RE - Tocï¿½ pasarlo a input.nextLine() - debe ser por el package
 		char [] array;
 		int sum, acum;
 		while (test -- > 0){

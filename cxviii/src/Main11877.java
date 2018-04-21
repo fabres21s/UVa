@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11877 - The Coco-Cola Store
 *
 *
-*	Submision:	9505171
+*	Submission:	9505171
 *	Date:		2011-11-25 16:05:24
 *	Runtime:	0.140
 *	Ranking:	4481
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11877 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

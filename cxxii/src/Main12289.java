@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12289 - One-Two-Three
 *
 *
-*	Submision:	9573650
+*	Submission:	9573650
 *	Date:		2011-12-19 02:58:24
 *	Runtime:	0.120
 *	Ranking:	6312

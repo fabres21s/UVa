@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	495 - Fibonacci Freeze
 *
 *
-*	Submision:	9411044
+*	Submission:	9411044
 *	Date:		2011-10-26 14:29:30
 *	Runtime:	1.864
 *	Ranking:	7450

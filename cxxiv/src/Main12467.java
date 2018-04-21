@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	12467 - Secret Word
 *
 *
-*	Submision:	20402615
+*	Submission:	20402615
 *	Date:		2017-11-26 12:28:08
 *	Runtime:	1.180
 *	Ranking:	441

@@ -8,7 +8,7 @@ import java.util.Set;
 *	13131 - Divisors
 *
 *
-*	Submision:	18496655
+*	Submission:	18496655
 *	Date:		2016-12-14 02:50:31
 *	Runtime:	0.670
 *	Ranking:	125

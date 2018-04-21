@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	12592 - Slogan Learning of Princess
 *
 *
-*	Submision:	16398715
+*	Submission:	16398715
 *	Date:		2015-11-06 20:33:20
 *	Runtime:	0.069
 *	Ranking:	1215

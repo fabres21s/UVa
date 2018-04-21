@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11780 - Miles 2 Km
 *
 *
-*	Submision:	9411270
+*	Submission:	9411270
 *	Date:		2011-10-26 15:31:43
 *	Runtime:	0.464
 *	Ranking:	439
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11780 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -7,7 +7,7 @@ import java.math.BigInteger;
 *	10338 - Mischievous Children
 *
 *
-*	Submision:	17168707
+*	Submission:	17168707
 *	Date:		2016-04-08 18:34:06
 *	Runtime:	0.840
 *	Ranking:	3322
@@ -16,7 +16,7 @@ public class Main10338 {
 
 	/**
 	 * - Arreglos
-	 * - Estadística
+	 * - Estadï¿½stica
 	 * - Big Numbers
 	 * 
 	 * Encontrar, en una palabra, la cantidad de posibles permutaciones

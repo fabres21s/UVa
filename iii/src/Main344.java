@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	344 - Roman Digititis
 *
 *
-*	Submision:	9573594
+*	Submission:	9573594
 *	Date:		2011-12-19 01:42:26
 *	Runtime:	0.148
 *	Ranking:	6024
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main344 {
 
 	/**
-	 * - Números Romanos
+	 * - Nï¿½meros Romanos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

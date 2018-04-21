@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10310 - Dog and Gopher
 *
 *
-*	Submision:	9289768
+*	Submission:	9289768
 *	Date:		2011-09-22 16:12:58
 *	Runtime:	1.036
 *	Ranking:	3652

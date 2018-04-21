@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10392 - Factoring Large Numbers
 *
 *
-*	Submision:	9530767
+*	Submission:	9530767
 *	Date:		2011-12-03 20:04:52
 *	Runtime:	0.188
 *	Ranking:	1351
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10392 {
 
 	/**
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

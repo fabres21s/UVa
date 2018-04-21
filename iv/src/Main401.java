@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	401 - Palindromes
 *
 *
-*	Submision:	9321673
+*	Submission:	9321673
 *	Date:		2011-10-01 14:33:09
 *	Runtime:	0.780
 *	Ranking:	11521
@@ -16,7 +16,7 @@ public class Main401
 	static String reves=   "A3HILJMO2TUVWXY51SEZ8";
 
 	/**
-	 * - Palíndromos
+	 * - Palï¿½ndromos
 	 */
 	public static void main(String[] args) 
 	{

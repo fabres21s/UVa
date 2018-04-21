@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	541 - Error Correction
 *
 *
-*	Submision:	16455949
+*	Submission:	16455949
 *	Date:		2015-11-18 17:11:53
 *	Runtime:	0.482
 *	Ranking:	8797

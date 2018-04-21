@@ -7,7 +7,7 @@ import java.util.Arrays;
 *	13109 - Elephants
 *
 *
-*	Submision:	17580008
+*	Submission:	17580008
 *	Date:		2016-06-27 00:16:52
 *	Runtime:	0.440
 *	Ranking:	106
@@ -16,9 +16,9 @@ public class Main13109 {
 
 	/*
 	 * - Arreglos
-	 * - Fácil
+	 * - Fï¿½cil
 	 * 
-	 * Encontrar cuántos elefantes se pueden balancear en la tela de una araÃ±a
+	 * Encontrar cuï¿½ntos elefantes se pueden balancear en la tela de una araÃ±a
 	 * dados los pesos de los elefantes y el peso que resiste la telaraÃ±a
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	12366 - King's Poker
 *
 *
-*	Submision:	9481562
+*	Submission:	9481562
 *	Date:		2011-11-17 22:27:51
 *	Runtime:	0.532
 *	Ranking:	395
@@ -14,7 +14,7 @@ public class Main12366 {
 	static int a, b, c;
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

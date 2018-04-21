@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11219 - How old are you?
 *
 *
-*	Submision:	9849534
+*	Submission:	9849534
 *	Date:		2012-03-12 15:46:56
 *	Runtime:	0.252
 *	Ranking:	4117

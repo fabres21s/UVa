@@ -8,7 +8,7 @@ import java.util.List;
 *	12207 - That is Your Queue
 *
 *
-*	Submision:	17274103
+*	Submission:	17274103
 *	Date:		2016-04-27 18:59:32
 *	Runtime:	0.080
 *	Ranking:	373
@@ -19,7 +19,7 @@ public class Main12207 {
 	 * - List
 	 * 
 	 * Dada una cantidad de personas y una serie de comandos
-	 * encontrar el orden de atención de cada una de ellas
+	 * encontrar el orden de atenciï¿½n de cada una de ellas
 	 */
 	public static void main(String[] args) throws IOException {
 

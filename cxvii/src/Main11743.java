@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11743 - Credit Check
 *
 *
-*	Submision:	9852876
+*	Submission:	9852876
 *	Date:		2012-03-13 12:35:02
 *	Runtime:	0.928
 *	Ranking:	2802
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11743 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		int i, k, sum, n, x, y;

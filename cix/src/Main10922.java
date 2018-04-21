@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10922 - 2 the 9s
 *
 *
-*	Submision:	9974964
+*	Submission:	9974964
 *	Date:		2012-04-09 20:27:51
 *	Runtime:	0.500
 *	Ranking:	3960
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10922 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		char p[];

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	444 - Encoder and Decoder
 *
 *
-*	Submision:	10714903
+*	Submission:	10714903
 *	Date:		2012-10-11 02:11:10
 *	Runtime:	0.136
 *	Ranking:	4663

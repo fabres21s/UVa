@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	12250 - Language Detection
 *
 *
-*	Submision:	9573641
+*	Submission:	9573641
 *	Date:		2011-12-19 02:45:19
 *	Runtime:	0.404
 *	Ranking:	5738

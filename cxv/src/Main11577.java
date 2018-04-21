@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	11577 - Letter Frequency
 *
 *
-*	Submision:	10342046
+*	Submission:	10342046
 *	Date:		2012-07-16 15:03:08
 *	Runtime:	0.672
 *	Ranking:	2564

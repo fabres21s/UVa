@@ -6,14 +6,14 @@ import java.io.InputStreamReader;
 *	10188 - Automated Judge Script
 *
 *
-*	Submision:	9278084
+*	Submission:	9278084
 *	Date:		2011-09-19 18:51:40
 *	Runtime:	0.380
 *	Ranking:	2443
 */
 public class Main10188 {
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) throws IOException {
 		int casos = 0;

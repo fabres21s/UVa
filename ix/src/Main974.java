@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	974 - Kaprekar Numbers
 *
 *
-*	Submision:	10318695
+*	Submission:	10318695
 *	Date:		2012-07-11 11:56:35
 *	Runtime:	0.564
 *	Ranking:	898
@@ -13,7 +13,7 @@ public class Main974 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		int kaprekars[] = { 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879,

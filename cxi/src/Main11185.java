@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11185 - Ternary
 *
 *
-*	Submision:	9714753
+*	Submission:	9714753
 *	Date:		2012-02-06 13:30:40
 *	Runtime:	0.128
 *	Ranking:	6279
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11185 {
 
 	/**
-	 * - Sistemas de numeración
+	 * - Sistemas de numeraciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

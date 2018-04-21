@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12602 - Nice Licence Plates
 *
 *
-*	Submision:	12306606
+*	Submission:	12306606
 *	Date:		2013-09-06 17:02:34
 *	Runtime:	0.182
 *	Ranking:	1489
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12602 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

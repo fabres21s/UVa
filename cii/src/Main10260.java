@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10260 - Soundex
 *
 *
-*	Submision:	9974218
+*	Submission:	9974218
 *	Date:		2012-04-09 16:48:39
 *	Runtime:	0.196
 *	Ranking:	6718

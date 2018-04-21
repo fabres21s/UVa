@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	10282 - Babelfish
 *
 *
-*	Submision:	16423775
+*	Submission:	16423775
 *	Date:		2015-11-11 14:33:47
 *	Runtime:	1.429
 *	Ranking:	3656

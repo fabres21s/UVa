@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10469 - To Carry or not to Carry
 *
 *
-*	Submision:	9900800
+*	Submission:	9900800
 *	Date:		2012-03-23 17:06:47
 *	Runtime:	0.200
 *	Ranking:	9605
@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main10469 {
 
 	/**
-	 * - Fórmula
-	 * - Sistemas de numeración
+	 * - Fï¿½rmula
+	 * - Sistemas de numeraciï¿½n
 	 */
 	public static void main(String[] args) 
 	{

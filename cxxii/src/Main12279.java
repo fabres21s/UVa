@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12279 - Emoogle Balance
 *
 *
-*	Submision:	16834745
+*	Submission:	16834745
 *	Date:		2016-02-11 17:57:11
 *	Runtime:	0.248
 *	Ranking:	3937
@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Main12279 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 * 
-	 * Si un número es positivo, aumentar un contador, sino,
+	 * Si un nï¿½mero es positivo, aumentar un contador, sino,
 	 * disminuirlo En el enuncuado no lo tuve muy claro que digamos
 	 */
 	public static void main(String[] args) {

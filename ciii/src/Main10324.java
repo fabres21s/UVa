@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	10324 - Zeros and Ones
 *
 *
-*	Submision:	18499659
+*	Submission:	18499659
 *	Date:		2016-12-14 15:49:52
 *	Runtime:	2.410
 *	Ranking:	5440

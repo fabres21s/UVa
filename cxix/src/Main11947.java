@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	11947 - Cancer or Scorpio
 *
 *
-*	Submision:	16173741
+*	Submission:	16173741
 *	Date:		2015-09-27 20:13:21
 *	Runtime:	0.102
 *	Ranking:	637
@@ -16,7 +16,7 @@ public class Main11947 {
 	/**
 	 * - Calendario
 	 * 
-	 * Dada una fecha, sumarle 40 semanas, determinar en qué signo zodiacal cae
+	 * Dada una fecha, sumarle 40 semanas, determinar en quï¿½ signo zodiacal cae
 	 */
 	public static void main(String[] args) {
 		Calendar calendar = Calendar.getInstance();

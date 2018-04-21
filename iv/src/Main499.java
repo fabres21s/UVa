@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	499 - What's The Frequency, Kenneth?
 *
 *
-*	Submision:	9709973
+*	Submission:	9709973
 *	Date:		2012-02-05 01:09:20
 *	Runtime:	0.332
 *	Ranking:	8805

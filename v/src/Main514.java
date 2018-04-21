@@ -7,7 +7,7 @@ import java.util.Stack;
 *	514 - Rails
 *
 *
-*	Submision:	16510323
+*	Submission:	16510323
 *	Date:		2015-11-29 13:14:12
 *	Runtime:	2.715
 *	Ranking:	5914
@@ -15,11 +15,11 @@ import java.util.Stack;
 public class Main514 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * - Stack
 	 * 
 	 * El ejercicio consiste en analizar si es posible poner y sacar de una pila
-	 * números en un determinado orden ej, si estaba 4,2,5,1,3
+	 * nï¿½meros en un determinado orden ej, si estaba 4,2,5,1,3
 	 */
 	public static void main(String[] args) {
 

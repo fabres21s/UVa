@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	11244 - Counting Stars
 *
 *
-*	Submision:	17447344
+*	Submission:	17447344
 *	Date:		2016-05-31 16:50:05
 *	Runtime:	0.120
 *	Ranking:	2118
@@ -17,7 +17,7 @@ public class Main11244 {
 	 * - Arreglos
 	 * 
 	 * Dado un arreglo que representa el cielo, siendo los '*' estrellas y los '.' espacios en blanco
-	 * encontrar cuantas estrellas hay, teniendo en cuenta que si dos o más '*' se encuentran juntos,
+	 * encontrar cuantas estrellas hay, teniendo en cuenta que si dos o mï¿½s '*' se encuentran juntos,
 	 * no son estrellas.
 	 */
 	public static void main(String[] args) throws IOException {

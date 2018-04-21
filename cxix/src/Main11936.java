@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11936 - The Lazy Lumberjacks
 *
 *
-*	Submision:	10732301
+*	Submission:	10732301
 *	Date:		2012-10-14 00:30:05
 *	Runtime:	0.124
 *	Ranking:	3832
@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main11936 {
 
 	/**
-	 * - Triángulos
-	 * - Fórmula
+	 * - Triï¿½ngulos
+	 * - Fï¿½rmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

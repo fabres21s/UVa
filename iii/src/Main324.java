@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	324 - Factorial Frequencies
 *
 *
-*	Submision:	9965882
+*	Submission:	9965882
 *	Date:		2012-04-07 12:33:20
 *	Runtime:	0.196
 *	Ranking:	4986

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	371 - Ackermann Functions
 *
 *
-*	Submision:	9332330
+*	Submission:	9332330
 *	Date:		2011-10-04 00:42:06
 *	Runtime:	0.332
 *	Ranking:	3618
@@ -14,7 +14,7 @@ public class Main371
 	static int mayor=0;
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) 
 	{

@@ -3,7 +3,7 @@
 *	386 - Perfect Cubes
 *
 *
-*	Submision:	9573621
+*	Submission:	9573621
 *	Date:		2011-12-19 02:21:54
 *	Runtime:	0.432
 *	Ranking:	2591
@@ -11,7 +11,7 @@
 public class Main386 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) 
 	{

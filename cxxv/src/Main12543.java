@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	12543 - Longest Word
 *
 *
-*	Submision:	17131593
+*	Submission:	17131593
 *	Date:		2016-04-02 02:19:32
 *	Runtime:	0.049
 *	Ranking:	728

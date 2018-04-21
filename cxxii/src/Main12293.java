@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12293 - Box Game	2698
 *
 *
-*	Submision:	16501218
+*	Submission:	16501218
 *	Date:		2015-11-27 16:35:37
 *	Runtime:	0.095
 *	Ranking:	826
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12293 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * - Logaritmos
 	 * 
 	 * Un poco complicado de entender los casos de prueba

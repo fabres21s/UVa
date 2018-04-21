@@ -7,10 +7,10 @@ import java.util.PriorityQueue;
 *	13116 - Multistory Labyrinth
 *
 *
-*	Submision:	17619344
+*	Submission:	17619344
 *	Date:		2016-07-04 19:58:05
 *	Runtime:	0.980
-*	Ranking:	18 - Voy de último :|
+*	Ranking:	18 - Voy de ï¿½ltimo :|
 */
 public class Main13116 {
 
@@ -19,11 +19,11 @@ public class Main13116 {
 	 * - Priority Queue
 	 * - Arreglos 
 	 * 
-	 * El ejercicio consiste en que dado un arreglo tridimensional, con una posición inicial
-	 * y una posición final, encontrar la ruta más corta para llegar desde S hasta E
+	 * El ejercicio consiste en que dado un arreglo tridimensional, con una posiciï¿½n inicial
+	 * y una posiciï¿½n final, encontrar la ruta mï¿½s corta para llegar desde S hasta E
 	 * con ciertas condiciones.
 	 * 
-	 * Parecido al 532, sólo que se puede cambiar de piso entre los ascensores, representados por -
+	 * Parecido al 532, sï¿½lo que se puede cambiar de piso entre los ascensores, representados por -
 	 * Casi que no lo acepta, tuve el peor tiempo
 	 */
 	public static void main(String[] args) throws IOException {

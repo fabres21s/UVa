@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	11530 - SMS Typing
 *
 *
-*	Submision:	12366077
+*	Submission:	12366077
 *	Date:		2013-09-19 00:46:11
 *	Runtime:	0.198
 *	Ranking:	5705

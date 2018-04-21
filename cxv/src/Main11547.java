@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11547 - Automatic Answer
 *
 *
-*	Submision:	9728806
+*	Submission:	9728806
 *	Date:		2012-02-10 15:51:12
 *	Runtime:	0.276
 *	Ranking:	11805
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11547 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	572 - Oil Deposits
 *
 *
-*	Submision:	9886993
+*	Submission:	9886993
 *	Date:		2012-03-20 14:35:30
 *	Runtime:	0.324
 *	Ranking:	9055

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	847 - A Multiplication Game
 *
 *
-*	Submision:	9243297
+*	Submission:	9243297
 *	Date:		2011-09-09 20:06:43
 *	Runtime:	0.120
 *	Ranking:	4655
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main847 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

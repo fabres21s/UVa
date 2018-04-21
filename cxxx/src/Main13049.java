@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	13046 - Combination Lock
 *
 *
-*	Submision:	17623621
+*	Submission:	17623621
 *	Date:		2016-07-05 16:39:38	
 *	Runtime:	0.030
 *	Ranking:	124
@@ -14,10 +14,10 @@ import java.io.InputStreamReader;
 public class Main13049 {
 
 	/*
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * 
-	 * Encontrar la mínima cantidad de movimientos para ir de una configuración inicial de un candado 
-	 * de números a la configuración que abre el candado
+	 * Encontrar la mï¿½nima cantidad de movimientos para ir de una configuraciï¿½n inicial de un candado 
+	 * de nï¿½meros a la configuraciï¿½n que abre el candado
 	 * 
 	 * Similar al 12468
 	 */

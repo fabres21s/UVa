@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	13215 - Polygonal Park
 *
 *
-*	Submision:	19623414
+*	Submission:	19623414
 *	Date:		2017-07-07 18:23:53
 *	Runtime:	0.110
 *	Ranking:	15

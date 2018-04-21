@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
 *	11369 - Shopaholic
 *
-*	Submision:	20333132
+*	Submission:	20333132
 *	Date:		2017-11-11 19:34:52
 *	Runtime:	0.190
 *	Ranking:	2863

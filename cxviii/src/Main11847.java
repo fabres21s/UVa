@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11847 - Cut the Silver Bar
 *
 *
-*	Submision:	10775595
+*	Submission:	10775595
 *	Date:		2012-10-22 11:44:34
 *	Runtime:	0.284
 *	Ranking:	626

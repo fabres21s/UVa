@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12324 - Philip J. Fry Problem
 *
 *
-*	Submision:	9528053
+*	Submission:	9528053
 *	Date:		2011-12-02 22:00:24
 *	Runtime:	0.928
 *	Ranking:	306
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12324 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 
 	public static void main(String[] args) {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10195 - The Knights Of The Round Table
 *
 *
-*	Submision:	9317707
+*	Submission:	9317707
 *	Date:		2011-09-30 16:45:03
 *	Runtime:	0.804
 *	Ranking:	4941
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main10195 {
 
 	/**
-	 * - Círculo
+	 * - Cï¿½rculo
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

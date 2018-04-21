@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	486 - English-Number Translator
 *
 *
-*	Submision:	9384560
+*	Submission:	9384560
 *	Date:		2011-10-18 15:14:29
 *	Runtime:	1.780
 *	Ranking:	1844

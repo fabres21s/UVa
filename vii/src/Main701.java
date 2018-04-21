@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	701 - The Archeologists' Dilemma
 *
 *
-*	Submision:	9242745
+*	Submission:	9242745
 *	Date:		2011-09-09 16:51:32
 *	Runtime:	0.476
 *	Ranking:	1504
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main701 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) {
 		int n, e, k;

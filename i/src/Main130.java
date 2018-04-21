@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	130 - Roman Roulette
 *
 *
-*	Submision:	9596012
+*	Submission:	9596012
 *	Date:		2011-12-27 16:09:28
 *	Runtime:	0.156
 *	Ranking:	2817
@@ -14,7 +14,7 @@ public class Main130 {
 	static int n, k;
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

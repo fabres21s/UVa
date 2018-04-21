@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 *	12147 - DNA Sequences
 *
 *
-*	Submision:	19844559
+*	Submission:	19844559
 *	Date:		2017-08-12 19:33:24
 *	Runtime:	0.530
 *	Ranking:	67

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	583 - Prime Factors
 *
 *
-*	Submision:	9543400
+*	Submission:	9543400
 *	Date:		2011-12-08 13:31:05
 *	Runtime:	2.484
 *	Ranking:	4887
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main583 {
 
 	/**
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

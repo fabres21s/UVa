@@ -10,7 +10,7 @@ import java.util.Set;
 *	13107 - Royale With Cheese
 *
 *
-*	Submision:	17600783
+*	Submission:	17600783
 *	Date:		2016-06-30 19:23:15
 *	Runtime:	0.240
 *	Ranking:	25

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10323 - Factorial! You Must be Kidding!!!
 *
 *
-*	Submision:	9567278
+*	Submission:	9567278
 *	Date:		2011-12-16 22:49:56
 *	Runtime:	2.876
 *	Ranking:	6159

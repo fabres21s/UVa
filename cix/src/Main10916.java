@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10916 - Factstone Benchmark
 *
 *
-*	Submision:	9618315
+*	Submission:	9618315
 *	Date:		2012-01-04 20:14:49
 *	Runtime:	0.372
 *	Ranking:	1408

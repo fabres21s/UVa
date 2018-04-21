@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10220 - I Love Big Numbers !
 *
 *
-*	Submision:	9967462
+*	Submission:	9967462
 *	Date:		2012-04-07 21:28:12
 *	Runtime:	0.136
 *	Ranking:	2692

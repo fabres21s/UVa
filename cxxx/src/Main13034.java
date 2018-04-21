@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 *	13034 - Solve Everything :-)
 *
 *
-*	Submision:	17620039
+*	Submission:	17620039
 *	Date:		2016-07-05 01:32:05	
 *	Runtime:	0.030
 *	Ranking:	434
@@ -15,9 +15,9 @@ import java.io.InputStreamReader;
 public class Main13034 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 * 
-	 * Si hay un 0 en la secuencia de números
+	 * Si hay un 0 en la secuencia de nï¿½meros
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 

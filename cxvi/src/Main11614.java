@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11614 - Etruscan Warriors Never Play Chess
 *
 *
-*	Submision:	9728988
+*	Submission:	9728988
 *	Date:		2012-02-10 16:59:33
 *	Runtime:	0.340
 *	Ranking:	2813
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11614 {
 
 	/**
-	 * - Sumatoria de números
+	 * - Sumatoria de nï¿½meros
 	 */
 	public static void main(String[] args) {
 

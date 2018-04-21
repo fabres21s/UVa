@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	623 - 500!
 *
 *
-*	Submision:	9497087
+*	Submission:	9497087
 *	Date:		2011-11-22 21:34:20
 *	Runtime:	1.816
 *	Ranking:	5852

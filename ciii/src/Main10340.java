@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10340 - All in All
 *
 *
-*	Submision:	9618698
+*	Submission:	9618698
 *	Date:		2012-01-05 00:40:45
 *	Runtime:	0.240
 *	Ranking:	11739

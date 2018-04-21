@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	417 - Word Index
 *
 *
-*	Submision:	16423658
+*	Submission:	16423658
 *	Date:		2015-11-11 14:09:08
 *	Runtime:	0.135
 *	Ranking:	3303

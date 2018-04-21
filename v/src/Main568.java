@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	568 - Just the Facts
 *
 *
-*	Submision:	10097433
+*	Submission:	10097433
 *	Date:		2012-05-10 16:23:50
 *	Runtime:	0.136
 *	Ranking:	5591

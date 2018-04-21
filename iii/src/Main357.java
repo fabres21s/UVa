@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	357 - Let Me Count The Ways
 *
 *
-*	Submision:	9605073
+*	Submission:	9605073
 *	Date:		2011-12-31 00:01:07
 *	Runtime:	1.396
 *	Ranking:	7489

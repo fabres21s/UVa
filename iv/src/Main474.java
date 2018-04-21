@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	474 - Heads / Tails Probability
 *
 *
-*	Submision:	9605075
+*	Submission:	9605075
 *	Date:		2011-12-31 00:01:09
 *	Runtime:	2.272
 *	Ranking:	1946
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main474 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) 
 	{

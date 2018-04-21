@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	350 - Pseudo-Random Numbers
 *
 *
-*	Submision:	9838437
+*	Submission:	9838437
 *	Date:		2012-03-09 21:13:56
 *	Runtime:	0.712
 *	Ranking:	5202
@@ -14,7 +14,7 @@ public class Main350 {
 	static int[] arreglo;
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

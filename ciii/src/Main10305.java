@@ -7,7 +7,7 @@ import java.util.Stack;
 *	10305 - Ordering Tasks
 *
 *
-*	Submision:	16881285
+*	Submission:	16881285
 *	Date:		2016-02-21 14:23:28
 *	Runtime:	0.078
 *	Ranking:	7278
@@ -15,11 +15,11 @@ import java.util.Stack;
 public class Main10305 {
 
 	/**
-	 * - Ordenación topológica
+	 * - Ordenaciï¿½n topolï¿½gica
 	 * - Grafos dirigidos
 	 * - Stack
 	 * 
-	 * Encontrar el orden de ejecución de unas tareas, unas dependen den otras
+	 * Encontrar el orden de ejecuciï¿½n de unas tareas, unas dependen den otras
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

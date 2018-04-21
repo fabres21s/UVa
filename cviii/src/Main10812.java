@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10812 - Beat the Spread!
 *
 *
-*	Submision:	9842970
+*	Submission:	9842970
 *	Date:		2012-03-10 23:10:36
 *	Runtime:	0.204
 *	Ranking:	12347
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10812 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		int x, y, k, z;

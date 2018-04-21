@@ -11,7 +11,7 @@ import java.util.Queue;
 *	10004 - Bicoloring
 *
 *
-*	Submision:	17158341
+*	Submission:	17158341
 *	Date:		2016-04-07 03:06:00
 *	Runtime:	0.050
 *	Ranking:	11585
@@ -25,8 +25,8 @@ public class Main10004 {
 	 * 
 	 *  Para que un grafo sea bipartito, bicoloreable, se
 	 *  debe cumplir que 2 nodos adyacentes le puedan ser asignados colores
-	 *  diferentes Se intentó hacerlo mediante conjuntos, llegada y salida
-	 *  (diágrama sagital) pero a pesar que coincidía con la salida del
+	 *  diferentes Se intentï¿½ hacerlo mediante conjuntos, llegada y salida
+	 *  (diï¿½grama sagital) pero a pesar que coincidï¿½a con la salida del
 	 *  uDebug al enviarlo a UVa la respuesta era incorrecta
 	 */
 	public static void main(String[] args) throws NumberFormatException,

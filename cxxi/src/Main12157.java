@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12157 - Tariff Plan
 *
 *
-*	Submision:	16202839
+*	Submission:	16202839
 *	Date:		2015-10-03 12:03:42
 *	Runtime:	0.092
 *	Ranking:	2587
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12157 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

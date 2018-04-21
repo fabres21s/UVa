@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 *	12210 - A Match Making Problem
 *
 *
-*	Submision:	17002501
+*	Submission:	17002501
 *	Date:		2016-03-12 12:59:57
 *	Runtime:	0.106
 *	Ranking:	974
@@ -15,12 +15,12 @@ import java.io.InputStreamReader;
 public class Main12210 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 * - Validaciones
 	 * 
 	 * Encontrar los
 	 * emparejamientos entre hombres y mujeres
-	 * y ver si hombres quedan sin pareja, de ser así imprimer la edad del menor
+	 * y ver si hombres quedan sin pareja, de ser asï¿½ imprimer la edad del menor
 	 */
 	public static void main(String[] args) throws IOException {
 

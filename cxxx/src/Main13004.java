@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	13004 - At most twice
 *
 *
-*	Submision:	17017593
+*	Submission:	17017593
 *	Date:		2016-03-14 20:08:44	
 *	Runtime:	0.082
 *	Ranking:	112
@@ -15,8 +15,8 @@ public class Main13004 {
 	 * - Arreglos
 	 * - Recursividad
 	 * 
-	 *  Dado n, encontrar un número <= n
-	 * que no tenga los digitos más de dos veces
+	 *  Dado n, encontrar un nï¿½mero <= n
+	 * que no tenga los digitos mï¿½s de dos veces
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

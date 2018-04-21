@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11364 - Parking
 *
 *
-*	Submision:	17448783
+*	Submission:	17448783
 *	Date:		2016-06-01 01:09:50
 *	Runtime:	0.080
 *	Ranking:	5620
@@ -14,13 +14,13 @@ public class Main11364 {
 
 	/**
 	 * - Arreglos
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * 
-	 * Dado un arreglo, ordenarlo, sacar el promedio y encontrar el número que más se acerque a dicho promedio
-	 * para posteriormente encontrar las diferencias absolutas con el primer y último elemento del arreglo
+	 * Dado un arreglo, ordenarlo, sacar el promedio y encontrar el nï¿½mero que mï¿½s se acerque a dicho promedio
+	 * para posteriormente encontrar las diferencias absolutas con el primer y ï¿½ltimo elemento del arreglo
 	 * y multiplicarlas por 2.
 	 * 
-	 * Los arreglos son distancias en un centro comercial, desde los parqueaderos, hacía las tiendas,
+	 * Los arreglos son distancias en un centro comercial, desde los parqueaderos, hacï¿½a las tiendas,
 	 * el objetivo es minimizar la distancia de recorrido, saliendo del parqueadero, pasando por todas las tiendas
 	 * y volver al parqueadero.
 	 */

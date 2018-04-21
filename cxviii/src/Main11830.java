@@ -7,7 +7,7 @@ import java.math.BigInteger;
 *	11830 - Contract Revision
 *
 *
-*	Submision:	20332520
+*	Submission:	20332520
 *	Date:		2017-11-11 15:58:37
 *	Runtime:	0.210
 *	Ranking:	1427

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11172 - Relational Operator
 *
 *
-*	Submision:	9567045
+*	Submission:	9567045
 *	Date:		2011-12-16 20:49:40
 *	Runtime:	0.380
 *	Ranking:	26651
@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Main11172 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 * 
-	 * Muy fácil Validar si un número es mayor,
+	 * Muy fï¿½cil Validar si un nï¿½mero es mayor,
 	 * menor o igual a otro
 	 */
 	public static void main(String[] args) {

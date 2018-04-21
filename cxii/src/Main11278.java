@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11278 - One-Handed Typist
 *
 *
-*	Submision:	10268995
+*	Submission:	10268995
 *	Date:		2012-06-28 22:31:35
 *	Runtime:	0.148
 *	Ranking:	884

@@ -7,7 +7,7 @@ import java.util.Vector;
 *	156 - Ananagrams
 *
 *
-*	Submision:	9435413
+*	Submission:	9435413
 *	Date:		2011-11-02 19:06:11
 *	Runtime:	0.300
 *	Ranking:	6371

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11854 - Egypt
 *
 *
-*	Submision:	9483505
+*	Submission:	9483505
 *	Date:		2011-11-18 19:33:35
 *	Runtime:	0.164
 *	Ranking:	7512
@@ -13,8 +13,8 @@ import java.util.Scanner;
 public class Main11854 {
 
 	/**
-	 * - Triángulos
-	 * - Fórmula
+	 * - Triï¿½ngulos
+	 * - Fï¿½rmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -11,7 +11,7 @@ import java.util.Scanner;
 *	12541 - Birthdates
 *
 *
-*	Submision:	12306643
+*	Submission:	12306643
 *	Date:		2013-09-06 17:16:15
 *	Runtime:	0.222
 *	Ranking:	1302
@@ -26,9 +26,9 @@ public class Main12541 {
 		// GregorianCalendar calendar = new GregorianCalendar();
 		//
 		// if (calendar.isLeapYear(2007))
-		// System.out.println("El año es bisiesto");
+		// System.out.println("El aï¿½o es bisiesto");
 		// else
-		// System.out.println("El año no es bisiesto");
+		// System.out.println("El aï¿½o no es bisiesto");
 
 		ArrayList<Date> fechas = new ArrayList<Date>();
 		Map<Date, String> nombres = new HashMap<Date, String>();

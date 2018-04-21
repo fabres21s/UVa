@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	12554 - A Special "Happy Birthday" Song!!!
 *
 *
-*	Submision:	16788511
+*	Submission:	16788511
 *	Date:		2016-02-01 17:13:53
 *	Runtime:	0.075
 *	Ranking:	1975
@@ -16,7 +16,7 @@ public class Main12554 {
 	/**
 	 * - Validaciones
 	 * 
-	 * Validar que todos cantaran y no dejar la canción a medias
+	 * Validar que todos cantaran y no dejar la canciï¿½n a medias
 	 */
 	public static void main(String[] args) {
 

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	352 - The Seasonal War
 *
 *
-*	Submision:	9897571
+*	Submission:	9897571
 *	Date:		2012-03-22 21:42:40
 *	Runtime:	0.148
 *	Ranking:	5623

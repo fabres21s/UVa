@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12527 - Different Digits
 *
 *
-*	Submision:	10894968
+*	Submission:	10894968
 *	Date:		2012-11-16 16:01:25
 *	Runtime:	0.252
 *	Ranking:	1419

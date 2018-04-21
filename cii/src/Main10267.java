@@ -6,7 +6,7 @@ import java.util.Stack;
 *	10267 - Graphical Editor
 *
 *
-*	Submision:	9305894
+*	Submission:	9305894
 *	Date:		2011-09-27 16:49:42
 *	Runtime:	2.248
 *	Ranking:	2898

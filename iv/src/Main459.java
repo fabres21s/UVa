@@ -10,7 +10,7 @@ import java.util.Queue;
 *	459 - Graph Connectivity
 *
 *
-*	Submision:	16878981
+*	Submission:	16878981
 *	Date:		2016-02-21 03:22:42
 *	Runtime:	0.049
 *	Ranking:	4453
@@ -19,7 +19,7 @@ public class Main459 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - Búsqueda en profundidad
+	 * - Bï¿½squeda en profundidad
 	 * - Queue
 	 */
 	public static void main(String[] args) throws IOException {

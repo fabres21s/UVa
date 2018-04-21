@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10368 - Euclid's Game
 *
 *
-*	Submision:	9673639
+*	Submission:	9673639
 *	Date:		2012-01-25 01:58:20
 *	Runtime:	0.164
 *	Ranking:	1024
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10368 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

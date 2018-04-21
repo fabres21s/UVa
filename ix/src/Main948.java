@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	948 - Fibonaccimal Base
 *
 *
-*	Submision:	9473844
+*	Submission:	9473844
 *	Date:		2011-11-15 13:16:25
 *	Runtime:	0.568
 *	Ranking:	1732

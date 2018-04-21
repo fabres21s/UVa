@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12643 - Tennis Rounds
 *
 *
-*	Submision:	12353615
+*	Submission:	12353615
 *	Date:		2013-09-16 14:41:05
 *	Runtime:	0.468
 *	Ranking:	489
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12643 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 

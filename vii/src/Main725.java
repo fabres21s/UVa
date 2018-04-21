@@ -8,7 +8,7 @@ import java.util.Map;
 *	725 - Division
 *
 *
-*	Submision:	20422510
+*	Submission:	20422510
 *	Date:		2017-11-30 13:13:50
 *	Runtime:	0.140
 *	Ranking:	2610

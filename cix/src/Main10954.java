@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 *	10954 - Add All
 *
 *
-*	Submision:	18525590
+*	Submission:	18525590
 *	Date:		2016-12-20 16:23:47
 *	Runtime:	0.140
 *	Ranking:	4871

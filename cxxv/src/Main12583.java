@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	12583 - Memory Overflow
 *
 *
-*	Submision:	16867720
+*	Submission:	16867720
 *	Date:		2016-02-18 19:19:23
 *	Runtime:	0.235
 *	Ranking:	778
@@ -16,8 +16,8 @@ public class Main12583 {
 	/**
 	 * - Map
 	 * 
-	 * El rey sólo podía recordar a una persona si al presentarsela
-	 * se la volvían a presentar en un tiempo menor o igual a daysRemember
+	 * El rey sï¿½lo podï¿½a recordar a una persona si al presentarsela
+	 * se la volvï¿½an a presentar en un tiempo menor o igual a daysRemember
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

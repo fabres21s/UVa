@@ -5,7 +5,7 @@ import java.util.Vector;
 *	543 - Goldbach's Conjecture
 *
 *
-*	Submision:	9435807
+*	Submission:	9435807
 *	Date:		2011-11-02 21:34:58
 *	Runtime:	1.692
 *	Ranking:	8928
@@ -14,7 +14,7 @@ public class Main543 {
 	static Vector<Integer> primos = new Vector<Integer>();
 
 	/**
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

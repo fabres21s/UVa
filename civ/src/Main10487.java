@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
 *	10487 - Closest Sums
 *
-*	Submision:	20151040
+*	Submission:	20151040
 *	Date:		2017-10-10 18:17:57
 *	Runtime:	0.160
 *	Ranking:	3156

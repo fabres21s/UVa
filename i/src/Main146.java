@@ -9,7 +9,7 @@ import java.util.LinkedList;
 *	146 - ID Codes
 *
 *
-*	Submision:	9395176
+*	Submission:	9395176
 *	Date:		2011-10-21 16:46:11
 *	Runtime:	0.164
 *	Ranking:	10184
@@ -17,7 +17,7 @@ import java.util.LinkedList;
 public class Main146 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(

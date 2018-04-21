@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10499 - The Land of Justice
 *
 *
-*	Submision:	9615864
+*	Submission:	9615864
 *	Date:		2012-01-03 23:09:19
 *	Runtime:	1.116
 *	Ranking:	5534
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10499 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 */
 	public static void main(String[] args) {
 		long n;

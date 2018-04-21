@@ -4,7 +4,7 @@ import java.io.IOException;
 *	10033 - Interpreter
 *
 *
-*	Submision:	9306587
+*	Submission:	9306587
 *	Date:		2011-09-27 19:36:33
 *	Runtime:	0.104
 *	Ranking:	3411

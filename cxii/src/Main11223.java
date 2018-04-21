@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	11223 - O: dah dah dah!
 *
 *
-*	Submision:	12326278
+*	Submission:	12326278
 *	Date:		2013-09-10 17:32:38
 *	Runtime:	0.258
 *	Ranking:	1523

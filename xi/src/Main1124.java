@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	1124 - Celebrity jeopardy
 *
 *
-*	Submision:	10339330
+*	Submission:	10339330
 *	Date:		2012-07-16 02:04:38
 *	Runtime:	0.240
 *	Ranking:	6220
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main1124 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

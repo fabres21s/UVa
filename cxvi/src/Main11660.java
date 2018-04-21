@@ -4,7 +4,7 @@ import java.io.IOException;
 *	11660 - Look-and-Say sequences
 *
 *
-*	Submision:	9565827
+*	Submission:	9565827
 *	Date:		2011-12-16 13:55:22
 *	Runtime:	0.052
 *	Ranking:	27

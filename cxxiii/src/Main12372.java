@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12372 - Packing for Holiday
 *
 *
-*	Submision:	10329082
+*	Submission:	10329082
 *	Date:		2012-07-13 15:45:09
 *	Runtime:	0.184
 *	Ranking:	6570
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12372{
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

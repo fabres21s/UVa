@@ -3,7 +3,7 @@
 *	440 - Eeny Meeny Moo
 *
 *
-*	Submision:	9366689
+*	Submission:	9366689
 *	Date:		2011-10-13 14:25:41
 *	Runtime:	1.104
 *	Ranking:	2385
@@ -37,7 +37,7 @@ class Main440
     }
 	
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) 
 	{

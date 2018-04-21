@@ -9,7 +9,7 @@ import java.util.Scanner;
 *	10986 - Sending Email
 *
 *
-*	Submision:	17473196
+*	Submission:	17473196
 *	Date:		2016-06-05 22:00:24
 *	Runtime:	1.520
 *	Ranking:	3561
@@ -21,13 +21,13 @@ public class Main10986 {
 	 * - Dijkstra
 	 * -  Priority Queue
 	 * 
-	 * Implementación del algoritmo Dijkstra, no se pueden usar arreglos ya que la entrada
+	 * Implementaciï¿½n del algoritmo Dijkstra, no se pueden usar arreglos ya que la entrada
 	 * es de 20000 registros, lo cual provoca un Java heap space y tampoco es posible
-	 * usar el método solve de la clase Grafo, porque arroja un TLE, así que tocó hacer 
-	 * un híbrido entre ellos.
+	 * usar el mï¿½todo solve de la clase Grafo, porque arroja un TLE, asï¿½ que tocï¿½ hacer 
+	 * un hï¿½brido entre ellos.
 	 * 
 	 * El ejercicio consiste en que dada una red de computadores, unas conexiones, un origen y un destino,
-	 * encontrar la ruta más corta.
+	 * encontrar la ruta mï¿½s corta.
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

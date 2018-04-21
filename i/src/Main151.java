@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	151 - Power Crisis
 *
 *
-*	Submision:	9395230
+*	Submission:	9395230
 *	Date:		2011-10-21 17:02:02
 *	Runtime:	0.176
 *	Ranking:	8591
@@ -13,7 +13,7 @@ public class Main151 {
 	static boolean k[] = new boolean[100];
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) {
 		int N, count;

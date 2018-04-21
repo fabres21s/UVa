@@ -3,7 +3,7 @@
 *	138 - Street Numbers
 *
 *
-*	Submision:	9595927
+*	Submission:	9595927
 *	Date:		2011-12-27 15:29:45
 *	Runtime:	0.132
 *	Ranking:	4787

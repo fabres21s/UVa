@@ -10,7 +10,7 @@ import java.util.Map;
 *	119 - Greedy Gift Givers
 *
 *
-*	Submision:	17591578
+*	Submission:	17591578
 *	Date:		2016-06-29 02:30:02
 *	Runtime:	0.030
 *	Ranking:	6030

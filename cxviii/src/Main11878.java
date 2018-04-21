@@ -3,7 +3,7 @@
 *	11878 - Homework Checker
 *
 *
-*	Submision:	9645670
+*	Submission:	9645670
 *	Date:		2012-01-14 21:25:05
 *	Runtime:	0.004
 *	Ranking:	311

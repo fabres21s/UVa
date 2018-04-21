@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 
  * @author fabio 10684 - The jackpot
  * 
- *         -Arreglos Encontrar la sumatoria máxima en un arreglo
+ *         -Arreglos Encontrar la sumatoria mï¿½xima en un arreglo
  * 
  *         Submit: 2016-05-18 22:27:28 Runtime: 0.780 Ranking: 5004
  */
@@ -13,7 +13,7 @@ import java.util.Scanner;
 *	10684 - The jackpot
 *
 *
-*	Submision:	17382233
+*	Submission:	17382233
 *	Date:		2016-05-18 22:27:28
 *	Runtime:	0.780
 *	Ranking:	5011
@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class Main10684 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) {
 

@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 
  * @author fabio
  * 108 - Maximum Sum
- * Lo entenderá su puta madre
+ * Lo entenderï¿½ su puta madre
  * 
  * Submit:	2016-05-18 21:40:24
  * Runtime:	0.150
@@ -15,7 +15,7 @@ import java.util.Scanner;
 *	108 - Maximum Sum	54187
 *
 *
-*	Submision:	17382149
+*	Submission:	17382149
 *	Date:		2016-05-18 21:40:24
 *	Runtime:	0.150
 *	Ranking:	9369
@@ -23,7 +23,7 @@ import java.util.Scanner;
 public class Main108 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String args[]) {
 		Scanner input = new Scanner(System.in);

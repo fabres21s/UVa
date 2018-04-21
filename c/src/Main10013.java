@@ -3,7 +3,7 @@
 *	10013 - Super long sums
 *
 *
-*	Submision:	9615657
+*	Submission:	9615657
 *	Date:		2012-01-03 21:44:15
 *	Runtime:	0.912
 *	Ranking:	1389

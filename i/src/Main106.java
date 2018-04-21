@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	106 - Fermat vs. Pythagoras
 *
 *
-*	Submision:	9605072
+*	Submission:	9605072
 *	Date:		2011-12-31 00:01:05
 *	Runtime:	1.212
 *	Ranking:	1772
@@ -14,7 +14,7 @@ public class Main106 {
 	static int[] ss = new int[1000002];
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

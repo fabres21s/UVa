@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	489 - Hangman Judge
 *
 *
-*	Submision:	9526905
+*	Submission:	9526905
 *	Date:		2011-12-02 14:47:08
 *	Runtime:	2.960
 *	Ranking:	5954
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main489 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) 
 	{

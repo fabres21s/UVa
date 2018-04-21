@@ -7,7 +7,7 @@ import java.util.Map;
 /**
 *	1583 - Digit Generator
 *
-*	Submision:	20242666
+*	Submission:	20242666
 *	Date:		2017-10-26 02:00:52
 *	Runtime:	0.190
 *	Ranking:	1589

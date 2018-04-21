@@ -12,7 +12,7 @@ public class Main544 {
 	*	544 - Heavy Cargo
 	*
 	*
-	*	Submision:	18643608
+	*	Submission:	18643608
 	*	Date:		2017-01-18 19:56:32
 	*	Runtime:	0.140
 	*	Ranking:	2137

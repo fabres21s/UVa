@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11152 - Colourful Flowers
 *
 *
-*	Submision:	16645171
+*	Submission:	16645171
 *	Date:		2015-12-29 14:38:17
 *	Runtime:	1.392
 *	Ranking:	2847
@@ -12,13 +12,13 @@ import java.util.Scanner;
 public class Main11152 {
 
 	/**
-	 * - Círculos
-	 * - Triángulos
-	 * - Fórmula
+	 * - Cï¿½rculos
+	 * - Triï¿½ngulos
+	 * - Fï¿½rmula
 	 * 
-	 * Dadas las medidas de un triángulo, hallar el área del círculo externo,
-	 * menos la del tríangulo, y hallar el área del círculo interno al
-	 * triángulo, y cuánto le queda al triángulo
+	 * Dadas las medidas de un triï¿½ngulo, hallar el ï¿½rea del cï¿½rculo externo,
+	 * menos la del trï¿½angulo, y hallar el ï¿½rea del cï¿½rculo interno al
+	 * triï¿½ngulo, y cuï¿½nto le queda al triï¿½ngulo
 	 */
 	public static void main(String[] args) {
 
@@ -34,10 +34,10 @@ public class Main11152 {
 
 			s = (a + b + c) / 2;
 
-			// hallamos el área del triángulo
+			// hallamos el ï¿½rea del triï¿½ngulo
 			triangle = Math.sqrt(s * (s - a) * (s - b) * (s - c));
 
-			// hallamos el radio de la circunferencia externa al triángulo
+			// hallamos el radio de la circunferencia externa al triï¿½ngulo
 			r1 = ((a * b * c) / Math.sqrt((a + b + c) * (b + c - a)
 					* (c + a - b) * (a + b - c)));
 

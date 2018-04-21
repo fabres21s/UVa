@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11677 - Alarm Clock
 *
 *
-*	Submision:	16495717
+*	Submission:	16495717
 *	Date:		2015-11-26 15:57:27
 *	Runtime:	0.086
 *	Ranking:	4317
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11677 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 * 
 	 * Ver cuantos minutos faltan desde una hora inicial a una hora final
 	 */

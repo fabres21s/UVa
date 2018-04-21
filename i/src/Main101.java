@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 *	101 - The Blocks Problem
 *
 *
-*	Submision:	9281686
+*	Submission:	9281686
 *	Date:		2011-09-20 16:46:08
 *	Runtime:	0.304
 *	Ranking:	11723
@@ -18,7 +18,7 @@ public class Main101 {
 	static int[] pos;
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {

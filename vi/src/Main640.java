@@ -3,7 +3,7 @@
 *	640 - Self Numbers
 *
 *
-*	Submision:	9887071
+*	Submission:	9887071
 *	Date:		2012-03-20 14:51:14
 *	Runtime:	1.156
 *	Ranking:	3837
@@ -12,7 +12,7 @@ public class Main640 {
 	static int n;
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		int i;

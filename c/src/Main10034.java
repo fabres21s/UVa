@@ -8,7 +8,7 @@ import java.util.Set;
 *	10034 - Freckles
 *
 *
-*	Submision:	16917220
+*	Submission:	16917220
 *	Date:		2016-02-27 23:22:56
 *	Runtime:	0.215
 *	Ranking:	5971
@@ -21,8 +21,8 @@ public class Main10034 {
 	 * - Set
 	 * - Recursividad
 	 * 
-	 * Hallar el árbol de
-	 * expansión mínimo en un plano cartesiano en el que todos sus puntos se
+	 * Hallar el ï¿½rbol de
+	 * expansiï¿½n mï¿½nimo en un plano cartesiano en el que todos sus puntos se
 	 * interconectan
 	 * 
 	 */
@@ -99,7 +99,7 @@ class Grafo_ {
 
 			// System.out.println("escogido = "+aristaMenor.getNodoOrigen()+"  :::: "+aristaMenor.getNodoDestino()
 			// + "::: "+min);
-			// System.out.println("tamaño del arbol "+arbolExpansion.size());
+			// System.out.println("tamaï¿½o del arbol "+arbolExpansion.size());
 			aristaMenor.getNodoDestino().setVisitado(true);
 			aristaMenor.getNodoOrigen().setVisitado(true);
 			aristas.remove(aristaMenor);

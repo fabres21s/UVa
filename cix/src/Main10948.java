@@ -4,14 +4,14 @@ import java.util.Scanner;
 *	10948 - The primary problem
 *
 *
-*	Submision:	9567112
+*	Submission:	9567112
 *	Date:		2011-12-16 21:22:25
 *	Runtime:	1.120
 *	Ranking:	2091
 */
 public class Main10948 {
 	/**
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

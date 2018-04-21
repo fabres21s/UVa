@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10341 - Solve It
 *
 *
-*	Submision:	9566236
+*	Submission:	9566236
 *	Date:		2011-12-16 16:06:17
 *	Runtime:	2.228
 *	Ranking:	4584
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10341 {
 
 	/**
-	 * - Métodos Numéricos
+	 * - Mï¿½todos Numï¿½ricos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

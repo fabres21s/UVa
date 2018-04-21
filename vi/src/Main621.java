@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	621 - Secret Research
 *
 *
-*	Submision:	17590764
+*	Submission:	17590764
 *	Date:		2016-06-28 21:07:04
 *	Runtime:	0.030
 *	Ranking:	6650

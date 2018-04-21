@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11636 - Hello World!
 *
 *
-*	Submision:	9849628
+*	Submission:	9849628
 *	Date:		2012-03-12 16:05:39
 *	Runtime:	0.796
 *	Ranking:	7133

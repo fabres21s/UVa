@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 *	10041 - Vito's Family
 *
 *
-*	Submision:	9306683
+*	Submission:	9306683
 *	Date:		2011-09-27 20:00:33
 *	Runtime:	0.400
 *	Ranking:	9710

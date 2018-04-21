@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10924 - Prime Words
 *
 *
-*	Submision:	9554337
+*	Submission:	9554337
 *	Date:		2011-12-12 16:32:57
 *	Runtime:	0.196
 *	Ranking:	7892

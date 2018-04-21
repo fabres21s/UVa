@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10327 - Flip Sort
 *
 *
-*	Submision:	9618688
+*	Submission:	9618688
 *	Date:		2012-01-05 00:30:30
 *	Runtime:	0.680
 *	Ranking:	9586
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10327 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

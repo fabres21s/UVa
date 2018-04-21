@@ -7,7 +7,7 @@ import java.util.Map;
 /**
 *	11233 - Deli Deli
 *
-*	Submision:	20141019
+*	Submission:	20141019
 *	Date:		2017-10-09 01:09:48
 *	Runtime:	0.040
 *	Ranking:	2271

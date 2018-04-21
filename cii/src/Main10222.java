@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10222 - Decode the Mad man
 *
 *
-*	Submision:	9857458
+*	Submission:	9857458
 *	Date:		2012-03-14 12:04:07
 *	Runtime:	0.204
 *	Ranking:	7862

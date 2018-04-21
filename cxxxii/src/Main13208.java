@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	13208 - Drought in Nlogonia
 *
 *
-*	Submision:	19822174
+*	Submission:	19822174
 *	Date:		2017-08-08 17:09:13
 *	Runtime:	0.950
 *	Ranking:	27

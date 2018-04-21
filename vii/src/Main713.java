@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	713 - Adding Reversed Numbers
 *
 *
-*	Submision:	16456541
+*	Submission:	16456541
 *	Date:		2015-11-18 19:43:57
 *	Runtime:	0.232
 *	Ranking:	5688
@@ -13,9 +13,9 @@ public class Main713 {
 
 	/**
 	 * - Big Numbers
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 * 
-	 * Cojer dos números darles la vuelta, sumarlos y volverles a dar la vuelta
+	 * Cojer dos nï¿½meros darles la vuelta, sumarlos y volverles a dar la vuelta
 	 */
 	static BigInteger ONE = BigInteger.ONE;
 	static BigInteger TEN = BigInteger.TEN;

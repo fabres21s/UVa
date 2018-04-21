@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12015 - Doom's Day Algorithm
 *
 *
-*	Submision:	9508824
+*	Submission:	9508824
 *	Date:		2011-11-26 16:37:45
 *	Runtime:	0.220
 *	Ranking:	1420
@@ -13,10 +13,10 @@ public class Main12019 {
 
 	/**
 	 * - Calendario
-	 * - Proceso matemático
-	 * - Fórmula
+	 * - Proceso matemï¿½tico
+	 * - Fï¿½rmula
 	 * 
-	 * Determinar el día de la semana de una fecha del 2011
+	 * Determinar el dï¿½a de la semana de una fecha del 2011
 	 */
 	public static void main(String[] args) {
 		String days[] = { "Sunday", "Monday", "Tuesday", "Wednesday",

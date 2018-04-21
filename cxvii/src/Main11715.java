@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11715 - Car
 *
 *
-*	Submision:	10733955
+*	Submission:	10733955
 *	Date:		2012-10-14 12:24:43
 *	Runtime:	0.184
 *	Ranking:	3703
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11715 {
 
 	/**
-	 * - Fórmula
+	 * - Fï¿½rmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

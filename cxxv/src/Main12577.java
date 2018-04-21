@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12577 - Hajj-e-Akbar
 *
 *
-*	Submision:	12306484
+*	Submission:	12306484
 *	Date:		2013-09-06 16:30:28
 *	Runtime:	0.172
 *	Ranking:	6071
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12577 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) {
 		int casos = 1;

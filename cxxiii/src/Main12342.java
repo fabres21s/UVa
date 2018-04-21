@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12342 - Tax Calculator
 *
 *
-*	Submision:	16203037
+*	Submission:	16203037
 *	Date:		2015-10-03 13:00:53
 *	Runtime:	0.345
 *	Ranking:	1431
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12342 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

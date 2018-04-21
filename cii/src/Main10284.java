@@ -7,7 +7,7 @@ import java.util.Arrays;
 *	10284 - Chessboard in FEN
 *
 *
-*	Submision:	20352060
+*	Submission:	20352060
 *	Date:		2017-11-16 02:10:14
 *	Runtime:	0.240
 *	Ranking:	1129

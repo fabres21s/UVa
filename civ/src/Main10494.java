@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10494 - If We Were a Child Again
 *
 *
-*	Submision:	9489011
+*	Submission:	9489011
 *	Date:		2011-11-20 00:45:09
 *	Runtime:	0.244
 *	Ranking:	3105

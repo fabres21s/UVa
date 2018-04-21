@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	11734 - Big Number of Teams will Solve This
 *
 *
-*	Submision:	16775496
+*	Submission:	16775496
 *	Date:		2016-01-29 16:30:19
 *	Runtime:	0.056
 *	Ranking:	2243

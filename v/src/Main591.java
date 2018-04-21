@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	591 - Box of Bricks
 *
 *
-*	Submision:	9645693
+*	Submission:	9645693
 *	Date:		2012-01-14 21:39:23
 *	Runtime:	0.252
 *	Ranking:	16466
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main591 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

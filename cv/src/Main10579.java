@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	10579 - Fibonacci Numbers
 *
 *
-*	Submision:	9411151
+*	Submission:	9411151
 *	Date:		2011-10-26 15:00:36
 *	Runtime:	0.212
 *	Ranking:	3127

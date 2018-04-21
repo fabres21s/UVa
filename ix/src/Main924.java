@@ -8,7 +8,7 @@ import java.util.Scanner;
 *	924 - Spreading The News
 *
 *
-*	Submision:	16546925
+*	Submission:	16546925
 *	Date:		2015-12-06 19:03:26
 *	Runtime:	0.382
 *	Ranking:	1644
@@ -16,13 +16,13 @@ import java.util.Scanner;
 public class Main924 {
 
 	/**
-	 * - Búsqueda en profundidad
+	 * - Bï¿½squeda en profundidad
 	 * - Grafos dirigidos
 	 * - Queue
 	 * 
 	 * Dado un grafo
-	 * dirigido, tomar un nodo como principal, hacer una búsqueda en profundidad
-	 * hallar en qué nivel se encuentran la mayor cantidad de nodos y cuantos nodos
+	 * dirigido, tomar un nodo como principal, hacer una bï¿½squeda en profundidad
+	 * hallar en quï¿½ nivel se encuentran la mayor cantidad de nodos y cuantos nodos
 	 * hay
 	 */
 	public static void main(String[] args) {

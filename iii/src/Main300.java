@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	300 - Maya Calendar
 *
 *
-*	Submision:	9593990
+*	Submission:	9593990
 *	Date:		2011-12-27 00:00:34
 *	Runtime:	0.540
 *	Ranking:	2428
@@ -18,7 +18,7 @@ public class Main300 {
 			"ix", "mem", "cib", "caban", "eznab", "canac", "ahau" };
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

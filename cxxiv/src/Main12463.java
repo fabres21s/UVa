@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12463 - Little Nephew
 *
 *
-*	Submision:	10645850
+*	Submission:	10645850
 *	Date:		2012-09-24 12:27:46
 *	Runtime:	0.180
 *	Ranking:	612
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12463 {
 
 	/**
-	 * - Estadística
+	 * - Estadï¿½stica
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

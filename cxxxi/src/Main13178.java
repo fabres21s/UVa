@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	13178 - Is it multiple of 3?
 *
 *
-*	Submision:	19664462
+*	Submission:	19664462
 *	Date:		2017-07-14 23:28:57
 *	Runtime:	0.070
 *	Ranking:	116

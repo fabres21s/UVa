@@ -8,7 +8,7 @@ import java.util.Set;
 *	13115 - Sudoku
 *
 *
-*	Submision:	17595433
+*	Submission:	17595433
 *	Date:		2016-06-29 17:13:33
 *	Runtime:	0.080
 *	Ranking:	42
@@ -21,7 +21,7 @@ public class Main13115 {
 	 * - Arreglos
 	 * - Set
 	 * 
-	 * Validar si un sudoku está llenado correctamente
+	 * Validar si un sudoku estï¿½ llenado correctamente
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		int sudoku[] [] = {{1,2,3,4},

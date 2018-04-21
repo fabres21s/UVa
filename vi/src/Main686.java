@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	686 - Goldbach's Conjecture (II)
 *
 *
-*	Submision:	9435575
+*	Submission:	9435575
 *	Date:		2011-11-02 19:56:24
 *	Runtime:	0.312
 *	Ranking:	6130
@@ -14,7 +14,7 @@ public class Main686 {
 
 	/**
 	 * - Pregenerados
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
 	public static void main(String[] args) {
 		generar();

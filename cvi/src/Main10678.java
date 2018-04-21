@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10678 - The Grazing Cow
 *
 *
-*	Submision:	9623901
+*	Submission:	9623901
 *	Date:		2012-01-06 20:48:16
 *	Runtime:	0.176
 *	Ranking:	2488
@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main10678 {
 
 	/**
-	 * - Círculo
-	 * - Fórmula
+	 * - Cï¿½rculo
+	 * - Fï¿½rmula
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

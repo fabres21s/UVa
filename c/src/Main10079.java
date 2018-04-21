@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10079 - Pizza Cutting
 *
 *
-*	Submision:	9578637
+*	Submission:	9578637
 *	Date:		2011-12-21 01:03:32
 *	Runtime:	0.120
 *	Ranking:	10191
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10079 {
 
 	/**
-	 * - Sumatoria de números
+	 * - Sumatoria de nï¿½meros
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

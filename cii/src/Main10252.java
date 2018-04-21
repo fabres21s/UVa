@@ -8,7 +8,7 @@ import java.util.Vector;
 *	10252 - Common Permutation
 *
 *
-*	Submision:	9210407
+*	Submission:	9210407
 *	Date:		2011-08-31 22:24:21
 *	Runtime:	0.324
 *	Ranking:	6460

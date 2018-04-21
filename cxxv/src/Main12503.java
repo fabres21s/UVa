@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12503 - Robot Instructions
 *
 *
-*	Submision:	10744520
+*	Submission:	10744520
 *	Date:		2012-10-16 16:14:01
 *	Runtime:	0.532
 *	Ranking:	2749
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12503 {
 
 	/**
-	 * Simulación
+	 * Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

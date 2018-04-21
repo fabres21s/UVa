@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10370 - Above Average
 *
 *
-*	Submision:	9663042
+*	Submission:	9663042
 *	Date:		2012-01-20 15:25:10
 *	Runtime:	1.616
 *	Ranking:	14770
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10370 {
 
 	/**
-	 * - Estadística
+	 * - Estadï¿½stica
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

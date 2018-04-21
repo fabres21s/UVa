@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
 *	1213 - Sum of Different Primes
 *
-*	Submision:	20214626
+*	Submission:	20214626
 *	Date:		2017-10-21 00:37:37
 *	Runtime:	0.080
 *	Ranking:	642

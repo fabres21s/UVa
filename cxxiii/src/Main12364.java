@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12364 - In Braille
 *
 *
-*	Submision:	9481550
+*	Submission:	9481550
 *	Date:		2011-11-17 22:21:37
 *	Runtime:	0.584
 *	Ranking:	391

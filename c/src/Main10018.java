@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	10018 - Reverse and Add
 *
 *
-*	Submision:	9159282
+*	Submission:	9159282
 *	Date:		2011-08-16 20:29:27
 *	Runtime:	1.000
 *	Ranking:	17372

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	913 - Joana and the Odd Numbers
 *
 *
-*	Submision:	9574973
+*	Submission:	9574973
 *	Date:		2011-12-19 13:58:12
 *	Runtime:	0.132
 *	Ranking:	5844
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main913 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

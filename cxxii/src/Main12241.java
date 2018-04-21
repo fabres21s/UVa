@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12241 - Digits Count
 *
 *
-*	Submision:	9336815
+*	Submission:	9336815
 *	Date:		2011-10-05 16:35:50
 *	Runtime:	1.000
 *	Ranking:	175

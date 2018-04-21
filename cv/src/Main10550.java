@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10550 - Combination Lock
 *
 *
-*	Submision:	17207435
+*	Submission:	17207435
 *	Date:		2016-04-15 17:27:56
 *	Runtime:	0.130
 *	Ranking:	6765
@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Main10550 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * 
-	 * Dado un candado de combinación (3
-	 * valores) y una posición inicial encontrar cuantos grados hay que girarlo
+	 * Dado un candado de combinaciï¿½n (3
+	 * valores) y una posiciï¿½n inicial encontrar cuantos grados hay que girarlo
 	 * para abrir el candado
 	 */
 	public static void main(String[] args) {

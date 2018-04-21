@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10070 - Leap Year or Not Leap Year and ...
 *
 *
-*	Submision:	12312354
+*	Submission:	12312354
 *	Date:		2013-09-07 22:21:16
 *	Runtime:	0.615
 *	Ranking:	4489

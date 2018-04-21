@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	12461 - Airplane
 *
 *
-*	Submision:	16456725
+*	Submission:	16456725
 *	Date:		2015-11-18 20:52:31
 *	Runtime:	0.139
 *	Ranking:	910
@@ -13,9 +13,9 @@ import java.util.Scanner;
 public class Main12461 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 * 
-	 * La probabilidad que la encuentre vacía siempre será 1/2 vacía u
+	 * La probabilidad que la encuentre vacï¿½a siempre serï¿½ 1/2 vacï¿½a u
 	 * ocupada son las dos opciones
 	 */
 	public static void main(String[] args) throws IOException {

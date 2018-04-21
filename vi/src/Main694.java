@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	694 - The Collatz Sequence
 *
 *
-*	Submision:	9582142
+*	Submission:	9582142
 *	Date:		2011-12-21 21:35:45
 *	Runtime:	0.992
 *	Ranking:	9389
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main694 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

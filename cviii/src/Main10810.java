@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	10810 - Ultra-QuickSort
 *
 *
-*	Submision:	20417474
+*	Submission:	20417474
 *	Date:		2017-11-29 13:24:46
 *	Runtime:	0.260
 *	Ranking:	1435

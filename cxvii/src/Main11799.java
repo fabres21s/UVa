@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11799 - Horror Dash
 *
 *
-*	Submision:	10707714
+*	Submission:	10707714
 *	Date:		2012-10-09 15:33:59
 *	Runtime:	0.296
 *	Ranking:	9887
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11799 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

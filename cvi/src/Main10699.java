@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10699 - Count the factors
 *
 *
-*	Submision:	9496989
+*	Submission:	9496989
 *	Date:		2011-11-22 20:41:29
 *	Runtime:	0.364
 *	Ranking:	4439
@@ -17,7 +17,7 @@ public class Main10699 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

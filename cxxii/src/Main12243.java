@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12243 - Flowers Flourish from France
 *
 *
-*	Submision:	9323374
+*	Submission:	9323374
 *	Date:		2011-10-02 00:16:58
 *	Runtime:	0.388
 *	Ranking:	1330

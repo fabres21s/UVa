@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	573 - The Snail
 *
 *
-*	Submision:	16039673
+*	Submission:	16039673
 *	Date:		2015-09-03 14:06:45
 *	Runtime:	0.079
 *	Ranking:	8034
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main573 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

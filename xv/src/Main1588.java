@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	1588 - Kickdown
 *
 *
-*	Submision:	20453392
+*	Submission:	20453392
 *	Date:		2017-12-06 23:15:09	
 *	Runtime:	0.040
 *	Ranking:	887

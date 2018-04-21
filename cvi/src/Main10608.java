@@ -8,7 +8,7 @@ import java.util.Scanner;
 *	10608 - Friends
 *
 *
-*	Submision:	18495789
+*	Submission:	18495789
 *	Date:		2016-12-13 18:18:20
 *	Runtime:	0.470
 *	Ranking:	4339

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12502 - Three Families
 *
 *
-*	Submision:	10763259
+*	Submission:	10763259
 *	Date:		2012-10-19 23:39:50
 *	Runtime:	0.180
 *	Ranking:	2509
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12502 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10006 - Carmichael Numbers
 *
 *
-*	Submision:	9306821
+*	Submission:	9306821
 *	Date:		2011-09-27 20:39:36
 *	Runtime:	1.540
 *	Ranking:	5825

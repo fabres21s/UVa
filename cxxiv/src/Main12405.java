@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12405 - Scarecrow
 *
 *
-*	Submision:	10732248
+*	Submission:	10732248
 *	Date:		2012-10-14 00:12:36
 *	Runtime:	0.140
 *	Ranking:	1948
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12405 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * 
 	 */
 	public static void main(String[] args) {

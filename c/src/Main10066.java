@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	10066 - The Twin Towers
 *
 *
-*	Submision:	19669471
+*	Submission:	19669471
 *	Date:		2017-07-15 20:02:43
 *	Runtime:	0.040
 *	Ranking:	6264

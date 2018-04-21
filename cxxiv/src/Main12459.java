@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12459 - Bees' ancestors
 *
 *
-*	Submision:	12306544
+*	Submission:	12306544
 *	Date:		2013-09-06 16:43:09
 *	Runtime:	0.169
 *	Ranking:	1751

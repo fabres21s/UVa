@@ -5,7 +5,7 @@ import java.util.Vector;
 *	477 - Points in Figures: Rectangles and Circles
 *
 *
-*	Submision:	9381077
+*	Submission:	9381077
 *	Date:		2011-10-17 15:26:11
 *	Runtime:	1.680
 *	Ranking:	5582
@@ -13,7 +13,7 @@ import java.util.Vector;
 public class Main477 
 {
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) 
 	{

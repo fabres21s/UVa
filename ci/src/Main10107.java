@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10107 - What is the Median?
 *
 *
-*	Submision:	9670327
+*	Submission:	9670327
 *	Date:		2012-01-23 15:05:39
 *	Runtime:	2.096
 *	Ranking:	9975
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10107{
 
 	/**
-	 * - Estadística
+	 * - Estadï¿½stica
 	 */
 	public static void main(String[] args) {
 		/*

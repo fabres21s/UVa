@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10050 - Hartals
 *
 *
-*	Submision:	9281650
+*	Submission:	9281650
 *	Date:		2011-09-20 16:32:24
 *	Runtime:	0.404
 *	Ranking:	10522

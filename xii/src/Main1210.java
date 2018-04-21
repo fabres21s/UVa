@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	1210 - Sum of Consecutive Prime Numbers
 *
 *
-*	Submision:	16983395
+*	Submission:	16983395
 *	Date:		2016-03-09 17:45:33
 *	Runtime:	0.076
 *	Ranking:	852
@@ -13,10 +13,10 @@ public class Main1210 {
 
 	/**
 	 * - Pregenerados
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 * 
-	 * Hallar la cantidad de maneras que un número puede ser generado a partir de 
-	 * la suma de 2 o más números primos consecutivos
+	 * Hallar la cantidad de maneras que un nï¿½mero puede ser generado a partir de 
+	 * la suma de 2 o mï¿½s nï¿½meros primos consecutivos
 	 */
 	public static int[] arregloSol = new int[10005];
 

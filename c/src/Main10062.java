@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10062 - Tell me the frequencies!
 *
 *
-*	Submision:	9728732
+*	Submission:	9728732
 *	Date:		2012-02-10 15:24:40
 *	Runtime:	0.188
 *	Ranking:	5938

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10161 - Ant on a Chessboard
 *
 *
-*	Submision:	9678547
+*	Submission:	9678547
 *	Date:		2012-01-26 14:38:21
 *	Runtime:	0.008
 *	Ranking:	3744
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10161 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

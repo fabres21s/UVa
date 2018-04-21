@@ -6,7 +6,7 @@ import java.util.*;
 *	10315 - Poker Hands
 *
 *
-*	Submision:	9306606
+*	Submission:	9306606
 *	Date:		2011-09-27 19:46:26
 *	Runtime:	0.100
 *	Ranking:	1925
@@ -34,7 +34,7 @@ public class Main10315 {
 	}
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String args[]) // entry point from OS
 	{

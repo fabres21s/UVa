@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	11713 - Abstract Names
 *
 *
-*	Submision:	10220669
+*	Submission:	10220669
 *	Date:		2012-06-13 15:23:36
 *	Runtime:	0.168
 *	Ranking:	3345

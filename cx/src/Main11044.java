@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11044 - Searching for Nessy
 *
 *
-*	Submision:	9560240
+*	Submission:	9560240
 *	Date:		2011-12-14 13:27:37
 *	Runtime:	0.176
 *	Ranking:	8570
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11044 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) 
 	{

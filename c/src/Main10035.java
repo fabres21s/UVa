@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	10035 - Primary Arithmetic
 *
 *
-*	Submision:	9212851
+*	Submission:	9212851
 *	Date:		2011-09-01 19:17:04
 *	Runtime:	1.728
 *	Ranking:	17987
@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 public class Main10035 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) throws IOException {
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(

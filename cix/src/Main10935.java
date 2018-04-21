@@ -6,7 +6,7 @@ import java.util.Scanner;
 *	10935 - Throwing cards away I
 *
 *
-*	Submision:	16220535
+*	Submission:	16220535
 *	Date:		2015-10-06 19:17:55
 *	Runtime:	0.069
 *	Ranking:	4572
@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Main10935 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

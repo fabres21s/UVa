@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	382 - Perfection
 *
 *
-*	Submision:	9341381
+*	Submission:	9341381
 *	Date:		2011-10-06 17:17:20
 *	Runtime:	0.112
 *	Ranking:	11541
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main382 {
 
 	/**
-	 * - Números Perfectos
+	 * - Nï¿½meros Perfectos
 	 */
 	public static void main(String[] args) 
 	{

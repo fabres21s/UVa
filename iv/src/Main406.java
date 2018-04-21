@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 *	406 - Prime Cuts
 *
 *
-*	Submision:	9362586
+*	Submission:	9362586
 *	Date:		2011-10-12 13:03:58
 *	Runtime:	1.280
 *	Ranking:	6288
@@ -39,7 +39,7 @@ class Main406
 	}
 	
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) 
 	{

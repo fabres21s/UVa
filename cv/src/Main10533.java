@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10533 - Digit Primes
 *
 *
-*	Submision:	10707488
+*	Submission:	10707488
 *	Date:		2012-10-09 14:44:59
 *	Runtime:	1.020
 *	Ranking:	1844
@@ -14,7 +14,7 @@ public class Main10533 {
 
 	/**
 	 * - Pregenerados
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
 	public static void main(String[] args) throws IOException {
 		int c, i, sum, x;

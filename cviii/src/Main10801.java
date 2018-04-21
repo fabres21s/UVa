@@ -8,7 +8,7 @@ import java.util.Scanner;
 *	10801 - Lift Hopping
 *
 *
-*	Submision:	16889535
+*	Submission:	16889535
 *	Date:		2016-02-23 03:21:05
 *	Runtime:	0.092
 *	Ranking:	1851
@@ -28,7 +28,7 @@ public class Main10801 {
 	 * piso de cada uno de los ascensores por piso y los pisos en los que para cada
 	 * ascensor Encontrar el menor tiempo para ir desde el piso 0 hasta el objetivo
 	 * 
-	 * Uno de los más completos que he hecho
+	 * Uno de los mï¿½s completos que he hecho
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -108,7 +108,7 @@ class Grafo {
 			nodos = new ArrayList<Nodo>();
 			nodos.add(nodoOrigen);
 		} else {
-			nodoOrigen = nodos.get(nodos.size() - 1); // traemos el último nodo
+			nodoOrigen = nodos.get(nodos.size() - 1); // traemos el ï¿½ltimo nodo
 														// de las lista
 			if (linea != nodoOrigen.getLinea()) {
 				nodoOrigen = crearNodo(origen, linea);
@@ -135,7 +135,7 @@ class Grafo {
 			nodoDestino = crearNodo(destino, linea);
 			nodos.add(nodoDestino);
 		} else {
-			nodoDestino = nodos.get(nodos.size() - 1); // traemos el último nodo
+			nodoDestino = nodos.get(nodos.size() - 1); // traemos el ï¿½ltimo nodo
 														// de las lista
 			if (linea != nodoDestino.getLinea()) {
 				nodoDestino = crearNodo(destino, linea);

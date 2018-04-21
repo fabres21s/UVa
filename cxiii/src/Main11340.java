@@ -7,7 +7,7 @@ import java.util.HashMap;
 *	11340 - Newspaper
 *
 *
-*	Submision:	16424449
+*	Submission:	16424449
 *	Date:		2015-11-11 16:59:08
 *	Runtime:	0.189
 *	Ranking:	1497

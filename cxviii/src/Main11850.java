@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11850 - Alaska
 *
 *
-*	Submision:	16288194
+*	Submission:	16288194
 *	Date:		2015-10-18 14:35:26
 *	Runtime:	0.102
 *	Ranking:	1871
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main11850 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

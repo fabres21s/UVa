@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10071 - Back to High School Physics
 *
 *
-*	Submision:	9314162
+*	Submission:	9314162
 *	Date:		2011-09-29 20:51:17
 *	Runtime:	1.600
 *	Ranking:	37768
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10071 {
 
 	/**
-	 * - Muy fácil
+	 * - Muy fï¿½cil
 	 * 
 	 * Dadas la velocidad y el
 	 * tiempo, hallar el espacio recorrido en el doble de ese tiempo

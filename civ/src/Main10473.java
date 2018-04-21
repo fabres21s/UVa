@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10473 - Simple Base Conversion
 *
 *
-*	Submision:	9563288
+*	Submission:	9563288
 *	Date:		2011-12-15 16:14:34
 *	Runtime:	2.412
 *	Ranking:	4835
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main10473 {
 
 	/**
-	 * - Sistemas de numeración
+	 * - Sistemas de numeraciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

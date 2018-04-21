@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 /**
 *	10131 - Is Bigger Smarter?
-*	Submision:	20418640
+*	Submission:	20418640
 *	Date:		2017-11-29 16:53:34
 *	Runtime:	0.070
 *	Ranking:	5976

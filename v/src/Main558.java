@@ -9,7 +9,7 @@ import java.util.Scanner;
 *	558 - Wormholes
 *
 *
-*	Submision:	18649196
+*	Submission:	18649196
 *	Date:		2017-01-19 17:54:55
 *	Runtime:	0.270
 *	Ranking:	609

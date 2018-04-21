@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12468 - Zapping
 *
 *
-*	Submision:	10645786
+*	Submission:	10645786
 *	Date:		2012-09-24 11:58:37
 *	Runtime:	0.204
 *	Ranking:	4342
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main12468 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

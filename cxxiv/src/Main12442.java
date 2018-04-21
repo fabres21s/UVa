@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12442 - Forwarding Emails
 *
 *
-*	Submision:	17531502
+*	Submission:	17531502
 *	Date:		2016-06-16 22:24:00
 *	Runtime:	0.910
 *	Ranking:	996

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10943 - How do you add?
 *
 *
-*	Submision:	16651124
+*	Submission:	16651124
 *	Date:		2015-12-30 21:33:50
 *	Runtime:	0.172
 *	Ranking:	2390
@@ -14,13 +14,13 @@ public class Main10943 {
 
 	/**
 	 * - Big Numbers
-	 * - Fórmula
+	 * - Fï¿½rmula
 	 * 
 	 * Encontrar de cuantas formas se
 	 * puede obtener n, de k valores menores e iguales que n, es decir, para n =
 	 * 5 y k = 2, es posible 0+5, 1+4, 2+3, 3+2, 4+1, 5+0, 6 formas, n+1 a
-	 * medida que k va aumentando, generalizamos la fórmula, quedano la
-	 * multiplicación de (n/i +1), yendo i desde 1 hasta <k
+	 * medida que k va aumentando, generalizamos la fï¿½rmula, quedano la
+	 * multiplicaciï¿½n de (n/i +1), yendo i desde 1 hasta <k
 	 */
 
 	public static void main(String[] args) {

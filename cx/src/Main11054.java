@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11054 - Wine trading in Gergovia
 *
 *
-*	Submision:	9618281
+*	Submission:	9618281
 *	Date:		2012-01-04 20:03:54
 *	Runtime:	0.880
 *	Ranking:	1949
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11054 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		long n, m, k, i, d;

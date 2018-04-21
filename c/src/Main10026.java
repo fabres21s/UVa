@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10026 - Shoemaker's Problem
 *
 *
-*	Submision:	9290346
+*	Submission:	9290346
 *	Date:		2011-09-22 19:33:05
 *	Runtime:	0.648
 *	Ranking:	4923

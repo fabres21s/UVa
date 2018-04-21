@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	13113 - Presidential Election
 *
 *
-*	Submision:	17605733
+*	Submission:	17605733
 *	Date:		2016-07-01 22:54:45	
 *	Runtime:	0.470
 *	Ranking:	16
@@ -15,9 +15,9 @@ public class Main13113 {
 
 	/**
 	 * - Arreglos
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * 
-	 * Encontrar el ganador o los que pasan a segunda ronda en una elección presidencial
+	 * Encontrar el ganador o los que pasan a segunda ronda en una elecciï¿½n presidencial
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

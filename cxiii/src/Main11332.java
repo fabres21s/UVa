@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11332 - Summing Digits
 *
 *
-*	Submision:	9536246
+*	Submission:	9536246
 *	Date:		2011-12-05 17:49:15
 *	Runtime:	0.304
 *	Ranking:	11557

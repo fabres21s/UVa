@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10104 - Euclid Problem
 *
 *
-*	Submision:	9317604
+*	Submission:	9317604
 *	Date:		2011-09-30 16:22:45
 *	Runtime:	2.764
 *	Ranking:	4319

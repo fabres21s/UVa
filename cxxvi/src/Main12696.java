@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	12696 - Cabin Baggage
 *
 *
-*	Submision:	16490277
+*	Submission:	16490277
 *	Date:		2015-11-25 15:16:34
 *	Runtime:	0.179
 *	Ranking:	1134

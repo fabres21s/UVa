@@ -5,7 +5,7 @@ import java.util.*;
 *	10205 - Stack 'em Up
 *
 *
-*	Submision:	9306643
+*	Submission:	9306643
 *	Date:		2011-09-27 19:53:16
 *	Runtime:	0.180
 *	Ranking:	2458
@@ -37,7 +37,7 @@ public class Main10205 {
 	}
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String args[]) // entry point from OS
 	{

@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10346 - Peter's Smokes
 *
 *
-*	Submision:	9567556
+*	Submission:	9567556
 *	Date:		2011-12-17 01:09:54
 *	Runtime:	0.420
 *	Ranking:	12087
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10346 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

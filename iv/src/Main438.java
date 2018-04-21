@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 *	438 - The Circumference of the Circle
 *
 *
-*	Submision:	9362647
+*	Submission:	9362647
 *	Date:		2011-10-12 13:21:00
 *	Runtime:	0.152
 *	Ranking:	6192
@@ -38,7 +38,7 @@ class Main438
 	}
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) 
 	{

@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 *	10679 - I Love Strings!!
 *
 *
-*	Submision:	16991525
+*	Submission:	16991525
 *	Date:		2016-03-10 21:02:54
 *	Runtime:	0.932
 *	Ranking:	1301
@@ -23,7 +23,7 @@ public class Main10679 {
 
 	/**
 	 * - Cadena de caracteres
-	 * - Búsqueda
+	 * - Bï¿½squeda
 	 * - Arreglos
 	 * 
 	 * En una

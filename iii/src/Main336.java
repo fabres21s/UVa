@@ -10,7 +10,7 @@ import java.util.Scanner;
 *	336 - A Node Too Far
 *
 *
-*	Submision:	16945929
+*	Submission:	16945929
 *	Date:		2016-03-04 02:06:39
 *	Runtime:	0.859
 *	Ranking:	4385
@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class Main336 {
 
 	/**
-	 * - Búsqueda en profundidad
+	 * - Bï¿½squeda en profundidad
 	 * - Grafos dirigidos
 	 * - Queue
 	 * 

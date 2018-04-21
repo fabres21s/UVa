@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 *	10945 - Mother bear
 *
 *
-*	Submision:	16456696
+*	Submission:	16456696
 *	Date:		2015-11-18 20:40:32
 *	Runtime:	0.239
 *	Ranking:	5276
@@ -15,7 +15,7 @@ public class Main10945 {
 
 	/**
 	 * - Expresiones Regulares
-	 * - Palíndromos
+	 * - Palï¿½ndromos
 	 * 
 	 * Determinar si una cadena es palindroma, uso de expresiones regulares para
 	 * reemplazar ,.?! por ""

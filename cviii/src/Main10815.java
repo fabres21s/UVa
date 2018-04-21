@@ -6,7 +6,7 @@ import java.util.TreeSet;
 *	10815 - Andy's First Dictionary
 *
 *
-*	Submision:	16288000
+*	Submission:	16288000
 *	Date:		2015-10-18 13:57:27
 *	Runtime:	0.535
 *	Ranking:	5225

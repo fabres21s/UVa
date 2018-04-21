@@ -3,7 +3,7 @@
 *	445 - Marvelous Mazes
 *
 *
-*	Submision:	9366746
+*	Submission:	9366746
 *	Date:		2011-10-13 14:42:49
 *	Runtime:	0.112
 *	Ranking:	9152
@@ -37,7 +37,7 @@ class Main445
     }
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
     public static void main(String[] args) 
     {

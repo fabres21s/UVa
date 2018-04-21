@@ -2,7 +2,7 @@
 *	579 - Clock Hands
 *
 *
-*	Submision:	9460181
+*	Submission:	9460181
 *	Date:		2011-11-10 21:23:04
 *	Runtime:	2.424
 *	Ranking:	12693

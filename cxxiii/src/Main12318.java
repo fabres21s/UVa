@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12318 - Digital Roulette
 *
 *
-*	Submision:	16512276
+*	Submission:	16512276
 *	Date:		2015-11-29 19:26:55
 *	Runtime:	2.092
 *	Ranking:	173
@@ -13,7 +13,7 @@ public class Main12318 {
 
 	/**
 	 * - Modular
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 * 
 	 * Encontrar la cantidad de residuos generados tras ejecutar un polinomio
 	 * 

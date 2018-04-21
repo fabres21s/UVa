@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	343 - What Base Is This?
 *
 *
-*	Submision:	9841674
+*	Submission:	9841674
 *	Date:		2012-03-10 15:50:21
 *	Runtime:	1.948
 *	Ranking:	2665
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main343 {
 
 	/**
-	 * - Sistemas de numeración
+	 * - Sistemas de numeraciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

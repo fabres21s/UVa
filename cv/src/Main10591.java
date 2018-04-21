@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10591 - Happy Number
 *
 *
-*	Submision:	9567026
+*	Submission:	9567026
 *	Date:		2011-12-16 20:43:22
 *	Runtime:	1.192
 *	Ranking:	5567

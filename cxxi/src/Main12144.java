@@ -7,7 +7,7 @@ import java.util.Arrays;
 *	12144 - Almost Shortest Path
 *
 *
-*	Submision:	20146688
+*	Submission:	20146688
 *	Date:		2017-10-10 02:53:30
 *	Runtime:	0.330
 *	Ranking:	328

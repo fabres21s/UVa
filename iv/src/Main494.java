@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	494 - Kindergarten Counting Game
 *
 *
-*	Submision:	9483993
+*	Submission:	9483993
 *	Date:		2011-11-19 01:07:53
 *	Runtime:	0.180
 *	Ranking:	20589

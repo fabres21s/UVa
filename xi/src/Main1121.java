@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
 *	1121 - Subsequence
 *
-*	Submision:	19844660
+*	Submission:	19844660
 *	Date:		2017-08-12 20:10:52
 *	Runtime:	0.140
 *	Ranking:	1102

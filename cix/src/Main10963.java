@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10963 - The Swallowing Ground
 *
 *
-*	Submision:	9623934
+*	Submission:	9623934
 *	Date:		2012-01-06 21:15:02
 *	Runtime:	0.160
 *	Ranking:	2180
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main10963 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

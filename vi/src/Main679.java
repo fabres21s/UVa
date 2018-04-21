@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	679 - Dropping Balls
 *
 *
-*	Submision:	9673692
+*	Submission:	9673692
 *	Date:		2012-01-25 02:36:11
 *	Runtime:	1.908
 *	Ranking:	2858

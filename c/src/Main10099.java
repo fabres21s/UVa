@@ -11,7 +11,7 @@ public class Main10099 {
 	/**
 	 * 10099 - The Tourist Guide
 	 *
-	 * Submision: 	20145686 
+	 * Submission: 	20145686 
 	 * Date: 		2017-10-09 19:32:49 
 	 * Runtime: 	0.120 
 	 * Ranking: 	3917

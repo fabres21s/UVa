@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11057 - Exact Sum
 *
 *
-*	Submision:	16499984
+*	Submission:	16499984
 *	Date:		2015-11-27 11:59:44
 *	Runtime:	0.469
 *	Ranking:	3259
@@ -13,10 +13,10 @@ import java.util.Scanner;
 public class Main11057 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * - Sort
 	 * 
-	 * De una lista de números y un target, encontrar la menor diferencia oara
+	 * De una lista de nï¿½meros y un target, encontrar la menor diferencia oara
 	 * llegar al target
 	 */
 	public static void main(String[] args) {

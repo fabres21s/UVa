@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10183 - How Many Fibs?
 *
 *
-*	Submision:	9243245
+*	Submission:	9243245
 *	Date:		2011-09-09 19:46:14
 *	Runtime:	0.768
 *	Ranking:	3756

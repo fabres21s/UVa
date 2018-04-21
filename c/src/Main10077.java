@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10077 - The Stern-Brocot Number System
 *
 *
-*	Submision:	9306778
+*	Submission:	9306778
 *	Date:		2011-09-27 20:27:50
 *	Runtime:	1.052
 *	Ranking:	3443

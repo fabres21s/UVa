@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10683 - The decadary watch
 *
 *
-*	Submision:	10310997
+*	Submission:	10310997
 *	Date:		2012-07-09 14:50:00
 *	Runtime:	2.020
 *	Ranking:	1485

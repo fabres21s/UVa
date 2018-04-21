@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10394 - Twin Primes
 *
 *
-*	Submision:	9546569
+*	Submission:	9546569
 *	Date:		2011-12-09 19:46:26
 *	Runtime:	2.948
 *	Ranking:	3506
@@ -14,7 +14,7 @@ public class Main10394 {
 
 	/**
 	 * - Pregenerados
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

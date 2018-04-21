@@ -5,7 +5,7 @@ import java.util.Vector;
 *	476 - Points in Figures: Rectangles
 *
 *
-*	Submision:	9967359
+*	Submission:	9967359
 *	Date:		2012-04-07 20:25:34
 *	Runtime:	1.112
 *	Ranking:	6700
@@ -13,7 +13,7 @@ import java.util.Vector;
 public class Main476 {
 
 	/**
-	 * TODO Asignar Categoría!!!
+	 * TODO Asignar Categorï¿½a!!!
 	 */
 	public static void main(String[] args) 
 	{

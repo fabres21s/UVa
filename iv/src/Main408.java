@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	408 - Uniform Generator
 *
 *
-*	Submision:	10279738
+*	Submission:	10279738
 *	Date:		2012-07-02 02:00:44
 *	Runtime:	0.364
 *	Ranking:	3136

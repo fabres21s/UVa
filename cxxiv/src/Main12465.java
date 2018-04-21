@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	12465 - The Turanga Leela Problem
 *
 *
-*	Submision:	10645860
+*	Submission:	10645860
 *	Date:		2012-09-24 12:33:33
 *	Runtime:	0.240
 *	Ranking:	201
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main12465 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		int a, b, i, r, d, max, min;

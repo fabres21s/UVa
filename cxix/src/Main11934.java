@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11934 - Magic Formula
 *
 *
-*	Submision:	9706191
+*	Submission:	9706191
 *	Date:		2012-02-03 18:29:21
 *	Runtime:	0.160
 *	Ranking:	2681
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11934 {
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

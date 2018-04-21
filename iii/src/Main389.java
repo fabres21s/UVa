@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	389 - Basically Speaking
 *
 *
-*	Submision:	9643083
+*	Submission:	9643083
 *	Date:		2012-01-13 22:53:54
 *	Runtime:	2.960
 *	Ranking:	3559
@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main389 {
 
 	/**
-	 * - Sistemas de numeración
+	 * - Sistemas de numeraciï¿½n
 	 */
 	public static void main(String[] args) 
 	{

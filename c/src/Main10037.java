@@ -8,7 +8,7 @@ import java.util.Scanner;
 *	10037 - Bridge
 *
 *
-*	Submision:	9362500
+*	Submission:	9362500
 *	Date:		2011-10-12 12:39:21
 *	Runtime:	1.064
 *	Ranking:	2237

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10093 - An Easy Problem!
 *
 *
-*	Submision:	9314265
+*	Submission:	9314265
 *	Date:		2011-09-29 21:30:48
 *	Runtime:	0.016
 *	Ranking:	821

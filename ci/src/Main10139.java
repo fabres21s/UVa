@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	10139 - Factovisors
 *
 *
-*	Submision:	9483351
+*	Submission:	9483351
 *	Date:		2011-11-18 18:32:57
 *	Runtime:	2.148
 *	Ranking:	2417
@@ -16,7 +16,7 @@ public class Main10139 {
 	/**
 	 * - Pregenerados
 	 * - Factorial
-	 * - Números Primos
+	 * - Nï¿½meros Primos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

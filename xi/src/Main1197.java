@@ -8,7 +8,7 @@ import java.util.Scanner;
 *	1197 - The Suspects
 *
 *
-*	Submision:	17196971
+*	Submission:	17196971
 *	Date:		2016-04-13 17:26:45
 *	Runtime:	0.250
 *	Ranking:	609
@@ -17,10 +17,10 @@ public class Main1197 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - Búsqueda en profundidad
+	 * - Bï¿½squeda en profundidad
 	 * - Queue
 	 * 
-	 * Encontrar cuantos nodos están conectados al nodo 0
+	 * Encontrar cuantos nodos estï¿½n conectados al nodo 0
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

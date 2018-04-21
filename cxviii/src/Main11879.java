@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	11879 - Multiple of 17
 *
 *
-*	Submision:	9508741
+*	Submission:	9508741
 *	Date:		2011-11-26 16:15:11
 *	Runtime:	0.128
 *	Ranking:	2476

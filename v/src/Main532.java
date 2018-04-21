@@ -11,7 +11,7 @@ import java.util.PriorityQueue;
 *	532 - Dungeon Master
 *
 *
-*	Submision:	17618497
+*	Submission:	17618497
 *	Date:		2016-07-04 16:07:10
 *	Runtime:	0.310
 *	Ranking:	4288
@@ -23,8 +23,8 @@ public class Main532 {
 	 * - Priority Queue
 	 * - Arreglos 
 	 * 
-	 * El ejercicio consiste en que dado un arreglo tridimensional, con una posición inicial
-	 * y una posición final, encontrar la ruta más corta para llegar desde S hasta E
+	 * El ejercicio consiste en que dado un arreglo tridimensional, con una posiciï¿½n inicial
+	 * y una posiciï¿½n final, encontrar la ruta mï¿½s corta para llegar desde S hasta E
 	 * con ciertas condiciones
 	 */
 	public static void main(String[] args) throws IOException {

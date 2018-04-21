@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 /**
  * 105 - The Skyline Problem
- * Simulación - Arreglos
- * Analizar las alturas máximas de cada edificio
- * Recibí un poco de ayuda
+ * Simulaciï¿½n - Arreglos
+ * Analizar las alturas mï¿½ximas de cada edificio
+ * Recibï¿½ un poco de ayuda
  * @author fabio
  *
  */
@@ -13,7 +13,7 @@ import java.util.Scanner;
 *	105 - The Skyline Problem
 *
 *
-*	Submision:	16945389
+*	Submission:	16945389
 *	Date:		2016-03-03 22:31:58
 *	Runtime:	0.189
 *	Ranking:	6559
@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class Main105 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 * - Arreglos
 	 */
 	public static void main(String[] args) {

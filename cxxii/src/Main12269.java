@@ -7,7 +7,7 @@ import java.util.Arrays;
 *	12269 - Lawn mower
 *
 *
-*	Submision:	20400090
+*	Submission:	20400090
 *	Date:		2017-11-26 02:15:41
 *	Runtime:	0.180
 *	Ranking:	413

@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	944 - Happy Numbers
 *
 *
-*	Submision:	10734407
+*	Submission:	10734407
 *	Date:		2012-10-14 14:40:52
 *	Runtime:	0.980
 *	Ranking:	549
@@ -21,7 +21,7 @@ public class Main944 {
 	static boolean happy;
 
 	/**
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

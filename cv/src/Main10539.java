@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10539 - Almost Prime Numbers
 *
 *
-*	Submision:	9330191
+*	Submission:	9330191
 *	Date:		2011-10-03 14:40:52
 *	Runtime:	0.356
 *	Ranking:	1435

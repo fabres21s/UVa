@@ -5,7 +5,7 @@ import java.util.Scanner;
 *	10106 - Product
 *
 *
-*	Submision:	9438902
+*	Submission:	9438902
 *	Date:		2011-11-03 21:19:43
 *	Runtime:	0.156
 *	Ranking:	7212

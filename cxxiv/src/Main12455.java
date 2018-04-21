@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	12455 - Bars
 *
 *
-*	Submision:	16204459
+*	Submission:	16204459
 *	Date:		2015-10-03 18:35:11
 *	Runtime:	0.079
 *	Ranking:	1224

@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 
 /**
 *	10130 - SupersSale
-*	Submision:	19580317
+*	Submission:	19580317
 *	Date:		2017-06-28 19:00:44
 *	Runtime:	0.250
 *	Ranking:	4823

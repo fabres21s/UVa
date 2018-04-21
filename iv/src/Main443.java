@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	443 - Humble Numbers
 *
 *
-*	Submision:	10298109
+*	Submission:	10298109
 *	Date:		2012-07-06 15:26:56
 *	Runtime:	2.756
 *	Ranking:	4470
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main443 {
 	/**
 	 * - Pregenerados
-	 * - Proceso matemático
+	 * - Proceso matemï¿½tico
 	 */
 public static void main(String[] args)
 	{

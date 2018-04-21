@@ -4,7 +4,7 @@ import java.util.Scanner;
 *	11764 - Jumping Mario
 *
 *
-*	Submision:	9849751
+*	Submission:	9849751
 *	Date:		2012-03-12 16:32:16
 *	Runtime:	0.192
 *	Ranking:	9040
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main11764 {
 
 	/**
-	 * - Simulación
+	 * - Simulaciï¿½n
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
