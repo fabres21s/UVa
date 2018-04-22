@@ -21,8 +21,8 @@ public class Main10034 {
 	 * - Set
 	 * - Recursividad
 	 * 
-	 * Hallar el �rbol de
-	 * expansi�n m�nimo en un plano cartesiano en el que todos sus puntos se
+	 * Hallar el árbol de
+	 * expansión mínimo en un plano cartesiano en el que todos sus puntos se
 	 * interconectan
 	 * 
 	 */
