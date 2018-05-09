@@ -18,75 +18,31 @@ public class Main1098 {
 		priority.put(9, new Point(2, 4));
 
 		array[1][0] = 2;
-		boot(array, 2, 1,0);
-		
+//		array[2][1] = 4;
+//		array[2][4] = 9;
+
+		solve(1, 0, array, 2);
 
 		// array[1][0] = 2;
 		// array[2][0] = 3;
 		// solve(2, 0, array, 3);
 	}
 
-	private static void boot(int[][] array, int step, int i, int j) {
-		solve(i, j, array, step);
-		
-	}
-
 	private static void solve(int i, int j, int[][] array, int step) {
-
-		Point point = priority.get(step);
-		if (point != null) {
-
-			if (i == (int) point.getX() && (j == (int) point.getY())) {
-				array[i][j] = step;
-				priority.remove(step);
-				boot(array, step, i, j);
-//				if (i - 1 > -1) {
-//					
-//					if (array[i - 1][j] == 0) {
-//						solve(i - 1, j, array, step + 1);
-//					}
-//				}
-//
-//				if ((i + 1) < FILAS) {
-//
-//					if (array[i + 1][j] == 0) {
-//						
-//						solve(i + 1, j, array, step + 1);
-//					}
-//
-//				}
-//
-//				if ((j - 1) > -1) {
-//					if (array[i][j - 1] == 0) {
-//						solve(i, j - 1, array, step + 1);
-//					}
-//				}
-//				if ((j + 1) < COLUMNAS) {
-//					if (array[i][j + 1] == 0) {
-//						solve(i, j + 1, array, step + 1);
-//
-//					}
-//				}
-				
-
-			} else {
-				for (int[] array3 : array) {
-					//System.out.println(Arrays.toString(array3));
-				}
-				System.out.println("camino imposible");
-			}
-			return;
-		}
 
 		if (i - 1 > -1) {
 
 			if (array[i - 1][j] == 0) {
 				array[i][j] = step;
 				solve(i - 1, j, array, step + 1);
-
 				array[i][j] = 0;
+			} 
+//			else if (array[i - 1][j] == step + 1) {
+//				array[i][j] = step;
+//				solve(i - 1, j, array, step);
+//				array[i][j] = 0;
+//			}
 
-			}
 		}
 		if ((i + 1) < FILAS) {
 
@@ -94,7 +50,12 @@ public class Main1098 {
 				array[i][j] = step;
 				solve(i + 1, j, array, step + 1);
 				array[i][j] = 0;
-			}
+			} 
+//			else if (array[i + 1][j] == step + 1) {
+//				array[i][j] = step;
+//				solve(i + 1, j, array, step);
+//				array[i][j] = 0;
+//			}
 
 		}
 		if ((j - 1) > -1) {
@@ -102,7 +63,12 @@ public class Main1098 {
 				array[i][j] = step;
 				solve(i, j - 1, array, step + 1);
 				array[i][j] = 0;
-			}
+			} 
+//			else if (array[i][j - 1] == step + 1) {
+//				array[i][j] = step;
+//				solve(i, j - 1, array, step);
+//				array[i][j] = 0;
+//			}
 		}
 		if ((j + 1) < COLUMNAS) {
 			if (array[i][j + 1] == 0) {
@@ -110,7 +76,12 @@ public class Main1098 {
 				solve(i, j + 1, array, step + 1);
 				array[i][j] = 0;
 
-			}
+			} 
+//			else if (array[i][j + 1] == step + 1) {
+//				array[i][j] = step;
+//				solve(i, j + 1, array, step+1);
+//				array[i][j] = 0;
+//			}
 		}
 
 		if (step == FILAS * COLUMNAS) {
