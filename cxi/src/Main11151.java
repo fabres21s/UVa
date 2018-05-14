@@ -2,53 +2,55 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
+/**
+*	11151 - Longest Palindrome
+*
+*	Submission:	21310377
+*	Date:		2018-05-14 13:55:24
+*	Runtime:	0.120
+*	Ranking:	2297
+*/
 public class Main11151 {
 
+	static int LCS[][] = new int[1005][1005];
+
+	/**
+	 * - Palíndromos
+	 * - Secuencias
+	 * 
+	 * Dada una palabra, encontrar el más largo palíndromo en ella
+	 * se solucionó dándole la vuelta a la palabra y encontrando el LCS
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		// TODO Next - No enviado - Longest Palindrome
-		//No coincide salida con el UDebug
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		int testCases = Integer.parseInt(br.readLine());
-		String word;
-		for (int i = 0; i < testCases; i++) {
+		String word, wordReverse;
+		StringBuffer output = new StringBuffer();
+
+		char s1[], s2[];
+		for (int x = 0; x < testCases; x++) {
 			word = br.readLine();
-			int length = word.length();
-			char array [] = word.toCharArray();
-			System.out.println(longesPalindrome(array, length-1));
-		}
-	}
+			wordReverse = new StringBuffer(word).reverse().toString();
 
-	private static int longesPalindrome(char[] array, int length) {
+			s1 = word.toCharArray();
+			s2 = wordReverse.toCharArray();
 
-		int max = 1;
-		for (int i = 0; i <= length; i++) {
-			for (int j = length; j>i; j--) {
-				if (array[i] == array[j]) {
-					if (isPalindrome(array, i, j)) {
-						max = Math.max(max, j - i + 1);
-						//System.out.println(j+" "+i);
-						break;
-					}
-				}
-			}
-		}
-			
-		return max;
-	}
+			int s1_length = s1.length;
+			int s2_length = s2.length;
+			int i, j;
+			for (i = 1; i <= s1_length; i++)
 
-	private static boolean isPalindrome(char [] array, int start, int end) {
-		int middle = (end - start)/2;
-		for (int i = start; i <= middle +1; i++) {
-			if (array[i] != array[end]) {
-				return false;
-			}
-			end--;
+				for (j = 1; j <= s2_length; j++)
+					if (s1[i - 1] == s2[j - 1])
+						LCS[i][j] = LCS[i - 1][j - 1] + 1;
+					else
+						LCS[i][j] = (LCS[i - 1][j] > LCS[i][j - 1]) ? LCS[i - 1][j] : LCS[i][j - 1];
+			output.append(LCS[s1_length][s2_length]);
+			output.append("\n");
+
 		}
-		//System.err.println(start + " "+end);
-		return true;
+		System.out.print(output);
 	}
 
 }
-//TYVZZYOVHIGPRVUWPWDYGFPCWFBIIPOEOLDPLTKSDTJVQERHCUGKBXNAEQKNFARVLWKXPXRTSBQIHHPJDXWHVLHZBROIRFEEBQDTPVOHYERFNHQSGOZBZIDABRLUXRZAJCVZXJIXPAEEHV 46
