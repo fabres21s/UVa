@@ -19,7 +19,7 @@ public class Main11151 {
 	 * - Secuencias
 	 * 
 	 * Dada una palabra, encontrar el más largo palíndromo en ella
-	 * se solucionó dándole la vuelta a la palabra y encontrando el LCS
+	 * se solucionó dándole la vuelta a la palabra y encontrando el LCS del 10405
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
