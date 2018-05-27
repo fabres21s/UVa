@@ -2,8 +2,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	1428 - Ping pong
+*
+*	Submission:	21338021
+*	Date:		2018-05-19 19:34:45
+*	Runtime:	0.570
+*	Ranking:	482
+*/
 public class Main1428 {
 
+	/**
+	 *  - Arboles
+	 *  - Fenwick Tree
+	 *  
+	 *  Hallar la cantidad de numeros mayores y menores que están en un rango
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuffer output = new StringBuffer();

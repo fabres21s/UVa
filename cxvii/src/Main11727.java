@@ -4,7 +4,6 @@ import java.util.Scanner;
 /**
 *	11727 - Cost Cutting
 *
-*
 *	Submission:	9503101
 *	Date:		2011-11-25 01:24:56
 *	Runtime:	0.292

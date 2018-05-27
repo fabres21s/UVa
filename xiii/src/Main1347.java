@@ -1,10 +1,24 @@
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+*	1347 - Tour
+*
+*	Submission:	21376261
+*	Date:		2018-05-26 23:17:00
+*	Runtime:	0.090
+*	Ranking:	571
+*/
 public class Main1347 {
 
 	static double x[], y[];
 
+	/**
+	 *  - Arreglos
+	 *  - Fórmula
+	 *  
+	 *  Hallar la menor distancia entre unos puntos volviendo al principio
+	 */
 	public static void main(String[] args) throws IOException {
 
 		Scanner input = new Scanner(System.in);

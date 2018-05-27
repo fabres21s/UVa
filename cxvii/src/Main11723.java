@@ -2,8 +2,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+/**
+*	11723 - Numbering Roads
+*
+*	Submission:	21319116
+*	Date:		2018-05-16 10:31:04
+*	Runtime:	0.170
+*	Ranking:	4352
+*/
+public class Main11723 {
 
+	/**
+	 * - Ad hoc
+	 * 
+	 * Validar si se pueden utilizar las letras sin repetir en unas calles
+	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String line;
