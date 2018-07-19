@@ -1,13 +1,14 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-//12673
-public class Main {
+//TODO Poner información - 12673
+public class Main12673 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String line;
 		int matches, goals, goalsA, goalsB, diff, totalPoints;
+		StringBuffer output = new StringBuffer();
 		while ((line = br.readLine()) != null) {
 			args = line.split(" ");
 
@@ -55,8 +56,11 @@ public class Main {
 
 				}
 			}
-			System.out.println(totalPoints);
+			output.append(totalPoints);
+			output.append("\n");
+			
 		}
+		System.out.print(output);
 	}
 
 }

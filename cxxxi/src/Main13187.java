@@ -2,26 +2,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
-//13244
-	
+public class Main13187 {
+//TODO Poner información - 13187
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuffer output = new StringBuffer();
-		
 		int testCases = Integer.parseInt(br.readLine());
-		long answer, s;
+		long n;
 		
 		while (testCases --> 0) {
-			s = Long.parseLong(br.readLine());
+			n = Long.parseLong(br.readLine());
 			
-			answer = (s/2) * (s/2) + ((s+1)/2) * ((s+1)/2);
-			output.append(answer);
+			n = n*n + 2*n;
+			output.append(n);
 			output.append("\n");
 		}
-		
 		System.out.print(output);
-
 	}
 
 }
