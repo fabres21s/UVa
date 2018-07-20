@@ -2,9 +2,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	13244 - Space Happiness
+*
+*	Submision:	21634188
+*	Date:		2018-07-19 20:34:12
+*	Runtime:	0.050
+*	Ranking:	98 / 128
+*/
 public class Main13244 {
-//TODO Poner información - 13244
-	
+
+	/**
+	 * - Fórmula matemática
+	 * 
+	 * Ya no recuerdo cómo llegué a esa conclusión :|
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuffer output = new StringBuffer();

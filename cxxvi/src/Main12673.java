@@ -1,9 +1,24 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-//TODO Poner información - 12673
+
+/**
+*	12673 - Football
+*
+*	Submision:	21634156
+*	Date:		2018-07-19 20:27:25
+*	Runtime:	0.340
+*	Ranking:	550 / 615
+*/
 public class Main12673 {
 
+	/**
+	 * - Simulación
+	 * 
+	 *  En un torneo de futbol se pueden comprar goles
+	 *  encontrar la mayor cantidad de puntos que se pueden lograr
+	 *  usando esos goles comprados
+	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String line;
