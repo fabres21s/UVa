@@ -4,9 +4,21 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
-//TODO - Poner información
+/**
+*	455 - Periodic Strings
+*
+*	Submission:	22531783
+*	Date:		2018-12-31 15:56:44
+*	Runtime:	0.050
+*	Ranking:	5749
+*/
 public class Main455 {
 
+	/**
+	 * - Cadena de caracteres
+	 * 
+	 * Encontrar el mínimo número de carácteres que se repiten en una palabra
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testCases = Integer.parseInt(br.readLine());

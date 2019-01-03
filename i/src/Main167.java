@@ -2,7 +2,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//TODO - Poner información
+/**
+*	167 - The Sultan’s Successors
+*
+*	Submission:	22532302
+*	Date:		2018-12-31 19:06:42
+*	Runtime:	0.040
+*	Ranking:	5852
+*/
 public class Main167 {
 
 	static int[][][] solutions = { 
@@ -101,6 +108,13 @@ public class Main167 {
 
 	};
 
+	/**
+	 * - Ajedrez
+	 * - Pregenerados
+	 * 
+	 * Problema de las 8 damas
+	 * Encontrar la suma máxima de las posiciones en un tablero en donde las damas no se amenazan
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
