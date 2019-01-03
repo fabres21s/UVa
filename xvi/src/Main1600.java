@@ -1,133 +1,165 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.PriorityQueue;
 
-//TODO No enviado - Patrol Robot
-//como el 929 con algunas diferencias
+//TODO - No enviado
+/**
+ * 929 - Number Maze
+ *
+ *
+ * Submission: 17428548 Date: 2016-05-27 21:51:48 Runtime: 2.420 Ranking: 1652
+ */
 public class Main1600 {
 
-	public static int k = 0;
-	private static List<Integer> solucionados;
+	/**
+	 * - Dijkstra con arreglos - Arreglos - Priority Queue
+	 * 
+	 * Dado un arreglo (grafo) siendo los pesos el valor que hay en cada
+	 * posiciï¿½n del areglo, encontrar la ruta mï¿½s corta para ir de la posiciï¿½n
+	 * 0,0 a la m-1,n-1
+	 */
+	public static void main(String[] args) throws NumberFormatException, IOException {
 
-	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		Scanner input = new Scanner(System.in);
-		int cases = input.nextInt();
+		int testCases = Integer.parseInt(br.readLine());
+		int rows, columns;
+		for (int i = 0; i < testCases; i++) {
+			rows = Integer.parseInt(br.readLine());
+			columns = Integer.parseInt(br.readLine());
 
-		int m, n;
-		while (cases-- > 0) {
-			m = input.nextInt();
-			n = input.nextInt();
-			k = input.nextInt();
-
-			solucionados = new ArrayList<Integer>();
-			boolean grid3d[][][] = new boolean[m + 2][n + 2][2];
-			for (int i = 1; i <= m; i++) {
-				for (int j = 1; j <= n; j++) {
-					grid3d[i][j][0] = input.nextInt() == 0;
+			int array[][] = new int[rows][columns];
+			int arrayDistances[][] = new int[rows][columns];
+			boolean[][] visited = new boolean[rows][columns];
+			for (int x = 0; x < rows; x++) {
+				args = br.readLine().split(" ");
+				for (int y = 0; y < columns; y++) {
+					array[x][y] = Integer.parseInt(args[y]);
 				}
 			}
 
-			solve(grid3d, 1, 1, m, n, 1, 0);
-
-			int menor = -1;
-			if (solucionados.size() > 0) {
-				menor = solucionados.get(0);
-			}
-			for (int x : solucionados) {
-				if (x < menor) {
-					menor = x;
-				}
-			}
-			System.out.println(menor);
-
+			solved(0, 0, rows - 1, columns - 1, array, visited, arrayDistances);
 		}
-		input.close();
 	}
 
-	private static void solve(boolean[][][] grid3d, int i, int j, int m, int n,
-			int step, int rompe) {
+	private static void solved(int srcRow, int srcColumn, int dstRow, int dstColumn, int[][] array, boolean[][] visited,
+			int[][] arrayDistances) {
 
-		System.out.println("i = "+i+ "\tj = "+j+"\tstep = "+step);
-		if (i > m || j > n) {
-			System.out.println("me sali del grid");
+		PriorityQueue<Item> priorityQueue = new PriorityQueue<Item>();
+		priorityQueue.add(new Item(srcRow, srcColumn, array[srcRow][srcColumn], 0));
 
-		} else if (i > 0 && j > 0) {
-			if (i == m && j == n) {
-				solucionados.add(step);
-				System.out.println("solucionado en " + step);
-			} else {
+		for (int i = 0; i < arrayDistances.length; i++) {
+			Arrays.fill(arrayDistances[i], Integer.MAX_VALUE);
+		}
+		arrayDistances[srcRow][srcColumn] = array[srcRow][srcColumn];
+		int row, column, distance;
+		int count = 0;
+		Item item = null;
+		while (priorityQueue.size() > 0) {
+			
+			item = priorityQueue.poll();
+			row = item.getRow();
+			column = item.getColumn();
+			if (item.getRow() == dstRow && item.getColumn() == dstColumn) {
+				count = item.getSteps();
+			}
+			if (!visited[row][column]) {
+				distance = item.getDistance();
+				visited[row][column] = true;
+				arrayDistances[row][column] = distance;
+				// ponemos en la cola de prioridad
 
-				boolean puedoseguir = false;
-				int r = 0;
-				if (grid3d[i][j][0]) {
-					// validamos que no esté visitado
-					if (!grid3d[i][j][1]) {
-						System.out.println("no es necesario romper");
-						puedoseguir = true;
+				// si row es mayor que 0, ponemos al de arriba
+				if (row > 0) {
+					if (!visited[row - 1][column])
+						priorityQueue.add(new Item(row - 1, column,
+								Math.min(distance + array[row - 1][column], arrayDistances[row - 1][column]),
+								item.getSteps() + 1));
+				}
 
-					}
-				} else {
+				if (row < dstRow) {
+					if (!visited[row + 1][column])
+						priorityQueue.add(new Item(row + 1, column,
+								Math.min(distance + array[row + 1][column], arrayDistances[row + 1][column]),
+								item.getSteps() + 1));
+				}
 
-					if (rompe < k && k > 0) {
-						System.out.println("pude romper");
-						grid3d[i][j][0] = true;
+				if (column > 0) {
+					if (!visited[row][column - 1])
+						priorityQueue.add(new Item(row, column - 1,
+								Math.min(distance + array[row][column - 1], arrayDistances[row][column - 1]),
+								item.getSteps() + 1));
+				}
 
-						puedoseguir = true;
-						r = rompe + 1;
-				
-						
-					/*	solve(grid3d, i + 1, j, m, n, step + 1, rompe + 1);
-						solve(grid3d, i - 1, j, m, n, step + 1, rompe + 1);
-						solve(grid3d, i, j + 1, m, n, step + 1, rompe + 1);
-						solve(grid3d, i, j - 1, m, n, step + 1, rompe + 1);*/
-					} 
-					
-					if (puedoseguir){
-						grid3d[i][j][1] = true;
-						
-						solve(grid3d, i + 1, j, m, n, step + 1, rompe + 1);
-						solve(grid3d, i, j + 1, m, n, step + 1, rompe + 1);
-						solve(grid3d, i - 1, j, m, n, step + 1, rompe + 1);
-						
-						solve(grid3d, i, j - 1, m, n, step + 1, rompe + 1);
-					/*	if (i < m){
-							solve(grid3d, i + 1, j, m, n, step + 1, r);
-						}  else 						if ( j < n){
-							solve(grid3d, i, j + 1, m, n, step + 1, r);
-						} else 
-						if (i > 0){
-							solve(grid3d, i - 1, j, m, n, step + 1, r);
-						} else
-						
-
-						if (j > 0){
-							solve(grid3d, i, j - 1, m, n, step + 1, r);
-						}*/
-					}
+				if (column < dstColumn) {
+					if (!visited[row][column + 1])
+						priorityQueue.add(new Item(row, column + 1,
+								Math.min(distance + array[row][column + 1], arrayDistances[row][column + 1]),
+								item.getSteps() + 1));
 				}
 			}
 		}
-
+		System.out.println(arrayDistances[dstRow][dstColumn] + "::" + count);
 	}
 
 }
 
+class Item implements Comparable<Item> {
 
-/*
- * 
- 1
-10 20
-11
-1 1 1 1 0 1 1 1 0 0 1 1 1 0 0 1 1 1 1 0 
-1 1 0 1 0 1 1 1 1 0 1 1 1 1 0 1 0 1 0 0 
-1 0 0 1 1 1 0 1 0 1 0 0 1 1 1 0 0 0 0 0 
-0 1 0 0 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 
-0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 1 0 1 1 0 
-1 0 0 1 1 0 0 1 1 1 0 0 1 0 0 1 1 0 0 0 
-1 0 1 1 0 1 0 0 0 1 1 1 1 0 0 0 0 1 1 1 
-0 1 1 1 1 1 0 0 0 0 1 1 0 1 0 0 0 0 1 0 
-1 1 0 0 1 0 0 0 1 0 0 1 1 1 0 0 1 1 0 0 
-1 1 1 1 0 1 1 0 0 0 0 1 1 1 1 1 0 0 1 0 
+	private int row;
+	private int column;
+	private int distance;
+	private int steps;
 
-*/
+	@Override
+	public int compareTo(Item o) {
+		return this.distance - o.distance;
+	}
+
+	@Override
+	public String toString() {
+		return row + " ::: " + column + " ::: " + distance + " ::: " + steps;
+	}
+
+	public Item(int row, int column, int distance, int steps) {
+		setRow(row);
+		setColumn(column);
+		setDistance(distance);
+		setSteps(steps);
+	}
+
+	public int getRow() {
+		return row;
+	}
+
+	public void setRow(int row) {
+		this.row = row;
+	}
+
+	public int getColumn() {
+		return column;
+	}
+
+	public void setColumn(int column) {
+		this.column = column;
+	}
+
+	public int getDistance() {
+		return distance;
+	}
+
+	public void setDistance(int distance) {
+		this.distance = distance;
+	}
+
+	public int getSteps() {
+		return steps;
+	}
+
+	public void setSteps(int steps) {
+		this.steps = steps;
+	}
+
+}

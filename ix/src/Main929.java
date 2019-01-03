@@ -62,9 +62,9 @@ public class Main929 {
 		}
 		arrayDistances[srcRow][srcColumn] = array[srcRow][srcColumn];
 		int row, column, distance;
-		// int count= 0;
+		 int count= 0;
 		while (priorityQueue.size() > 0) {
-			// count++;
+			 count++;
 			Item item = priorityQueue.poll();
 			row = item.getRow();
 			column = item.getColumn();
@@ -105,7 +105,7 @@ public class Main929 {
 				}
 			}
 		}
-		System.out.println(arrayDistances[dstRow][dstColumn]);
+		System.out.println(arrayDistances[dstRow][dstColumn] + "::"+count);
 	}
 
 }
