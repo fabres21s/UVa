@@ -6,12 +6,27 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-//TODO - Poner información
+/**
+*	195 - Anagram
+*
+*	Submission:	22556387
+*	Date:		2019-01-04 20:45:45
+*	Runtime:	0.590
+*	Ranking:	4929
+*/
 public class Main195 {
 
 	static StringBuffer output = new StringBuffer();
 	public static HashMap<String, Boolean> generated;
 
+	/**
+	 * - Cadena de caracteres
+	 * 
+	 *  Calcular las permutaciones en una palabra, teniendo en cuenta
+	 *  que el orden está dado por AaBbCc...
+	 *  
+	 *  Similar al 10098
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		Map<Character, Integer> map = new HashMap<Character, Integer>();

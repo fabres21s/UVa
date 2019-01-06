@@ -3,9 +3,23 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 
-//TODO - Poner información
+/**
+*	11292 - Dragon of Loowater
+*
+*	Submission:	22556291
+*	Date:		2019-01-04 19:25:13
+*	Runtime:	0.140
+*	Ranking:	5952
+*/
 public class Main11292 {
 
+	/**
+	 * - Priority Queue
+	 * - Simulación
+	 * 
+	 * Un dragón tiene h cabezas de determinada altura y hay k caballeros de cierta altura
+	 * un caballero le puede cortar la cabeza al dragón sólo si es igual de grande que la cabeza
+	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
