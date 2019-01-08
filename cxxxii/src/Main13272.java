@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Stack;
 import java.util.stream.Collectors;
 
-public class Main {
+public class Main13272 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -27,11 +27,15 @@ public class Main {
 				List<Integer> positionsToEvaluate = positions.stream().filter(c -> c > zzz)
 						.collect(Collectors.toList());
 				Collections.reverse(positionsToEvaluate);
+				
+				if (positionsToEvaluate.size() > 1000) {
+					break;
+				}
 
 				int answer = 0;
 
 				for (int x : positionsToEvaluate) {
-					answer = evaluate(line.substring(i, x + 1));
+					answer = evaluate(array, i, x + 1);
 					if (answer > 0) {
 						break;
 					}
@@ -64,18 +68,20 @@ public class Main {
 		return listPositions;
 	}
 
-	private static int evaluate(String line) {
-		char[] cs = line.toCharArray();
+	private static int evaluate(char[] cs, int start, int end) {
+
 		Stack<Integer> stack = new Stack<Integer>();
 		boolean answer = true;
-		for (int x : cs) {
-			// System.out.println(x);
+		int x, y;
+		for (int xx = start; xx < end; xx++) {
+			x = cs[xx];
+
 			if (x == 40 || x == 91 || x == 123 || x == 60) {
 				stack.push(x);
 			} else {
 
 				if (stack.size() > 0) {
-					int y = stack.pop();
+					y = stack.pop();
 					if (x == 41 && y != 40) {// )
 						return 0;
 					} else if (x == 93 && y != 91) {
@@ -95,7 +101,7 @@ public class Main {
 			return 0;
 		}
 		if (answer) {
-			return (cs.length);
+			return end - start;
 		}
 
 		return 0;
