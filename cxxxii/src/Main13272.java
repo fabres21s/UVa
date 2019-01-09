@@ -1,11 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 import java.util.Stack;
-import java.util.stream.Collectors;
 
 public class Main13272 {
 
@@ -19,29 +15,9 @@ public class Main13272 {
 			line = br.readLine();
 			char array[] = line.toCharArray();
 			output.append(String.format("Case %d:\n", cc));
-			List<Integer> positions = findPositions(array);
-			for (int i = 0; i < array.length; i++) {
-
-				final int zzz = i;
-
-				List<Integer> positionsToEvaluate = positions.stream().filter(c -> c > zzz)
-						.collect(Collectors.toList());
-				Collections.reverse(positionsToEvaluate);
-				
-				if (positionsToEvaluate.size() > 1000) {
-					break;
-				}
-
-				int answer = 0;
-
-				for (int x : positionsToEvaluate) {
-					answer = evaluate(array, i, x + 1);
-					if (answer > 0) {
-						break;
-					}
-				}
-				output.append(String.format("%d\n", answer));
-
+			int sol[] = evaluate(array);
+			for (int x : sol) {
+				output.append(String.format("%d\n", x));
 			}
 
 		}
@@ -49,63 +25,53 @@ public class Main13272 {
 
 	}
 
-	private static List<Integer> findPositions(char[] cs) {
-		List<Integer> listPositions = new ArrayList<Integer>();
-
-		for (int x = 0; x < cs.length; x++) {
-
-			switch ((int) cs[x]) {
-			case 41:
-			case 93:
-			case 125:
-			case 62:
-				listPositions.add(x);
-				break;
-			}
-
-		}
-
-		return listPositions;
-	}
-
-	private static int evaluate(char[] cs, int start, int end) {
+	private static int[] evaluate(char[] cs) {
 
 		Stack<Integer> stack = new Stack<Integer>();
-		boolean answer = true;
-		int x, y;
-		for (int xx = start; xx < end; xx++) {
-			x = cs[xx];
+		Stack<Integer> stackPositions = new Stack<Integer>();
+		int[] positions = new int[cs.length];
+
+		int x, y, p;
+		for (int i = 0; i < cs.length; i++) {
+			x = cs[i];
 
 			if (x == 40 || x == 91 || x == 123 || x == 60) {
 				stack.push(x);
+				stackPositions.push(i);
 			} else {
 
 				if (stack.size() > 0) {
 					y = stack.pop();
-					if (x == 41 && y != 40) {// )
-						return 0;
-					} else if (x == 93 && y != 91) {
-						return 0;
-					} else if (x == 125 && y != 123) {
-						return 0;
-					} else if (x == 60 && y != 62) {
-						return 0;
+					p = stackPositions.pop();
+					if (x == 41 && y == 40) {
+						positions[p] = i - p + 1;
+					} else if (x == 93 && y == 91) {
+						positions[p] = i - p + 1;
+					} else if (x == 125 && y == 123) {
+						positions[p] = i - p + 1;
+					} else if (x == 62 && y == 60) {
+						positions[p] = i - p + 1;
 					}
-				} else {
-					return 0;
 				}
-
 			}
 		}
-		if (stack.size() > 0) {
-			return 0;
-		}
-		if (answer) {
-			return end - start;
-		}
+		for (int i = 0; i < positions.length; i++) {
 
+			if (positions[i] > 0) {
+				positions[i] += recursive(positions, positions[i] + i);
+			}
+		}
+		return positions;
+
+	}
+
+	private static int recursive(int[] positions, int position) {
+		if (position < positions.length) {
+			if (positions[position] > 0) {
+				return positions[position] + recursive(positions, positions[position] + position);
+			}
+		}
 		return 0;
-
 	}
 
 }
