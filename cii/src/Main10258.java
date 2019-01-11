@@ -11,9 +11,23 @@ import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
 
+/**
+*	10258 - Contest Scorboard
+*
+*	Submission:	22580755
+*	Date:		2019-01-08 18:34:00
+*	Runtime:	0.040
+*	Ranking:	4712
+*/
 public class Main10258 {
 
-	//TODO - Poner información
+	/**
+	 * - Simulación
+	 * - Sort
+	 * 
+	 *  Rankear equipos de acuerdo a la cantidad de ejercicios resueltos
+	 *  y a los envíos realizados
+	 */
 	public static void main(String[] arg) throws NumberFormatException, IOException {
 
 		Map<Integer, Team> map = new HashMap<Integer, Team>();

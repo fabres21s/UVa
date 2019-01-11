@@ -6,11 +6,24 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+*	10048 - Audiophobia
+*
+*	Submission:	22581084
+*	Date:		2019-01-08 20:14:14
+*	Runtime:	1.700
+*	Ranking:	5146
+*/
 public class Main10048 {
 
 	public static int MAX = Integer.MAX_VALUE;
 
-	//TODO - POner información - similar 544 y 10099
+	/**
+	 * -  Dijkstra
+	 * 
+	 * Similar a 544 y 10099
+	 * Encontrar la ruta para ir de A hasta B con el mínimo sonido (peso) entre los máximos pesos de las rutas 
+	 */
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

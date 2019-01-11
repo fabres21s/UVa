@@ -4,9 +4,21 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+*	1727 - Counting Weekend Days
+*
+*	Submission:	22579830
+*	Date:		2019-01-08 15:25:46
+*	Runtime:	0.060
+*	Ranking:	553
+*/
 public class Main1727 {
 
-	//TODO - Poner información
+	/**
+	 *  - Calendario
+	 *  
+	 *  Dados un mes y el primer día de la semana de ese mes, contar los viernes y sábados que tiene ese mes
+	 */
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		Map<String, Integer> mapMonthsDays = new HashMap<String, Integer>();
