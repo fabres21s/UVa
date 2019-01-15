@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//TODO - Poner información
 public class Main10044 {
 
 	/**
@@ -27,9 +28,9 @@ public class Main10044 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuffer output = new StringBuffer();
 
-
 		int publications, queries;
 		String line;
+
 
 		int testCases = Integer.parseInt(br.readLine());
 		for (int cases = 1; cases <= testCases; cases++) {
@@ -40,29 +41,46 @@ public class Main10044 {
 
 			Grafo10044 grafo = new Grafo10044();
 			grafo.init();
+			
+			
 			for (int x = 0; x < publications; x++) {
 				args = br.readLine().trim().split(":");
-				String names[] = args[0].split("\\.[,\\:]");
-
-				for (int i = 0; i < names.length - 1; i++) {
-					for (int j = i + 1; j < names.length; j++) {
-						grafo.addAdyacente(names[i].trim() + ".", names[j].trim() +  ((names[j].trim().endsWith(".")) ?"" : "."), 1);
+				String names[] = args[0].split(",");
+				List<String> paperSet = new ArrayList<String>();
+				for (int i = 0; i < names.length ; i += 2) {
+					if (i+1 >= names.length) {
+						paperSet.add(names[i].trim());
+					} else {
+						paperSet.add(names[i].trim() + ", " + names[i + 1].trim());
 					}
+
 				}
 
+				for (int i = 0; i < paperSet.size(); i++) {
+					for (int j = i+1; j< paperSet.size(); j++) {
+						grafo.addAdyacente(paperSet.get(i), paperSet.get(j), 1);
+					}
+				}
 			}
-			grafo.getNodo("Erdos, P.").setRecorrido(0);
-			grafo.solve(grafo.getNodo("Erdos, P."));
+			
+			
+			Nodo10044 erdos = grafo.getNodo("Erdos, P.");
+			if (erdos != null) {
+				erdos.setRecorrido(0);
+				grafo.solve(erdos);
+			}
+
+			
 			output.append(String.format("Scenario %d\n", cases));
 			for (int i = 0; i < queries; i++) {
 				line = br.readLine();
-				Nodo10044 nodo = grafo.getNodo(line);
-				
+				Nodo10044 nodo = grafo.getNodo(line.trim());
+
 				if (nodo == null) {
 					output.append(String.format("%s infinity\n", line));
 					continue;
 				}
-				
+
 				int erdosNumber = nodo.getRecorrido();
 
 				if (erdosNumber == Integer.MAX_VALUE) {
@@ -75,6 +93,7 @@ public class Main10044 {
 
 		}
 		System.out.print(output);
+	
 	}
 }
 
