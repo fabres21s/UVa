@@ -8,69 +8,42 @@ public class Main12356 {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int soldiers, loss;
-		int left, right, j,l,r, i;
-		
+		int left, right, i;
+		int[] LS = new int[1000100];
+		int[] RS = new int[1000100];
 		StringBuffer output = new StringBuffer();
 		while (true) {
 			args = br.readLine().split(" ");
 			soldiers = Integer.parseInt(args[0]);
 			loss = Integer.parseInt(args[1]);
-			
+
 			if (soldiers == 0 && soldiers == loss) {
 				break;
 			}
 
-			int [][] list = new int[soldiers +2][2];
-
 			
-			for ( i = 0; i <= soldiers +1 ; i++) {
-				list[i][0] = i;
+
+			for (i = 0; i <= soldiers + 1; i++) {
+				LS[i] = i - 1;
+				RS[i] = i + 1;
 			}
-			for ( i = 0; i < loss; i++) {
+			for (i = 0; i < loss; i++) {
 				args = br.readLine().split(" ");
 				left = Integer.parseInt(args[0]);
 				right = Integer.parseInt(args[1]);
-				
-				//int l = list.indexOf(left) - 1 , r = list.indexOf(right);
-//				for ( j = left; j <= right; j++) {
-//					list[j][0] = 0;
-//				}
-//				list
-//				
-//				 l = 0; r = soldiers + 1;
-//				for ( j = left -1; j > -1; j--) {
-//					if (list[j] > 0) {
-//						l = j;
-//						break;
-//					}
-//				}
-//				
-//				for ( j = right ; j <= soldiers; j++) {
-//					if (list[j] > 0) {
-//						r = j;
-//						break;
-//					}
-//				}
-				
-				//r -=  right - left;
-				
-				
-				
-				
-//				if (l == 0) {
-//					output.append("*");
-//				} else {
-//					output.append(l);
-//				}
-//				
-//				
-//				if (r > soldiers) {
-//					output.append(" *\n");
-//				} else {
-//					output.append(" "+r+"\n");
-//				}
-					
-				
+
+				if (LS[left] < 1)
+					output.append("* ");
+				else
+					output.append(String.format("%d ", LS[left]));
+				if (RS[right] > soldiers)
+					output.append("*\n");
+				else
+					output.append(String.format("%d\n", RS[right]));
+
+				LS[RS[right]] = LS[left];
+				RS[LS[left]] = RS[right];
+
 			}
 			output.append("-\n");
 		}
