@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
-*	537 - Artificial Intellegence?
+*	537 - Artificial Intelligence?
 *
 *
 *	Submission:	22562897

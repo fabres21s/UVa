@@ -20,6 +20,7 @@ public class Main10098 {
 
 	/**
 	 * - Cadena de caracteres 
+	 * - Recursividad
 	 * 
 	 * Imprimir las permutaciones de una palabra en orden alfabético
 	 */

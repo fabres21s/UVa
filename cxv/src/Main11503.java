@@ -5,8 +5,24 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+*	11503 - Virtual Friends
+*
+*
+*	Submission:	22564961
+*	Date:		2019-01-06 13:30:11
+*	Runtime:	1.460
+*	Ranking:	2488
+*/
 public class Main11503 {
 
+	/**
+	 * - Grafos
+	 * - Disjoin Sets
+	 * - Recursividad
+	 * 
+	 *  Encontrar la cantidad de nodos conectados a un nodo dado
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

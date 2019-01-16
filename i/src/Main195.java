@@ -21,6 +21,7 @@ public class Main195 {
 
 	/**
 	 * - Cadena de caracteres
+	 * - Recursividad
 	 * 
 	 *  Calcular las permutaciones en una palabra, teniendo en cuenta
 	 *  que el orden está dado por AaBbCc...
