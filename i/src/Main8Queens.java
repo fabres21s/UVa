@@ -34,7 +34,7 @@ public class Main8Queens {
 						//print(chessboard);
 						System.out.println("{");
 						for (Point point : stackPoint) {
-							System.out.print("{"+(int)point.getX() + "," + (int)point.getY()+"},");
+							System.out.print("{"+((int)point.getX() + 1)+ "," + ((int)point.getY()+1)+"},");
 						}
 						System.out.println();
 						System.out.println("},");
