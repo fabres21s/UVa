@@ -21,8 +21,6 @@ public class Main12356 {
 				break;
 			}
 
-			
-
 			for (i = 0; i <= soldiers + 1; i++) {
 				LS[i] = i - 1;
 				RS[i] = i + 1;
