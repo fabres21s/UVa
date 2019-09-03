@@ -1,189 +1,58 @@
-import java.awt.Point;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-	static int N = 3;
-	static int ORDER = 9;
-	static int[][][] sudoku = new int[ORDER][ORDER][ORDER + 1];
 
+	// 116
 	public static void main(String[] args) {
-
 		Scanner input = new Scanner(System.in);
-		for (int i = 0; i < ORDER; i++) {
-			for (int j = 0; j < ORDER; j++) {
-				sudoku[i][j][0] = input.nextInt();
-			}
-		}
+		int rows, columns;
+		while (input.hasNext()) {
+			rows = input.nextInt();
+			columns = input.nextInt();
 
-		barrido();
-		print();
-	}
+			int array[][] = new int[rows][columns];
 
-	private static void barrido() {
-
-		for (int i = 0; i < ORDER; i++) {
-			for (int j = 0; j < ORDER; j++) {
-				int value = sudoku[i][j][0];
-				if (value != 0) {
-
-					// barido filas y columnas
-					for (int x = 0; x < ORDER; x++) {
-						sudoku[i][x][value] = value;
-						sudoku[x][j][value] = value;
-
-					}
-
-					// barrido celdas
-					// 0,1,2 -> 0 # 3,4,5 -> 3 # 6,7,8 -> 6
-					int startCellRow = (i / N) * N;
-					int startCellColumn = (j / N) * N;
-					for (int p = startCellRow; p < startCellRow + N; p++) {
-						for (int q = startCellColumn; q < startCellColumn + N; q++) {
-							sudoku[p][q][value] = value;
-						}
-					}
-
-					// sdas
-					for (int p = 1; p < ORDER + 1; p++) {
-						sudoku[i][j][p] = p;
-						// sudoku[x][j][p] = p;
-					}
+			for (int i = 0; i < rows; i++) {
+				for (int j = 0; j < columns; j++) {
+					array[i][j] = input.nextInt();
 				}
 			}
-		}
 
-		for (int i = 0; i < ORDER; i++) {
-			for (int j = 0; j < ORDER; j++) {
-				if (sudoku[i][j][0] == 0) {
-					int count = 0;
-					int value = -1;
-					for (int k = 1; k < ORDER + 1; k++) {
-						if (sudoku[i][j][k] == 0) {
-							count++;
-							value = k;
-						}
-					}
-					if (count == 1) {
-						sudoku[i][j][0] = value;
-						System.out.println("Barrido -- Se puso el valor " + value + " en la posicion " + (i) + "," + j);
-						barrido();
-					}
-				}
-
-			}
-		}
-
-		checkCells();
-
-		checkRows();
-		checkColumns();
-
-	}
-
-	private static void checkColumns() {
-		Map<Integer, Point> map = new HashMap<Integer, Point>();
-		for (int i = 0; i < ORDER; i++) {
-			int array[] = new int[ORDER + 1];
-			for (int j = 0; j < ORDER; j++) {
-				for (int k = 1; k < ORDER + 1; k++) {
-					if (sudoku[j][i][k] == 0) {
-						array[k]++;
-						map.put(k, new Point(i, j));
-					}
-				}
-			}
-			for (int z = 1; z < ORDER + 1; z++) {
-				if (array[z] == 1) {
-					Point point = map.get(z);
-					sudoku[(int) point.getY()][(int) point.getX()][0] = z;
-					System.out.println("Check Columns -- Se puso el valor " + z + " en la posicion " + (point.getY())
-							+ "," + point.getX());
-					barrido();
-				}
-			}
+			solve(array);
 
 		}
 
 	}
 
-	private static void checkRows() {
-		Map<Integer, Point> map = new HashMap<Integer, Point>();
-		for (int i = 0; i < ORDER; i++) {
-			int array[] = new int[ORDER + 1];
-			for (int j = 0; j < ORDER; j++) {
-				for (int k = 1; k < ORDER + 1; k++) {
-					if (sudoku[i][j][k] == 0) {
-						array[k]++;
-						map.put(k, new Point(i, j));
-					}
-				}
-			}
-			for (int z = 1; z < ORDER + 1; z++) {
-				if (array[z] == 1) {
-					Point point = map.get(z);
-					sudoku[(int) point.getX()][(int) point.getY()][0] = z;
-					System.out.println("Check Rows -- Se puso el valor " + z + " en la posicion " + (point.getX()) + ","
-							+ point.getY());
-					barrido();
-				}
-			}
+	private static void solve(int[][] array) {
 
+		int n = array[0].length;
+		int m = array.length;
+
+		int minors[][] = new int[m][n];
+		for (int x = 0; x < m; x++) {
+			minors[x][0] = array[x][0];
 		}
-	}
 
-	private static void print() {
-		for (int i = 0; i < ORDER; i += N) {
-			for (int j = 0; j < ORDER; j += N) {
-
-				for (int x = i; x < i + N; x++) {
-					for (int y = j; y < j + N; y++) {
-
-						System.out.println(Arrays.toString(sudoku[x][y]));
-					}
-					System.out.println("\n");
-				}
+		for (int j = 1; j < n; j++) {
+			for (int i = 0; i < m; i++) {
+				minors[i][j] = array[i][j]
+						+ min3(minors[(i + m - 1) % m][j - 1], minors[i][j - 1], minors[(i + 1) % m][j - 1]);
 			}
-			System.out.println("\n");
+			
 		}
+		int min = minors[0][n - 1];
+		for (int i = 1; i < m; i++) {
+			min = Math.min(min, minors[i][n - 1]);
+		}
+		System.out.println(min);
 
 	}
 
-	private static void checkCells() {
-		Map<Integer, Point> map = new HashMap<Integer, Point>();
-		for (int i = 0; i < ORDER; i += N) {
-			for (int j = 0; j < ORDER; j += N) {
-
-				int array[] = new int[ORDER + 1];
-				for (int x = i; x < i + N; x++) {
-					for (int y = j; y < j + N; y++) {
-						for (int k = 1; k < ORDER + 1; k++) {
-							if (sudoku[x][y][k] == 0) {
-								array[k]++;
-
-								if (array[k] == 1) {
-									map.put(k, new Point(x, y));
-								}
-							}
-						}
-						// System.out.println(Arrays.toString(sudoku[x][y]));
-					}
-				}
-				for (int z = 1; z < ORDER + 1; z++) {
-					if (array[z] == 1) {
-						Point point = map.get(z);
-						sudoku[(int) point.getX()][(int) point.getY()][0] = z;
-						System.out.println("Check Cells -- Se puso el valor " + z + " en la posicion " + (point.getX())
-								+ "," + point.getY());
-						barrido();
-					}
-				}
-
-			}
-		}
-
+	private static int min3(int i, int j, int k) {
+		return Math.min(i, Math.min(j, k));
 	}
 
 }
