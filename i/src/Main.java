@@ -40,7 +40,7 @@ public class Main {
 		int minors[][][] = new int[m][n][3];
 		for (int x = 0; x < m; x++) {
 			minors[x][0][0] = array[x][0];
-			minors[x][0][1] = x +1 ;
+			minors[x][0][1] = x + 1;
 		}
 
 		for (int j = 1; j < n; j++) {
@@ -51,7 +51,7 @@ public class Main {
 						minors[(i + 1) % m][j - 1][0],
 
 						(i + m - 1) % m, i, (i + 1) % m);
-				
+
 				minors[i][j][0] = array[i][j] + item.getValue();
 
 				minors[i][j][1] = item.getPosition();
@@ -60,34 +60,44 @@ public class Main {
 
 		}
 
-		//la matriz está bien armada, pero toca buscar todas las posibles soluciones
+		// la matriz está bien armada, pero toca buscar todas las posibles soluciones
 		int pos = 0;
-		int min = minors[0][n - 1][0];
-		
+		int min = Integer.MAX_VALUE;
+
 		PriorityQueue<Item> listMenores = new PriorityQueue<>();
-		for (int i = 1; i < m; i++) {
+		for (int i = 0; i < m; i++) {
 			if (minors[i][n - 1][0] <= min) {
 				min = minors[i][n - 1][0];
 				pos = i;
-				minors[0][n - 1][2] = pos;
+				listMenores.add(new Item(min, pos));
+
 			}
 		}
 
-		
-		
-		for (int i = n - 1; i > -1; i--) {
-			minors[0][i][2] = pos;
-			pos = minors[pos][i][1];
+		Item item = listMenores.peek();
 
-		}
+		while (!listMenores.isEmpty() && min == item.getValue()) {
 
-		for (int i = 0; i < n; i++) {
-			output.append((minors[0][i][2] + 1));
-			if (i < (n - 1)) {
-				output.append(" ");
+			item = listMenores.poll();
+			pos = item.getPosition();
+			for (int i = n - 1; i > -1; i--) {
+				minors[0][i][2] = pos;
+				pos = minors[pos][i][1];
+
 			}
+
+			for (int i = 0; i < n; i++) {
+				output.append((minors[0][i][2] + 1));
+				if (i < (n - 1)) {
+					output.append(" ");
+				}
+			}
+
+			output.append("\n");
+
+			item = listMenores.peek();
 		}
-		output.append("\n");
+
 		output.append(min);
 		output.append("\n");
 
@@ -140,6 +150,9 @@ class Item implements Comparable<Item> {
 }
 /*
  * 
- * 3 3 8 5 2 3 4 7 1 6 9
+ * 9 1 9 9 1 9 9 9 9 9 9 9 1 1 1 1 9 9 1 9
+ * 
+ * 
+ * Rta/ 2154
  * 
  */
