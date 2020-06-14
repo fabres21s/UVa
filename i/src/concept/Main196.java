@@ -3,7 +3,7 @@ import java.awt.Point;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class Main8Queens {
+public class Main196 {
 
 	int [][][]solutions = {
 			{

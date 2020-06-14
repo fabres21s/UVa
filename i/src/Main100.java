@@ -1,33 +1,23 @@
 import java.util.Scanner;
 
-/**
- * 
- * @author fabio
- * 100 - The 3n+1 Problem
- * 
- *  - Proceso matemï¿½tico
- * 	Si n es par, dividirlo entre dos, si no multiplicarlo por 3 y sumarle uno
- *	Hallar el nï¿½mero al cual hay que hacerle mï¿½s veces ese proceso en un rango dado
- *	
- * Submit:	 2011-04-02 13:17:00
- * Runtime:	 1.036
- * Ranking:  46212
- *
- */
 
 /**
-*	101 - The Blocks Problem
+*	100 - The 3n + 1 Problem
 *
 *
 *	Submission:	9281686
 *	Date:		2011-09-20 16:46:08
-*	Runtime:	0.304
-*	Ranking:	11723
+*	Runtime:	1.036
+*	Ranking:	66171
 */
 public class Main100 {
 
 	/**
-	 * - Proceso matemï¿½tico
+	 *  - Proceso matemático
+	 * 	Si n es par, dividirlo entre dos, si no multiplicarlo por 3 y sumarle uno
+	 *	Hallar el número al cual hay que hacerle más veces ese proceso en un rango dado
+	 *	
+	 *
 	 */
 	public static void main(String[] args) {
 		int a, b;
