@@ -16,9 +16,7 @@ import java.util.LinkedList;
 */
 public class Main146 {
 
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
 				System.in));

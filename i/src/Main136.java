@@ -11,7 +11,7 @@ public class Main136 {
 
 	/**
 	 * - Pregenerados
-	 * - Proceso matem�tico
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		/*

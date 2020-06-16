@@ -17,10 +17,9 @@ public class Main102 {
 	static String res;
 
 	/**
-	 * - Simulaci�n
-	 * - Proceso matem�tico
+	 * - Simulación
 	 * 
-	 * M�nimos movimientos necesarios para
+	 * Mínimos movimientos necesarios para
 	 * intercambiar botellas de tres colores Brown, Clear y Gray
 	 * en tres cajas diferentes.
 	 * Inicialmente en desorden

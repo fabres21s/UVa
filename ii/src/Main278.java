@@ -11,9 +11,8 @@ import java.util.Scanner;
 *	Ranking:	3343
 */
 public class Main278 {
-	/**
-	 * TODO Asignar Categoría!!!
-	 */
+	
+	//TODO - Asignar categorÃ­a
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int casos = input.nextInt(), m, n, d, x;

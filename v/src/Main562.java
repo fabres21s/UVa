@@ -14,9 +14,9 @@ import java.util.Set;
 public class Main562 {
 
 	/**
-	 * - Proceso matem�tico
+	 * - Proceso matemático
 	 * 
-	 * Hallar la m�nima diferencia posible entre un grupo de monedas a ser
+	 * Hallar la mínima diferencia posible entre un grupo de monedas a ser
 	 * repartidas entre dos personas
 	 */
 

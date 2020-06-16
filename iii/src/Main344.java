@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main344 {
 
 	/**
-	 * - N�meros Romanos
+	 * - Números Romanos
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

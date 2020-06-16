@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Main414 {
 
 	/**
-	 * - Simulaci�n
+	 * - Simulación
 	 * - Arreglos
 	 * 
-	 * Determinar cuantos espacios en blanco hay, y cuantos pueden ser eliminados
+	 * Determinar cuántos espacios en blanco hay, y cuántos pueden ser eliminados
 	 * teniendo en cuenta que solo se pueden eliminar la menor cantidad de espacios blancos en todas las filas
 	 */
 	public static void main(String[] args) {

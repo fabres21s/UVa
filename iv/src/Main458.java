@@ -15,7 +15,7 @@ import java.io.IOException;
 public class Main458 {
 	
 	/**
-	 * - Reemplazo de caracteres
+	 * - Cadena de caracteres
 	 * 
 	 * Reemplazar un caracter por su ASCII - 7
 	 */

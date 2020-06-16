@@ -14,10 +14,10 @@ import java.util.StringTokenizer;
 */
 public class Main111 {
 
-	/*
+	/**
 	 * - Arreglos
 	 * 
-	 * Encontrar la calificaci�n de un estudiante dado un orden cronol�gico de sucesos
+	 * Encontrar la calificación de un estudiante dado un orden cronológico de sucesos
 	 * y la respuesta que da el estudiante.
 	 * Un poco enredado
 	 */
@@ -48,7 +48,6 @@ public class Main111 {
 
 	}
 
-	//probar este m�todo de sfmunera con enteros, proque no tengo ni idea
 	static int lis(int[] s, int[] rank) {
 		int N = s.length;
 		int[] dp = new int[N];

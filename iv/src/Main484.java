@@ -12,9 +12,7 @@ import java.util.Scanner;
 */
 public class Main484 {
 
-	/**
-	 * TODO Asignar Categoría!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main(String[] args)
 	{
 		int MAX=1000002;

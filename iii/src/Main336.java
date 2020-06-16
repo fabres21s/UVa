@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class Main336 {
 
 	/**
-	 * - B�squeda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Grafos dirigidos
 	 * - Queue
 	 * 

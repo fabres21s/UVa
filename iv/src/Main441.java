@@ -14,7 +14,7 @@ public class Main441 {
 	/**
 	 * - Arreglos
 	 * 
-	 * Encontrara forma de imprimir n n�meros diferentes, en grupos de 6
+	 * Encontrara forma de imprimir n números diferentes, en grupos de 6
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

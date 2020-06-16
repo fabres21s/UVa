@@ -17,7 +17,7 @@ public class Main673 {
 	/**
 	 * - Stack
 	 * 
-	 * Verificar si una cadena de ()[] est� bien conformada, si abre 
+	 * Verificar si una cadena de ()[] está bien conformada, si abre 
 	 * y cierran correctamente todos los caracteres
 	 */
 	public static void main(String[] args) throws NumberFormatException,

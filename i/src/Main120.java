@@ -11,9 +11,8 @@ import java.util.*;
 *	Ranking:	8091
 */
 public class Main120 {
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	
+	//TODO - Asignar categoría
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		String s;

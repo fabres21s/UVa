@@ -12,9 +12,7 @@ import java.util.Vector;
 */
 public class Main476 {
 
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main(String[] args) 
 	{
 		double x,y,p1,p2,p3,p4;

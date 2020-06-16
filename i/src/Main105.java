@@ -21,8 +21,11 @@ import java.util.Scanner;
 public class Main105 {
 
 	/**
-	 * - Simulaci�n
+	 * - Simulación
 	 * - Arreglos
+	 * 
+	 * Analizar las alturas máximas de cada edificio
+	 * Recibí un poco de ayuda
 	 */
 	public static void main(String[] args) {
 
@@ -59,7 +62,3 @@ public class Main105 {
 
 }
 
-/*
- * 
- * 1 11 5 2 6 7 3 13 9 12 7 16 14 3 25 19 18 22 23 13 29 24 4 28
- */

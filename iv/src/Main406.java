@@ -10,6 +10,8 @@ import java.util.StringTokenizer;
 *	Runtime:	1.280
 *	Ranking:	6288
 */
+
+//TODO - Asignar categoría
 class Main406 
 {
 	// Rotina de Leitura
@@ -38,9 +40,6 @@ class Main406
 		return (buffer.toString().trim());
 	}
 	
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
 	public static void main(String[] args) 
 	{
 		(new Main406()).begin();

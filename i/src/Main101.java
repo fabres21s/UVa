@@ -17,9 +17,7 @@ public class Main101 {
 	static Stack<Integer>[] blocks;
 	static int[] pos;
 
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
 		Main101 p = new Main101();

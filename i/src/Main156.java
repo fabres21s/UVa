@@ -17,7 +17,6 @@ public class Main156 {
 	/**
 	 * - Cadena de caracteres
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		String p;

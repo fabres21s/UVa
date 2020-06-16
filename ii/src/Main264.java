@@ -12,7 +12,7 @@ import java.util.Scanner;
 */
 public class Main264 {
 	/**
-	 * - Sumatoria de números
+	 * - Sumatoria de nÃºmeros
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main443 {
 	/**
 	 * - Pregenerados
-	 * - Proceso matem�tico
+	 * - Proceso matemático
 	 */
 public static void main(String[] args)
 	{

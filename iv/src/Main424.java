@@ -36,9 +36,7 @@ class Main424
 	    return (buffer.toString()).trim();
 	}
 	
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main(String args[]) // entry point from OS
 	{
 		Main424 myWork = new Main424(); // create a dinamic instance

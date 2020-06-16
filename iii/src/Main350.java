@@ -14,7 +14,7 @@ public class Main350 {
 	static int[] arreglo;
 
 	/**
-	 * - Proceso matem�tico
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

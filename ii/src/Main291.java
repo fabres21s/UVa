@@ -12,9 +12,7 @@ public class Main291 {
 	static int V[][] = new int[7][7];
 	static int[] B = new int[10];
 
-	/**
-	 * TODO Asignar Categoría!!!
-	 */
+	//TODO - Asignar categorÃ­a
 	public static void main(String[] args) {
 		makelink();
 		cal(1, 0);

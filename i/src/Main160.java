@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Main160 {
 	/**
 	 * - Factorial
-	 * - N�meros Primos
-	 * - Proceso matem�tico
+	 * - Números Primos
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		int[][] numeros = new int[101][101];

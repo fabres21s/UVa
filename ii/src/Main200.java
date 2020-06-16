@@ -26,7 +26,6 @@ public class Main200 {
 	 * - Recursividad
 	 * 
 	 * Encontrar el orden en un alfabeto "extraño"
-	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
 

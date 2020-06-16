@@ -13,9 +13,7 @@ public class Main130 {
 	static int[] queue;;
 	static int n, k;
 
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext()) {

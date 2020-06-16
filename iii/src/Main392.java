@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-/*
- * Armar un polinomio de acuerdo a ciertas reglas
- * negativos, ceros, exponentes...
- */
 /**
 *	392 - Polynomial Showdown
 *
@@ -16,7 +12,10 @@ import java.util.Scanner;
 public class Main392 {
 
 	/**
-	 * - Proceso matem�tico
+	 * - Proceso matemático
+	 * 
+	 * Armar un polinomio de acuerdo a ciertas reglas
+	 * negativos, ceros, exponentes...
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

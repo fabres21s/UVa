@@ -12,7 +12,6 @@ import java.io.InputStreamReader;
 */
 public class Main524 {
 
-	//https://saicheems.wordpress.com/2013/08/09/uva-524-prime-ring-problem/
 	static int n, T = 0;
 	static int circle[] = new int[20];
 	static boolean used[] = new boolean[20];
@@ -24,6 +23,8 @@ public class Main524 {
 	 * 
 	 * De los números del 1 al 16, ponerlos en un aro en el que 
 	 * la suma de los números adyacentes sean primos 
+	 * 
+	 * Sacado de //https://saicheems.wordpress.com/2013/08/09/uva-524-prime-ring-problem/
 	 * 
 	 */
 	public static void main(String[] args) throws IOException {

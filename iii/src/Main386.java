@@ -11,7 +11,7 @@
 public class Main386 {
 
 	/**
-	 * - Proceso matem�tico
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) 
 	{

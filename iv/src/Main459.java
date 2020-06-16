@@ -19,7 +19,7 @@ public class Main459 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - B�squeda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Queue
 	 */
 	public static void main(String[] args) throws IOException {

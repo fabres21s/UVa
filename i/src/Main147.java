@@ -14,9 +14,7 @@ public class Main147 {
 	static long[] ss = new long[MAX + 2];
 	static int D[] = { 10000, 5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5 };
 
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		double x;

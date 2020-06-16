@@ -36,9 +36,7 @@ class Main445
     	return (buffer.toString().trim());
     }
 
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+    //TODO - Asignar categoría
     public static void main(String[] args) 
     {
     	String input = readLn();

@@ -14,7 +14,7 @@ public class Main371
 	static int mayor=0;
 
 	/**
-	 * - Proceso matem�tico
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) 
 	{

@@ -12,9 +12,7 @@ import java.util.Scanner;
 public class Main151 {
 	static boolean k[] = new boolean[100];
 
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main(String[] args) {
 		int N, count;
 

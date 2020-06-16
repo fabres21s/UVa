@@ -1,9 +1,3 @@
-/*
- *   Fabio Andr�s Sierra Jaraba
- *   Pi
- *   UVa:  412
- *    
- */
 /**
 *	412 - Pi
 *
@@ -13,6 +7,8 @@
 *	Runtime:	0.704
 *	Ranking:	3498
 */
+
+//TODO - Asignar categoría
 class Main412 
 {
 	// Rotina de Leitura
@@ -41,9 +37,6 @@ class Main412
 		return (buffer.toString().trim());
 	}
 
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
 	public static void main(String[] args) 
 	{
 		try 

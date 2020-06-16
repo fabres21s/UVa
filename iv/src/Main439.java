@@ -30,9 +30,7 @@ class Main439
 		}
     }
 	
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main( String args[] ) 
 	{
 		//Inicializa os vertices do grafo

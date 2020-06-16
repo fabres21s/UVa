@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main272 {
 
 	/**
-	 * - Reemplazo de caracteres
+	 * - Cadena de caracteres
 	 * 
 	 * Reemplazar la primer comilla por `` y la segunda por ''
 	 */

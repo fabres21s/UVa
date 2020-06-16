@@ -13,9 +13,7 @@ public class Main106 {
 	static int n, total;
 	static int[] ss = new int[1000002];
 
-	/**
-	 * TODO Asignar Categor�a!!!
-	 */
+	//TODO - Asignar categoría
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext()) {

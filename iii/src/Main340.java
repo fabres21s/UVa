@@ -18,9 +18,6 @@ public class Main340 {
 	 * 
 	 * Encontrar las coincidencias entre 2 arreglos, primero por posición y luego por valor
 	 * 
-	 * @param args
-	 * @throws NumberFormatException
-	 * @throws IOException
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 

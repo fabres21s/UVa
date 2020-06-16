@@ -16,7 +16,6 @@ public class Main644 {
 	/**
 	 * - Cadena de caracteres
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

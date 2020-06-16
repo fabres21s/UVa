@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
-*	167 - The Sultan’s Successors
+*	167 - The Sultan's Successors
 *
 *	Submission:	22532302
 *	Date:		2018-12-31 19:06:42

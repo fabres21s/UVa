@@ -14,7 +14,7 @@ public class Main686 {
 
 	/**
 	 * - Pregenerados
-	 * - N�meros Primos
+	 * - Números Primos
 	 */
 	public static void main(String[] args) {
 		generar();

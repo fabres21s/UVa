@@ -18,7 +18,7 @@ public class Main300 {
 			"ix", "mem", "cib", "caban", "eznab", "canac", "ahau" };
 
 	/**
-	 * - Proceso matem�tico
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
