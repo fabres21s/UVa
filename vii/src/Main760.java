@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //TODO - Terminar 760
-public class Main {
+public class Main760 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
