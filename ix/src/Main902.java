@@ -3,15 +3,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 /**
- * 902 - Password Search Cadena de caracteres Dado n y una cadena, encontrar el
- * substring de tamaÃ±o n que mï¿½s veces se repite
- * 
- * @author fabio
- *
- *
- */
-
-/**
 *	902 - Password Search
 *
 *
@@ -24,8 +15,10 @@ public class Main902 {
 
 	/**
 	 * - Cadena de caracteres
+	 * 
+	 *  Dado n y una cadena, encontrar el
+	 * substring de tamaño n que más veces se repite
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);

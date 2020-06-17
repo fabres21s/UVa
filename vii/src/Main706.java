@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main706 {
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Arreglos
 	 */
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);

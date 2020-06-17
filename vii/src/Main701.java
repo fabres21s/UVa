@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main701 {
 
 	/**
-	 * TODO Asignar Categor�a!!!
+	 * - Logaritmos
 	 */
 	public static void main(String[] args) {
 		int n, e, k;

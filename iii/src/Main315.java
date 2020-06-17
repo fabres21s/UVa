@@ -4,10 +4,23 @@ import java.io.InputStreamReader;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-//TODO - Poner información
+
+/**
+*	315 - Network
+*
+*
+*	Submission:	22627914
+*	Date:		2019-01-17 20:59:12
+*	Runtime:	0.130
+*	Ranking:	4977
+*/
 //Sacado de https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/
+
 public class Main315 {
 
+	/**
+	 * - Grafos
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int points, centralPoint;

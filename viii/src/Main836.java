@@ -2,9 +2,20 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	836 - Largest Submatrix
+*
+*
+*	Submission:	22615924
+*	Date:		2019-01-15 18:32:50
+*	Runtime:	0.050
+*	Ranking:	3321
+*/
 public class Main836 {
 
-	//TODO - Poner información
+	/**
+	 * - Arreglos
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

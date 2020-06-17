@@ -8,10 +8,23 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
+/**
+*	793 - Network Connections
+*
+*
+*	Submission:	22632842
+*	Date:		2019-01-18 18:45:39
+*	Runtime:	0.780
+*	Ranking:	6077
+*/
 public class Main793 {
 
-	//TODO - Poner información
-	//Como el 336 - pero también pueden ser usados disjoin sets
+	// pueden ser usados disjoin sets
+	/**
+	 * - B�squeda en profundidad
+	 * - Grafos dirigidos
+	 * - Queue
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -129,12 +142,6 @@ class Grafo {
 
 		return false;
 	}
-
-	/*
-	 * 16 10 15 15 20 20 25 10 30 30 47 47 50 25 45 45 65 15 35 35 55 20 40 50 55 35
-	 * 40 55 60 40 60 60 65 14 1 2 2 7 1 3 3 4 3 5 5 10 5 11 4 6 7 6 7 8 7 9 8 9 8 6
-	 * 6 11
-	 */
 
 	public void clear() {
 		for (Nodo nodo : nodos) {

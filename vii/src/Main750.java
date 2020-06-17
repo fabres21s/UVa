@@ -2,9 +2,17 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	748 - 8 Queens Chess Problem
+*
+*
+*	Submission:	22633177
+*	Date:		2019-01-18 21:58:41
+*	Runtime:	0.070
+*	Ranking:	4736
+*/
 public class Main750 {
 
-	//TODO - Poner información
 	static int[][][] solutions = { 
 			{ { 1, 1 }, { 2, 5 }, { 3, 8 }, { 4, 6 }, { 5, 3 }, { 6, 7 }, { 7, 2 }, { 8, 4 }, },
 			{ { 1, 1 }, { 2, 6 }, { 3, 8 }, { 4, 3 }, { 5, 7 }, { 6, 4 }, { 7, 2 }, { 8, 5 }, },
@@ -106,7 +114,7 @@ public class Main750 {
 	/**
 	 * - Ajedrez - Pregenerados
 	 * 
-	 * Problema de las 8 damas Encontrar la suma máxima de las posiciones en un
+	 * Problema de las 8 damas Encontrar la suma m�xima de las posiciones en un
 	 * tablero en donde las damas no se amenazan
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {

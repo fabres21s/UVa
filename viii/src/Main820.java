@@ -25,7 +25,7 @@ public class Main820 {
 	 * - Edmond's Karp
 	 * 
 	 * Hallar el flujo máximo en un grafo bidireccional, flujo entendido como la sumatoria del menor valor de los 
-	 * pesos de cada una de las aristas aristas en cada uno de los caminos del grafo 
+	 * pesos de cada una de las aristas en cada uno de los caminos del grafo 
 	 */
 
 	public static void main(String[] args) throws NumberFormatException, IOException {

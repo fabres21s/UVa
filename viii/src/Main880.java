@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main880 {
 
 	/**
-	 * - Sumatoria de n�meros
+	 * - Sumatoria de números
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

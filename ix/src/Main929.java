@@ -21,8 +21,8 @@ public class Main929 {
 	 * - Priority Queue
 	 * 
 	 * Dado un arreglo (grafo) siendo los pesos el valor que hay
-	 * en cada posici�n del areglo, encontrar la ruta m�s corta para ir de la
-	 * posici�n 0,0 a la m-1,n-1
+	 * en cada posición del areglo, encontrar la ruta más corta para ir de la
+	 * posición 0,0 a la m-1,n-1
 	 */
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
