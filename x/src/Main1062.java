@@ -12,7 +12,7 @@ import java.util.Stack;
 *	Submision:	18248590
 *	Date:		2016-10-24 15:57:30
 *	Runtime:	0.050
-*	Ranking:	966
+*	Ranking:	2000 / 2355
 */
 public class Main1062 {
 

@@ -8,13 +8,14 @@ import java.io.InputStreamReader;
 *	Submission:	20214626
 *	Date:		2017-10-21 00:37:37
 *	Runtime:	0.080
-*	Ranking:	642
+*	Ranking:	934 / 1932
 */
 public class Main1213 {
 
 	/**
 	 * - Números primos
 	 * - Programación Dinámica
+	 * - Pregenerados
 	 * 
 	 * Encontrar de cuántas formas posibles un número n puede ser representado como la suma
 	 * de k primos

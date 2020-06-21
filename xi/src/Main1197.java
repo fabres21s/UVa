@@ -11,16 +11,16 @@ import java.util.Scanner;
 *	Submission:	17196971
 *	Date:		2016-04-13 17:26:45
 *	Runtime:	0.250
-*	Ranking:	609
+*	Ranking:	1548 / 1796
 */
 public class Main1197 {
 
 	/**
 	 * - Grafos bidireccionales
-	 * - B�squeda en profundidad
+	 * - Búsqueda en profundidad
 	 * - Queue
 	 * 
-	 * Encontrar cuantos nodos est�n conectados al nodo 0
+	 * Encontrar cuantos nodos están conectados al nodo 0
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

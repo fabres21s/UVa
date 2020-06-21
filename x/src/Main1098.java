@@ -11,7 +11,7 @@ import java.util.Queue;
 *	Submission:	21302083
 *	Date:		2018-05-12 11:52:11
 *	Runtime:	1.610
-*	Ranking:	94
+*	Ranking:	121 / 292
 */
 public class Main1098 {
 	static int FILAS = 0;

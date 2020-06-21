@@ -8,14 +8,15 @@ import java.io.InputStreamReader;
 *	Submission:	19844660
 *	Date:		2017-08-12 20:10:52
 *	Runtime:	0.140
-*	Ranking:	1102
+*	Ranking:	1627 / 1826
 */
 public class Main1121 {
 
 	/**
 	 * - Arreglos
 	 * 
-	 *  Encontrar la mínima cantidad de números seguidos que la sumatoria sea igual o mayor a un número dado, parece como Programación Dinámica
+	 *  Encontrar la mínima cantidad de números seguidos que la sumatoria sea igual o mayor a un número dado, 
+	 *  parece como Programación Dinámica
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

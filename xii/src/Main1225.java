@@ -8,12 +8,12 @@ import java.util.Scanner;
 *	Submission:	12370734
 *	Date:		2013-09-19 19:08:51
 *	Runtime:	0.182
-*	Ranking:	4587
+*	Ranking:	10221 / 10686
 */
 public class Main1225 {
 	/**
 	 * - Recursividad
-	 * - Proceso matem�tico
+	 * - Proceso matemático
 	 * 
 	 * Encontrar cuantos
 	 * 0, 1, 2 , 3,4,5,6,7,8,9 hay hasta n

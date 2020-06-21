@@ -7,16 +7,16 @@ import java.util.Scanner;
 *	Submission:	16983395
 *	Date:		2016-03-09 17:45:33
 *	Runtime:	0.076
-*	Ranking:	852
+*	Ranking:	1510 / 1872
 */
 public class Main1210 {
 
 	/**
 	 * - Pregenerados
-	 * - N�meros Primos
+	 * - Números Primos
 	 * 
-	 * Hallar la cantidad de maneras que un n�mero puede ser generado a partir de 
-	 * la suma de 2 o m�s n�meros primos consecutivos
+	 * Hallar la cantidad de maneras que un número puede ser generado a partir de 
+	 * la suma de 2 o más números primos consecutivos
 	 */
 	public static int[] arregloSol = new int[10005];
 

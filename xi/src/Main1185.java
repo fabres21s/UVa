@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	Submission:	17017840
 *	Date:		2016-03-14 21:31:57
 *	Runtime:	0.262
-*	Ranking:	153
+*	Ranking:	669 / 1710
 */
 public class Main1185 {
 
@@ -18,11 +18,11 @@ public class Main1185 {
 	 * 
 	 * Encontrar la cantidad
 	 * de digitos de n! siendo n hasta 10^7 Se hizo uso de los conceptos que, para
-	 * saber los digitos de un n�mero es
+	 * saber los digitos de un número es
 	 * 
 	 * log(n) + 1
 	 * 
-	 * as�, para n! ser�a
+	 * así, para n! sería
 	 * 
 	 * log(n!) +1
 	 * 

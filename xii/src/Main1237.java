@@ -7,15 +7,15 @@ import java.util.Scanner;
 *	Submission:	16894546
 *	Date:		2016-02-24 01:05:42
 *	Runtime:	0.612
-*	Ranking:	1336
+*	Ranking:	3364 / 3779
 */
 public class Main1237 {
 
 	/**
-	 * - Simulaci�n
+	 * - Simulación
 	 * 
 	 * De un conjunto de registros (marca, menor y
-	 * mayor) y un n�mero dado, determinar la marca de ese rango, si no hay o hay
+	 * mayor) y un número dado, determinar la marca de ese rango, si no hay o hay
 	 * varias, indeterminado
 	 */
 	public static void main(String[] args) {
