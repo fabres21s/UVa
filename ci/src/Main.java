@@ -4,50 +4,42 @@ import java.io.InputStreamReader;
 
 public class Main {
 
-	static int maxCount = 0;
-
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		StringBuilder output = new StringBuilder();
 		String suggestion1, suggestion2;
-		int testCases = 0;
+		int testCases = 0, lcs = 0;
 
 		while (!(suggestion1 = br.readLine()).equals("#")) {
 			suggestion2 = br.readLine();
 
-			maxCount = 0;
 			testCases++;
 
-			long t = System.currentTimeMillis();
-			hallarMaximaSecuencia(suggestion1.toCharArray(), 0, suggestion2.toCharArray(), 0, 0);
-			System.out.println("tiempo empleado "+testCases + " ::: "+ (System.currentTimeMillis() - t));
+			lcs = hallarMaximaSecuencia(suggestion1.toCharArray(), suggestion2.toCharArray());
 
-			
+			output.append(String.format("Case #%d: you can visit at most %d cities.\n", testCases, lcs));
 
-			
-			output.append(String.format("Case #%d: you can visit at most %d cities.\n", testCases, maxCount));
-			
-			
 		}
 
 		System.out.print(output);
 	}
 
-	public static void hallarMaximaSecuencia(char[] a, int startA, char[] b, int startB, int count) throws IOException {
+	public static int hallarMaximaSecuencia(char[] a, char[] b) throws IOException {
 
-		for (int i = startA; i < a.length; i++) {
-			for (int j = startB; j < b.length; j++) {
-				if (a[i] == b[j]) {
+		int LCS[][] = new int[1005][1005];
 
-					hallarMaximaSecuencia(a, i + 1, b, j + 1, count + 1);
-					break;
-				}
+		for (int i = 1; i <= a.length; i++) {
+			for (int j = 1; j <= b.length; j++) {
+				if (a[i - 1] == b[j - 1])
+					LCS[i][j] = LCS[i - 1][j - 1] + 1;
+				else
+					LCS[i][j] = (LCS[i - 1][j] > LCS[i][j - 1]) ? LCS[i - 1][j] : LCS[i][j - 1];
 			}
 
 		}
-		maxCount = Math.max(count, maxCount);
+		return LCS[a.length][b.length];
 	}
 
 }
