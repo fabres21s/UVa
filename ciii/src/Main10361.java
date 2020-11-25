@@ -2,9 +2,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+/**
+*	10361 - Automatic Poetry
+*
+*	Submission:	25763388
+*	Date:		2020-11-25 15:21:25
+*	Runtime:	0.050
+*	Ranking:	4790
+*/
+public class Main10361 {
 
-	//10361
+	/**
+	 * - Cadena de caracteres
+	 *
+	 * Reemplazar el texto de una cadena en otra
+	 */	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

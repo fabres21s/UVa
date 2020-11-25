@@ -4,12 +4,24 @@ import java.io.InputStreamReader;
 import java.util.Objects;
 import java.util.TreeMap;
 
-public class Main {
+/**
+*	10226 - Hardwood Species
+*
+*	Submission:	25763435
+*	Date:		2020-11-25 15:33:02
+*	Runtime:	0.870
+*	Ranking:	3899
+*/
+public class Main10226 {
 
 	static int records = 0;
 
-	//10226
+	/**
+	 * - Ad hoc
+	 *
+	 */	
 	public static void main(String[] args) throws NumberFormatException, IOException {
+
 		final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		StringBuilder output = new StringBuilder();
@@ -21,7 +33,7 @@ public class Main {
 
 			TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>();
 			records = 0;
-			while (!(specie = br.readLine()).equals("")) {
+			while ((specie = br.readLine()) != null && !specie.isEmpty()) {
 				Integer times = treeMap.get(specie);
 
 				if (Objects.isNull(times)) {

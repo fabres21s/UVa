@@ -2,9 +2,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+/**
+*	10192 - Vacation
+*
+*	Submission:	25763366
+*	Date:		2020-11-25 15:17:19
+*	Runtime:	0.140
+*	Ranking:	6815
+*/
+public class Main10192 {
 
-	//10192
+	/**
+	 * - Cadena de caracteres
+	 * - Secuencias
+	 *
+	 * Dadas 2 cadenas, encontrar la máxima subsecuencia entre ellos
+	 */	
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
