@@ -1,0 +1,11 @@
+2
+lorem ipsum dolor sit amet consectet<ur adip>iscing      <>       elit
+  ut ut condimentum nulla ac tincidunt lectus               ...
+<nam in est et odio cursus               >     <vestibulu>
+...
+
+---------------
+lorem ipsum dolor sit amet consectetur adipiscing             elit
+  ut ut condimentum nulla ac tincidunt lectus               iscing      ur adip       elit
+nam in est et odio cursus                    vestibulu
+vestibulu     nam in est et odio cursus               
