@@ -11,15 +11,15 @@ import java.util.StringTokenizer;
 *	Submission:	9306683
 *	Date:		2011-09-27 20:00:33
 *	Runtime:	0.400
-*	Ranking:	9710
+*	Ranking:	14442 / 17466
 */
 public class Main10041 {
 
 	/**
 	 * - Arreglos
-	 * - Proceso matem√°tico
+	 * - Proceso matem·tico
 	 * 
-	 * Encontrar la suma m√≠nima de distancias
+	 * Encontrar la suma mÌnima de distancias
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

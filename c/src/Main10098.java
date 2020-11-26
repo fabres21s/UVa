@@ -10,7 +10,7 @@ import java.util.HashMap;
 *	Submission:	22556360
 *	Date:		2019-01-04 20:23:43
 *	Runtime:	0.940
-*	Ranking:	5113
+*	Ranking:	5422 / 7016
 */
 public class Main10098 {
 

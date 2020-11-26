@@ -6,21 +6,22 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-//TODO - Poner informaciÃ³n
 public class Main10044 {
 
 	/**
-	 * 10044 - The Tourist Guide
+	 * 10044 - Erdos Number
 	 *
-	 * Submission: 20145686 Date: 2017-10-09 19:32:49 Runtime: 0.120 Ranking: 3917
+	 * Submission: 22615276 
+	 * Date: 	2019-01-15 15:43:43 
+	 * Runtime: 0.540 
+	 * Ranking: 1343 / 2474
 	 */
 	public static int MAX = Integer.MAX_VALUE;
 
 	/**
-	 * - Dijkstra - Similar al 544 - Heavy Cargo
+	 * - Dijkstra 
 	 * 
-	 * Encontrar en un grafo, el mayor valor entre los menores pesos de cada arista
-	 * en los caminos para ir de A hasta B
+	 * Encontrar el número de Erdos en un listado de publicaciones
 	 * 
 	 */
 	public static void main(String[] args) throws IOException {

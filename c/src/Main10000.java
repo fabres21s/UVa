@@ -9,8 +9,8 @@ import java.util.List;
 *
 *	Submission:	25729032
 *	Date:		2020-11-16 15:11:47
-*	Runtime:	680
-*	Ranking:	4217
+*	Runtime:	0.680
+*	Ranking:	4219 / 5055
 */
 public class Main10000 {
 

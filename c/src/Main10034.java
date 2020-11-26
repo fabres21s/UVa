@@ -11,7 +11,7 @@ import java.util.Set;
 *	Submission:	16917220
 *	Date:		2016-02-27 23:22:56
 *	Runtime:	0.215
-*	Ranking:	5971
+*	Ranking:	8229 / 8738
 */
 public class Main10034 {
 
@@ -21,8 +21,8 @@ public class Main10034 {
 	 * - Set
 	 * - Recursividad
 	 * 
-	 * Hallar el Ã¡rbol de
-	 * expansiÃ³n mÃ­nimo en un plano cartesiano en el que todos sus puntos se
+	 * Hallar el árbol de
+	 * expansión mínimo en un plano cartesiano en el que todos sus puntos se
 	 * interconectan
 	 * 
 	 */

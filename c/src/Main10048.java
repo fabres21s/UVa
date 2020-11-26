@@ -12,7 +12,7 @@ import java.util.Map;
 *	Submission:	22581084
 *	Date:		2019-01-08 20:14:14
 *	Runtime:	1.700
-*	Ranking:	5146
+*	Ranking:	5809 / 5937
 */
 public class Main10048 {
 

@@ -7,14 +7,14 @@ import java.util.Scanner;
 *	Submission:	9242715
 *	Date:		2011-09-09 16:42:26
 *	Runtime:	0.236
-*	Ranking:	1775
+*	Ranking:	2680 / 4172
 */
 public class Main10042 {
 	static int sum = 0;
 
 	/**
-	 * - Nï¿½meros Primos
-	 * - Proceso matemï¿½tico
+	 * - Números Primos
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -9,12 +9,12 @@ import java.io.InputStreamReader;
 *	Submission:	9212851
 *	Date:		2011-09-01 19:17:04
 *	Runtime:	1.728
-*	Ranking:	17987
+*	Ranking:	24509 / 24613
 */
 public class Main10035 {
 
 	/**
-	 * - Proceso matemï¿½tico
+	 * - Proceso matemático
 	 */
 	public static void main(String[] args) throws IOException {
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(

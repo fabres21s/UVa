@@ -9,14 +9,13 @@ import java.io.InputStreamReader;
 *	Submission:	9178991
 *	Date:		2011-08-22 03:04:42
 *	Runtime:	0.244
-*	Ranking:	17443
+*	Ranking:	24018 / 24047
 */
 public class Main10082 {
 
 	/**
 	 * - Cadena de caracteres
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 		String abc = "`1234567890-=QWERTYUIOP[]\\ASDFGHJKL;'ZXCVBNM,./";
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(

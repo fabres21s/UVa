@@ -9,7 +9,7 @@ import java.util.Vector;
 *	Submission:	9520737
 *	Date:		2011-11-30 12:20:52
 *	Runtime:	0.212
-*	Ranking:	12229
+*	Ranking:	15039 / 15125
 */
 public class Main10008 
 {
@@ -17,7 +17,6 @@ public class Main10008
 	 * - Cadena de caracteres
 	 * 
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) 
 	{
 		Vector <Integer>v=new Vector<Integer>();

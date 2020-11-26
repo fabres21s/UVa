@@ -8,13 +8,12 @@ import java.util.Scanner;
 *	Submission:	9703965
 *	Date:		2012-02-03 02:16:16
 *	Runtime:	0.148
-*	Ranking:	8267
+*	Ranking:	10692 / 10924
 */
 public class Main10019 {
 	/**
-	 * - Sistemas de numeración
+	 * - Sistemas de numeraci�n
 	 * 
-	 * TODO Poner más información
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

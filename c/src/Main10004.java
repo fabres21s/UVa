@@ -14,7 +14,7 @@ import java.util.Queue;
 *	Submission:	17158341
 *	Date:		2016-04-07 03:06:00
 *	Runtime:	0.050
-*	Ranking:	11585
+*	Ranking:	16684 / 18400
 */
 public class Main10004 {
 

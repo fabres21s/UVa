@@ -7,14 +7,13 @@ import java.util.Scanner;
 *	Submission:	9728732
 *	Date:		2012-02-10 15:24:40
 *	Runtime:	0.188
-*	Ranking:	5938
+*	Ranking:	7773 / 7902
 */
 public class Main10062 {
 
 	/**
 	 * - Cadena de caracteres
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);

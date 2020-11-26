@@ -7,7 +7,7 @@ import java.io.IOException;
 *	Submission:	9306587
 *	Date:		2011-09-27 19:36:33
 *	Runtime:	0.104
-*	Ranking:	3411
+*	Ranking:	4198 / 4427
 */
 class Main10033 implements Runnable {
 	static String ReadLn(int maxLength) {

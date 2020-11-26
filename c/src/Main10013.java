@@ -6,7 +6,7 @@
 *	Submission:	9615657
 *	Date:		2012-01-03 21:44:15
 *	Runtime:	0.912
-*	Ranking:	1389
+*	Ranking:	2213 / 6566
 */
 
 public class Main10013 {

@@ -6,13 +6,13 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 /**
-*	10801 - Playing with Wheels
+*	10067 - Playing with Wheels
 *
 *
 *	Submission:	17473915
 *	Date:		2016-06-06 03:18:38
 *	Runtime:	1.730
-*	Ranking:	2935
+*	Ranking:	3852 / 4636
 */
 public class Main10067 {
 

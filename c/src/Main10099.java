@@ -14,7 +14,7 @@ public class Main10099 {
 	 * Submission: 	20145686 
 	 * Date: 		2017-10-09 19:32:49 
 	 * Runtime: 	0.120 
-	 * Ranking: 	3917
+	 * Ranking: 	4499 / 5948
 	 */
 	public static int MAX = Integer.MAX_VALUE;
 

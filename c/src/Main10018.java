@@ -9,17 +9,16 @@ import java.io.InputStreamReader;
 *	Submission:	9159282
 *	Date:		2011-08-16 20:29:27
 *	Runtime:	1.000
-*	Ranking:	17372
+*	Ranking:	22601 / 22725
 */
 public class Main10018 {
 
 	/**
 	 * - Cadena de caracteres
-	 * - Proceso matemï¿½tico
+	 * - Proceso matemático
 	 * 
-	 * Tomar un nï¿½mero, preguntar si el inverso es igual, si no lo es sumarlo
+	 * Tomar un número, preguntar si el inverso es igual, si no lo es sumarlo
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(
 				System.in));
