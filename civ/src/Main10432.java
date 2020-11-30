@@ -2,9 +2,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+/**
+*	10432 - Polygon Inside A Circle
+*
+*	Submission:	25787975
+*	Date:		2020-11-30 15:15:00
+*	Runtime:	0.110
+*	Ranking:	6466 / 6683
+*/
+public class Main10432 {
 
-	//TODO - Enviar 10432
+	/**
+	 * - Fórmula matemática
+	 * 
+	 *  Área de un polígono regular dentro de un círculo
+	 */
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
