@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 *	Submission:	19580317
 *	Date:		2017-06-28 19:00:44
 *	Runtime:	0.250
-*	Ranking:	4823
+*	Ranking:	6755 / 9816
 */
 public class Main10130 {
 

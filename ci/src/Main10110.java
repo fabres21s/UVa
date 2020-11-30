@@ -8,7 +8,7 @@ import java.util.Vector;
 *	Submission:	9216370
 *	Date:		2011-09-02 22:07:24
 *	Runtime:	1.400
-*	Ranking:	11760
+*	Ranking:	17381 / 18288
 */
 public class Main10110 {
 	static Vector<Integer> v = new Vector<Integer>();

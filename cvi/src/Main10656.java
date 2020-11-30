@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	Submission:	9673622
 *	Date:		2012-01-25 01:41:43
 *	Runtime:	2.308
-*	Ranking:	2905
+*	Ranking:	4184 / 4190
 */
 public class Main10656 {
 	static int v[] = new int[1024];

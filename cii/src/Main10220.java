@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	Submission:	9967462
 *	Date:		2012-04-07 21:28:12
 *	Runtime:	0.136
-*	Ranking:	2692
+*	Ranking:	3539 / 6573
 */
 public class Main10220 {
 	static int sumas[] = { 1, 1, 2, 6, 6, 3, 9, 9, 9, 27, 27, 36, 27, 27, 45,

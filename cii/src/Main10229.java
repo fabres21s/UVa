@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	Submission:	9411223
 *	Date:		2011-10-26 15:17:25
 *	Runtime:	0.288
-*	Ranking:	2693
+*	Ranking:	3662 / 3813
 */
 public class Main10229 {
 	static int mod;

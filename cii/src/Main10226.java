@@ -10,7 +10,7 @@ import java.util.TreeMap;
 *	Submission:	25763435
 *	Date:		2020-11-25 15:33:02
 *	Runtime:	0.870
-*	Ranking:	3899
+*	Ranking:	3902 / 8006
 */
 public class Main10226 {
 

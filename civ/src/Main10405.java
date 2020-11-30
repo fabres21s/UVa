@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	Submission:	9705740
 *	Date:		2012-02-03 15:58:17
 *	Runtime:	0.288
-*	Ranking:	8894
+*	Ranking:	11598 / 12251
 */
 public class Main10405 {
 	static int LCS[][] = new int[1005][1005];

@@ -7,14 +7,13 @@ import java.util.Scanner;
 *	Submission:	9857458
 *	Date:		2012-03-14 12:04:07
 *	Runtime:	0.204
-*	Ranking:	7862
+*	Ranking:	10394 / 10388
 */
 public class Main10222 {
 
 	/**
 	 * - Cadena de caracteres
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) {
 		String abc = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
 		abc = abc.toLowerCase();

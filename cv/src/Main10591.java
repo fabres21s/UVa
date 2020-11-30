@@ -8,7 +8,7 @@ import java.util.Scanner;
 *	Submission:	9567026
 *	Date:		2011-12-16 20:43:22
 *	Runtime:	1.192
-*	Ranking:	5567
+*	Ranking:	7362 / 7411
 */
 public class Main10591 {
 	static final long happynumbers[] = { 1, 7, 10, 13, 19, 23, 28, 31, 32, 44,

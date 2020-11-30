@@ -2,10 +2,19 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+*	10450 - World Cup Noise
+*
+*	Submission:	22679479
+*	Date:		2019-01-25 14:11:28
+*	Runtime:	0.050
+*	Ranking:	4603 / 4981
+*/
 public class Main10450 {
 
-	//TODO - Poner información
-	//Mira donde viene a aparecer la serie de fibonacci
+	/**
+	 * - Fibonacci
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// printNonConsecutive(16);
 		long[] fibonacci = new long[60];

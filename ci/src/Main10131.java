@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 *	Submission:	20418640
 *	Date:		2017-11-29 16:53:34
 *	Runtime:	0.070
-*	Ranking:	5976
+*	Ranking:	6841 / 7810
 */
 public class Main10131 {
 

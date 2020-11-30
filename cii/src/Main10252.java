@@ -11,14 +11,13 @@ import java.util.Vector;
 *	Submission:	9210407
 *	Date:		2011-08-31 22:24:21
 *	Runtime:	0.324
-*	Ranking:	6460
+*	Ranking:	9479 / 9746
 */
 public class Main10252 {
 
 	/**
 	 * - Cadena de caracteres
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 		final BufferedReader reader = new BufferedReader(new InputStreamReader(
 				System.in));

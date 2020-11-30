@@ -10,7 +10,7 @@ import java.util.Arrays;
 *	Submission:	20352060
 *	Date:		2017-11-16 02:10:14
 *	Runtime:	0.240
-*	Ranking:	1129
+*	Ranking:	1510 / 1709
 */
 public class Main10284 {
 

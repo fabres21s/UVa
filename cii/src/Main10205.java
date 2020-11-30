@@ -8,7 +8,7 @@ import java.util.*;
 *	Submission:	9306643
 *	Date:		2011-09-27 19:53:16
 *	Runtime:	0.180
-*	Ranking:	2458
+*	Ranking:	3390 / 3654
 */
 public class Main10205 {
 

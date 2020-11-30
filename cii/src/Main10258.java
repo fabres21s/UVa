@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
 *	Submission:	22580755
 *	Date:		2019-01-08 18:34:00
 *	Runtime:	0.040
-*	Ranking:	4712
+*	Ranking:	5479 / 6146
 */
 public class Main10258 {
 

@@ -10,7 +10,7 @@ import java.math.BigInteger;
 *	Submission:	17168707
 *	Date:		2016-04-08 18:34:06
 *	Runtime:	0.840
-*	Ranking:	3322
+*	Ranking:	4193 / 4898
 */
 public class Main10338 {
 

@@ -9,7 +9,7 @@ import java.util.Stack;
 *	Submission:	9305894
 *	Date:		2011-09-27 16:49:42
 *	Runtime:	2.248
-*	Ranking:	2898
+*	Ranking:	3808 / 3900
 */
 public class Main10267 implements Runnable {
 	static String ReadLn(int maxLength) {

@@ -10,7 +10,7 @@ import java.util.Scanner;
 *	Submission:	9362476
 *	Date:		2011-10-12 12:30:42
 *	Runtime:	0.232
-*	Ranking:	2877
+*	Ranking:	3760 / 3819
 */
 class Schedule implements Comparable<Schedule> {
 	public String startTime;

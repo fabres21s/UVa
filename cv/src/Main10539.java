@@ -8,7 +8,7 @@ import java.util.Scanner;
 *	Submission:	9330191
 *	Date:		2011-10-03 14:40:52
 *	Runtime:	0.356
-*	Ranking:	1435
+*	Ranking:	2150 / 3119
 */
 public class Main10539 {
 	static long[] A = new long[80070];

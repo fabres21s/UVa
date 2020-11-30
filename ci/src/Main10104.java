@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	Submission:	9317604
 *	Date:		2011-09-30 16:22:45
 *	Runtime:	2.764
-*	Ranking:	4319
+*	Ranking:	6638 / 6762
 */
 public class Main10104 {
 	static int lastx = 1, lasty = 1;

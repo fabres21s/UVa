@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	Submission:	9483351
 *	Date:		2011-11-18 18:32:57
 *	Runtime:	2.148
-*	Ranking:	2417
+*	Ranking:	3938 / 4315
 */
 public class Main10139 {
 	static int Primes[] = new int[6550];

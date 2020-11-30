@@ -6,7 +6,7 @@
 *	Submission:	9599518
 *	Date:		2011-12-29 00:42:30
 *	Runtime:	0.072
-*	Ranking:	1011
+*	Ranking:	3008 / 18537
 */
 public class Main10696 {
 

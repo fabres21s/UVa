@@ -9,7 +9,7 @@ import java.util.*;
 *	Submission:	9306606
 *	Date:		2011-09-27 19:46:26
 *	Runtime:	0.100
-*	Ranking:	1925
+*	Ranking:	2874 / 3119
 */
 
 public class Main10315 {

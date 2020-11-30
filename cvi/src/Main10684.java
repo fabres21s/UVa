@@ -16,7 +16,7 @@ import java.util.Scanner;
 *	Submission:	17382233
 *	Date:		2016-05-18 22:27:28
 *	Runtime:	0.780
-*	Ranking:	5011
+*	Ranking:	8719 / 9623
 */
 public class Main10684 {
 

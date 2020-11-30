@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 *	Submission:	18499659
 *	Date:		2016-12-14 15:49:52
 *	Runtime:	2.410
-*	Ranking:	5440
+*	Ranking:	8076 / 8983
 */
 public class Main10324 {
 
@@ -19,7 +19,6 @@ public class Main10324 {
 	 *  En una cadena de caracteres y dados un inicio y un fin
 	 *  determinar si en ese rango, los caracteres son los mismos
 	 */
-	//TODO String - Poner categoria
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

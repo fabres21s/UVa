@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	Submission:	17579959
 *	Date:		2016-06-26 23:55:19
 *	Runtime:	1.130
-*	Ranking:	3931
+*	Ranking:	4541 / 4725
 */
 public class Main10209 {
 //fuente http://lbv-pc.blogspot.com.co/2012/11/is-this-integration.html
