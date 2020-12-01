@@ -7,7 +7,7 @@ import java.util.Scanner;
 *	Submission:	9554337
 *	Date:		2011-12-12 16:32:57
 *	Runtime:	0.196
-*	Ranking:	7892
+*	Ranking:	10518 / 10658
 */
 public class Main10924 {
 	static int primos[] = { 2, 3, 5, 7, 9, 11, 13, 17, 19, 23, 29, 31, 37, 41,

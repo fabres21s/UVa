@@ -9,7 +9,7 @@ import java.util.TreeSet;
 *	Submission:	16288000
 *	Date:		2015-10-18 13:57:27
 *	Runtime:	0.535
-*	Ranking:	5225
+*	Ranking:	9377 / 10128
 */
 public class Main10815 {
 

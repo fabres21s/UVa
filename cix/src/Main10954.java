@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
 *	Submission:	18525590
 *	Date:		2016-12-20 16:23:47
 *	Runtime:	0.140
-*	Ranking:	4871
+*	Ranking:	8155 / 10714
 */
 public class Main10954 {
 
