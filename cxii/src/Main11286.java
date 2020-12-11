@@ -6,8 +6,21 @@ import java.util.HashMap;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
-public class Main {
+/**
+*	11286 - Conformity
+*
+*	Submission:	25836141
+*	Date:		2020-12-11 11:55:28
+*	Runtime:	0.510
+*	Ranking:	3946 / 4464
+*/
+public class Main11286 {
 
+	/**
+	 *  - TreeSet
+	 *  - Map
+	 *  
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String s;

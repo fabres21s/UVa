@@ -3,17 +3,28 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 
-//TODO - Enviar 11059
-public class Main {
+/**
+*	11059 - Maximum Product
+*
+*	Submission:	25836105
+*	Date:		2020-12-11 11:47:42
+*	Runtime:	0.080
+*	Ranking:	5367 / 5588
+*/
+public class Main11059 {
 
+	/**
+	 *  - Big Numbers
+	 *  
+	 *  La descripción del problema es suficiente
+	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder output = new StringBuilder();
 		String line;
 		int N, testCases = 0;
 
-		// while ((line = br.readLine()) != null) {
-		while (!(line = br.readLine()).equals("#")) {
+		while ((line = br.readLine()) != null) {
 			N = Integer.parseInt(line);
 
 			BigInteger[] values = new BigInteger[N];
